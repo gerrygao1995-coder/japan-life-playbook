@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {buildFormats} from './formats.mjs';
+import {buildFeature} from './feature.mjs';
 const groups=['health','money','life'].map(name=>JSON.parse(fs.readFileSync(`content/${name}.json`,'utf8').replace(/^\uFEFF/,'')));
 const config=JSON.parse(fs.readFileSync('site.config.json','utf8'));
 const groupNames=['からだと安心','お金と仕事','家族と日々の暮らし'];
@@ -27,4 +28,5 @@ const sources=new Map();for(const a of data.articles)for(const s of a.sources){i
 fs.writeFileSync('docs/SOURCES.md',`# 出典一覧\n\n第2版確認日：${data.updated}。${sources.size}件の原資料。個々の記事の確認日は記事内とデータに記載しています。\n\n${[...sources.values()].sort((a,b)=>a.publisher.localeCompare(b.publisher,'ja')).map(s=>`## ${s.title}\n\n- 発行元：${s.publisher}\n- 原資料：[${s.title}](${s.url})\n- 関連記事：${s.ids.join('、')}`).join('\n\n')}`);
 fs.writeFileSync('dist/GUIDE.md',fs.readFileSync('GUIDE.md'));fs.writeFileSync('dist/SOURCES.md',fs.readFileSync('docs/SOURCES.md'));
 buildFormats(data);
+buildFeature(data);
 console.log(JSON.stringify({articles:data.articles.length,categories:data.categories.length,journeys:data.journeys.length,sources:sources.size,htmlBytes:Buffer.byteLength(html),guideCharacters:fs.readFileSync('GUIDE.md','utf8').length}));

@@ -16,6 +16,9 @@
 
 **[ブラウザーで読む →](https://gerrygao1995-coder.github.io/japan-life-playbook/)**
 
+**生活が変わる日のガイド：[退職したら、最初に何をする？ →](https://gerrygao1995-coder.github.io/japan-life-playbook/start/leaving-work.html)**  
+再就職・空白期間・療養中・65歳以降に分け、保険・年金・求職・税金の順番、短い期限、窓口へ持っていくものを整理しました。[本文と原資料](docs/LEAVING-WORK.md)も読めます。
+
 役に立ったら、Starで手元に。誰かに渡すなら、必要な記事のリンクを。原資料を添えた訂正・追加も歓迎します。
 
 - [章ごとに全文を読む](book/README.md)
@@ -27,6 +30,7 @@
 - [第2版の検証記録と確認範囲](docs/QUALITY.md)
 - [変更履歴](CHANGELOG.md)
 - [紹介文・共有素材の使い方](docs/SHARE.md)
+- [30日間の公開・改善計画](docs/LAUNCH-PLAN.md) ／ [5分の試読用紙](docs/READER-FEEDBACK.md) ／ [紹介文の草稿](docs/CAMPAIGN.md)
 - オフラインで読む：`dist/kurashi-offline.html` をブラウザーで開く
 - 印刷・PDF保存：サイトの「全編を印刷・PDFに」から、印刷先をPDFに設定
 
@@ -39,6 +43,7 @@
 - **困りごとから探せる：** 48テーマ、全文検索、費用・時間・根拠・対象による絞り込み、場面別の行動順。
 - **自分の手帳にできる：** しおり、完了チェック、個人メモを端末内に保存。JSONで書き出し・取り込み。
 - **持ち運べる：** 全機能を含むオフライン単一HTML、逐章Markdown、全編Markdown、印刷用レイアウト。
+- **特集を持ち歩ける：** 退職特集は `dist/start/leaving-work.html` を単体で保存・印刷できます。特集は全編EPUB・Markdownとは別冊です。外部の原資料を見るには通信が必要です。
 - **読みやすく：** スマートフォン対応、明暗切替、キーボード操作、カード・一覧表示、記事への直接リンク。
 
 ## GitHubへアップロードして公開する
