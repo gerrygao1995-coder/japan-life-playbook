@@ -13,11 +13,11 @@
 
 ### 関連ガイド
 
-- [病院探しは医療情報ネットも使う](../book/02-healthcare.md)（healthcare-02）
-- [身近なかかりつけ医を見つける](../book/02-healthcare.md)（healthcare-01）
-- [受診を迷うときの♯7119を確認しておく](../book/05-emergency.md)（emergency-02）
-- [薬の情報を受診先と薬局にまとめて伝える](../book/07-medicine.md)（medicine-01）
-- [急な呼吸困難や片側の麻痺は、ためらわず119](../book/05-emergency.md)（emergency-01）
+- [病院探しは医療情報ネットも使う](../book/02-healthcare.md#healthcare-02)（healthcare-02）
+- [身近なかかりつけ医を見つける](../book/02-healthcare.md#healthcare-01)（healthcare-01）
+- [受診を迷うときの♯7119を確認しておく](../book/05-emergency.md#emergency-02)（emergency-02）
+- [薬の情報を受診先と薬局にまとめて伝える](../book/07-medicine.md#medicine-01)（medicine-01）
+- [急な呼吸困難や片側の麻痺は、ためらわず119](../book/05-emergency.md#emergency-01)（emergency-01）
 
 ---
 
@@ -32,11 +32,11 @@
 
 ### 関連ガイド
 
-- [疲れた日のセルフケアは体調で選ぶ](../book/03-mental.md)（mental-01）
-- [睡眠は時間だけでなく休めた感覚も見る](../book/01-health.md)（health-02）
-- [もやもやを人に見せないメモにする](../book/03-mental.md)（mental-02）
-- [こころの相談先は話しやすい方法で選ぶ](../book/03-mental.md)（mental-04）
-- [仕事のつらさを「こころの耳」に相談する](../book/03-mental.md)（mental-05）
+- [疲れた日のセルフケアは体調で選ぶ](../book/03-mental.md#mental-01)（mental-01）
+- [睡眠は時間だけでなく休めた感覚も見る](../book/01-health.md#health-02)（health-02）
+- [もやもやを人に見せないメモにする](../book/03-mental.md#mental-02)（mental-02）
+- [こころの相談先は話しやすい方法で選ぶ](../book/03-mental.md#mental-04)（mental-04）
+- [仕事のつらさを「こころの耳」に相談する](../book/03-mental.md#mental-05)（mental-05）
 
 ---
 
@@ -51,11 +51,11 @@
 
 ### 関連ガイド
 
-- [自宅と通勤先のハザードマップを見る](../book/06-disaster.md)（disaster-01）
-- [寝る場所と出口を家具から守る](../book/06-disaster.md)（disaster-03）
-- [食料は普段使うものを回しながら備える](../book/06-disaster.md)（disaster-02）
-- [断水に備えて携帯トイレも用意する](../book/06-disaster.md)（disaster-06）
-- [大雨の避難はレベルだけで待ち続けない](../book/06-disaster.md)（disaster-04）
+- [自宅と通勤先のハザードマップを見る](../book/06-disaster.md#disaster-01)（disaster-01）
+- [寝る場所と出口を家具から守る](../book/06-disaster.md#disaster-03)（disaster-03）
+- [食料は普段使うものを回しながら備える](../book/06-disaster.md#disaster-02)（disaster-02）
+- [断水に備えて携帯トイレも用意する](../book/06-disaster.md#disaster-06)（disaster-06）
+- [大雨の避難はレベルだけで待ち続けない](../book/06-disaster.md#disaster-04)（disaster-04）
 
 ---
 
@@ -70,11 +70,87 @@
 
 ### 関連ガイド
 
-- [食事量が減ったら簡単に足せる料理を考える](../book/08-aging.md)（aging-03）
-- [介護の前段階から地域包括支援センターへ](../book/08-aging.md)（aging-01）
-- [介護が必要になったら認定の申請を相談](../book/08-aging.md)（aging-02）
-- [冬の入浴は温度と声かけを整える](../book/08-aging.md)（aging-05）
-- [もしもの医療は大切にしたいことから話す](../book/08-aging.md)（aging-06）
+- [食事量が減ったら簡単に足せる料理を考える](../book/08-aging.md#aging-03)（aging-03）
+- [介護の前段階から地域包括支援センターへ](../book/08-aging.md#aging-01)（aging-01）
+- [介護が必要になったら認定の申請を相談](../book/08-aging.md#aging-02)（aging-02）
+- [冬の入浴は温度と声かけを整える](../book/08-aging.md#aging-05)（aging-05）
+- [もしもの医療は大切にしたいことから話す](../book/08-aging.md#aging-06)（aging-06）
+
+---
+
+## 健診の案内が届いたら、受けた後まで予定に入れる
+
+受診できる健診を確かめ、結果の確認と必要な受診につなげる順番です。
+
+1. 加入している保険や勤務先の案内から、受診先と費用を確認する。
+2. 予約を取り、受診後に結果を見る日も予定に入れる。
+3. 要精密検査や要治療の指示があれば医療機関に連絡する。
+4. 保健指導の対象なら利用方法を確認し、診察には経過をまとめて持参する。
+
+### 関連ガイド
+
+- [健診の案内が届く窓口を確かめる](../book/10-screening.md#screening-01)（screening-01）
+- [要受診の健診結果を次の予約につなげる](../book/10-screening.md#screening-02)（screening-02）
+- [特定保健指導の案内は生活相談に使う](../book/10-screening.md#screening-03)（screening-03）
+- [症状は「いつから・どこが・どう変わったか」で伝える](../book/02-healthcare.md#healthcare-07)（healthcare-07）
+
+---
+
+## 糖尿病の治療を始めたら、困る日の備えも作る
+
+日々の治療に加え、低血糖、体調不良、外出への備えを主治医と確認します。
+
+1. 使用中の薬と連絡先をまとめる。
+2. 自分の治療で低血糖への備えが必要か確認する。
+3. 発熱や食べられない日にどうするかを書いておく。
+4. 眼科受診を予定に入れ、旅行前には薬の携行と使い方を確認する。
+
+### 関連ガイド
+
+- [薬の情報を受診先と薬局にまとめて伝える](../book/07-medicine.md#medicine-01)（medicine-01）
+- [低血糖への備えを薬に合わせて教わる](../book/14-chronic.md#chronic-03)（chronic-03）
+- [発熱や食べられない日の糖尿病の対応を書いておく](../book/14-chronic.md#chronic-04)（chronic-04）
+- [糖尿病の眼科受診を見え方だけで判断しない](../book/14-chronic.md#chronic-02)（chronic-02）
+- [糖尿病の治療用品を旅行前に点検する](../book/14-chronic.md#chronic-05)（chronic-05）
+
+---
+
+## 障害のある人が地域で暮らす支援をそろえる
+
+本人が望む生活を出発点に、介助・用具・情報の受け取り方を相談します。
+
+1. 相談支援の窓口で、本人の希望と困る場面を整理する。
+2. 家で必要な介助と使えるサービスの条件を確認する。
+3. 補装具や意思疎通支援を、購入・利用の前に相談する。
+4. 災害時の避難先と必要な支援を具体的に決める。
+
+### 関連ガイド
+
+- [福祉サービスを選ぶ前に相談支援を利用する](../book/15-accessibility.md#accessibility-02)（accessibility-02）
+- [家事や身体介助を居宅介護で相談する](../book/15-accessibility.md#accessibility-03)（accessibility-03）
+- [補装具は購入・修理の前に支給制度を確認する](../book/15-accessibility.md#accessibility-12)（accessibility-12）
+- [手話通訳や要約筆記などの意思疎通支援を調べる](../book/15-accessibility.md#accessibility-15)（accessibility-15）
+- [個別避難計画を自治体や支援者と作る](../book/15-accessibility.md#accessibility-16)（accessibility-16）
+
+---
+
+## 夏本番の前に、冷房と外出の備えをする
+
+体調と住まいを確認し、厳しい暑さの日に予定を変えられるようにします。
+
+1. 冷房を点検し、無理のない日常活動を続ける。
+2. 室温を確認する方法と、暑い日の外出を見直す基準を決める。
+3. 冷房が使えないときに過ごせる施設と移動方法を調べる。
+4. 熱中症が疑われる場合の冷却と救急要請を家族などと確認する。
+
+### 関連ガイド
+
+- [暑くなる前に無理のない活動と冷房の準備をする](../book/16-climate.md#climate-09)（climate-09）
+- [冷房は設定温度だけでなく室温を確かめる](../book/16-climate.md#climate-02)（climate-02）
+- [暑さ指数とアラートで当日の予定を調整する](../book/16-climate.md#climate-01)（climate-01）
+- [クーリングシェルターの場所と開放時間を確認する](../book/16-climate.md#climate-04)（climate-04）
+- [冷房が使えないときの移動先を決めておく](../book/16-climate.md#climate-10)（climate-10）
+- [暑さの中で様子がおかしいときは冷却と救援](../book/05-emergency.md#emergency-05)（emergency-05）
 
 ---
 
@@ -89,12 +165,12 @@
 
 ### 関連ガイド
 
-- [退職前に次の健康保険を比較する](../book/11-pension.md)（pension-05）
-- [退職後は離職票の内容を確認してハローワークへ](../book/13-unemployment.md)（unemployment-01）
-- [国民年金が払えないときは免除・猶予を相談する](../book/11-pension.md)（pension-02）
-- [失業後の国民健康保険料の軽減対象を確認する](../book/13-unemployment.md)（unemployment-06）
-- [年末調整を受けなかった年は還付の可能性を確認する](../book/10-tax.md)（tax-03）
-- [再就職の学びに公的職業訓練を検討する](../book/14-learning.md)（learning-02）
+- [退職前に次の健康保険を比較する](../book/19-pension.md#pension-05)（pension-05）
+- [退職後は離職票の内容を確認してハローワークへ](../book/21-unemployment.md#unemployment-01)（unemployment-01）
+- [国民年金が払えないときは免除・猶予を相談する](../book/19-pension.md#pension-02)（pension-02）
+- [失業後の国民健康保険料の軽減対象を確認する](../book/21-unemployment.md#unemployment-06)（unemployment-06）
+- [年末調整を受けなかった年は還付の可能性を確認する](../book/18-tax.md#tax-03)（tax-03）
+- [再就職の学びに公的職業訓練を検討する](../book/22-learning.md#learning-02)（learning-02）
 
 ---
 
@@ -109,12 +185,12 @@
 
 ### 関連ガイド
 
-- [まず「毎月残るお金」を一枚にする](../book/09-money.md)（money-01）
-- [サブスクは解約完了まで確認する](../book/15-consumer.md)（consumer-04）
-- [分割払いは月額と支払総額を一緒に見る](../book/09-money.md)（money-03）
-- [家計や保険の迷いを無料相談に持ち込む](../book/09-money.md)（money-05）
-- [返済が苦しくなったら借入先を増やす前に相談する](../book/09-money.md)（money-06）
-- [生活の困りごとは自立相談支援機関でまとめて相談する](../book/13-unemployment.md)（unemployment-04）
+- [まず「毎月残るお金」を一枚にする](../book/17-money.md#money-01)（money-01）
+- [サブスクは解約完了まで確認する](../book/23-consumer.md#consumer-04)（consumer-04）
+- [分割払いは月額と支払総額を一緒に見る](../book/17-money.md#money-03)（money-03）
+- [家計や保険の迷いを無料相談に持ち込む](../book/17-money.md#money-05)（money-05）
+- [返済が苦しくなったら借入先を増やす前に相談する](../book/17-money.md#money-06)（money-06）
+- [生活の困りごとは自立相談支援機関でまとめて相談する](../book/21-unemployment.md#unemployment-04)（unemployment-04）
 
 ---
 
@@ -129,12 +205,12 @@
 
 ### 関連ガイド
 
-- [転職先は職種名だけで選ばず仕事内容まで調べる](../book/14-learning.md)（learning-03）
-- [ジョブ・カードで経験を言葉にする](../book/14-learning.md)（learning-04）
-- [仕事の方向性に迷ったら無料のキャリア相談を使う](../book/14-learning.md)（learning-05）
-- [講座に申し込む前に教育訓練給付を調べる](../book/14-learning.md)（learning-01）
-- [学び直しは受講料だけでなく時間割と修了条件も比べる](../book/14-learning.md)（learning-06）
-- [入社前に労働条件を保存して確認する](../book/12-work.md)（work-01）
+- [転職先は職種名だけで選ばず仕事内容まで調べる](../book/22-learning.md#learning-03)（learning-03）
+- [ジョブ・カードで経験を言葉にする](../book/22-learning.md#learning-04)（learning-04）
+- [仕事の方向性に迷ったら無料のキャリア相談を使う](../book/22-learning.md#learning-05)（learning-05）
+- [講座に申し込む前に教育訓練給付を調べる](../book/22-learning.md#learning-01)（learning-01）
+- [学び直しは受講料だけでなく時間割と修了条件も比べる](../book/22-learning.md#learning-06)（learning-06）
+- [入社前に労働条件を保存して確認する](../book/20-work.md#work-01)（work-01）
 
 ---
 
@@ -149,12 +225,93 @@
 
 ### 関連ガイド
 
-- [重要なアカウントからパスワードの使い回しをやめる](../book/16-digital.md)（digital-01）
-- [多要素認証を有効にして復旧方法も残す](../book/16-digital.md)（digital-02）
-- [端末の更新を自動化し、ときどき完了を確認する](../book/16-digital.md)（digital-04）
-- [写真と重要書類のバックアップを別に持つ](../book/16-digital.md)（digital-05）
-- [メールのリンクではなく公式アプリから確認する](../book/16-digital.md)（digital-03）
-- [ネット注文の最終確認画面を保存する](../book/15-consumer.md)（consumer-03）
+- [重要なアカウントからパスワードの使い回しをやめる](../book/24-digital.md#digital-01)（digital-01）
+- [多要素認証を有効にして復旧方法も残す](../book/24-digital.md#digital-02)（digital-02）
+- [端末の更新を自動化し、ときどき完了を確認する](../book/24-digital.md#digital-04)（digital-04）
+- [写真と重要書類のバックアップを別に持つ](../book/24-digital.md#digital-05)（digital-05）
+- [メールのリンクではなく公式アプリから確認する](../book/24-digital.md#digital-03)（digital-03）
+- [ネット注文の最終確認画面を保存する](../book/23-consumer.md#consumer-03)（consumer-03）
+
+---
+
+## 副業を受ける前に条件を整えたい
+
+契約と受取額、税務の準備をしてから仕事を始める。
+
+1. 雇用か業務委託か、実際の働き方と契約条件を確認する。
+2. 作業範囲・検収・報酬・手数料を文章にする。
+3. インボイス登録の要否と取引データの保存を確認する。
+4. 高額な先払い費用や借入れを求める勧誘では、作業開始より相談を優先する。
+
+### 関連ガイド
+
+- [契約名が「業務委託」でも、働き方の実態を確認する](../book/29-sidework.md#sidework-01)（sidework-01）
+- [仕事を受ける前に、取引条件を文章で受け取る](../book/29-sidework.md#sidework-02)（sidework-02）
+- [納品日だけでなく、検収の基準と期限を決める](../book/29-sidework.md#sidework-03)（sidework-03）
+- [仲介サイトは、手数料とトラブル対応を読んで選ぶ](../book/29-sidework.md#sidework-08)（sidework-08）
+- [インボイス登録は、消費税の申告負担まで確認する](../book/29-sidework.md#sidework-10)（sidework-10）
+- [メールで受け取った請求書は、電子データの保存方法を整える](../book/29-sidework.md#sidework-11)（sidework-11）
+- [副業の説明中に、遠隔操作で借金するよう言われたら止める](../book/32-fraud.md#fraud-13)（fraud-13）
+
+---
+
+## 返済の見通しが立たなくなった
+
+借り増しの前に、契約と家計を整理して相談につなげる。
+
+1. 借入先・残高・返済日が分かる資料を確保する。
+2. 生活費を含めた収支を整理し、公的な相談窓口へ連絡する。
+3. 奨学金など制度ごとの負担軽減も対象を確認する。
+4. 督促や裁判所からの書類を放置せず、借り増しや個人融資へ進む前に相談する。
+
+### 関連ガイド
+
+- [返済相談には借入先の一覧を持っていく](../book/25-debt.md#debt-01)（debt-01）
+- [借換えは金利だけでなく総返済額を比べる](../book/25-debt.md#debt-02)（debt-02）
+- [リボ払いは残高と元本の減り方を確認する](../book/25-debt.md#debt-03)（debt-03）
+- [奨学金は減額返還の対象を確認する](../book/25-debt.md#debt-04)（debt-04）
+- [奨学金を返せない期間は返還期限猶予を相談する](../book/25-debt.md#debt-05)（debt-05）
+- [弁護士費用が心配なら法テラスの法律扶助を確認する](../book/25-debt.md#debt-07)（debt-07）
+- [SNSの「個人融資」に、身分証や個人情報を送らない](../book/32-fraud.md#fraud-08)（fraud-08）
+
+---
+
+## 職場の問題を誰に相談するか決めたい
+
+安全と健康を先に確保し、社内相談と外部の解決支援を選ぶ。
+
+1. 差し迫る危険や強い体調不良には、記録作りより安全確保と受診等を優先する。
+2. 出来事と希望する配慮を整理し、相談先と共有範囲を確認する。
+3. 相談後の不利益も記録し、労働局など外部窓口へ相談する。
+4. 話合いで進まない場合は、あっせんや労働審判等の条件と費用を確認する。
+
+### 関連ガイド
+
+- [暴力や脅しがある職場では、安全な場所へ離れる](../book/30-harassment.md#harassment-01)（harassment-01）
+- [ハラスメントは出来事を記録し、相談先を分ける](../book/20-work.md#work-06)（work-06）
+- [ハラスメント相談では、共有範囲と今後の対応を確認する](../book/30-harassment.md#harassment-02)（harassment-02）
+- [相談後の嫌がらせや不利益も、別に記録して相談する](../book/30-harassment.md#harassment-12)（harassment-12）
+- [話合いが進まない労働問題は、労働局の解決支援を調べる](../book/30-harassment.md#harassment-13)（harassment-13）
+- [労働審判を考えるなら、申立て前に資料と争点を整える](../book/30-harassment.md#harassment-14)（harassment-14）
+
+---
+
+## 家族のお金の手続きを備えておきたい
+
+本人の意思を大切にしながら、資産・保険・銀行の連絡先を整理する。
+
+1. 資産や契約の所在と連絡先を、共有してよい範囲で整理する。
+2. 保険の連絡先・受取人・代理請求の扱いを確認する。
+3. 銀行に所定の代理手続きと必要書類を相談する。
+4. 暗証番号や認証コードの共有で代用せず、保管場所と見直し時期を決める。
+
+### 関連ガイド
+
+- [資産と借入れを同じ表に並べる](../book/17-money.md#money-16)（money-16）
+- [結婚・離婚・死別後は保険金受取人を確認する](../book/27-insurance.md#insurance-07)（insurance-07）
+- [指定代理請求人を決めて本人にも伝える](../book/27-insurance.md#insurance-08)（insurance-08）
+- [家族の生命保険が分からないときは契約照会を調べる](../book/27-insurance.md#insurance-15)（insurance-15）
+- [本人が銀行へ行けなくなる場合の手続きを相談する](../book/26-banking.md#banking-15)（banking-15）
 
 ---
 
@@ -169,15 +326,15 @@
 
 ### 関連ガイド
 
-- [家賃だけで決めず、住む期間の総額を比べる](../book/17-housing.md)（housing-01）
-- [定期借家は、契約終了後の住まいまで考える](../book/17-housing.md)（housing-04）
-- [引越し見積りは、作業範囲と追加料金までそろえて比べる](../book/18-moving.md)（moving-05）
-- [粗大ごみと家電の処分は、荷造りより先に予約する](../book/18-moving.md)（moving-03）
-- [電気・ガス・水道・通信の開始と停止を一枚にする](../book/18-moving.md)（moving-04）
-- [国内の引越しは、転出届のオンライン提出を確認する](../book/18-moving.md)（moving-01）
-- [郵便の転送を申し込み、重要な送り主にも住所変更する](../book/18-moving.md)（moving-02）
-- [荷物を入れる前に、部屋の状態を記録する](../book/17-housing.md)（housing-02）
-- [免許の住所変更は、カードの持ち方と事前設定を確認する](../book/18-moving.md)（moving-06）
+- [家賃だけで決めず、住む期間の総額を比べる](../book/33-housing.md#housing-01)（housing-01）
+- [定期借家は、契約終了後の住まいまで考える](../book/33-housing.md#housing-04)（housing-04）
+- [引越し見積りは、作業範囲と追加料金までそろえて比べる](../book/34-moving.md#moving-05)（moving-05）
+- [粗大ごみと家電の処分は、荷造りより先に予約する](../book/34-moving.md#moving-03)（moving-03）
+- [電気・ガス・水道・通信の開始と停止を一枚にする](../book/34-moving.md#moving-04)（moving-04）
+- [国内の引越しは、転出届のオンライン提出を確認する](../book/34-moving.md#moving-01)（moving-01）
+- [郵便の転送を申し込み、重要な送り主にも住所変更する](../book/34-moving.md#moving-02)（moving-02）
+- [荷物を入れる前に、部屋の状態を記録する](../book/33-housing.md#housing-02)（housing-02）
+- [免許の住所変更は、カードの持ち方と事前設定を確認する](../book/34-moving.md#moving-06)（moving-06）
 
 ---
 
@@ -192,12 +349,12 @@
 
 ### 関連ガイド
 
-- [妊娠が分かったら、手帳と健診助成の窓口につながる](../book/19-parenting.md)（parenting-01）
-- [妊婦の支援給付と相談を、自治体でまとめて確認する](../book/19-parenting.md)（parenting-02）
-- [産後の休養と育児の相談に、産後ケアを調べておく](../book/19-parenting.md)（parenting-05）
-- [家事の分担は、作業だけでなく段取りも書き出す](../book/21-relationship.md)（relationship-01）
-- [出生・転入のときは、児童手当の申請も確認する](../book/19-parenting.md)（parenting-03）
-- [一時預かりは、急用ができる前に利用方法を確認する](../book/19-parenting.md)（parenting-06）
+- [妊娠が分かったら、手帳と健診助成の窓口につながる](../book/35-parenting.md#parenting-01)（parenting-01）
+- [妊婦の支援給付と相談を、自治体でまとめて確認する](../book/35-parenting.md#parenting-02)（parenting-02）
+- [産後の休養と育児の相談に、産後ケアを調べておく](../book/35-parenting.md#parenting-05)（parenting-05）
+- [家事の分担は、作業だけでなく段取りも書き出す](../book/37-relationship.md#relationship-01)（relationship-01）
+- [出生・転入のときは、児童手当の申請も確認する](../book/35-parenting.md#parenting-03)（parenting-03）
+- [一時預かりは、急用ができる前に利用方法を確認する](../book/35-parenting.md#parenting-06)（parenting-06）
 
 ---
 
@@ -212,13 +369,13 @@
 
 ### 関連ガイド
 
-- [介護の入口は、本人の住む地域の包括支援センター](../book/20-care.md)（care-01）
-- [介護サービスを使う前に、認定の申請と相談を進める](../book/20-care.md)（care-02）
-- [介護で退職を決める前に、休業と職場の制度を調べる](../book/20-care.md)（care-05）
-- [介護事業所は、公表情報と実際の見学を合わせて比べる](../book/20-care.md)（care-03）
-- [介護費用が重いときは、高額介護サービス費を確認する](../book/20-care.md)（care-04）
-- [日々のお金の管理が難しくなったら、社会福祉協議会へ](../book/20-care.md)（care-06）
-- [運転に不安が出たら、本人と家族で専門窓口に相談する](../book/22-mobility.md)（mobility-04）
+- [介護の入口は、本人の住む地域の包括支援センター](../book/36-care.md#care-01)（care-01）
+- [介護サービスを使う前に、認定の申請と相談を進める](../book/36-care.md#care-02)（care-02）
+- [介護で退職を決める前に、休業と職場の制度を調べる](../book/36-care.md#care-05)（care-05）
+- [介護事業所は、公表情報と実際の見学を合わせて比べる](../book/36-care.md#care-03)（care-03）
+- [介護費用が重いときは、高額介護サービス費を確認する](../book/36-care.md#care-04)（care-04）
+- [日々のお金の管理が難しくなったら、社会福祉協議会へ](../book/36-care.md#care-06)（care-06）
+- [運転に不安が出たら、本人と家族で専門窓口に相談する](../book/38-mobility.md#mobility-04)（mobility-04）
 
 ---
 
@@ -233,9 +390,99 @@
 
 ### 関連ガイド
 
-- [創業の悩みは、よろず支援拠点に持ち込む](../book/23-business.md)（business-01）
-- [設備を買う前に、創業計画を数字にする](../book/23-business.md)（business-02）
-- [食品を売るなら、物件や設備の契約前に保健所へ](../book/23-business.md)（business-05）
-- [事業の取引は、最初の一件から記帳する](../book/23-business.md)（business-03）
-- [業務委託は、仕事の内容と支払日を記録に残す](../book/23-business.md)（business-04）
-- [電子申請を使う予定なら、GビズIDを早めに準備する](../book/23-business.md)（business-06）
+- [創業の悩みは、よろず支援拠点に持ち込む](../book/39-business.md#business-01)（business-01）
+- [設備を買う前に、創業計画を数字にする](../book/39-business.md#business-02)（business-02）
+- [食品を売るなら、物件や設備の契約前に保健所へ](../book/39-business.md#business-05)（business-05）
+- [事業の取引は、最初の一件から記帳する](../book/39-business.md#business-03)（business-03）
+- [業務委託は、仕事の内容と支払日を記録に残す](../book/39-business.md#business-04)（business-04）
+- [電子申請を使う予定なら、GビズIDを早めに準備する](../book/39-business.md#business-06)（business-06）
+
+---
+
+## 進学費用と学ぶ環境を整える
+
+家庭の負担と本人の希望を整理し、学校段階に合う支援へつなぐ。
+
+1. 進学先の入学費用と通学・教材などの費用を分けて確認する。
+2. 学校段階に合う給付や授業料支援の申請先と期限を調べる。
+3. 家計が急変した場合は通常募集とは別の相談をする。
+4. 本人が必要とする配慮を学校の相談窓口と話し合う。
+
+### 関連ガイド
+
+- [就学援助の対象を学校か市区町村に確認する](../book/41-education.md#education-01)（education-01）
+- [高校の授業料支援は入学後の案内まで確認する](../book/41-education.md#education-02)（education-02）
+- [教材費などは高校生等奨学給付金を別に調べる](../book/41-education.md#education-03)（education-03）
+- [進学先が修学支援の対象校か確かめる](../book/41-education.md#education-04)（education-04）
+- [家計が急変したら奨学金の臨時申込みを相談する](../book/41-education.md#education-05)（education-05）
+- [就学相談では必要な配慮を具体例で伝える](../book/41-education.md#education-07)（education-07）
+- [大学の障害学生支援は入学前から相談する](../book/41-education.md#education-15)（education-15）
+
+---
+
+## ペットを迎える前後にすること
+
+迎える判断から登録、日常の管理、災害への準備までをつなぐ。
+
+1. 生涯の費用と世話をする体制を考え、飼育できる住環境を確かめる。
+2. 譲渡などの選択肢を調べ、必要な登録と情報変更を確認する。
+3. かかりつけの動物病院、健康記録、備蓄を整える。
+4. 避難先の条件と、飼い続けることが難しい場合の相談先を調べる。
+
+### 関連ガイド
+
+- [迎える前に毎日の世話と生涯の費用を話し合う](../book/43-pets.md#pets-01)（pets-01）
+- [譲渡を選択肢に入れて自治体の案内を見る](../book/43-pets.md#pets-02)（pets-02）
+- [犬の登録・予防注射の記録を管理する](../book/43-pets.md#pets-03)（pets-03）
+- [マイクロチップの名義を自分に変更する](../book/43-pets.md#pets-04)（pets-04）
+- [ペット用の持出し用品を普段から回す](../book/43-pets.md#pets-07)（pets-07）
+- [健康記録を持ってかかりつけの動物病院をつくる](../book/43-pets.md#pets-11)（pets-11）
+- [同行避難の行き先と受入条件を確かめる](../book/43-pets.md#pets-06)（pets-06）
+- [飼い続けるのが難しくなる前に代わりの世話を相談する](../book/43-pets.md#pets-14)（pets-14）
+
+---
+
+## 住まいを長く使う準備をする
+
+記録を残し、安全点検と修繕の優先順位を決める。
+
+1. 設備の取扱説明書と工事履歴をまとめる。
+2. 火災警報器、換気、水回りなど手が届く範囲を確認する。
+3. 耐震性や専門的な点検が必要な箇所を相談する。
+4. 工事の内容と見積りを比較し、契約前に補助制度の条件を確認する。
+
+### 関連ガイド
+
+- [住まいの図面と修繕履歴を一か所に残す](../book/44-homecare.md#homecare-01)（homecare-01）
+- [住宅用火災警報器の作動と交換時期を確認する](../book/44-homecare.md#homecare-07)（homecare-07）
+- [換気設備のフィルターと給気口を確認する](../book/44-homecare.md#homecare-08)（homecare-08）
+- [水道使用量が急に増えたら漏水を疑う](../book/44-homecare.md#homecare-09)（homecare-09）
+- [寒波の前に露出した水道管の保温を確認する](../book/44-homecare.md#homecare-12)（homecare-12）
+- [耐震改修は診断と地域の支援を先に調べる](../book/44-homecare.md#homecare-04)（homecare-04）
+- [リフォーム見積りの一式表示を確認する](../book/44-homecare.md#homecare-02)（homecare-02）
+- [窓や給湯器の補助は契約前に当年度の条件を読む](../book/45-environment.md#environment-06)（environment-06）
+
+---
+
+## 身近な人が亡くなった
+
+直後の届出を優先し、給付と相続を確認しながら自分の休息も確保する。
+
+1. 死亡届と火葬許可について市区町村や関係者へ確認する。
+2. おくやみ案内を使い、家族自身の保険や年金などを整理する。
+3. 遺言、借金を含む財産、申告の要否と期限を早めに確認する。
+4. つらさを抱えきれないときは遺族支援や相談先につながる。
+
+### 関連ガイド
+
+- [死亡届は提出できる人と窓口を確認する](../book/48-bereavement.md#bereavement-01)（bereavement-01）
+- [火葬場の手配と火葬許可の申請をつなげる](../book/48-bereavement.md#bereavement-02)（bereavement-02）
+- [おくやみ窓口で必要な手続きを絞り込む](../book/48-bereavement.md#bereavement-03)（bereavement-03）
+- [扶養していた人が亡くなったら自分の医療保険を確認する](../book/48-bereavement.md#bereavement-06)（bereavement-06）
+- [年金の死亡連絡と未支給分の請求を分けて確認する](../book/48-bereavement.md#bereavement-04)（bereavement-04）
+- [葬儀後は加入していた保険の埋葬料を確認する](../book/48-bereavement.md#bereavement-05)（bereavement-05）
+- [自宅で遺言書を見つけたら検認の要否を調べる](../book/48-bereavement.md#bereavement-08)（bereavement-08）
+- [法務局に遺言書が預けられていないか照会する](../book/48-bereavement.md#bereavement-09)（bereavement-09）
+- [相続放棄を考えるなら、期限と財産調査を先に確認する](../book/40-endoflife.md#endoflife-04)（endoflife-04）
+- [亡くなった人の所得税は準確定申告の要否を確認する](../book/48-bereavement.md#bereavement-13)（bereavement-13）
+- [悲しみを一人で抱えきれないときは相談先を探す](../book/48-bereavement.md#bereavement-16)（bereavement-16）

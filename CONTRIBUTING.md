@@ -17,7 +17,7 @@
 - `sources`：title、url、publisherを持つ配列。原資料を実際に確認すること。
 - `checked`：実際に確認した日。ビルド時に一律に更新しないこと。
 
-追加した分野や記事数に合わせ、`scripts/check.mjs` の初版件数チェックとREADMEの件数を更新してください。
+READMEの件数はビルド時に原稿データから更新されます。分野を追加する場合は `enhancements.js` の関心テーマとの対応も見直してください。公開先と版番号は `site.config.json` で管理します。
 
 ## 更新手順
 

@@ -39,6 +39,46 @@
       "id": "endoflife",
       "title": "相続・もしもの備え",
       "description": "希望と情報を残し、大切な人の判断を助ける。"
+    },
+    {
+      "id": "education",
+      "title": "学校・教育費",
+      "description": "学費の支援から学び直しまで、本人に合う学び方を探す。"
+    },
+    {
+      "id": "travel",
+      "title": "国内旅行",
+      "description": "予約条件、移動の準備、旅先の安全を確かめて出かける。"
+    },
+    {
+      "id": "pets",
+      "title": "ペットと暮らす",
+      "description": "迎える前の準備から高齢期まで、無理のない飼養を続ける。"
+    },
+    {
+      "id": "homecare",
+      "title": "住まいの維持",
+      "description": "点検と修繕の優先順位をつけ、住まいを長く安全に使う。"
+    },
+    {
+      "id": "environment",
+      "title": "省エネ・ごみ",
+      "description": "暮らしの負担を増やさず、資源とエネルギーの使い方を見直す。"
+    },
+    {
+      "id": "documents",
+      "title": "行政・本人確認",
+      "description": "必要な証明書を選び、本人確認と申請を確実に進める。"
+    },
+    {
+      "id": "community",
+      "title": "地域・つながり",
+      "description": "身近な施設や活動、相談窓口を使って地域との接点をつくる。"
+    },
+    {
+      "id": "bereavement",
+      "title": "身近な人が亡くなったら",
+      "description": "届出、契約、相続の実務を分けて遺族の負担を整える。"
     }
   ],
   "articles": [
@@ -1801,6 +1841,7086 @@
         "見積り",
         "終活"
       ]
+    },
+    {
+      "id": "housing-07",
+      "category": "housing",
+      "title": "保証会社の契約も、賃貸借契約とは別に読む",
+      "summary": "保証委託の費用や解除条件を、契約前に確認します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "保証契約に伴う負担と連絡先を把握できる。",
+      "steps": [
+        "初回・更新時の保証料を確認する",
+        "保証範囲と滞納時の連絡方法を読む",
+        "不明な条項を質問して控えを保管する"
+      ],
+      "cautions": [
+        "登録の有無だけで個々の契約の適切さは保証されません。"
+      ],
+      "sources": [
+        {
+          "title": "家賃債務保証業者登録制度",
+          "url": "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_fr7_000024.html",
+          "publisher": "国土交通省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住まい・賃貸",
+        "保証会社の契約も"
+      ]
+    },
+    {
+      "id": "housing-08",
+      "category": "housing",
+      "title": "物件の住所を、水害ハザードマップに重ねる",
+      "summary": "契約前に周辺の水害リスクと避難経路を調べます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "立地のリスクを住まい選びに反映できる。",
+      "steps": [
+        "自治体の地図で所在地を確認する",
+        "浸水想定と避難場所を読む",
+        "不明な表示は仲介会社や自治体へ尋ねる"
+      ],
+      "cautions": [
+        "色のない場所も災害が起きない保証はありません。"
+      ],
+      "sources": [
+        {
+          "title": "不動産取引時の水害リスクの説明",
+          "url": "https://www.mlit.go.jp/totikensangyo/const/sosei_const_fr3_000074.html",
+          "publisher": "国土交通省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住まい・賃貸",
+        "物件の住所を"
+      ]
+    },
+    {
+      "id": "housing-09",
+      "category": "housing",
+      "title": "断熱性能も、物件比較の条件に入れる",
+      "summary": "省エネ性能ラベルで、住戸の断熱性などを比較できます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "家賃や間取り以外の住み心地を検討できる。",
+      "steps": [
+        "候補のラベルを取り寄せる",
+        "断熱性能と評価対象の住戸を比べる",
+        "光熱費の目安と実生活の違いを確認する"
+      ],
+      "cautions": [
+        "目安光熱費は実際の請求額を保証しません。"
+      ],
+      "sources": [
+        {
+          "title": "省エネ性能ラベル",
+          "url": "https://www.mlit.go.jp/shoene-jutaku/shoene-label/index.html",
+          "publisher": "国土交通省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住まい・賃貸",
+        "断熱性能も"
+      ]
+    },
+    {
+      "id": "housing-10",
+      "category": "housing",
+      "title": "マンション購入前に、修繕積立金の計画を読む",
+      "summary": "現在の月額だけでなく、将来の修繕と資金計画を見ます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "購入後の継続支出を見積もりやすくなる。",
+      "steps": [
+        "長期修繕計画を取り寄せる",
+        "積立金残高と値上げ計画を確認する",
+        "不明な資金不足を管理側に質問する"
+      ],
+      "cautions": [
+        "計画は変更されることがあり、将来の負担は確定額ではありません。"
+      ],
+      "sources": [
+        {
+          "title": "マンションの管理状況チェックシート",
+          "url": "https://www.mansion-info.mlit.go.jp/manshion_kanri/329/",
+          "publisher": "国土交通省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住まい・賃貸",
+        "マンション購入前に"
+      ]
+    },
+    {
+      "id": "housing-11",
+      "category": "housing",
+      "title": "ペットや楽器の予定を、管理規約で確認する",
+      "summary": "集合住宅では、広告にない使用上の制限も確認します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "入居後に希望の暮らしができない食い違いを減らせる。",
+      "steps": [
+        "生活上譲れない条件を挙げる",
+        "管理規約と使用細則を読む",
+        "例外や許可手続を管理側に確認する"
+      ],
+      "cautions": [
+        "物件ごとの規約が適用され、口頭説明だけで例外扱いになるとは限りません。"
+      ],
+      "sources": [
+        {
+          "title": "マンションの管理状況チェックシート",
+          "url": "https://www.mansion-info.mlit.go.jp/manshion_kanri/329/",
+          "publisher": "国土交通省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住まい・賃貸",
+        "ペットや楽器の予定を"
+      ]
+    },
+    {
+      "id": "housing-12",
+      "category": "housing",
+      "title": "賃貸設備の故障は、勝手に直す前に連絡する",
+      "summary": "故障を放置せず、状況と修繕の進め方を共有します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "被害の拡大と修繕費の行き違いを減らせる。",
+      "steps": [
+        "故障箇所と発生日時を記録する",
+        "管理会社へ写真付きで連絡する",
+        "修繕の手配と費用負担を確認する"
+      ],
+      "cautions": [
+        "緊急時は安全確保を優先し、自己手配の費用請求は個別確認が必要です。"
+      ],
+      "sources": [
+        {
+          "title": "原状回復をめぐるトラブルとガイドライン Q&A",
+          "url": "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000024.html",
+          "publisher": "国土交通省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住まい・賃貸",
+        "賃貸設備の故障は"
+      ]
+    },
+    {
+      "id": "housing-13",
+      "category": "housing",
+      "title": "同居や事業利用を始める前に、貸主の承諾を確認する",
+      "summary": "契約した住み方から変わる場合は、必要な連絡を調べます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "無断の用途変更によるトラブルを避けやすくなる。",
+      "steps": [
+        "契約書の用途・同居・転貸条項を読む",
+        "変更する内容を管理会社に伝える",
+        "必要な承諾や変更書面を保存する"
+      ],
+      "cautions": [
+        "在宅勤務と店舗営業等の扱いは同一ではなく、契約によります。"
+      ],
+      "sources": [
+        {
+          "title": "賃貸住宅標準契約書",
+          "url": "https://www.mlit.go.jp/jutakukentiku/house/torikumi/keiyaku/kei01.html",
+          "publisher": "国土交通省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住まい・賃貸",
+        "同居や事業利用を始める前に"
+      ]
+    },
+    {
+      "id": "housing-14",
+      "category": "housing",
+      "title": "退去日は、解約予告の条件から逆算する",
+      "summary": "鍵を返す日と家賃が終わる日を確認して予定を組みます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "二重家賃と連絡漏れを抑えやすくなる。",
+      "steps": [
+        "契約書の予告期間を読む",
+        "指定方法で解約を申し入れる",
+        "受付日と最終家賃を確認する"
+      ],
+      "cautions": [
+        "期間や日割り精算の扱いは契約によって異なります。"
+      ],
+      "sources": [
+        {
+          "title": "民間賃貸住宅の入居・退去に関する留意点",
+          "url": "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000016.html",
+          "publisher": "国土交通省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住まい・賃貸",
+        "退去日は"
+      ]
+    },
+    {
+      "id": "housing-15",
+      "category": "housing",
+      "title": "公営住宅は、募集日と優先枠を確認する",
+      "summary": "住まいの負担が重いときは、公営住宅の募集を調べます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "民間賃貸以外の選択肢を検討できる。",
+      "steps": [
+        "自治体の募集要項を取得する",
+        "収入等の条件と優先扱いを確認する",
+        "必要書類と申込日を整理する"
+      ],
+      "cautions": [
+        "資格・募集時期・選考方法は自治体ごとに異なり、入居は保証されません。"
+      ],
+      "sources": [
+        {
+          "title": "公営住宅の優先入居",
+          "url": "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000096.html",
+          "publisher": "国土交通省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住まい・賃貸",
+        "公営住宅は"
+      ]
+    },
+    {
+      "id": "housing-16",
+      "category": "housing",
+      "title": "中古住宅の性能資料を、修繕計画に生かす",
+      "summary": "検査の有無に加え、性能評価や修繕の記録を集めます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "長く住むために必要な整備を考えられる。",
+      "steps": [
+        "売主に評価書と修繕記録を求める",
+        "評価された項目と時点を確認する",
+        "今後必要な点検を専門家と相談する"
+      ],
+      "cautions": [
+        "評価のない項目や見えない部分まで保証するものではありません。"
+      ],
+      "sources": [
+        {
+          "title": "既存住宅性能ガイド",
+          "url": "https://www.mlit.go.jp/common/001114501.pdf",
+          "publisher": "国土交通省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住まい・賃貸",
+        "中古住宅の性能資料を"
+      ]
+    },
+    {
+      "id": "moving-07",
+      "category": "moving",
+      "title": "同じ市内の引越しも、転居の届出を確認する",
+      "summary": "近距離の転居でも住民登録の手続きが必要になる場合があります。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "近距離転居での届出漏れを防げる。",
+      "steps": [
+        "新旧住所の自治体案内を開く",
+        "転居・転入の区分を確認する",
+        "持ち物と窓口を確かめて届け出る"
+      ],
+      "cautions": [
+        "区をまたぐ場合等の扱いは自治体によります。資料は横浜市の例です。"
+      ],
+      "sources": [
+        {
+          "title": "転居届（市内の同じ区内での引越し）",
+          "url": "https://www.city.yokohama.lg.jp/kurashi/koseki-zei-hoken/todokede/koseki-juminhyo/todokede-touroku/jyumin/tenkyo.html",
+          "publisher": "横浜市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "引越し・手続き",
+        "同じ市内の引越しも"
+      ]
+    },
+    {
+      "id": "moving-08",
+      "category": "moving",
+      "title": "国民健康保険の資格手続きを、転出入と合わせる",
+      "summary": "市区町村が変わるときは、国保の窓口手続きも確かめます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "受診時の資格確認の混乱を減らせる。",
+      "steps": [
+        "現在の加入先と資格書類を確認する",
+        "転出元に返却・精算を尋ねる",
+        "転入先で加入手続きと受診方法を確認する"
+      ],
+      "cautions": [
+        "勤務先の健康保険は勤務先へ確認します。地域で手順が異なります。"
+      ],
+      "sources": [
+        {
+          "title": "手続きに必要なもの（こんなときは忘れず届出を）",
+          "url": "https://www.city.yokohama.lg.jp/kurashi/koseki-zei-hoken/kokuho/todokede/process.html",
+          "publisher": "横浜市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "引越し・手続き",
+        "国民健康保険の資格手続きを"
+      ]
+    },
+    {
+      "id": "moving-09",
+      "category": "moving",
+      "title": "こどもの医療費助成は、転居先で再確認する",
+      "summary": "現在の受給証が新しい自治体でも使えるとは限りません。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "転居後の助成申請を忘れずに進められる。",
+      "steps": [
+        "転出元に使用終了の扱いを尋ねる",
+        "転入先の対象と申請書類を確認する",
+        "新しい受給証までの受診方法を確認する"
+      ],
+      "cautions": [
+        "助成の年齢・所得条件・自己負担は自治体差があります。"
+      ],
+      "sources": [
+        {
+          "title": "小児医療費助成",
+          "url": "https://www.city.yokohama.lg.jp/kenko-iryo-fukushi/kenko-iryo/iryohijosei/shoni/child.html",
+          "publisher": "横浜市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "引越し・手続き",
+        "こどもの医療費助成は"
+      ]
+    },
+    {
+      "id": "moving-10",
+      "category": "moving",
+      "title": "転校の書類を、在籍校と転入先へ確認する",
+      "summary": "住民票の手続きと学校の引継ぎを並行して進めます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "新学期や登校初日の準備を整えられる。",
+      "steps": [
+        "在籍校へ転居予定を伝える",
+        "必要な在学等の書類を受け取る",
+        "転入先の教育委員会と学校へ提出方法を聞く"
+      ],
+      "cautions": [
+        "私立校や区域外通学等は別の手続きになる場合があります。"
+      ],
+      "sources": [
+        {
+          "title": "小・中学校の入学手続き案内",
+          "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/kyoiku/soudan/soudan1000.html",
+          "publisher": "横浜市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "引越し・手続き",
+        "転校の書類を"
+      ]
+    },
+    {
+      "id": "moving-11",
+      "category": "moving",
+      "title": "介護サービスの引継ぎは、引越し前に相談する",
+      "summary": "転居で介護が途切れないよう、担当者と自治体につなぎます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "転居直後の介護の空白を減らせる。",
+      "steps": [
+        "ケアマネジャーに新住所と日程を伝える",
+        "認定・保険の引継ぎ書類を確認する",
+        "新地域の事業所と利用開始日を調整する"
+      ],
+      "cautions": [
+        "住所地特例等で保険者の扱いが異なることがあります。"
+      ],
+      "sources": [
+        {
+          "title": "各種申請関連：高齢者福祉の案内",
+          "url": "https://www.city.yokohama.lg.jp/kenko-iryo-fukushi/fukushi-kaigo/koreisha-kaigo/kaigo-hoken/shinsei.html",
+          "publisher": "横浜市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "引越し・手続き",
+        "介護サービスの引継ぎは"
+      ]
+    },
+    {
+      "id": "moving-12",
+      "category": "moving",
+      "title": "障害福祉の受給証と手帳の変更を整理する",
+      "summary": "利用している制度を一覧にし、転居先で必要な申請を確かめます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "必要な支援の再申請を把握できる。",
+      "steps": [
+        "手帳・受給証・サービスを一覧にする",
+        "両自治体に変更手続きを聞く",
+        "新しい支給決定と利用日を確認する"
+      ],
+      "cautions": [
+        "制度ごとに対象や支給内容が異なり、自動移行とは限りません。"
+      ],
+      "sources": [
+        {
+          "title": "南区から市外への引っ越し",
+          "url": "https://www.city.yokohama.lg.jp/minami/madoguchi-shisetsu/kuyakusho/annai/tetsuzukidownload.files/0109_20260318.pdf",
+          "publisher": "横浜市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "引越し・手続き",
+        "障害福祉の受給証と手帳の変更を整理する"
+      ]
+    },
+    {
+      "id": "moving-13",
+      "category": "moving",
+      "title": "車の住所変更は、免許とは別に調べる",
+      "summary": "運転免許の手続きだけで車両の登録情報は変わりません。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "車両関係の通知が旧住所に残ることを防げる。",
+      "steps": [
+        "車検証の住所と車種を確認する",
+        "担当する運輸支局等を調べる",
+        "車庫関係を含む必要書類をそろえる"
+      ],
+      "cautions": [
+        "軽自動車・二輪などで窓口や手続きが異なります。"
+      ],
+      "sources": [
+        {
+          "title": "自動車の登録手続き",
+          "url": "https://wwwtb.mlit.go.jp/kanto/jidou_gian/touroku/car_regist.html",
+          "publisher": "国土交通省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "引越し・手続き",
+        "車の住所変更は"
+      ]
+    },
+    {
+      "id": "moving-14",
+      "category": "moving",
+      "title": "犬の登録住所を、引越し先で更新する",
+      "summary": "住民登録に加え、犬の登録とマイクロチップ情報を確認します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "迷子時に登録情報をたどりやすくなる。",
+      "steps": [
+        "現在の登録番号を控える",
+        "転居先の犬の登録窓口に確認する",
+        "必要な変更を行い控えを保存する"
+      ],
+      "cautions": [
+        "マイクロチップ制度との連携状況は自治体で異なります。"
+      ],
+      "sources": [
+        {
+          "title": "犬の登録と狂犬病予防注射の手続き",
+          "url": "https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/pet-dobutsu/aigo/kainushi/kyokenbyo.html",
+          "publisher": "横浜市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "引越し・手続き",
+        "犬の登録住所を"
+      ]
+    },
+    {
+      "id": "moving-15",
+      "category": "moving",
+      "title": "印鑑登録の扱いを、転出先ごとに確認する",
+      "summary": "市区町村をまたぐ転居では、以前の印鑑登録証を使えるか確認します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "必要な契約前に証明書の準備ができる。",
+      "steps": [
+        "次に印鑑証明が必要な予定を調べる",
+        "新自治体の登録手順を確認する",
+        "本人確認書類と印鑑を準備する"
+      ],
+      "cautions": [
+        "代理申請では即日登録できない場合があります。資料は横浜市の例です。"
+      ],
+      "sources": [
+        {
+          "title": "引っ越しするとき（転出）",
+          "url": "https://www.city.yokohama.lg.jp/nishi/shokai/sonota/lifestage/hikkoshi_tenshutsu.html",
+          "publisher": "横浜市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "引越し・手続き",
+        "印鑑登録の扱いを"
+      ]
+    },
+    {
+      "id": "moving-16",
+      "category": "moving",
+      "title": "マイナンバーカードの住所変更を忘れない",
+      "summary": "カードを持つ家族ごとに、転居に伴う手続きを確かめます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "転居後の本人確認と電子申請を使いやすく保てる。",
+      "steps": [
+        "家族分のカードと暗証番号の準備を確認する",
+        "転入窓口で券面変更を依頼する",
+        "電子証明書の手続きも確認する"
+      ],
+      "cautions": [
+        "暗証番号や代理人の条件により一度で完了しない場合があります。"
+      ],
+      "sources": [
+        {
+          "title": "引越し手続オンラインサービス",
+          "url": "https://www.digital.go.jp/policies/moving_onestop_service",
+          "publisher": "デジタル庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "引越し・手続き",
+        "マイナンバーカードの住所変更を忘れない"
+      ]
+    },
+    {
+      "id": "parenting-07",
+      "category": "parenting",
+      "title": "病児保育の登録は、元気な日に済ませる",
+      "summary": "急な発熱に備え、利用できる施設と受付方法を確認します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "欠勤や預け先の判断を急な病気でも進めやすくなる。",
+      "steps": [
+        "自治体の病児保育一覧を見る",
+        "対象年齢と事前登録を確認する",
+        "診療書類・予約・迎えの条件を控える"
+      ],
+      "cautions": [
+        "病状や空き状況によって利用できません。"
+      ],
+      "sources": [
+        {
+          "title": "よくわかる子ども・子育て支援新制度",
+          "url": "https://www.cfa.go.jp/policies/kokoseido/sukusuku/",
+          "publisher": "こども家庭庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "妊娠・子育て",
+        "病児保育の登録は"
+      ]
+    },
+    {
+      "id": "parenting-08",
+      "category": "parenting",
+      "title": "送迎の助けが必要なら、ファミリー・サポートへ",
+      "summary": "地域の相互援助で頼める内容を具体的に確認します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "日常の送迎や一時的な預かりの選択肢が増える。",
+      "steps": [
+        "センターに希望する曜日と援助内容を伝える",
+        "登録・事前打合せを行う",
+        "料金とキャンセル時の扱いを確認する"
+      ],
+      "cautions": [
+        "援助者の確保や対応できる内容は地域で異なります。"
+      ],
+      "sources": [
+        {
+          "title": "よくわかる子ども・子育て支援新制度",
+          "url": "https://www.cfa.go.jp/policies/kokoseido/sukusuku/",
+          "publisher": "こども家庭庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "妊娠・子育て",
+        "送迎の助けが必要なら"
+      ]
+    },
+    {
+      "id": "parenting-09",
+      "category": "parenting",
+      "title": "親子で行ける子育て支援拠点を一つ探す",
+      "summary": "遊び場と相談先を日常の行き先に加えます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "身近な相談相手や地域情報に出会える。",
+      "steps": [
+        "自治体の拠点一覧を見る",
+        "対象年齢と開館日を確認する",
+        "初回は短時間で見学する"
+      ],
+      "cautions": [
+        "予約や利用対象は施設ごとに確認します。"
+      ],
+      "sources": [
+        {
+          "title": "よくわかる子ども・子育て支援新制度",
+          "url": "https://www.cfa.go.jp/policies/kokoseido/sukusuku/",
+          "publisher": "こども家庭庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "妊娠・子育て",
+        "親子で行ける子育て支援拠点を一つ探す"
+      ]
+    },
+    {
+      "id": "parenting-10",
+      "category": "parenting",
+      "title": "赤ちゃん訪問で、家で困ることを相談する",
+      "summary": "乳児家庭への訪問時に、日常の困りごとを共有します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "家庭の状況に合った支援につながりやすくなる。",
+      "steps": [
+        "訪問案内の連絡先を確認する",
+        "睡眠・授乳・支援者など困りごとをメモする",
+        "紹介された支援の利用方法を聞く"
+      ],
+      "cautions": [
+        "訪問の時期・担当者は自治体で異なり、急な不調は受診等を優先します。"
+      ],
+      "sources": [
+        {
+          "title": "よくわかる子ども・子育て支援新制度",
+          "url": "https://www.cfa.go.jp/policies/kokoseido/sukusuku/",
+          "publisher": "こども家庭庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "妊娠・子育て",
+        "赤ちゃん訪問で"
+      ]
+    },
+    {
+      "id": "parenting-11",
+      "category": "parenting",
+      "title": "乳幼児健診は、気になることを持っていく",
+      "summary": "発育の確認と相談の機会として健診を活用します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "発達や育児の疑問を専門職に伝えられる。",
+      "steps": [
+        "自治体の対象月齢と案内を確認する",
+        "母子手帳と質問を用意する",
+        "再相談や紹介先の案内を記録する"
+      ],
+      "cautions": [
+        "健診日以外でも心配があれば相談でき、健診だけで全てを診断できません。"
+      ],
+      "sources": [
+        {
+          "title": "乳幼児健診に関する取組み",
+          "url": "https://www.cfa.go.jp/policies/boshihoken/nyuyojikenshin",
+          "publisher": "こども家庭庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "妊娠・子育て",
+        "乳幼児健診は"
+      ]
+    },
+    {
+      "id": "parenting-12",
+      "category": "parenting",
+      "title": "入院などで養育が難しいときは、短期支援を相談する",
+      "summary": "家庭でこどもを見られない期間の支援を自治体に尋ねます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "家族だけでは支えきれない期間の相談先を持てる。",
+      "steps": [
+        "預けたい期間と事情を整理する",
+        "子育て短期支援の窓口に連絡する",
+        "持ち物・利用料・送迎を確認する"
+      ],
+      "cautions": [
+        "受入れ施設や対象・空き状況によって利用できない場合があります。"
+      ],
+      "sources": [
+        {
+          "title": "子育て短期支援事業",
+          "url": "https://www.cfa.go.jp/policies/kosodateshien/jido-short",
+          "publisher": "こども家庭庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "妊娠・子育て",
+        "入院などで養育が難しいときは"
+      ]
+    },
+    {
+      "id": "parenting-13",
+      "category": "parenting",
+      "title": "家事と育児が回らないときは、訪問支援を尋ねる",
+      "summary": "こども家庭センター等で、家庭への支援が使えるか相談します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "家庭内で抱え込む負担を相談できる。",
+      "steps": [
+        "できずに困っている家事や育児を挙げる",
+        "自治体へ訪問支援の対象を確認する",
+        "担当者と支援内容を決める"
+      ],
+      "cautions": [
+        "希望する作業すべてが対象になるとは限らず、地域差があります。"
+      ],
+      "sources": [
+        {
+          "title": "家庭支援事業",
+          "url": "https://kokasen.cfa.go.jp/support-programs",
+          "publisher": "こども家庭庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "妊娠・子育て",
+        "家事と育児が回らないときは"
+      ]
+    },
+    {
+      "id": "parenting-14",
+      "category": "parenting",
+      "title": "保育所の申込みは、就労以外の事由も確認する",
+      "summary": "介護や疾病など、保育を必要とする事情を申請案内で確認します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "家庭の事情に合った申請方法を選べる。",
+      "steps": [
+        "希望する利用月を決める",
+        "自治体の認定事由と必要証明を読む",
+        "見学と申請期限を予定に入れる"
+      ],
+      "cautions": [
+        "認定されても希望園への入所が保証されるわけではありません。"
+      ],
+      "sources": [
+        {
+          "title": "よくわかる子ども・子育て支援新制度",
+          "url": "https://www.cfa.go.jp/policies/kokoseido/sukusuku/",
+          "publisher": "こども家庭庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "妊娠・子育て",
+        "保育所の申込みは"
+      ]
+    },
+    {
+      "id": "parenting-15",
+      "category": "parenting",
+      "title": "発達の相談は、診断名が決まるまで待たずに始める",
+      "summary": "困っている場面を具体的にし、地域の相談につなぎます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "こどもに合う関わり方と支援を探せる。",
+      "steps": [
+        "園や家庭で困る場面を記録する",
+        "自治体の発達相談窓口へ連絡する",
+        "必要に応じた支援と手続きを相談する"
+      ],
+      "cautions": [
+        "利用できる事業と認定手続きは自治体・状態により異なります。"
+      ],
+      "sources": [
+        {
+          "title": "障害児支援施策",
+          "url": "https://www.cfa.go.jp/policies/shougaijishien/shisaku",
+          "publisher": "こども家庭庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "妊娠・子育て",
+        "発達の相談は"
+      ]
+    },
+    {
+      "id": "parenting-16",
+      "category": "parenting",
+      "title": "未就園のこどもは、誰でも通園制度を確認する",
+      "summary": "就労状況だけに縛られない通園の選択肢を調べます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "家庭以外で過ごす機会を検討できる。",
+      "steps": [
+        "公式サイトで対象年齢と在籍条件を読む",
+        "自治体へ認定と利用施設を確認する",
+        "面談・予約・料金を確かめる"
+      ],
+      "cautions": [
+        "利用枠や予約状況があり、通常保育の代わりに無制限に使える制度ではありません。"
+      ],
+      "sources": [
+        {
+          "title": "こども誰でも通園制度",
+          "url": "https://www.daretsu.cfa.go.jp/",
+          "publisher": "こども家庭庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "妊娠・子育て",
+        "未就園のこどもは"
+      ]
+    },
+    {
+      "id": "care-07",
+      "category": "care",
+      "title": "福祉用具は、本人の動作に合わせて選ぶ",
+      "summary": "便利そうな商品を先に買わず、専門職と適合を確認します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "使えない用具の購入と不適切な利用を避けやすくなる。",
+      "steps": [
+        "困る動作と家の寸法を伝える",
+        "貸与・購入の対象と費用を比べる",
+        "使い方を習い状態が変われば再相談する"
+      ],
+      "cautions": [
+        "介護度や品目により保険対象外になる場合があります。"
+      ],
+      "sources": [
+        {
+          "title": "福祉用具・住宅改修",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000212398.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "家族の介護",
+        "福祉用具は"
+      ]
+    },
+    {
+      "id": "care-08",
+      "category": "care",
+      "title": "介護の住宅改修は、工事前に申請を確認する",
+      "summary": "手すりや段差解消は、着工前から相談します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "必要な改修と保険手続きを順序よく進められる。",
+      "steps": [
+        "ケアマネジャーに困る動線を見てもらう",
+        "理由書・見積り・事前申請を確認する",
+        "承認等の案内に従い施工後の申請を行う"
+      ],
+      "cautions": [
+        "対象工事や支給条件があり、事後申請だけでは支給されない場合があります。"
+      ],
+      "sources": [
+        {
+          "title": "福祉用具・住宅改修",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000212398.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "家族の介護",
+        "介護の住宅改修は"
+      ]
+    },
+    {
+      "id": "care-09",
+      "category": "care",
+      "title": "訪問介護は、頼む作業の範囲を確認する",
+      "summary": "身体介護と生活援助を、本人の暮らしに合わせて相談します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "必要な援助を具体的にケアプランへ伝えられる。",
+      "steps": [
+        "入浴・食事・家事の困難を分ける",
+        "ケアマネジャーに必要な援助を伝える",
+        "契約時に対応範囲と時間を確認する"
+      ],
+      "cautions": [
+        "家族の家事や医療行為など、対象外となる作業があります。"
+      ],
+      "sources": [
+        {
+          "title": "利用できる介護サービス",
+          "url": "https://www.city.yokohama.lg.jp/kenko-iryo-fukushi/fukushi-kaigo/koreisha-kaigo/kaigo-hoken/heart-page.files/0306_20260605.pdf",
+          "publisher": "横浜市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "家族の介護",
+        "訪問介護は"
+      ]
+    },
+    {
+      "id": "care-10",
+      "category": "care",
+      "title": "自宅で医療的ケアが必要なら、訪問看護を相談する",
+      "summary": "主治医と介護担当者に、在宅で必要な観察や支援を共有します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "医療と在宅生活の支援をつなげられる。",
+      "steps": [
+        "自宅で難しいケアを挙げる",
+        "主治医へ訪問看護の必要性を相談する",
+        "利用条件と緊急時の連絡先を確認する"
+      ],
+      "cautions": [
+        "医師の指示や保険区分により手続きと費用が変わります。"
+      ],
+      "sources": [
+        {
+          "title": "利用できる介護サービス",
+          "url": "https://www.city.yokohama.lg.jp/kenko-iryo-fukushi/fukushi-kaigo/koreisha-kaigo/kaigo-hoken/heart-page.files/0306_20260605.pdf",
+          "publisher": "横浜市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "家族の介護",
+        "自宅で医療的ケアが必要なら"
+      ]
+    },
+    {
+      "id": "care-11",
+      "category": "care",
+      "title": "介護する人の休息に、ショートステイを検討する",
+      "summary": "短期間の宿泊利用について、必要になる前から相談します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "家族の不在や休息を含めた介護計画を立てられる。",
+      "steps": [
+        "休息や不在の予定を伝える",
+        "本人に合う施設と空きを確認する",
+        "薬・生活習慣・連絡先を引き継ぐ"
+      ],
+      "cautions": [
+        "受入れ条件や空き状況があり、希望日に使えるとは限りません。"
+      ],
+      "sources": [
+        {
+          "title": "介護サービスのご紹介",
+          "url": "https://hama-gokoro.city.yokohama.lg.jp/care-services/",
+          "publisher": "横浜市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "家族の介護",
+        "介護する人の休息に"
+      ]
+    },
+    {
+      "id": "care-12",
+      "category": "care",
+      "title": "通所サービスは、本人の目的で選ぶ",
+      "summary": "入浴、交流、リハビリ等、通う目的を本人と共有します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "名前や近さだけでなく生活に合うサービスを探せる。",
+      "steps": [
+        "本人が続けたい生活を聞く",
+        "送迎・活動・支援内容を比較する",
+        "見学後に負担や相性を見直す"
+      ],
+      "cautions": [
+        "通所介護と通所リハビリは内容・利用条件が異なります。"
+      ],
+      "sources": [
+        {
+          "title": "利用できる介護サービス",
+          "url": "https://www.city.yokohama.lg.jp/kenko-iryo-fukushi/fukushi-kaigo/koreisha-kaigo/kaigo-hoken/heart-page.files/0306_20260605.pdf",
+          "publisher": "横浜市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "家族の介護",
+        "通所サービスは"
+      ]
+    },
+    {
+      "id": "care-13",
+      "category": "care",
+      "title": "もの忘れの変化は、具体例を持って相談する",
+      "summary": "気になる出来事を記録して、かかりつけ医等につなぎます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "診療や生活支援に役立つ情報を伝えられる。",
+      "steps": [
+        "以前との変化を日付付きでメモする",
+        "本人の気持ちを聞いて相談先を選ぶ",
+        "受診や生活支援の案内を確認する"
+      ],
+      "cautions": [
+        "家族だけで認知症と決めつけず、急な変化は早めに医療へ相談します。"
+      ],
+      "sources": [
+        {
+          "title": "認知症に関する相談先",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000076236_00003.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "家族の介護",
+        "もの忘れの変化は"
+      ]
+    },
+    {
+      "id": "care-14",
+      "category": "care",
+      "title": "認知症カフェで、本人も家族も相談相手を増やす",
+      "summary": "地域で経験や情報を共有できる場を調べます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "介護の情報と孤立を減らすつながりを得られる。",
+      "steps": [
+        "包括支援センターへ開催場所を尋ねる",
+        "参加対象と費用を確認する",
+        "本人の希望に合わせて見学する"
+      ],
+      "cautions": [
+        "参加は任意で、診断や治療を行う場とは限りません。"
+      ],
+      "sources": [
+        {
+          "title": "認知症に関する相談先",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000076236_00003.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "家族の介護",
+        "認知症カフェで"
+      ]
+    },
+    {
+      "id": "care-15",
+      "category": "care",
+      "title": "通い・訪問・宿泊をまとめる選択肢も比べる",
+      "summary": "小規模多機能型の支援が生活に合うか相談します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "日ごとに変わる支援をまとめて検討できる。",
+      "steps": [
+        "一週間の支援の不足を挙げる",
+        "小規模多機能の対応範囲を尋ねる",
+        "併用制限や費用も含めて比較する"
+      ],
+      "cautions": [
+        "地域密着型のサービスで、居住地や定員などの条件があります。"
+      ],
+      "sources": [
+        {
+          "title": "小規模多機能型居宅介護",
+          "url": "https://www.city.yokohama.lg.jp/kenko-iryo-fukushi/fukushi-kaigo/koreisha-kaigo/shisetsu/shisetu-annai/shouta.html",
+          "publisher": "横浜市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "家族の介護",
+        "通い・訪問・宿泊をまとめる選択肢も比べる"
+      ]
+    },
+    {
+      "id": "care-16",
+      "category": "care",
+      "title": "介護サービスへの不満は、事実を整理して相談する",
+      "summary": "日時と内容を残し、改善を求める窓口につなぎます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "困りごとを伝え、事業所の変更等も相談できる。",
+      "steps": [
+        "起きたことと希望する改善を書き出す",
+        "事業所やケアマネジャーに伝える",
+        "解決しなければ自治体等の窓口を利用する"
+      ],
+      "cautions": [
+        "窓口は地域により異なります。緊急の危険は安全確保を優先します。"
+      ],
+      "sources": [
+        {
+          "title": "介護保険に関するお問い合わせ窓口",
+          "url": "https://www.city.yokohama.lg.jp/kenko-iryo-fukushi/fukushi-kaigo/koreisha-kaigo/kaigo-hoken/kaigohoken-complaint/mado.html",
+          "publisher": "横浜市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "家族の介護",
+        "介護サービスへの不満は"
+      ]
+    },
+    {
+      "id": "relationship-07",
+      "category": "relationship",
+      "title": "離婚後の養育費は、具体的な取決めを相談する",
+      "summary": "支払額だけでなく、継続して受け取るための手続きを考えます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "こどもの生活費を継続的に確保する相談を進められる。",
+      "steps": [
+        "収入とこどもの支出を整理する",
+        "安全に話し合える方法を選ぶ",
+        "合意できなければ調停等の案内を確認する"
+      ],
+      "cautions": [
+        "法定養育費の額が個別の標準額という意味ではありません。"
+      ],
+      "sources": [
+        {
+          "title": "養育費請求調停",
+          "url": "https://www.courts.go.jp/saiban/syurui/syurui_kazi/kazi_07_07/index.html",
+          "publisher": "裁判所"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "家族・人間関係",
+        "離婚後の養育費は"
+      ]
+    },
+    {
+      "id": "relationship-08",
+      "category": "relationship",
+      "title": "別居中の生活費は、婚姻費用として相談する",
+      "summary": "離婚が成立していない期間の費用の分担を確認します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "別居中の生活を維持する手段を検討できる。",
+      "steps": [
+        "収入・支出・別居の経緯を記録する",
+        "裁判所の婚姻費用の案内を読む",
+        "申立書類と相談先を確認する"
+      ],
+      "cautions": [
+        "額や対象期間は個別事情によります。危険がある場合は相手と直接交渉しないでください。"
+      ],
+      "sources": [
+        {
+          "title": "婚姻費用の分担請求調停",
+          "url": "https://www.courts.go.jp/saiban/syurui/syurui_kazi/kazi_07_03/index.html",
+          "publisher": "裁判所"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "家族・人間関係",
+        "別居中の生活費は"
+      ]
+    },
+    {
+      "id": "relationship-09",
+      "category": "relationship",
+      "title": "親子交流は、こどもの状況を中心に相談する",
+      "summary": "親同士で話がまとまらない場合の手続きを知っておきます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "こどもの利益に配慮した調整を求められる。",
+      "steps": [
+        "こどもの生活と希望を整理する",
+        "安全性を含む懸念を専門家に伝える",
+        "必要なら家庭裁判所の手続きを確認する"
+      ],
+      "cautions": [
+        "交流の可否や方法は個別判断です。無理な直接交渉は避けます。"
+      ],
+      "sources": [
+        {
+          "title": "子どもに関する調停",
+          "url": "https://www.courts.go.jp/saiban/syurui/syurui_kazi/kazi_03_4/index.html",
+          "publisher": "裁判所"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "家族・人間関係",
+        "親子交流は"
+      ]
+    },
+    {
+      "id": "relationship-10",
+      "category": "relationship",
+      "title": "婚姻届を出す前に、届出先と必要書類を確認する",
+      "summary": "希望する日に届け出るため、書き方と受付方法を確かめます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "形式上の不足によるやり直しを減らせる。",
+      "steps": [
+        "自治体の記載案内を読む",
+        "証人欄と本人確認書類を準備する",
+        "休日提出や不備補正の扱いを尋ねる"
+      ],
+      "cautions": [
+        "国外や外国籍の人を含む届出では必要書類が異なります。"
+      ],
+      "sources": [
+        {
+          "title": "婚姻届",
+          "url": "https://www.city.yokohama.lg.jp/kurashi/koseki-zei-hoken/todokede/koseki-juminhyo/todokede-touroku/koseki/konin.html",
+          "publisher": "横浜市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "家族・人間関係",
+        "婚姻届を出す前に"
+      ]
+    },
+    {
+      "id": "relationship-11",
+      "category": "relationship",
+      "title": "パートナーシップ制度は、利用できるサービスも調べる",
+      "summary": "住む地域の制度と、証明書が使える手続きを確認します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "二人の暮らしに使える行政サービスを見つけられる。",
+      "steps": [
+        "自治体の宣誓条件を読む",
+        "予約と必要書類を確認する",
+        "住宅等の利用先で証明書の扱いを聞く"
+      ],
+      "cautions": [
+        "法律上の婚姻と同じ効果がある制度ではありません。資料は横浜市の例です。"
+      ],
+      "sources": [
+        {
+          "title": "パートナーシップ宣誓各種手続き",
+          "url": "https://www.city.yokohama.lg.jp/kurashi/kyodo-manabi/jinken/lgbt/partnershiptetsduki.html",
+          "publisher": "横浜市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "家族・人間関係",
+        "パートナーシップ制度は"
+      ]
+    },
+    {
+      "id": "relationship-12",
+      "category": "relationship",
+      "title": "家族の世話で学校生活が苦しいときは相談する",
+      "summary": "家事や介護を担うこども・若者も支援の対象です。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "学びや休息の時間を取り戻す支援につながれる。",
+      "steps": [
+        "世話の内容と生活への影響を書く",
+        "学校やこども家庭センターへ話す",
+        "本人と家族双方に必要な支援を相談する"
+      ],
+      "cautions": [
+        "家族を責めるための相談ではなく、窓口や支援の内容は地域で異なります。"
+      ],
+      "sources": [
+        {
+          "title": "ヤングケアラーのこと",
+          "url": "https://kodomoshien.cfa.go.jp/young-carer/about/",
+          "publisher": "こども家庭庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "家族・人間関係",
+        "家族の世話で学校生活が苦しいときは相談する"
+      ]
+    },
+    {
+      "id": "relationship-13",
+      "category": "relationship",
+      "title": "ひきこもりの相談は、家族だけでも窓口を調べる",
+      "summary": "本人を急がせず、地域の相談や居場所につながります。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "関わり方を家族だけで抱えず相談できる。",
+      "steps": [
+        "本人と家族の困りごとを分ける",
+        "自治体のひきこもり相談窓口を探す",
+        "家族相談や訪問等の対応を尋ねる"
+      ],
+      "cautions": [
+        "本人の意思を尊重し、外出や就労を一律の目標にしないでください。"
+      ],
+      "sources": [
+        {
+          "title": "ひきこもり支援に関する取組",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/hukushi_kaigo/seikatsuhogo/hikikomori/index.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "家族・人間関係",
+        "ひきこもりの相談は"
+      ]
+    },
+    {
+      "id": "relationship-14",
+      "category": "relationship",
+      "title": "性的な被害は、身近な相手でも専門窓口へ",
+      "summary": "性暴力に関する医療・心理・法律の支援を相談できます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "一人で被害を判断せず必要な支援を選べる。",
+      "steps": [
+        "今の安全と医療の必要性を優先する",
+        "安全な端末から#8891等へ連絡する",
+        "望む支援と連絡方法を伝える"
+      ],
+      "cautions": [
+        "つながらない回線は地域の直通窓口へ。緊急の危険は110等を利用します。"
+      ],
+      "sources": [
+        {
+          "title": "性犯罪・性暴力被害者のためのワンストップ支援センター",
+          "url": "https://www.gender.go.jp/policy/no_violence/seibouryoku/consult.html",
+          "publisher": "内閣府"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "家族・人間関係",
+        "性的な被害は"
+      ]
+    },
+    {
+      "id": "relationship-15",
+      "category": "relationship",
+      "title": "差別や嫌がらせの相談先を、人権窓口にも広げる",
+      "summary": "地域や家族関係で受けた人権上の悩みを相談します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "状況に応じた助言や手続きの案内を受けられる。",
+      "steps": [
+        "起きた日時と行為を記録する",
+        "法務省の公式相談ページを開く",
+        "安全に連絡を受けられる方法を伝える"
+      ],
+      "cautions": [
+        "インターネット相談の回答は後日で、緊急対応の窓口ではありません。"
+      ],
+      "sources": [
+        {
+          "title": "インターネット人権相談",
+          "url": "https://www.moj.go.jp/JINKEN/jinken113.html",
+          "publisher": "法務省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "家族・人間関係",
+        "差別や嫌がらせの相談先を"
+      ]
+    },
+    {
+      "id": "relationship-16",
+      "category": "relationship",
+      "title": "勝手な婚姻・離婚の届出が心配なら、不受理申出を確認する",
+      "summary": "本人の意思に基づかない届出を防ぐ制度があります。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "意思に反する届出への備えを具体化できる。",
+      "steps": [
+        "対象となる届出を自治体で確認する",
+        "本人確認書類を準備する",
+        "戸籍窓口で申出の方法を相談する"
+      ],
+      "cautions": [
+        "対象は限定され、既に受理された届出の取消しとは別の手続きです。"
+      ],
+      "sources": [
+        {
+          "title": "不受理申出",
+          "url": "https://www.city.yokohama.lg.jp/kurashi/koseki-zei-hoken/todokede/koseki-juminhyo/todokede-touroku/koseki/fujyuri-moushide.html?lang=zh",
+          "publisher": "横浜市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "家族・人間関係",
+        "勝手な婚姻・離婚の届出が心配なら"
+      ]
+    },
+    {
+      "id": "mobility-07",
+      "category": "mobility",
+      "title": "チャイルドシートは、体格と取付けを確かめる",
+      "summary": "年齢だけでなく、こどもと車に合う装着状態を確認します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "装着不良による保護性能の低下を防ぎやすくなる。",
+      "steps": [
+        "説明書で対応する体格と車種を確認する",
+        "固定とベルトの位置を点検する",
+        "短距離でも毎回正しく座らせる"
+      ],
+      "cautions": [
+        "6歳以上でも体格によって必要です。医療上の事情は専門家に相談します。"
+      ],
+      "sources": [
+        {
+          "title": "子供を守るチャイルドシート",
+          "url": "https://www.npa.go.jp/bureau/traffic/anzen/childseat.html",
+          "publisher": "警察庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "移動・交通",
+        "チャイルドシートは"
+      ]
+    },
+    {
+      "id": "mobility-08",
+      "category": "mobility",
+      "title": "後部座席でも、出発前にシートベルトを締める",
+      "summary": "近所への移動やタクシーでも、着用を確認します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "5分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "乗車中の衝突時の被害を抑える備えになる。",
+      "steps": [
+        "全員のベルトの位置を確かめる",
+        "ねじれや緩みを直す",
+        "全員が座ってから出発する"
+      ],
+      "cautions": [
+        "体格に合わないこどもには適切なチャイルドシートを使います。"
+      ],
+      "sources": [
+        {
+          "title": "全ての座席でシートベルトを着用しましょう",
+          "url": "https://www.npa.go.jp/bureau/traffic/anzen/seatbelt.html",
+          "publisher": "警察庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "移動・交通",
+        "後部座席でも"
+      ]
+    },
+    {
+      "id": "mobility-09",
+      "category": "mobility",
+      "title": "飲む日の帰り方を、出かける前に決める",
+      "summary": "飲酒後に運転せず帰れる計画を先に作ります。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "5分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "その場の判断に頼らず飲酒運転を防げる。",
+      "steps": [
+        "公共交通や代行の利用を決める",
+        "同行者と飲まない運転者を明確にする",
+        "翌朝も酒の影響が残る可能性を考える"
+      ],
+      "cautions": [
+        "自転車も飲酒運転は禁止です。少量なら安全とは判断できません。"
+      ],
+      "sources": [
+        {
+          "title": "飲酒運転を絶対にしない、させない",
+          "url": "https://www.npa.go.jp/bureau/traffic/insyu/info.html",
+          "publisher": "警察庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "移動・交通",
+        "飲む日の帰り方を"
+      ]
+    },
+    {
+      "id": "mobility-10",
+      "category": "mobility",
+      "title": "薬を使うときは、運転への影響を聞く",
+      "summary": "眠気が自覚できなくても、運転を避ける必要がある薬があります。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "5分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "服薬に伴う運転リスクを見落としにくくなる。",
+      "steps": [
+        "添付文書の運転の注意を読む",
+        "医師や薬剤師に運転予定を伝える",
+        "禁止・注意がある場合の移動手段を用意する"
+      ],
+      "cautions": [
+        "自己判断で薬を中止せず、具体的な服薬と運転は専門家に相談します。"
+      ],
+      "sources": [
+        {
+          "title": "運転免許・薬の副作用と運転",
+          "url": "https://www.npa.go.jp/bureau/traffic/menkyo/",
+          "publisher": "警察庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "移動・交通",
+        "薬を使うときは"
+      ]
+    },
+    {
+      "id": "mobility-11",
+      "category": "mobility",
+      "title": "高速道路で止まったときの避難手順を確認する",
+      "summary": "故障時は車内や車の近くで待ち続けない対応が重要です。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "二次事故を避ける行動を事前に共有できる。",
+      "steps": [
+        "車の停止表示器材を確認する",
+        "道路管理者の避難案内を同乗者と読む",
+        "停止時は安全な場所へ避難して通報する"
+      ],
+      "cautions": [
+        "器材の設置等で車道に無理に出ないでください。場所に応じ安全を優先します。"
+      ],
+      "sources": [
+        {
+          "title": "高速道路の安全利用",
+          "url": "https://www.c-nexco.co.jp/images/news/6251/20b1b6ac19e20946c2730291a57e7b54.pdf",
+          "publisher": "NEXCO中日本"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "移動・交通",
+        "高速道路で止まったときの避難手順を確認する"
+      ]
+    },
+    {
+      "id": "mobility-12",
+      "category": "mobility",
+      "title": "自転車保険は、加入済みの補償も確認する",
+      "summary": "地域の条例と、家族が既に持つ賠償補償を照らし合わせます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "重複契約を避けながら必要な賠償補償を確認できる。",
+      "steps": [
+        "利用地域の加入ルールを読む",
+        "既存保険の個人賠償責任補償を確認する",
+        "対象家族と補償範囲の不足を相談する"
+      ],
+      "cautions": [
+        "傷害保険だけでは相手への賠償を補償しないことがあります。"
+      ],
+      "sources": [
+        {
+          "title": "自転車損害賠償責任保険等への加入促進",
+          "url": "https://www.mlit.go.jp/road/bicycleuse/promotion/",
+          "publisher": "国土交通省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "移動・交通",
+        "自転車保険は"
+      ]
+    },
+    {
+      "id": "mobility-13",
+      "category": "mobility",
+      "title": "車いすで電車に乗る予定は、駅に伝える",
+      "summary": "乗換えや利用車両について、必要な案内を事前に確かめます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "当日の移動に必要な準備を具体化できる。",
+      "steps": [
+        "区間・日時・車いすの仕様をまとめる",
+        "鉄道会社の窓口へ介助等を相談する",
+        "乗換えと集合場所に余裕を持つ"
+      ],
+      "cautions": [
+        "事前連絡の方法や設備の制限は会社・駅・車両で異なります。"
+      ],
+      "sources": [
+        {
+          "title": "車いすをご利用のお客さまへ",
+          "url": "https://www.jreast.co.jp/en/equipment/equipment_1/wheelchair/",
+          "publisher": "JR東日本"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "移動・交通",
+        "車いすで電車に乗る予定は"
+      ]
+    },
+    {
+      "id": "mobility-14",
+      "category": "mobility",
+      "title": "障害者割引は、手帳と利用区間の条件を確かめる",
+      "summary": "鉄道の割引は、券種や本人・介護者の条件で変わります。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "利用できる割引を適切な方法で申し込める。",
+      "steps": [
+        "利用会社の公式案内を読む",
+        "対象の手帳・区分・区間を確認する",
+        "購入方法と乗車時の持参物をそろえる"
+      ],
+      "cautions": [
+        "JR東日本の例です。他社や商品に同じ条件が適用されるとは限りません。"
+      ],
+      "sources": [
+        {
+          "title": "障害者割引制度の案内",
+          "url": "https://jreastfaq.jreast.co.jp/faq/show/1175?category_id=27&site_domain=default",
+          "publisher": "JR東日本"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "移動・交通",
+        "障害者割引は"
+      ]
+    },
+    {
+      "id": "mobility-15",
+      "category": "mobility",
+      "title": "車の点検は、車検の間にも行う",
+      "summary": "タイヤや灯火など日常点検で変化を見つけます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "故障の兆候を早く見つけ整備につなげられる。",
+      "steps": [
+        "説明書と点検項目を確認する",
+        "安全な場所で外観と作動を確かめる",
+        "異常は整備工場に相談する"
+      ],
+      "cautions": [
+        "電動車等は車種ごとの手順を守り、不慣れな分解作業は行いません。"
+      ],
+      "sources": [
+        {
+          "title": "日常点検の方法",
+          "url": "https://www.mlit.go.jp/jidosha/anzen/02maintenance/daily_check.html",
+          "publisher": "国土交通省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "移動・交通",
+        "車の点検は"
+      ]
+    },
+    {
+      "id": "mobility-16",
+      "category": "mobility",
+      "title": "原付やバイクの自賠責期限を予定表に入れる",
+      "summary": "任意保険とは別に、加入と有効期間を確認します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "費用あり",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "無保険で運行する事態を防げる。",
+      "steps": [
+        "証明書と対象車両を照合する",
+        "満了日を確認する",
+        "切れる前に更新し証明書等を備える"
+      ],
+      "cautions": [
+        "車検のない車両でも必要です。任意保険だけで代用はできません。"
+      ],
+      "sources": [
+        {
+          "title": "自賠責保険・共済に加入するには",
+          "url": "https://www.mlit.go.jp/jidosha/jibaiseki/about/policyholder/index.html",
+          "publisher": "国土交通省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "移動・交通",
+        "原付やバイクの自賠責期限を予定表に入れる"
+      ]
+    },
+    {
+      "id": "business-07",
+      "category": "business",
+      "title": "店名や商品名は、使い始める前に商標を調べる",
+      "summary": "看板や包装に投資する前に、権利の確認を進めます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "名称変更や権利紛争のリスクを事前に検討できる。",
+      "steps": [
+        "J-PlatPatで名称や類似語を調べる",
+        "使う商品・サービスの分野を整理する",
+        "判断が難しければ知財総合支援窓口へ相談する"
+      ],
+      "cautions": [
+        "検索結果だけで侵害の有無を確定できません。"
+      ],
+      "sources": [
+        {
+          "title": "知的財産権を事業に活かそう",
+          "url": "https://www.jpo.go.jp/support/chusho/index.html",
+          "publisher": "特許庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "小さく事業を始める",
+        "店名や商品名は"
+      ]
+    },
+    {
+      "id": "business-08",
+      "category": "business",
+      "title": "ネット販売は、販売条件を購入前に見せる",
+      "summary": "送料、支払方法、引渡時期などの表示を整えます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "購入条件の誤解と表示漏れを減らせる。",
+      "steps": [
+        "消費者庁の表示項目を確認する",
+        "自店の条件を具体的に記載する",
+        "購入者の画面で読みやすさを点検する"
+      ],
+      "cautions": [
+        "取扱商品や売り方により追加の規制がある場合があります。"
+      ],
+      "sources": [
+        {
+          "title": "通信販売の規制",
+          "url": "https://www.no-trouble.caa.go.jp/what/mailorder/",
+          "publisher": "消費者庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "小さく事業を始める",
+        "ネット販売は"
+      ]
+    },
+    {
+      "id": "business-09",
+      "category": "business",
+      "title": "返品条件は、問い合わせ対応の前に決める",
+      "summary": "返品の可否、期限、送料負担を明確に伝えます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "返品を巡る判断のばらつきを減らせる。",
+      "steps": [
+        "商品不良と顧客都合を分ける",
+        "返品条件を広告と必要な画面へ示す",
+        "受付担当と返送方法を整える"
+      ],
+      "cautions": [
+        "不適合商品への責任と、顧客都合の返品特約は区別が必要です。"
+      ],
+      "sources": [
+        {
+          "title": "通信販売広告Q&A",
+          "url": "https://www.no-trouble.caa.go.jp/qa/advertising.html-2",
+          "publisher": "消費者庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "小さく事業を始める",
+        "返品条件は"
+      ]
+    },
+    {
+      "id": "business-10",
+      "category": "business",
+      "title": "顧客情報は、集める目的と管理者を決める",
+      "summary": "小さな事業でも、個人情報の取扱いを整理します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "顧客情報の不用意な利用や持ち出しを減らせる。",
+      "steps": [
+        "保有する情報と利用目的を一覧にする",
+        "必要な通知・安全管理・委託管理を確認する",
+        "開示等の申出窓口を決める"
+      ],
+      "cautions": [
+        "少人数の顧客だけでも法律の対象になり得ます。詳細は公式ガイドで確認します。"
+      ],
+      "sources": [
+        {
+          "title": "個人情報保護法10のチェックポイント",
+          "url": "https://www.ppc.go.jp/files/pdf/10_checkpoint.pdf",
+          "publisher": "個人情報保護委員会"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "小さく事業を始める",
+        "顧客情報は"
+      ]
+    },
+    {
+      "id": "business-11",
+      "category": "business",
+      "title": "仕事のデータは、復元まで試せる形で備える",
+      "summary": "端末故障や攻撃を想定し、重要データのバックアップを整えます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "障害時に事業を再開する手がかりを残せる。",
+      "steps": [
+        "失うと仕事が止まるデータを選ぶ",
+        "端末と別の安全な場所へ保存する",
+        "定期的に復元できるか試す"
+      ],
+      "cautions": [
+        "単なる同期では削除等も反映されることがあります。委託先の仕様も確認します。"
+      ],
+      "sources": [
+        {
+          "title": "中小企業の情報セキュリティ対策ガイドライン",
+          "url": "https://www.ipa.go.jp/security/guide/sme/about.html",
+          "publisher": "情報処理推進機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "小さく事業を始める",
+        "仕事のデータは"
+      ]
+    },
+    {
+      "id": "business-12",
+      "category": "business",
+      "title": "電子の請求書は、電子取引の保存要件を調べる",
+      "summary": "メールやサイトで受け取る取引データの保存方法を確認します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "申告後も必要な取引記録を取り出せる。",
+      "steps": [
+        "電子で受け取る書類を洗い出す",
+        "国税庁の要件と緩和措置を読む",
+        "検索・提示できる保管方法を決める"
+      ],
+      "cautions": [
+        "印刷だけで要件を満たすと一律には判断できません。事業の条件で扱いが異なります。"
+      ],
+      "sources": [
+        {
+          "title": "電子取引関係",
+          "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/tokusetsu/01.htm",
+          "publisher": "国税庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "小さく事業を始める",
+        "電子の請求書は"
+      ]
+    },
+    {
+      "id": "business-13",
+      "category": "business",
+      "title": "中古品を仕入れて売る前に、古物営業の扱いを確認する",
+      "summary": "家庭の不用品処分と、仕入販売の事業を区別します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "事業開始後の許可漏れを避けやすくなる。",
+      "steps": [
+        "仕入先と販売方法を整理する",
+        "営業所を管轄する警察へ許可の要否を確認する",
+        "必要な申請と管理者の準備を進める"
+      ],
+      "cautions": [
+        "品目・取引形態によって扱いが異なります。資料は東京都の申請例です。"
+      ],
+      "sources": [
+        {
+          "title": "古物商許可申請",
+          "url": "https://www.keishicho.metro.tokyo.lg.jp/tetsuzuki/kobutsu/tetsuzuki/kyoka.html?referral=referral%3Dfbadcv",
+          "publisher": "警視庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "小さく事業を始める",
+        "中古品を仕入れて売る前に"
+      ]
+    },
+    {
+      "id": "business-14",
+      "category": "business",
+      "title": "災害で止められない業務を、一つ決めて備える",
+      "summary": "小規模事業向けの計画を参考に、優先業務を整理します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "被災後に何から再開するか判断しやすくなる。",
+      "steps": [
+        "止まると影響が大きい業務を挙げる",
+        "連絡先・代替設備・情報保存を決める",
+        "訓練して計画を更新する"
+      ],
+      "cautions": [
+        "計画の認定と補助金等の採択は別で、支援には各条件があります。"
+      ],
+      "sources": [
+        {
+          "title": "事業継続力強化計画",
+          "url": "https://www.chusho.meti.go.jp/keiei/antei/bousai/keizokuryoku.html?post_id=7475",
+          "publisher": "中小企業庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "小さく事業を始める",
+        "災害で止められない業務を"
+      ]
+    },
+    {
+      "id": "business-15",
+      "category": "business",
+      "title": "広告の画像や文章は、利用条件を確認する",
+      "summary": "検索で見つかった作品を、そのまま商用利用しないようにします。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "広告の権利関係を説明できる状態にする。",
+      "steps": [
+        "作者と利用許諾の条件を調べる",
+        "商用利用・加工・表示義務を確認する",
+        "購入証明と許諾記録を保管する"
+      ],
+      "cautions": [
+        "無料素材でも利用制限があり、肖像権等は別に確認が必要です。"
+      ],
+      "sources": [
+        {
+          "title": "他人の著作物を利用したい場合",
+          "url": "https://www.bunka.go.jp/seisaku/chosakuken/seidokaisetsu/chosakukensha_fumei/",
+          "publisher": "文化庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "小さく事業を始める",
+        "広告の画像や文章は"
+      ]
+    },
+    {
+      "id": "business-16",
+      "category": "business",
+      "title": "制作を受注するときは、著作権の扱いも決める",
+      "summary": "納品物の使い方と権利の範囲を契約に含めます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "納品後の利用を巡る食い違いを減らせる。",
+      "steps": [
+        "誰が何に使う作品かを確認する",
+        "利用範囲と権利の帰属を話し合う",
+        "二次利用や修正の条件を記録する"
+      ],
+      "cautions": [
+        "権利を全面譲渡するか利用許諾にするかで効果が異なり、専門相談が必要な場合があります。"
+      ],
+      "sources": [
+        {
+          "title": "誰でもできる著作権契約マニュアル・創作された著作物の権利と利用",
+          "url": "https://www.bunka.go.jp/chosakuken/keiyaku_manual/2_3_2B.html",
+          "publisher": "文化庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "小さく事業を始める",
+        "制作を受注するときは"
+      ]
+    },
+    {
+      "id": "endoflife-07",
+      "category": "endoflife",
+      "title": "判断できるうちに、任意後見という備えを知る",
+      "summary": "将来任せたい人と事務を、制度に沿って検討します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "将来の支援者と支援内容を自分の意思で考えられる。",
+      "steps": [
+        "財産管理や契約で任せたい内容を書く",
+        "任意後見の開始条件と費用を確認する",
+        "公証人や専門家に契約を相談する"
+      ],
+      "cautions": [
+        "契約だけですぐ発効するわけではなく、任意後見監督人の選任が必要です。"
+      ],
+      "sources": [
+        {
+          "title": "成年後見制度の案内",
+          "url": "https://www.moj.go.jp/MINJI/pdf/pamphlet.pdf",
+          "publisher": "法務省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "相続・もしもの備え",
+        "判断できるうちに"
+      ]
+    },
+    {
+      "id": "endoflife-08",
+      "category": "endoflife",
+      "title": "判断力が低下した後の財産管理は、成年後見を相談する",
+      "summary": "本人の権利を守る制度が必要か、専門窓口で検討します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "本人のための法的な支援方法を検討できる。",
+      "steps": [
+        "本人が困る契約や管理を整理する",
+        "地域の相談窓口へ現状を伝える",
+        "制度の範囲・継続費用・申立てを確認する"
+      ],
+      "cautions": [
+        "家族の希望した人が必ず選任されるわけではありません。"
+      ],
+      "sources": [
+        {
+          "title": "成年後見制度の概要",
+          "url": "https://www.courts.go.jp/saiban/koukenp00/koukenp1/index.html",
+          "publisher": "裁判所"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "相続・もしもの備え",
+        "判断力が低下した後の財産管理は"
+      ]
+    },
+    {
+      "id": "endoflife-09",
+      "category": "endoflife",
+      "title": "身元保証サービスは、契約と預託金を慎重に読む",
+      "summary": "長期契約は支援内容と支払能力を合わせて考えます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "不要な契約や返金トラブルを避けやすくなる。",
+      "steps": [
+        "必要なサービスだけを書き出す",
+        "料金・解約・預託金管理を比較する",
+        "不安な点を包括支援センター等へ相談する"
+      ],
+      "cautions": [
+        "サービス名が同じでも内容は異なり、公的な保証を意味しません。"
+      ],
+      "sources": [
+        {
+          "title": "高齢者等終身サポート事業の利用に関する注意点",
+          "url": "https://www.caa.go.jp/policies/policy/consumer_policy/caution/caution_018/",
+          "publisher": "消費者庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "相続・もしもの備え",
+        "身元保証サービスは"
+      ]
+    },
+    {
+      "id": "endoflife-10",
+      "category": "endoflife",
+      "title": "死後の事務を頼むなら、範囲と実施確認を決める",
+      "summary": "葬儀、解約、家財整理等を誰が担うか整理します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "身近な支援者がいない場合の段取りを準備できる。",
+      "steps": [
+        "頼む事務と連絡先を一覧にする",
+        "事業者の実施体制と費用を確認する",
+        "契約内容と確認役を専門家に相談する"
+      ],
+      "cautions": [
+        "相続財産の処分権限や遺言の内容とは別に検討が必要です。"
+      ],
+      "sources": [
+        {
+          "title": "高齢者等終身サポート事業者ガイドライン",
+          "url": "https://www.mhlw.go.jp/content/001262636.pdf?campaign=sbi",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "相続・もしもの備え",
+        "死後の事務を頼むなら"
+      ]
+    },
+    {
+      "id": "endoflife-11",
+      "category": "endoflife",
+      "title": "財産の一覧には、借入れと持分も残す",
+      "summary": "預貯金だけでなく、不動産や負債の存在を記録します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "遺された人が調査を始める手がかりを持てる。",
+      "steps": [
+        "金融機関と不動産の所在をまとめる",
+        "借入先や共有持分を確かめる",
+        "安全な保管場所と更新日を決める"
+      ],
+      "cautions": [
+        "一覧だけで相続手続きは完了しません。暗証番号等は不用意に同じ紙へ書きません。"
+      ],
+      "sources": [
+        {
+          "title": "栄区版エンディングノート",
+          "url": "https://www.city.yokohama.lg.jp/sakae/kenko-iryo-fukushi/fukushi_kaigo/koreisha_kaigo/hoken-igai/korei11.files/0009_20260105.pdf",
+          "publisher": "横浜市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "相続・もしもの備え",
+        "財産の一覧には"
+      ]
+    },
+    {
+      "id": "endoflife-12",
+      "category": "endoflife",
+      "title": "もしもの連絡先を、関係が分かる形で残す",
+      "summary": "家族が知らない友人や仕事相手への連絡希望を整理します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "家族が連絡すべき相手を探す負担を減らせる。",
+      "steps": [
+        "連絡してほしい相手を選ぶ",
+        "連絡先と関係を記す",
+        "伝える時期の希望と保管場所を共有する"
+      ],
+      "cautions": [
+        "相手の個人情報も含むため、公開の共有ファイルには置かないでください。"
+      ],
+      "sources": [
+        {
+          "title": "エンディングノートの書き方・葬儀とお墓",
+          "url": "https://www.city.yokohama.lg.jp/seya/kenko-iryo-fukushi/fukushi_kaigo/koreisha_kaigo/torikumi/kourei18.files/0006_20220510.pdf",
+          "publisher": "横浜市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "相続・もしもの備え",
+        "もしもの連絡先を"
+      ]
+    },
+    {
+      "id": "endoflife-13",
+      "category": "endoflife",
+      "title": "墓を移す計画は、改葬の手続きを確認する",
+      "summary": "契約や撤去の前に、現在と移転先の管理者へ相談します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "移転先や許可が整わないまま工事する事態を避けられる。",
+      "steps": [
+        "現在の墓と遺骨の状況を確認する",
+        "自治体に改葬許可の必要書類を尋ねる",
+        "新しい納骨先と費用を決めて手続きする"
+      ],
+      "cautions": [
+        "単なる場所の変更でも許可等が必要になります。自治体ごとの案内に従います。"
+      ],
+      "sources": [
+        {
+          "title": "墓地、埋葬等に関する法律の概要",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000130181.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "相続・もしもの備え",
+        "墓を移す計画は"
+      ]
+    },
+    {
+      "id": "endoflife-14",
+      "category": "endoflife",
+      "title": "散骨を希望するなら、場所と契約内容まで確認する",
+      "summary": "希望だけで終えず、法令や地域の扱いを確認します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "希望する葬送の実施条件を具体化できる。",
+      "steps": [
+        "家族等へ希望を共有する",
+        "業者に実施場所と方法を聞く",
+        "条例・証明・料金・中止条件を確認する"
+      ],
+      "cautions": [
+        "どこでも自由に散骨できるわけではなく、事業者向けガイドも踏まえた確認が必要です。"
+      ],
+      "sources": [
+        {
+          "title": "散骨に関するガイドライン",
+          "url": "https://www.mhlw.go.jp/content/11130500/001321304.pdf",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "相続・もしもの備え",
+        "散骨を希望するなら"
+      ]
+    },
+    {
+      "id": "endoflife-15",
+      "category": "endoflife",
+      "title": "遺言を保管した後も、生活の変化に合わせて見直す",
+      "summary": "住所の変更と、遺言の内容の変更では手続きが異なります。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "古い情報で希望が伝わりにくくなることを防げる。",
+      "steps": [
+        "財産や関係者の変更を確認する",
+        "内容変更と保管情報の変更を分ける",
+        "法務局等に必要な届出や作成を相談する"
+      ],
+      "cautions": [
+        "保管申請の撤回と遺言自体の撤回は同じではありません。"
+      ],
+      "sources": [
+        {
+          "title": "保管後の内容変更や撤回",
+          "url": "https://houmukyoku.moj.go.jp/osaka/hokangononaiyouhenkoutekkai.html",
+          "publisher": "大阪法務局"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "相続・もしもの備え",
+        "遺言を保管した後も"
+      ]
+    },
+    {
+      "id": "endoflife-16",
+      "category": "endoflife",
+      "title": "事業の引継ぎは、後継者未定でも相談する",
+      "summary": "店や仕事を続ける選択肢を、公的な窓口で検討します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "廃業を決める前に引継ぎの可能性を調べられる。",
+      "steps": [
+        "引き継ぐ資産・取引・技能を整理する",
+        "事業承継・引継ぎ支援センターへ相談する",
+        "親族・従業員・第三者の選択肢を比べる"
+      ],
+      "cautions": [
+        "後継者や譲渡先が必ず見つかるとは限らず、税務・法律面は別途確認します。"
+      ],
+      "sources": [
+        {
+          "title": "事業承継・引継ぎ支援センター",
+          "url": "https://shoukei.smrj.go.jp/center/",
+          "publisher": "中小企業基盤整備機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "相続・もしもの備え",
+        "事業の引継ぎは"
+      ]
+    },
+    {
+      "id": "education-01",
+      "category": "education",
+      "title": "就学援助の対象を学校か市区町村に確認する",
+      "summary": "学用品や給食などの負担が重いときは、小中学校の就学援助を調べる。",
+      "audience": [
+        "小中学生の保護者"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "学校生活に必要な支出の支援を見落としにくくなる。",
+      "steps": [
+        "自治体の就学援助案内を読む",
+        "学校か教育委員会に家計状況と必要書類を相談する",
+        "申請後の更新や追加書類の案内を保管する"
+      ],
+      "cautions": [
+        "認定基準、対象費目、申請時期は自治体で異なる。"
+      ],
+      "sources": [
+        {
+          "title": "就学援助制度について",
+          "url": "https://www.mext.go.jp/a_menu/shotou/career/05010502/017.htm",
+          "publisher": "文部科学省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "学校・教育費",
+        "就学援助の対象を学校か市区町村に確認する"
+      ]
+    },
+    {
+      "id": "education-02",
+      "category": "education",
+      "title": "高校の授業料支援は入学後の案内まで確認する",
+      "summary": "授業料の支援制度は、学校からの申請案内と当年度の条件を照合する。",
+      "audience": [
+        "高校生と保護者"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "申請忘れによる授業料負担を避けやすくなる。",
+      "steps": [
+        "通う学校の就学支援金の案内を受け取る",
+        "世帯情報と提出方法を確認する",
+        "申請状況と学校からの連絡を確認する"
+      ],
+      "cautions": [
+        "制度改正や学校種別によって条件が変わる。自動的に適用されるとは限らない。"
+      ],
+      "sources": [
+        {
+          "title": "高校生等への修学支援",
+          "url": "https://www.mext.go.jp/a_menu/shotou/mushouka/index.htm?mode=PC",
+          "publisher": "文部科学省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "学校・教育費",
+        "高校の授業料支援は入学後の案内まで確認する"
+      ]
+    },
+    {
+      "id": "education-03",
+      "category": "education",
+      "title": "教材費などは高校生等奨学給付金を別に調べる",
+      "summary": "授業料以外の教育費に対する支援も、授業料支援とは別に確認する。",
+      "audience": [
+        "高校生と保護者"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "教材など授業料以外の支出にも相談先ができる。",
+      "steps": [
+        "都道府県の奨学給付金案内を開く",
+        "学校へ対象世帯と必要書類を尋ねる",
+        "他の支援と区別して申請予定を記録する"
+      ],
+      "cautions": [
+        "住む都道府県、世帯状況、公私立の別などで窓口や条件が異なる。"
+      ],
+      "sources": [
+        {
+          "title": "高校生等への修学支援",
+          "url": "https://www.mext.go.jp/a_menu/shotou/mushouka/index.htm?mode=PC",
+          "publisher": "文部科学省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "学校・教育費",
+        "教材費などは高校生等奨学給付金を別に調べる"
+      ]
+    },
+    {
+      "id": "education-04",
+      "category": "education",
+      "title": "進学先が修学支援の対象校か確かめる",
+      "summary": "大学・短大・高専・専門学校は、進学前に支援対象機関の一覧と照合する。",
+      "audience": [
+        "進学を考える人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "支援を前提にした進学費用の見積もりを正しやすくなる。",
+      "steps": [
+        "候補校の正式名称を調べる",
+        "文部科学省の対象機関一覧で確認する",
+        "学校窓口で自分の申請資格と手順を確認する"
+      ],
+      "cautions": [
+        "対象校であることだけで個人の採用が決まるわけではない。"
+      ],
+      "sources": [
+        {
+          "title": "高等教育の修学支援新制度の対象機関",
+          "url": "https://www.mext.go.jp/a_menu/koutou/hutankeigen/1421838.htm",
+          "publisher": "文部科学省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "学校・教育費",
+        "進学先が修学支援の対象校か確かめる"
+      ]
+    },
+    {
+      "id": "education-05",
+      "category": "education",
+      "title": "家計が急変したら奨学金の臨時申込みを相談する",
+      "summary": "失職や災害などで家計が変わったときは、通常募集を待たず学校に相談する。",
+      "audience": [
+        "家計が急変した学生"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "在学継続に必要な資金の相談を早く始められる。",
+      "steps": [
+        "変化した事情と発生日を整理する",
+        "学校の奨学金担当に利用できる制度を尋ねる",
+        "必要な証明書と申請時期を確認する"
+      ],
+      "cautions": [
+        "認められる事情、申込期限、給付・貸与の別は制度ごとに異なる。"
+      ],
+      "sources": [
+        {
+          "title": "被災・家計急変時の申込み",
+          "url": "https://www.jasso.go.jp/shogakukin/moshikomi/rinji/index.html",
+          "publisher": "日本学生支援機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "学校・教育費",
+        "家計が急変したら奨学金の臨時申込みを相談する"
+      ]
+    },
+    {
+      "id": "education-06",
+      "category": "education",
+      "title": "不登校のときは学びの場所を複数相談する",
+      "summary": "学校以外の支援や学習機会を含め、本人の状態に合う方法を探す。",
+      "audience": [
+        "学校に通いづらい子どもと家族"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "登校だけを唯一の目標にせず学びを続ける道を探せる。",
+      "steps": [
+        "本人が困っていることと希望を無理のない範囲で聞く",
+        "学校と教育支援センターに選択肢を尋ねる",
+        "見学や相談を経て続けられる方法を検討する"
+      ],
+      "cautions": [
+        "学校外での学びの出席扱いなどは個別の条件と学校の判断による。"
+      ],
+      "sources": [
+        {
+          "title": "不登校への対応",
+          "url": "https://www.mext.go.jp/a_menu/shotou/seitoshidou/04121505/004.htm",
+          "publisher": "文部科学省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "学校・教育費",
+        "不登校のときは学びの場所を複数相談する"
+      ]
+    },
+    {
+      "id": "education-07",
+      "category": "education",
+      "title": "就学相談では必要な配慮を具体例で伝える",
+      "summary": "診断名だけでなく、学習や移動、意思疎通で必要な支援を整理する。",
+      "audience": [
+        "障害のある子どもと保護者"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "入学後の生活に必要な支援を話し合いやすくなる。",
+      "steps": [
+        "本人の得意なことと困る場面を記録する",
+        "教育委員会の就学相談に連絡する",
+        "見学や面談で支援内容を確認する"
+      ],
+      "cautions": [
+        "学びの場は本人・保護者の意向や教育的ニーズなどを踏まえて検討される。"
+      ],
+      "sources": [
+        {
+          "title": "障害のある子供の教育支援の手引",
+          "url": "https://www.mext.go.jp/content/20210629-mxt_tokubetu01-000016487_01.pdf",
+          "publisher": "文部科学省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "学校・教育費",
+        "就学相談では必要な配慮を具体例で伝える"
+      ]
+    },
+    {
+      "id": "education-08",
+      "category": "education",
+      "title": "学校生活と家庭の問題はスクールソーシャルワーカーへ",
+      "summary": "経済面や家庭環境が学校生活に影響するときは、福祉につなぐ相談も使う。",
+      "audience": [
+        "子どもと保護者"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "学校と福祉の窓口を別々に探す負担を減らせる。",
+      "steps": [
+        "学校生活で起きている困りごとを整理する",
+        "学校にスクールソーシャルワーカーへの相談方法を尋ねる",
+        "共有する情報と次の相談先を一緒に確認する"
+      ],
+      "cautions": [
+        "配置や相談の頻度は地域・学校で異なる。"
+      ],
+      "sources": [
+        {
+          "title": "不登校児童生徒への支援の在り方について",
+          "url": "https://www.mext.go.jp/a_menu/shotou/seitoshidou/1422155.htm",
+          "publisher": "文部科学省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "学校・教育費",
+        "学校生活と家庭の問題はスクールソーシャルワーカーへ"
+      ]
+    },
+    {
+      "id": "education-09",
+      "category": "education",
+      "title": "放課後児童クラブは長期休業中の条件まで調べる",
+      "summary": "日常の放課後だけでなく、夏休みなどの預かり時間も確認して選ぶ。",
+      "audience": [
+        "小学生の保護者"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "入学後や長期休業中の仕事と家庭の予定を立てやすくなる。",
+      "steps": [
+        "自治体の放課後児童クラブ案内を読む",
+        "対象学年、開所日、長期休業中の時間を尋ねる",
+        "就労状況など必要書類をそろえる"
+      ],
+      "cautions": [
+        "受入要件、定員、費用、利用時間は自治体や施設で異なる。"
+      ],
+      "sources": [
+        {
+          "title": "放課後児童クラブ",
+          "url": "https://www.cfa.go.jp/policies/kosodateshien/houkago-jidou",
+          "publisher": "こども家庭庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "学校・教育費",
+        "放課後児童クラブは長期休業中の条件まで調べる"
+      ]
+    },
+    {
+      "id": "education-10",
+      "category": "education",
+      "title": "学校でけがをしたら災害共済給付の手順を聞く",
+      "summary": "学校管理下のけがは、学校へ報告して利用できる給付と書類を確認する。",
+      "audience": [
+        "児童生徒と保護者"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "対象となる医療費の手続きを見落としにくくなる。",
+      "steps": [
+        "日時、場所、受診先を学校へ伝える",
+        "災害共済給付の対象と必要書類を尋ねる",
+        "医療機関の記入などを整えて学校に提出する"
+      ],
+      "cautions": [
+        "加入状況、事故の状況、医療費助成との扱いなどによって異なる。"
+      ],
+      "sources": [
+        {
+          "title": "災害共済給付・保護者の方へ",
+          "url": "https://www.jpnsport.go.jp/anzen/saigai/seido/tabid/60/default.aspx",
+          "publisher": "日本スポーツ振興センター"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "学校・教育費",
+        "学校でけがをしたら災害共済給付の手順を聞く"
+      ]
+    },
+    {
+      "id": "education-11",
+      "category": "education",
+      "title": "いじめの相談先を学校の外にも持つ",
+      "summary": "学校に話しづらいときは、24時間子供SOSダイヤルなどを利用する。",
+      "audience": [
+        "子どもと保護者"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "身近な学校だけでは話せない困りごとの相談先が増える。",
+      "steps": [
+        "起きたことを安全な場所で記録する",
+        "24時間子供SOSダイヤルの案内を確認する",
+        "本人の安全を優先して相談する"
+      ],
+      "cautions": [
+        "緊急の危険があるときは警察や救急へ。相談内容により対応先が変わる。"
+      ],
+      "sources": [
+        {
+          "title": "24時間子供SOSダイヤル",
+          "url": "https://www.mext.go.jp/a_menu/h30gouu7/1407291.htm",
+          "publisher": "文部科学省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "学校・教育費",
+        "いじめの相談先を学校の外にも持つ"
+      ]
+    },
+    {
+      "id": "education-12",
+      "category": "education",
+      "title": "高卒認定で進学資格を得る道を調べる",
+      "summary": "高校卒業とは別の制度として、高卒認定試験の受験資格と用途を確認する。",
+      "audience": [
+        "学び直しを考える人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "学校歴に応じた進学の選択肢を増やせる。",
+      "steps": [
+        "文部科学省の試験概要を読む",
+        "受験資格や科目免除の条件を確認する",
+        "進学先の出願条件と学習計画を照合する"
+      ],
+      "cautions": [
+        "合格は高校卒業そのものではない。年齢や進学先の要件も確認する。"
+      ],
+      "sources": [
+        {
+          "title": "高等学校卒業程度認定試験の概要",
+          "url": "https://www.mext.go.jp/a_menu/koutou/shiken/mext_01319.html",
+          "publisher": "文部科学省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "学校・教育費",
+        "高卒認定で進学資格を得る道を調べる"
+      ]
+    },
+    {
+      "id": "education-13",
+      "category": "education",
+      "title": "義務教育を十分に受けられなかったら夜間中学を調べる",
+      "summary": "年齢にかかわらず学び直せる場として、地域の夜間中学を探す。",
+      "audience": [
+        "義務教育を十分に受けられなかった人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "基礎から学び直すための公的な選択肢が分かる。",
+      "steps": [
+        "文部科学省の夜間中学案内を見る",
+        "近隣校の教育委員会に入学条件を尋ねる",
+        "授業時間と通学手段を確認して相談する"
+      ],
+      "cautions": [
+        "対象や通学可能な範囲は学校・自治体で異なる。"
+      ],
+      "sources": [
+        {
+          "title": "夜間中学で学びたい方へ",
+          "url": "https://www.mext.go.jp/a_menu/shotou/yakan/index_00005.htm",
+          "publisher": "文部科学省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "学校・教育費",
+        "義務教育を十分に受けられなかったら夜間中学を調べる"
+      ]
+    },
+    {
+      "id": "education-14",
+      "category": "education",
+      "title": "通信制高校は本校とサポート施設を区別して比較する",
+      "summary": "卒業要件、登校の頻度、費用の支払先をまとめて確認する。",
+      "audience": [
+        "高校進学・転入を考える人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "名称や広告だけで進学先を選ぶことを避けられる。",
+      "steps": [
+        "卒業証書を出す高等学校の名称を確認する",
+        "面接指導や試験に行く場所と頻度を尋ねる",
+        "学校とサポート施設の費用を合計して比較する"
+      ],
+      "cautions": [
+        "サポート施設への在籍だけで高校卒業資格が得られるわけではない。"
+      ],
+      "sources": [
+        {
+          "title": "通信制高等学校・よくある質問",
+          "url": "https://www.mext.go.jp/tsushinseikoukou/faq/",
+          "publisher": "文部科学省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "学校・教育費",
+        "通信制高校は本校とサポート施設を区別して比較する"
+      ]
+    },
+    {
+      "id": "education-15",
+      "category": "education",
+      "title": "大学の障害学生支援は入学前から相談する",
+      "summary": "受験や授業で必要な配慮は、大学の相談窓口に本人の希望と困りごとを伝えて検討する。",
+      "audience": [
+        "大学等への進学を考える人・学生"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "入学や授業の前に必要な調整を相談できる。",
+      "steps": [
+        "志望校の障害学生支援窓口を調べる",
+        "受験・授業・通学で困る場面と希望を整理する",
+        "相談時期と必要資料を確認して話し合う"
+      ],
+      "cautions": [
+        "配慮の内容は本人の状況と大学との対話によって決まる。希望した方法がそのまま実現するとは限らない。"
+      ],
+      "sources": [
+        {
+          "title": "障害のある学生の修学支援に関する検討会報告（第三次まとめ）",
+          "url": "https://www.mext.go.jp/b_menu/shingi/chousa/koutou/123/mext_01732.html",
+          "publisher": "文部科学省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "学校・教育費",
+        "障害学生支援",
+        "合理的配慮"
+      ]
+    },
+    {
+      "id": "education-16",
+      "category": "education",
+      "title": "無料教材は公的ポータルから探す",
+      "summary": "小学生向けの学習や自由研究は、無料教材をまとめた案内から探す。",
+      "audience": [
+        "小学生と保護者"
+      ],
+      "cost": "無料",
+      "time": "継続",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "教材を購入する前に子どもの関心を確かめられる。",
+      "steps": [
+        "たのしくまなび隊の案内を開く",
+        "子どもの興味に合う教材を一つ選ぶ",
+        "端末や登録条件を確認して一緒に試す"
+      ],
+      "cautions": [
+        "紹介先ごとに利用条件が異なる。教材は学校での学習や個別支援の代わりとは限らない。"
+      ],
+      "sources": [
+        {
+          "title": "学習支援ポータルサイトの開設",
+          "url": "https://www.mext.go.jp/b_menu/houdou/mext_01362.html",
+          "publisher": "文部科学省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "学校・教育費",
+        "無料教材は公的ポータルから探す"
+      ]
+    },
+    {
+      "id": "travel-01",
+      "category": "travel",
+      "title": "予約ボタンの前にキャンセル条件を保存する",
+      "summary": "宿泊日、人数、部屋条件と取消料を一画面ずつ確認する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "予約違いや取消費用の行き違いを減らせる。",
+      "steps": [
+        "予約内容と取消条件を読む",
+        "支払先と問い合わせ先を保存する",
+        "確定メールで日付と人数を再確認する"
+      ],
+      "cautions": [
+        "サイトやプランによって取消条件が異なる。旅行のネット予約に一般的なクーリング・オフを期待しない。"
+      ],
+      "sources": [
+        {
+          "title": "インターネットで予約した旅行に関するトラブル",
+          "url": "https://www.kokusen.go.jp/news/data/n-20230920_1.html",
+          "publisher": "国民生活センター"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "国内旅行",
+        "予約ボタンの前にキャンセル条件を保存する"
+      ]
+    },
+    {
+      "id": "travel-02",
+      "category": "travel",
+      "title": "旅行会社の登録と連絡先を照合する",
+      "summary": "格安ツアーを見つけたら、事業者の実在する窓口と登録情報を確認する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "困ったときに連絡する相手と契約関係を把握できる。",
+      "steps": [
+        "会社名と登録番号を控える",
+        "観光庁の案内に沿って登録先を確認する",
+        "契約書面と緊急連絡先を保存する"
+      ],
+      "cautions": [
+        "海外事業者などは適用される制度が異なる。登録だけで全ての取引が保証されるわけではない。"
+      ],
+      "sources": [
+        {
+          "title": "旅行業登録の確認",
+          "url": "https://www.mlit.go.jp/kankocho/seisaku_seido/ryokochui/torokukakunin.html",
+          "publisher": "観光庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "国内旅行",
+        "旅行会社の登録と連絡先を照合する"
+      ]
+    },
+    {
+      "id": "travel-03",
+      "category": "travel",
+      "title": "飛行機の電池・液体ルールを荷造り前に確認する",
+      "summary": "モバイルバッテリーなどは、預ける荷物と機内持込みの扱いが違う。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "空港での廃棄や荷物の詰め直しを避けやすくなる。",
+      "steps": [
+        "持参する電池やスプレー類を一覧にする",
+        "国土交通省と利用航空会社の最新案内を見る",
+        "指定された方法で分けて収納する"
+      ],
+      "cautions": [
+        "容量や個数、機内での使用制限は品目・航空会社・改定時期で異なる。"
+      ],
+      "sources": [
+        {
+          "title": "航空機への危険物の持込みについて",
+          "url": "https://www.mlit.go.jp/koku/koku_fr2_000007.html",
+          "publisher": "国土交通省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "国内旅行",
+        "飛行機の電池・液体ルールを荷造り前に確認する"
+      ]
+    },
+    {
+      "id": "travel-04",
+      "category": "travel",
+      "title": "新幹線の大きな荷物は席と一緒に予約する",
+      "summary": "荷物の大きさを測り、路線に応じた持込み方法を調べる。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "乗車時に荷物の置場で困りにくくなる。",
+      "steps": [
+        "荷物の縦・横・高さを測る",
+        "利用する新幹線の特大荷物案内を読む",
+        "必要な設備付き座席などを予約する"
+      ],
+      "cautions": [
+        "対象路線、寸法、例外品目、予約方法が異なる。通路を置場にしない。"
+      ],
+      "sources": [
+        {
+          "title": "特大荷物のお持ち込みについて",
+          "url": "https://railway.jr-central.co.jp/oversized-baggage/",
+          "publisher": "JR東海"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "国内旅行",
+        "新幹線の大きな荷物は席と一緒に予約する"
+      ]
+    },
+    {
+      "id": "travel-05",
+      "category": "travel",
+      "title": "運休時は切符を捨てず払戻し方法を確認する",
+      "summary": "旅行を取りやめるか続けるかで、鉄道の取扱いが変わる。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "対象となる返金や変更の手続きを取り逃しにくくなる。",
+      "steps": [
+        "運行情報と係員の案内を確認する",
+        "購入した切符や予約情報を残す",
+        "購入元へ適用される払戻しや変更を尋ねる"
+      ],
+      "cautions": [
+        "遅延時間、券種、旅行商品、交通機関によって条件が異なる。"
+      ],
+      "sources": [
+        {
+          "title": "列車の遅れ・運休と払戻し",
+          "url": "https://jreastfaq.jreast.co.jp/faq/show/1161?category_id=15&site_domain=default",
+          "publisher": "JR東日本"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "国内旅行",
+        "運休時は切符を捨てず払戻し方法を確認する"
+      ]
+    },
+    {
+      "id": "travel-06",
+      "category": "travel",
+      "title": "レンタカーは受渡し時に車体と補償を確認する",
+      "summary": "傷の確認と補償の範囲を、出発前に担当者と共有する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "費用あり",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "返却後の傷の請求や補償の誤解を減らせる。",
+      "steps": [
+        "傷や汚れを担当者と確認し記録する",
+        "免責額や休業補償などの条件を読む",
+        "返却時も一緒に車体を確認する"
+      ],
+      "cautions": [
+        "追加補償に加入しても全ての費用が免除されるとは限らない。"
+      ],
+      "sources": [
+        {
+          "title": "レンタカーを借りるとき、返すときは必ず車の状態を確認しましょう",
+          "url": "https://www.kokusen.go.jp/news/data/n-20250328_1.html",
+          "publisher": "国民生活センター"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "国内旅行",
+        "レンタカーは受渡し時に車体と補償を確認する"
+      ]
+    },
+    {
+      "id": "travel-07",
+      "category": "travel",
+      "title": "バリアフリー旅行は設備の寸法まで相談する",
+      "summary": "段差の有無だけでなく、必要な介助や移動の条件を宿へ伝える。",
+      "audience": [
+        "移動や介助に配慮が必要な人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "現地に着いてから使えない設備が分かる事態を減らせる。",
+      "steps": [
+        "移動や入浴で必要な条件を書き出す",
+        "宿や地域の相談窓口へ具体的に問い合わせる",
+        "利用可能な設備と介助の範囲を確認する"
+      ],
+      "cautions": [
+        "バリアフリーという表示だけでは個々の必要条件を満たすとは限らない。"
+      ],
+      "sources": [
+        {
+          "title": "ユニバーサルツーリズム",
+          "url": "https://www.mlit.go.jp/kankocho/seisaku_seido/kihonkeikaku/kokunaikoryu/kaitaku/universal-tourism.html",
+          "publisher": "観光庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "国内旅行",
+        "バリアフリー旅行は設備の寸法まで相談する"
+      ]
+    },
+    {
+      "id": "travel-08",
+      "category": "travel",
+      "title": "登山は計画と下山予定を残す",
+      "summary": "体力に合った行程を決め、天候の変化で引き返せる余裕を持つ。",
+      "audience": [
+        "登山をする人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "行動計画を共有し、無理な登山を避けやすくなる。",
+      "steps": [
+        "ルート、装備、天気を確認する",
+        "登山届を提出し家族などに計画を共有する",
+        "当日の状況に応じて中止や引返しを選ぶ"
+      ],
+      "cautions": [
+        "短い山道でも遭難の危険はある。通信や救助が常に利用できるとは限らない。"
+      ],
+      "sources": [
+        {
+          "title": "山岳遭難の概況と遭難防止",
+          "url": "https://www.npa.go.jp/news/release/2025/r06_sangakusounan_gaikyou.pdf",
+          "publisher": "警察庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "国内旅行",
+        "登山は計画と下山予定を残す"
+      ]
+    },
+    {
+      "id": "travel-09",
+      "category": "travel",
+      "title": "火山を訪れる前に規制と気象庁情報を確認する",
+      "summary": "人気の登山道でも、火山活動に応じた立入規制を優先する。",
+      "audience": [
+        "火山周辺へ行く人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "古い旅行記事を頼りに規制区域へ入ることを防げる。",
+      "steps": [
+        "気象庁の対象火山の情報を見る",
+        "自治体や登山道管理者の規制を確認する",
+        "出発直前と現地でも変更を確かめる"
+      ],
+      "cautions": [
+        "噴火警戒レベルだけで全ての危険や立入可能範囲を判断しない。"
+      ],
+      "sources": [
+        {
+          "title": "火山登山者向けの情報提供",
+          "url": "https://www.data.jma.go.jp/vois/data/report/activity_info/",
+          "publisher": "気象庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "国内旅行",
+        "火山を訪れる前に規制と気象庁情報を確認する"
+      ]
+    },
+    {
+      "id": "travel-10",
+      "category": "travel",
+      "title": "海水浴は管理された場所と当日の旗を確認する",
+      "summary": "遊泳場所のルール、海況、子どもの見守りを事前に決める。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "海の状態に合わせて遊ぶ範囲と中止の判断を決められる。",
+      "steps": [
+        "海水浴場の開設状況と天気を確認する",
+        "現地の遊泳可否や監視員の指示に従う",
+        "子どもを見守る大人を決める"
+      ],
+      "cautions": [
+        "穏やかに見える海でも流れがある。飲酒後の遊泳は避ける。"
+      ],
+      "sources": [
+        {
+          "title": "海で遊ぶときの注意点",
+          "url": "https://www6.kaiho.mlit.go.jp/watersafety/swimming/02_attention/index.html",
+          "publisher": "海上保安庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "国内旅行",
+        "海水浴は管理された場所と当日の旗を確認する"
+      ]
+    },
+    {
+      "id": "travel-11",
+      "category": "travel",
+      "title": "国立公園では持ち帰らず持ち込まずを実践する",
+      "summary": "動植物の採取や餌やりを避け、決められた道と利用区域を守る。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "自然や地域の利用環境への負担を抑えられる。",
+      "steps": [
+        "訪問先の利用ルールを読む",
+        "ごみを持ち帰る袋と必要な装備を用意する",
+        "植生や野生動物に距離を置いて歩く"
+      ],
+      "cautions": [
+        "採取、火気、キャンプ、ペット同伴などの規制は場所ごとに異なる。"
+      ],
+      "sources": [
+        {
+          "title": "国立公園の利用上のマナー",
+          "url": "https://www.env.go.jp/nature/nationalparks/about/manner/",
+          "publisher": "環境省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "国内旅行",
+        "国立公園では持ち帰らず持ち込まずを実践する"
+      ]
+    },
+    {
+      "id": "travel-12",
+      "category": "travel",
+      "title": "民泊は許可・届出の確認方法を調べる",
+      "summary": "写真や口コミだけでなく、適法に営業する施設かを確認する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "営業主体や問い合わせ先が不明な宿泊先を避けやすくなる。",
+      "steps": [
+        "予約先の営業形態と番号を確認する",
+        "自治体や観光庁の案内で確認方法を調べる",
+        "現地の標識と緊急連絡先を確かめる"
+      ],
+      "cautions": [
+        "旅館業の許可、特区の認定、住宅宿泊事業の届出は別の仕組み。"
+      ],
+      "sources": [
+        {
+          "title": "安心できる民泊環境",
+          "url": "https://www.mlit.go.jp/kankocho/minpaku/environment.html",
+          "publisher": "観光庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "国内旅行",
+        "民泊は許可・届出の確認方法を調べる"
+      ]
+    },
+    {
+      "id": "travel-13",
+      "category": "travel",
+      "title": "食物アレルギーは宿泊予約時に具体的に伝える",
+      "summary": "食事付きの宿では原因食物と調理時の混入対応を事前に相談する。",
+      "audience": [
+        "食物アレルギーのある人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "旅先で食事の選択肢がなくなることを避けやすくなる。",
+      "steps": [
+        "原因食物と避ける必要がある範囲を整理する",
+        "宿へ食事内容と調理環境を問い合わせる",
+        "対応が難しい場合の食事方法を検討する"
+      ],
+      "cautions": [
+        "外食の表示や除去対応だけで安全が保証されるわけではない。必要な対応は主治医に確認する。"
+      ],
+      "sources": [
+        {
+          "title": "外食・中食での食物アレルギーについて",
+          "url": "https://www.caa.go.jp/policies/policy/food_labeling/food_sanitation/allergy/efforts/",
+          "publisher": "消費者庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "国内旅行",
+        "食物アレルギーは宿泊予約時に具体的に伝える"
+      ]
+    },
+    {
+      "id": "travel-14",
+      "category": "travel",
+      "title": "周遊券は実際の経路で元が取れるか比べる",
+      "summary": "乗り放題の名前だけで買わず、対象区間と追加料金を確かめる。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "使わない区間のために余計な券を買うことを減らせる。",
+      "steps": [
+        "行きたい場所を路線図に並べる",
+        "通常運賃と周遊券の価格を比べる",
+        "対象日、対象列車、別途料金を確認する"
+      ],
+      "cautions": [
+        "紹介したJRの券は地域限定の例。商品は変更・終了されることがある。"
+      ],
+      "sources": [
+        {
+          "title": "休日おでかけパス",
+          "url": "https://www.jreast.co.jp/tickets/info.aspx?GoodsCd=2490",
+          "publisher": "JR東日本"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "国内旅行",
+        "周遊券は実際の経路で元が取れるか比べる"
+      ]
+    },
+    {
+      "id": "travel-15",
+      "category": "travel",
+      "title": "宿に着いたら避難経路を実際に見る",
+      "summary": "部屋の案内図で非常口の方向を確かめ、同室者にも共有する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "5分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "慣れない宿で出口を探す時間を減らせる。",
+      "steps": [
+        "客室の避難経路図を読む",
+        "廊下から非常口の位置を確認する",
+        "移動に配慮が必要なら宿へ相談する"
+      ],
+      "cautions": [
+        "東京消防庁の資料を参考にした備え。設備や避難方法は建物ごとに異なる。"
+      ],
+      "sources": [
+        {
+          "title": "第12章 火災の時に役立つ建物の設備",
+          "url": "https://www.tfd.metro.tokyo.lg.jp/ts/bfc_manual/instructor/cp12.html",
+          "publisher": "東京消防庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "国内旅行",
+        "宿に着いたら避難経路を実際に見る"
+      ]
+    },
+    {
+      "id": "travel-16",
+      "category": "travel",
+      "title": "混雑情報で訪問順と時間を組み替える",
+      "summary": "予約できる施設や地域の混雑案内を使い、移動に余裕を持たせる。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "待ち時間や移動の負担を減らしやすくなる。",
+      "steps": [
+        "訪問先の公式サイトで混雑情報を探す",
+        "空いている時間と予約枠を比較する",
+        "近隣の代替候補を一つ用意する"
+      ],
+      "cautions": [
+        "混雑状況は当日変わる。静かな生活道路や私有地を迂回路として使わない。"
+      ],
+      "sources": [
+        {
+          "title": "オーバーツーリズムの未然防止・抑制",
+          "url": "https://www.mlit.go.jp/kankocho/seisaku_seido/kihonkeikaku/jizoku_kankochi/jizokukano_taisei/overtourism.html",
+          "publisher": "観光庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "国内旅行",
+        "混雑情報で訪問順と時間を組み替える"
+      ]
+    },
+    {
+      "id": "pets-01",
+      "category": "pets",
+      "title": "迎える前に毎日の世話と生涯の費用を話し合う",
+      "summary": "購入費より先に、食費、診療、住環境、留守中の世話を検討する。",
+      "audience": [
+        "ペットを迎えたい人"
+      ],
+      "cost": "条件による",
+      "time": "継続",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "飼い始めてから世話を続けられなくなる事態を減らせる。",
+      "steps": [
+        "動物の寿命や性質を調べる",
+        "日々の世話の担当と費用を家族で決める",
+        "将来の住まいや働き方でも飼えるか考える"
+      ],
+      "cautions": [
+        "動物の種類や個体で必要な環境と費用は異なる。衝動的に迎えない。"
+      ],
+      "sources": [
+        {
+          "title": "飼い主の方・これからペットを飼う方へ",
+          "url": "https://www.env.go.jp/nature/dobutsu/aigo/pickup/owner.html",
+          "publisher": "環境省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "ペットと暮らす",
+        "迎える前に毎日の世話と生涯の費用を話し合う"
+      ]
+    },
+    {
+      "id": "pets-02",
+      "category": "pets",
+      "title": "譲渡を選択肢に入れて自治体の案内を見る",
+      "summary": "動物愛護センターなどで新しい飼い主を待つ動物の情報を確認する。",
+      "audience": [
+        "ペットを迎えたい人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "自分の暮らしに合う動物との出会い方が増える。",
+      "steps": [
+        "環境省の収容動物検索から地域を選ぶ",
+        "自治体の譲渡条件と講習会を調べる",
+        "性格や飼養環境を相談して判断する"
+      ],
+      "cautions": [
+        "審査、講習、年齢などの条件は施設ごとに異なる。希望した動物を必ず迎えられるわけではない。"
+      ],
+      "sources": [
+        {
+          "title": "収容動物検索情報サイト",
+          "url": "https://www.env.go.jp/nature/dobutsu/aigo/shuyo/index.html",
+          "publisher": "環境省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "ペットと暮らす",
+        "譲渡を選択肢に入れて自治体の案内を見る"
+      ]
+    },
+    {
+      "id": "pets-03",
+      "category": "pets",
+      "title": "犬の登録・予防注射の記録を管理する",
+      "summary": "飼い犬の登録と狂犬病予防注射について、自治体と獣医師に確認する。",
+      "audience": [
+        "犬の飼い主"
+      ],
+      "cost": "費用あり",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "必要な行政手続きと予防の抜けを防げる。",
+      "steps": [
+        "市区町村で登録状況を確認する",
+        "狂犬病予防注射の案内を読み受診する",
+        "鑑札や注射済票など必要な表示を確認する"
+      ],
+      "cautions": [
+        "年齢や健康状態、マイクロチップ登録との連携による手続きの違いは窓口に確認する。"
+      ],
+      "sources": [
+        {
+          "title": "狂犬病",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou18/kyokenbyou.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "ペットと暮らす",
+        "犬の登録・予防注射の記録を管理する"
+      ]
+    },
+    {
+      "id": "pets-04",
+      "category": "pets",
+      "title": "マイクロチップの名義を自分に変更する",
+      "summary": "チップが入っていても、登録情報が以前の飼い主のままでは不十分。",
+      "audience": [
+        "犬や猫を迎えた人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "保護されたときに飼い主へ連絡が届きやすくなる。",
+      "steps": [
+        "譲渡時に登録証明書を受け取る",
+        "環境省の登録サイトで変更手順を確認する",
+        "変更後の登録情報を保存する"
+      ],
+      "cautions": [
+        "民間の登録制度と環境省の制度は同一ではない。未装着の場合の扱いは獣医師などに確認する。"
+      ],
+      "sources": [
+        {
+          "title": "犬と猫のマイクロチップ情報登録",
+          "url": "https://www.env.go.jp/nature/dobutsu/aigo/pickup/chip.html",
+          "publisher": "環境省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "ペットと暮らす",
+        "マイクロチップの名義を自分に変更する"
+      ]
+    },
+    {
+      "id": "pets-05",
+      "category": "pets",
+      "title": "迷子になったら地域の保護情報を横断して探す",
+      "summary": "保健所、動物愛護センター、警察などへ特徴と連絡先を伝える。",
+      "audience": [
+        "ペットが迷子になった人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "保護された場所が分からないときの捜索先を整理できる。",
+      "steps": [
+        "最近の写真と迷子になった場所を整理する",
+        "地域の保健所や警察などへ連絡する",
+        "収容動物情報を継続して確認する"
+      ],
+      "cautions": [
+        "施設の掲載更新には時間差がある。個人情報を公開しすぎないよう注意する。"
+      ],
+      "sources": [
+        {
+          "title": "収容動物検索情報サイト",
+          "url": "https://www.env.go.jp/nature/dobutsu/aigo/shuyo/index.html",
+          "publisher": "環境省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "ペットと暮らす",
+        "迷子になったら地域の保護情報を横断して探す"
+      ]
+    },
+    {
+      "id": "pets-06",
+      "category": "pets",
+      "title": "同行避難の行き先と受入条件を確かめる",
+      "summary": "災害時に一緒に避難する準備として、自治体と避難先のルールを確認する。",
+      "audience": [
+        "ペットの飼い主"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "災害時にペットの行き先で迷うことを減らせる。",
+      "steps": [
+        "自宅からの避難経路を調べる",
+        "ペットの受入場所と条件を自治体に尋ねる",
+        "親族宅など別の預け先も検討する"
+      ],
+      "cautions": [
+        "同行避難は人と同じ部屋で過ごせることを意味しない。避難先の運営に従う。"
+      ],
+      "sources": [
+        {
+          "title": "ペットの災害対策",
+          "url": "https://www.env.go.jp/nature/dobutsu/aigo/1_law/disaster.html",
+          "publisher": "環境省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "ペットと暮らす",
+        "同行避難の行き先と受入条件を確かめる"
+      ]
+    },
+    {
+      "id": "pets-07",
+      "category": "pets",
+      "title": "ペット用の持出し用品を普段から回す",
+      "summary": "いつものフードや薬、ケージを災害時にも使える形で用意する。",
+      "audience": [
+        "ペットの飼い主"
+      ],
+      "cost": "費用あり",
+      "time": "継続",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "支援物資を待つ間も慣れた世話を続けやすくなる。",
+      "steps": [
+        "必要なフード、水、薬、用品をリストにする",
+        "普段使いながら備蓄を補充する",
+        "ケージに慣れる練習と健康記録の準備を進める"
+      ],
+      "cautions": [
+        "必要量は避難条件と動物の状態で異なる。薬は獣医師と相談して備える。"
+      ],
+      "sources": [
+        {
+          "title": "ペットの災害対策",
+          "url": "https://www.env.go.jp/nature/dobutsu/aigo/1_law/disaster.html",
+          "publisher": "環境省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "ペットと暮らす",
+        "ペット用の持出し用品を普段から回す"
+      ]
+    },
+    {
+      "id": "pets-08",
+      "category": "pets",
+      "title": "猫が室内で過ごせる環境を整える",
+      "summary": "運動、隠れ場所、トイレと脱走防止をまとめて考える。",
+      "audience": [
+        "猫の飼い主"
+      ],
+      "cost": "条件による",
+      "time": "継続",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "屋外の事故や近隣トラブルを避けながら飼いやすくなる。",
+      "steps": [
+        "上下運動や隠れられる場所を用意する",
+        "清潔なトイレと爪とぎを置く",
+        "窓や扉の開閉と危険物を点検する"
+      ],
+      "cautions": [
+        "猫の年齢や身体状態に合う高さと動線にする。環境への慣れ方には個体差がある。"
+      ],
+      "sources": [
+        {
+          "title": "猫の室内飼育",
+          "url": "https://www.env.go.jp/nature/dobutsu/aigo/2_data/pamph/h2711a/pdf/04.pdf",
+          "publisher": "環境省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "ペットと暮らす",
+        "猫が室内で過ごせる環境を整える"
+      ]
+    },
+    {
+      "id": "pets-09",
+      "category": "pets",
+      "title": "飼える頭数を超える前に繁殖を防ぐ",
+      "summary": "予定のない繁殖を避けるため、不妊去勢などを獣医師と相談する。",
+      "audience": [
+        "犬や猫の飼い主"
+      ],
+      "cost": "費用あり",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "世話ができる頭数を超えて増えることを防ぎやすくなる。",
+      "steps": [
+        "今いる動物の性別と繁殖の可能性を確認する",
+        "獣医師へ時期や身体への影響を相談する",
+        "手術や飼養環境の対策を実施する"
+      ],
+      "cautions": [
+        "手術の判断や時期は動物の状態による。地域の補助がある場合も条件を確認する。"
+      ],
+      "sources": [
+        {
+          "title": "捨てず、増やさず、飼うなら一生",
+          "url": "https://www.env.go.jp/nature/dobutsu/aigo/2_data/pamph/h2509a/full.pdf",
+          "publisher": "環境省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "ペットと暮らす",
+        "飼える頭数を超える前に繁殖を防ぐ"
+      ]
+    },
+    {
+      "id": "pets-10",
+      "category": "pets",
+      "title": "人と動物の感染症を防ぐ手洗いを習慣にする",
+      "summary": "ふれあいの後と排泄物の処理後は、手洗いと飼養場所の清潔を守る。",
+      "audience": [
+        "ペットの飼い主"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "動物から人への感染リスクを抑えやすくなる。",
+      "steps": [
+        "食器の共用や口移しを避ける",
+        "触れた後や掃除の後に手を洗う",
+        "受診時は動物との接触も医師へ伝える"
+      ],
+      "cautions": [
+        "乳幼児、高齢者、免疫が低下した人などは特に配慮する。診断や予防は医師・獣医師に相談する。"
+      ],
+      "sources": [
+        {
+          "title": "動物由来感染症を知っていますか",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000155663.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "ペットと暮らす",
+        "人と動物の感染症を防ぐ手洗いを習慣にする"
+      ]
+    },
+    {
+      "id": "pets-11",
+      "category": "pets",
+      "title": "健康記録を持ってかかりつけの動物病院をつくる",
+      "summary": "普段の食事、排泄、接種歴を把握し、変化を伝えられるようにする。",
+      "audience": [
+        "ペットの飼い主"
+      ],
+      "cost": "費用あり",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "急な不調のときに説明する情報をそろえやすくなる。",
+      "steps": [
+        "通いやすい動物病院を調べる",
+        "接種歴や治療歴を一か所にまとめる",
+        "日頃の変化と予防について獣医師に相談する"
+      ],
+      "cautions": [
+        "必要な検査や予防は種類、年齢、健康状態、飼養環境によって異なる。"
+      ],
+      "sources": [
+        {
+          "title": "共に生きる 高齢ペットとシルバー世代",
+          "url": "https://www.env.go.jp/nature/dobutsu/aigo/2_data/pamph/r0109/pdf/full.pdf",
+          "publisher": "環境省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "ペットと暮らす",
+        "健康記録を持ってかかりつけの動物病院をつくる"
+      ]
+    },
+    {
+      "id": "pets-12",
+      "category": "pets",
+      "title": "ペットホテルは登録と預かり条件を確認する",
+      "summary": "留守中の預け先を選ぶときは、料金に加えて対応できる世話を確かめる。",
+      "audience": [
+        "ペットを預ける人"
+      ],
+      "cost": "費用あり",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "預けた後の対応や追加費用の認識違いを減らせる。",
+      "steps": [
+        "動物取扱業の登録情報を確認する",
+        "健康条件、投薬、緊急時の対応を尋ねる",
+        "契約条件と連絡先を残して預ける"
+      ],
+      "cautions": [
+        "登録対象や預かれる動物は事業者ごとに異なる。登録が世話の質を一律に保証するわけではない。"
+      ],
+      "sources": [
+        {
+          "title": "第一種動物取扱業者の規制",
+          "url": "https://www.env.go.jp/nature/dobutsu/aigo/1_law/trader.html",
+          "publisher": "環境省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "ペットと暮らす",
+        "ペットホテルは登録と預かり条件を確認する"
+      ]
+    },
+    {
+      "id": "pets-13",
+      "category": "pets",
+      "title": "散歩ではリードと排泄物の処理を徹底する",
+      "summary": "公園は犬連れ以外の利用者もいることを前提に歩く。",
+      "audience": [
+        "犬の飼い主"
+      ],
+      "cost": "条件による",
+      "time": "継続",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "周囲の人の転倒や犬との接触トラブルを防ぎやすくなる。",
+      "steps": [
+        "リードや首輪の状態を確かめる",
+        "公園の立入範囲と利用ルールを読む",
+        "排泄物を処理し通行を妨げないよう歩く"
+      ],
+      "cautions": [
+        "参照先は皇居外苑の例。リードの長さや犬の入場可否などは公園ごとに確認する。"
+      ],
+      "sources": [
+        {
+          "title": "犬の散歩について",
+          "url": "https://www.env.go.jp/garden/kokyogaien/news/2022/06/post_486_00156.html",
+          "publisher": "環境省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "ペットと暮らす",
+        "散歩ではリードと排泄物の処理を徹底する"
+      ]
+    },
+    {
+      "id": "pets-14",
+      "category": "pets",
+      "title": "飼い続けるのが難しくなる前に代わりの世話を相談する",
+      "summary": "入院や生活の変化が見えたら、放置せず周囲と自治体に相談する。",
+      "audience": [
+        "飼養の継続に不安がある人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "急に世話をする人がいなくなる事態に備えられる。",
+      "steps": [
+        "いつから何の世話が難しいか整理する",
+        "家族や信頼できる預け先に相談する",
+        "解決が難しい場合は自治体の動物相談窓口へ連絡する"
+      ],
+      "cautions": [
+        "自治体が必ず引き取る制度ではない。新しい飼い主を探す場合も相手と条件を確認する。"
+      ],
+      "sources": [
+        {
+          "title": "捨てず、増やさず、飼うなら一生",
+          "url": "https://www.env.go.jp/nature/dobutsu/aigo/2_data/pamph/h2509a/full.pdf",
+          "publisher": "環境省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "ペットと暮らす",
+        "飼い続けるのが難しくなる前に代わりの世話を相談する"
+      ]
+    },
+    {
+      "id": "pets-15",
+      "category": "pets",
+      "title": "高齢ペットには滑りにくい床と低い動線を用意する",
+      "summary": "足腰や食事の変化に合わせ、住環境と介護を見直す。",
+      "audience": [
+        "高齢ペットの飼い主"
+      ],
+      "cost": "条件による",
+      "time": "継続",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "日常動作の負担を減らしながら世話を続けやすくなる。",
+      "steps": [
+        "歩き方や食べ方の変化を記録する",
+        "滑りや段差、寝床、トイレへの動線を見直す",
+        "獣医師と無理なく続けられる介護を相談する"
+      ],
+      "cautions": [
+        "年齢だけで病気と老化を決めつけない。急な変化は獣医師に相談する。"
+      ],
+      "sources": [
+        {
+          "title": "共に生きる 高齢ペットとシルバー世代",
+          "url": "https://www.env.go.jp/nature/dobutsu/aigo/2_data/pamph/r0109/pdf/full.pdf",
+          "publisher": "環境省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "ペットと暮らす",
+        "高齢ペットには滑りにくい床と低い動線を用意する"
+      ]
+    },
+    {
+      "id": "pets-16",
+      "category": "pets",
+      "title": "フードは動物の種類と用途の表示で選ぶ",
+      "summary": "人の食事やおやつを主食にせず、必要な栄養を満たす食事を考える。",
+      "audience": [
+        "犬や猫の飼い主"
+      ],
+      "cost": "費用あり",
+      "time": "継続",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "用途を取り違えた食事や与えすぎを避けやすくなる。",
+      "steps": [
+        "対象動物、年齢、主食か間食かを確認する",
+        "表示された与え方と保存方法を読む",
+        "体調や体重に合わせ獣医師へ相談する"
+      ],
+      "cautions": [
+        "療法食は獣医師の指導で使う。量や切替え方は個体に合わせる。"
+      ],
+      "sources": [
+        {
+          "title": "飼い主のためのペットフード・ガイドライン",
+          "url": "https://www.env.go.jp/nature/dobutsu/aigo/2_data/pamph/petfood_guide/pdf/full.pdf",
+          "publisher": "環境省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "ペットと暮らす",
+        "フードは動物の種類と用途の表示で選ぶ"
+      ]
+    },
+    {
+      "id": "homecare-01",
+      "category": "homecare",
+      "title": "住まいの図面と修繕履歴を一か所に残す",
+      "summary": "工事や点検の記録は、次の修理や売却時に説明できる資料になる。",
+      "audience": [
+        "住まいを管理する人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "過去の工事が分からず調査をやり直す負担を減らせる。",
+      "steps": [
+        "図面、保証書、点検報告を集める",
+        "修繕日、内容、施工会社を記録する",
+        "紙とデータの保管場所を家族に共有する"
+      ],
+      "cautions": [
+        "資料の有無だけで住宅の品質が保証されるわけではない。個人情報を含む書類の扱いに注意する。"
+      ],
+      "sources": [
+        {
+          "title": "既存住宅・リフォーム市場の活性化",
+          "url": "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_fr2_000055.html",
+          "publisher": "国土交通省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住まいの維持",
+        "住まいの図面と修繕履歴を一か所に残す"
+      ]
+    },
+    {
+      "id": "homecare-02",
+      "category": "homecare",
+      "title": "リフォーム見積りの一式表示を確認する",
+      "summary": "工事範囲が分からない見積りは、契約前に内容と追加費用を説明してもらう。",
+      "audience": [
+        "リフォームを考える人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "工事内容の食い違いや想定外の追加請求を減らせる。",
+      "steps": [
+        "希望する工事範囲を整理する",
+        "数量、工法、含まれない作業を業者に尋ねる",
+        "不明な点は住まいるダイヤルの見積相談を調べる"
+      ],
+      "cautions": [
+        "相談の利用条件や通話料を確認する。見積相談が価格や品質を保証するものではない。"
+      ],
+      "sources": [
+        {
+          "title": "リフォーム見積相談制度",
+          "url": "https://www.mlit.go.jp/jutakukentiku/jutaku-kentiku.files/kashitanpocorner/consumer/reform.html",
+          "publisher": "国土交通省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住まいの維持",
+        "リフォーム見積りの一式表示を確認する"
+      ]
+    },
+    {
+      "id": "homecare-03",
+      "category": "homecare",
+      "title": "突然の屋根点検はその場で契約しない",
+      "summary": "近所の工事を口実にした訪問でも、必要性を自分で確認する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "不安をあおる勧誘で高額工事を契約することを避けやすくなる。",
+      "steps": [
+        "突然訪れた業者を安易に屋根へ上げない",
+        "説明と見積りを持ち帰って検討する",
+        "別の事業者や消費生活センターへ相談する"
+      ],
+      "cautions": [
+        "屋根の状態は写真だけで判断しない。緊急の雨漏りでも依頼先の確認を省かない。"
+      ],
+      "sources": [
+        {
+          "title": "屋根工事の点検商法のトラブルが増えています",
+          "url": "https://www.kokusen.go.jp/news/data/n-20231011_1.html",
+          "publisher": "国民生活センター"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住まいの維持",
+        "突然の屋根点検はその場で契約しない"
+      ]
+    },
+    {
+      "id": "homecare-04",
+      "category": "homecare",
+      "title": "耐震改修は診断と地域の支援を先に調べる",
+      "summary": "築年数だけで判断せず、自治体の相談窓口から診断や改修の進め方を確認する。",
+      "audience": [
+        "住宅所有者"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "必要な工事と利用できる支援を組み合わせて検討できる。",
+      "steps": [
+        "建築時期と住宅の資料を用意する",
+        "自治体の耐震相談・補助制度を調べる",
+        "診断結果と予算に応じた工事を相談する"
+      ],
+      "cautions": [
+        "対象建物、申請順序、補助内容は自治体で異なる。契約前の申請が必要な場合がある。"
+      ],
+      "sources": [
+        {
+          "title": "耐震改修の支援制度",
+          "url": "https://taishin-kaishu.mlit.go.jp/rsystem/",
+          "publisher": "国土交通省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住まいの維持",
+        "耐震改修は診断と地域の支援を先に調べる"
+      ]
+    },
+    {
+      "id": "homecare-05",
+      "category": "homecare",
+      "title": "解体・改修の前に石綿調査の説明を受ける",
+      "summary": "古い建物を壊す工事では、見積りに事前調査や必要な対策が含まれるか確認する。",
+      "audience": [
+        "解体・改修を依頼する人"
+      ],
+      "cost": "費用あり",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "調査不足の工事による飛散や追加費用を避けやすくなる。",
+      "steps": [
+        "工事業者に石綿の事前調査について尋ねる",
+        "調査結果と必要な作業方法の説明を受ける",
+        "調査費や処分費を含む見積りを確認する"
+      ],
+      "cautions": [
+        "調査や報告の要件は工事内容等で異なる。自分で建材を削ったり取り外したりしない。"
+      ],
+      "sources": [
+        {
+          "title": "建築物等の解体・改修時の石綿事前調査",
+          "url": "https://www.env.go.jp/air/asbestos/post_87.html",
+          "publisher": "環境省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住まいの維持",
+        "解体・改修の前に石綿調査の説明を受ける"
+      ]
+    },
+    {
+      "id": "homecare-06",
+      "category": "homecare",
+      "title": "マンションの内装工事は管理規約を先に読む",
+      "summary": "専有部分の工事でも、床材や配管、作業時間などの確認が必要になる。",
+      "audience": [
+        "分譲マンションの居住者"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "着工直前の差し戻しや近隣との行き違いを減らせる。",
+      "steps": [
+        "管理規約と工事細則を取り寄せる",
+        "管理組合に申請や承認の必要性を尋ねる",
+        "施工会社へ条件を伝え工事予定を調整する"
+      ],
+      "cautions": [
+        "参照資料は細則の例。自分のマンションの規約と手続きが優先される。"
+      ],
+      "sources": [
+        {
+          "title": "マンション専有部分の修繕等に関する細則例",
+          "url": "https://www.mlit.go.jp/common/001185573.pdf",
+          "publisher": "国土交通省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住まいの維持",
+        "マンションの内装工事は管理規約を先に読む"
+      ]
+    },
+    {
+      "id": "homecare-07",
+      "category": "homecare",
+      "title": "住宅用火災警報器の作動と交換時期を確認する",
+      "summary": "設置したまま忘れず、取扱説明書に従って点検する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "5分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "気付かないまま警報器が使えなくなることを防げる。",
+      "steps": [
+        "警報器の設置日と製品名を確認する",
+        "テストボタンなどで作動を確認する",
+        "電池切れや交換時期に応じて対応する"
+      ],
+      "cautions": [
+        "高所の点検は無理をしない。賃貸では管理者へ相談し、地域の設置基準も確認する。"
+      ],
+      "sources": [
+        {
+          "title": "住宅用火災警報器",
+          "url": "https://www.fdma.go.jp/relocation/html/life/juukei.html?_fsi=FZBLZ7hc",
+          "publisher": "消防庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住まいの維持",
+        "住宅用火災警報器の作動と交換時期を確認する"
+      ]
+    },
+    {
+      "id": "homecare-08",
+      "category": "homecare",
+      "title": "換気設備のフィルターと給気口を確認する",
+      "summary": "窓を閉める季節も、住宅の換気設備が機能するよう維持する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "換気の低下に気付きやすくなる。",
+      "steps": [
+        "設備の取扱説明書で換気方法を確認する",
+        "給気口を塞いでいないか点検する",
+        "指示された頻度と方法でフィルターを清掃する"
+      ],
+      "cautions": [
+        "設備の種類によって運転・清掃方法が異なる。内部の分解は専門業者へ相談する。"
+      ],
+      "sources": [
+        {
+          "title": "住宅の換気に関する情報",
+          "url": "https://www.mlit.go.jp/jutakukentiku/build/jutakukentiku_house_fr_000108.html",
+          "publisher": "国土交通省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住まいの維持",
+        "換気設備のフィルターと給気口を確認する"
+      ]
+    },
+    {
+      "id": "homecare-09",
+      "category": "homecare",
+      "title": "水道使用量が急に増えたら漏水を疑う",
+      "summary": "使い方が変わっていなければ、メーターの表示と水回りを確認する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "見えない漏水を早く相談できる。",
+      "steps": [
+        "家の水の使用を止める",
+        "メーターのパイロットなどを確認する",
+        "異常があれば水道事業者や管理会社へ相談する"
+      ],
+      "cautions": [
+        "メーターの種類や配管の所有区分で対応が異なる。集合住宅では管理者に先に相談する。"
+      ],
+      "sources": [
+        {
+          "title": "水漏れ（漏水）について",
+          "url": "https://www.waterworks.metro.tokyo.lg.jp/faq/qa-7",
+          "publisher": "東京都水道局"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住まいの維持",
+        "水道使用量が急に増えたら漏水を疑う"
+      ]
+    },
+    {
+      "id": "homecare-10",
+      "category": "homecare",
+      "title": "エアコンの内部洗浄は販売店や専門業者へ相談する",
+      "summary": "内部へ洗浄液を吹き込む前に、メーカーが示す手入れ方法と依頼先を確認する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "費用あり",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "誤った洗浄による故障や発火を防ぐ。",
+      "steps": [
+        "取扱説明書で自分でできる手入れの範囲を読む",
+        "内部洗浄は販売店やメーカーの窓口へ相談する",
+        "作業範囲と費用を確認して知識のある業者に依頼する"
+      ],
+      "cautions": [
+        "アルコールなどの可燃性溶液や腐食性のある液で内部を掃除しない。一般的なフィルター清掃も説明書に従う。"
+      ],
+      "sources": [
+        {
+          "title": "エアコンの内部洗浄による事故に注意",
+          "url": "https://www.nite.go.jp/jiko/chuikanki/press/2020fy/prs200625.html",
+          "publisher": "製品評価技術基盤機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住まいの維持",
+        "エアコン",
+        "内部洗浄"
+      ]
+    },
+    {
+      "id": "homecare-11",
+      "category": "homecare",
+      "title": "害虫駆除は作業範囲と再発時の条件を確認する",
+      "summary": "怖さから即決せず、何をどこまで行う契約か確かめる。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "費用あり",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "不安につけ込む追加作業や高額請求を避けやすくなる。",
+      "steps": [
+        "害虫の種類と発生場所を伝える",
+        "作業内容、使用薬剤、総額、追加条件を聞く",
+        "説明に納得してから契約する"
+      ],
+      "cautions": [
+        "ハチなど危険な対象には近づかない。高額請求や強引な勧誘は消費生活センターへ。"
+      ],
+      "sources": [
+        {
+          "title": "害虫・害獣駆除のトラブルにご注意",
+          "url": "https://www.kokusen.go.jp/news/data/n-20240424_1.html",
+          "publisher": "国民生活センター"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住まいの維持",
+        "害虫駆除は作業範囲と再発時の条件を確認する"
+      ]
+    },
+    {
+      "id": "homecare-12",
+      "category": "homecare",
+      "title": "寒波の前に露出した水道管の保温を確認する",
+      "summary": "屋外など外気に触れる配管を点検し、水道事業者の案内に沿って凍結に備える。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "凍結による断水や配管の破損を予防できる。",
+      "steps": [
+        "水道管の露出部分と保温材の状態を確認する",
+        "地域の水道事業者が案内する保温方法を調べる",
+        "無理なく届く範囲を対策し難しい箇所は管理者に相談する"
+      ],
+      "cautions": [
+        "設備や地域の気候で対策が異なる。凍った管に熱湯をかけると破裂するおそれがある。"
+      ],
+      "sources": [
+        {
+          "title": "水道管の凍結について",
+          "url": "https://www.waterworks.metro.tokyo.lg.jp/kurashi/trouble/touketsu",
+          "publisher": "東京都水道局"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住まいの維持",
+        "水道管",
+        "凍結"
+      ]
+    },
+    {
+      "id": "homecare-13",
+      "category": "homecare",
+      "title": "石油給湯機の点検通知と所有者情報を確認する",
+      "summary": "長期使用製品安全点検制度の対象機器は、製造事業者の案内を確認する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "費用あり",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "経年劣化に関する点検案内を見落としにくくなる。",
+      "steps": [
+        "機器の銘板と取扱説明書を確認する",
+        "所有者登録と点検期間を製造事業者に尋ねる",
+        "費用や内容を確かめて点検を相談する"
+      ],
+      "cautions": [
+        "制度の対象製品には変更や経過措置がある。全ての給湯器が同じ対象ではない。"
+      ],
+      "sources": [
+        {
+          "title": "長期使用製品安全点検制度",
+          "url": "https://www.meti.go.jp/product_safety/producer/shouan/21_shouan_panfu.pdf",
+          "publisher": "経済産業省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住まいの維持",
+        "石油給湯機の点検通知と所有者情報を確認する"
+      ]
+    },
+    {
+      "id": "homecare-14",
+      "category": "homecare",
+      "title": "電源タップのほこりと傷みを点検する",
+      "summary": "家具の裏にある配線も、清掃時に状態を確かめる。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "5分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "配線器具の異常を早く見つけられる。",
+      "steps": [
+        "電源を安全に切ってプラグ周辺を確認する",
+        "乾いた方法でほこりを取り除く",
+        "変形や焦げ、異臭がある器具の使用をやめる"
+      ],
+      "cautions": [
+        "水や洗剤を差込口へ入れない。建物側の配線やコンセント修理は専門家へ。"
+      ],
+      "sources": [
+        {
+          "title": "配線器具の掃除・チェック",
+          "url": "https://www.nite.go.jp/jiko/chuikanki/press/2024fy/prs241128.html",
+          "publisher": "製品評価技術基盤機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住まいの維持",
+        "電源タップのほこりと傷みを点検する"
+      ]
+    },
+    {
+      "id": "homecare-15",
+      "category": "homecare",
+      "title": "高い場所の掃除は作業方法から見直す",
+      "summary": "不安定な椅子や無理な姿勢を避け、届かない作業は依頼を検討する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "清掃や交換のための転落を防ぎやすくなる。",
+      "steps": [
+        "掃除する場所の高さと足場を確認する",
+        "適した道具で安全に届く範囲を決める",
+        "難しい場所は家族や業者へ相談する"
+      ],
+      "cautions": [
+        "脚立を使えば必ず安全というわけではない。体調や足場が悪いときは作業しない。"
+      ],
+      "sources": [
+        {
+          "title": "年末年始、高齢者の事故に注意しましょう",
+          "url": "https://www.caa.go.jp/policies/policy/consumer_safety/caution/caution_084/",
+          "publisher": "消費者庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住まいの維持",
+        "高い場所の掃除は作業方法から見直す"
+      ]
+    },
+    {
+      "id": "homecare-16",
+      "category": "homecare",
+      "title": "空き家は見回りと委託範囲を決める",
+      "summary": "遠方の家を放置せず、誰が何を確認するかを契約や記録に残す。",
+      "audience": [
+        "空き家を所有・管理する人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "離れている家の変化に気付きやすくなる。",
+      "steps": [
+        "建物、庭、郵便物など確認事項を整理する",
+        "自分で行う作業と委託する作業を分ける",
+        "管理報告の方法と緊急時の連絡先を決める"
+      ],
+      "cautions": [
+        "管理委託は修繕や活用まで自動的に含まれない。所有者の責任や地域の案内を確認する。"
+      ],
+      "sources": [
+        {
+          "title": "不動産業者による空き家管理受託のガイドライン",
+          "url": "https://www.mlit.go.jp/tochi_fudousan_kensetsugyo/const/content/001750009.pdf",
+          "publisher": "国土交通省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住まいの維持",
+        "空き家は見回りと委託範囲を決める"
+      ]
+    },
+    {
+      "id": "environment-01",
+      "category": "environment",
+      "title": "うちエコ診断で家庭のエネルギー使用を見直す",
+      "summary": "光熱費の明細を用意し、自分の住まいに合う改善策を探す。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "思いつきではなく使用実態から対策を選べる。",
+      "steps": [
+        "電気・ガスなどの使用量を集める",
+        "うちエコ診断の利用方法を確認する",
+        "提案から無理なく実行できる対策を選ぶ"
+      ],
+      "cautions": [
+        "診断方法や実施団体で条件が異なる。試算値は実際の節約を保証しない。"
+      ],
+      "sources": [
+        {
+          "title": "家庭エコ診断の推進",
+          "url": "https://www.env.go.jp/earth/ondanka/uchi_eco/shindan.html",
+          "publisher": "環境省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "省エネ・ごみ",
+        "うちエコ診断で家庭のエネルギー使用を見直す"
+      ]
+    },
+    {
+      "id": "environment-02",
+      "category": "environment",
+      "title": "冷房は日差しと空気の流れも調整する",
+      "summary": "我慢して止める前に、窓からの熱や室内の空気の偏りを見直す。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "快適さを保ちながら冷房の負担を減らしやすくなる。",
+      "steps": [
+        "すだれやカーテンで日差しを和らげる",
+        "空気が循環するよう扇風機などを使う",
+        "室温と体調を見て冷房を調整する"
+      ],
+      "cautions": [
+        "熱中症予防を優先し、必要な冷房や換気を控えない。"
+      ],
+      "sources": [
+        {
+          "title": "空調の省エネ",
+          "url": "https://www.enecho.meti.go.jp/category/saving_and_new/saving/general/howto/airconditioning/index.html",
+          "publisher": "資源エネルギー庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "省エネ・ごみ",
+        "冷房は日差しと空気の流れも調整する"
+      ]
+    },
+    {
+      "id": "environment-03",
+      "category": "environment",
+      "title": "お風呂は入浴の間隔とお湯の出し方を見直す",
+      "summary": "家族の予定が合う日は続けて入り、必要以上の追いだきや出しっぱなしを減らす。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "給湯に使うエネルギーを減らしやすくなる。",
+      "steps": [
+        "普段の入浴時刻を確認する",
+        "無理のない範囲で間隔を短くする",
+        "シャワーを使わない間は止める"
+      ],
+      "cautions": [
+        "生活時間や介助の都合を優先する。衛生上必要な洗浄を省かない。"
+      ],
+      "sources": [
+        {
+          "title": "家庭の省エネの取り組み方と効果",
+          "url": "https://www.enecho.meti.go.jp/category/saving_and_new/saving/media/data/2025_summer/syouenemenu_katei01.pdf",
+          "publisher": "資源エネルギー庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "省エネ・ごみ",
+        "お風呂は入浴の間隔とお湯の出し方を見直す"
+      ]
+    },
+    {
+      "id": "environment-04",
+      "category": "environment",
+      "title": "LED化は既存の照明器具との適合を確認する",
+      "summary": "ランプの形が同じでも、照明器具との組合せを確かめて交換する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "費用あり",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "省エネのための交換で発煙・発火を招くことを防げる。",
+      "steps": [
+        "器具とランプの型番を確認する",
+        "メーカーの適合情報と注意事項を読む",
+        "工事が必要なら資格を持つ事業者へ依頼する"
+      ],
+      "cautions": [
+        "古い器具は内部も劣化する。自分で配線を改造しない。"
+      ],
+      "sources": [
+        {
+          "title": "蛍光灯からLEDへの交換時の注意",
+          "url": "https://www.nite.go.jp/jiko/chuikanki/press/2024fy/prs250327.html",
+          "publisher": "製品評価技術基盤機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "省エネ・ごみ",
+        "LED化は既存の照明器具との適合を確認する"
+      ]
+    },
+    {
+      "id": "environment-05",
+      "category": "environment",
+      "title": "家電は省エネラベルと使用条件を合わせて比べる",
+      "summary": "本体価格だけでなく、必要な容量と年間消費電力量も比較する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "購入後の維持費も考えて機器を選べる。",
+      "steps": [
+        "生活に必要な容量を決める",
+        "同じ用途の候補を省エネラベルで比べる",
+        "設置費と使用期間を含めて判断する"
+      ],
+      "cautions": [
+        "表示の電気料金は目安。家庭の使用時間や料金契約で実額は異なる。"
+      ],
+      "sources": [
+        {
+          "title": "省エネ製品を選ぶときの基準",
+          "url": "https://ondankataisaku.env.go.jp/shinkyusan/knowledge04.html",
+          "publisher": "環境省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "省エネ・ごみ",
+        "家電は省エネラベルと使用条件を合わせて比べる"
+      ]
+    },
+    {
+      "id": "environment-06",
+      "category": "environment",
+      "title": "窓や給湯器の補助は契約前に当年度の条件を読む",
+      "summary": "住宅の省エネ工事では、対象製品、登録事業者、申請順序を確認する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "対象外の工事や申請順序の間違いを避けやすくなる。",
+      "steps": [
+        "当年度の国と自治体の支援ページを開く",
+        "対象工事と他制度との併用条件を確認する",
+        "申請担当と締切を施工会社に確認する"
+      ],
+      "cautions": [
+        "予算到達で受付が終わることがある。補助を必ず受けられる前提で契約しない。"
+      ],
+      "sources": [
+        {
+          "title": "省エネ支援策パッケージ",
+          "url": "https://www.enecho.meti.go.jp/category/saving_and_new/saving/government/package.html",
+          "publisher": "資源エネルギー庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "省エネ・ごみ",
+        "窓や給湯器の補助は契約前に当年度の条件を読む"
+      ]
+    },
+    {
+      "id": "environment-07",
+      "category": "environment",
+      "title": "家電四品目は購入店などに引取りを相談する",
+      "summary": "テレビ、エアコン、冷蔵庫類、洗濯機類は決められたリサイクル経路で処分する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "費用あり",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "通常の粗大ごみとして出せない家電を適切に処分できる。",
+      "steps": [
+        "処分する製品の種類を確認する",
+        "購入店や買替え店へ引取りを相談する",
+        "依頼先がない場合は自治体の案内を確認する"
+      ],
+      "cautions": [
+        "対象製品や料金、運搬方法は確認が必要。自分で解体して部品を外さない。"
+      ],
+      "sources": [
+        {
+          "title": "家電リサイクル制度FAQ",
+          "url": "https://www.meti.go.jp/policy/it_policy/kaden_recycle/faq/faq.html",
+          "publisher": "経済産業省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "省エネ・ごみ",
+        "家電四品目は購入店などに引取りを相談する"
+      ]
+    },
+    {
+      "id": "environment-08",
+      "category": "environment",
+      "title": "小型家電は自治体か認定事業者の回収を調べる",
+      "summary": "使わない電子機器を捨てる前に、対象品目と回収場所を確認する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "資源を回収できる経路で電子機器を手放せる。",
+      "steps": [
+        "自治体の小型家電回収案内を読む",
+        "品目や大きさの条件を確認する",
+        "個人データを消し指定された方法で引き渡す"
+      ],
+      "cautions": [
+        "電池内蔵品やパソコンの扱いは回収先で異なる。無許可回収の広告だけで判断しない。"
+      ],
+      "sources": [
+        {
+          "title": "小型家電リサイクルの案内",
+          "url": "https://www.env.go.jp/content/900535790.pdf",
+          "publisher": "環境省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "省エネ・ごみ",
+        "小型家電は自治体か認定事業者の回収を調べる"
+      ]
+    },
+    {
+      "id": "environment-09",
+      "category": "environment",
+      "title": "充電式電池を普通のごみに混ぜない",
+      "summary": "モバイルバッテリーや電池内蔵製品は、地域の専用の処分方法を確認する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "収集車や処理施設での電池火災を防ぎやすくなる。",
+      "steps": [
+        "製品に電池が入っているか調べる",
+        "自治体の電池回収のルールを読む",
+        "膨張・破損があれば出す前に窓口へ相談する"
+      ],
+      "cautions": [
+        "取り外せない電池を無理に分解しない。回収ボックスが全ての電池を受け付けるとは限らない。"
+      ],
+      "sources": [
+        {
+          "title": "リチウムイオン電池関係",
+          "url": "https://www.env.go.jp/recycle/waste/lithium_1/index.html",
+          "publisher": "環境省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "省エネ・ごみ",
+        "充電式電池を普通のごみに混ぜない"
+      ]
+    },
+    {
+      "id": "environment-10",
+      "category": "environment",
+      "title": "蛍光管や水銀体温計は割らずに分別する",
+      "summary": "水銀を含む製品は、自治体が指定する方法で保護して出す。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "破損による水銀の飛散や混入を防ぎやすくなる。",
+      "steps": [
+        "製品が水銀を含む種類か確認する",
+        "自治体の分別と回収場所を調べる",
+        "割れないよう包み指定どおりに出す"
+      ],
+      "cautions": [
+        "既に割れている場合は扱いを自治体に相談する。一般ごみと一律に混ぜない。"
+      ],
+      "sources": [
+        {
+          "title": "水銀汚染を防ぐためにできること",
+          "url": "https://www.env.go.jp/chemi/tmms/tobira/dekirukoto.html",
+          "publisher": "環境省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "省エネ・ごみ",
+        "蛍光管や水銀体温計は割らずに分別する"
+      ]
+    },
+    {
+      "id": "environment-11",
+      "category": "environment",
+      "title": "スプレー缶は中身が残る場合の相談先を確認する",
+      "summary": "自治体の出し方を読み、使い切れない缶を自己判断で処理しない。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "ごみ出し前の噴射や穴あけによる事故を避けやすくなる。",
+      "steps": [
+        "缶の中身と製品の注意書きを確認する",
+        "自治体のスプレー缶の分別を調べる",
+        "使い切れない場合はメーカーや自治体へ相談する"
+      ],
+      "cautions": [
+        "参照先の横浜市では穴あけ不要。室内や火気の近くでガス抜きをしない。"
+      ],
+      "sources": [
+        {
+          "title": "ごみと資源物の分け方・出し方",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/ej/garbage/japanese1.html",
+          "publisher": "横浜市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "省エネ・ごみ",
+        "スプレー缶は中身が残る場合の相談先を確認する"
+      ]
+    },
+    {
+      "id": "environment-12",
+      "category": "environment",
+      "title": "プラスチック回収には電池や異物を混ぜない",
+      "summary": "プラ表示だけで判断せず、地域の対象品と除外品を確認する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "再資源化の妨げとなる異物や危険物の混入を減らせる。",
+      "steps": [
+        "自治体の最新の分別一覧を確認する",
+        "対象外の電気製品や危険物を分ける",
+        "汚れの落とし方と指定袋に従って出す"
+      ],
+      "cautions": [
+        "横浜市の案内は一例。容器包装と製品プラスチックの対象は自治体ごとに異なる。"
+      ],
+      "sources": [
+        {
+          "title": "ごみと資源物の分け方・出し方",
+          "url": "https://www.city.yokohama.lg.jp/lang/residents/living-guide/garbage/garbage-bunbetsu.html",
+          "publisher": "横浜市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "省エネ・ごみ",
+        "プラスチック回収には電池や異物を混ぜない"
+      ]
+    },
+    {
+      "id": "environment-13",
+      "category": "environment",
+      "title": "着なくなった服は状態に合う行き先を選ぶ",
+      "summary": "修繕、譲渡、古着回収などを比べ、受入条件に合う形で手放す。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "まだ使える衣類を廃棄する量を減らせる。",
+      "steps": [
+        "着続けられるか補修を検討する",
+        "譲渡や回収先の受入条件を読む",
+        "洗濯や仕分けをして引き渡す"
+      ],
+      "cautions": [
+        "汚れた衣類や下着など受け付けない品がある。寄付先へ不要品を一方的に送らない。"
+      ],
+      "sources": [
+        {
+          "title": "ファッションと環境へのアクション",
+          "url": "https://www.env.go.jp/policy/sustainable_fashion/actions/",
+          "publisher": "環境省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "省エネ・ごみ",
+        "着なくなった服は状態に合う行き先を選ぶ"
+      ]
+    },
+    {
+      "id": "environment-14",
+      "category": "environment",
+      "title": "買い物前に冷蔵庫と食品棚の在庫を見る",
+      "summary": "期限が近い食材と既にある品を確認し、買う物を決める。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "重複購入と食べ忘れによる廃棄を減らせる。",
+      "steps": [
+        "冷蔵庫と食品棚を確認する",
+        "先に使う食材を見える場所へ置く",
+        "必要な分だけ買うためのメモを作る"
+      ],
+      "cautions": [
+        "消費期限切れや傷んだ食品を無理に食べない。保存条件を守る。"
+      ],
+      "sources": [
+        {
+          "title": "家族みんなで冷蔵庫のお片付け",
+          "url": "https://www.no-foodloss.caa.go.jp/topic_apr.html",
+          "publisher": "消費者庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "省エネ・ごみ",
+        "買い物前に冷蔵庫と食品棚の在庫を見る"
+      ]
+    },
+    {
+      "id": "environment-15",
+      "category": "environment",
+      "title": "使用済み食用油の地域回収を調べる",
+      "summary": "回収を実施する自治体や店舗があれば、指定容器と対象油を確認する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "家庭の廃食用油を再利用する経路が分かる。",
+      "steps": [
+        "自治体の廃食用油回収案内を探す",
+        "対象となる油と容器を確認する",
+        "冷めた油を指定の方法で持ち込む"
+      ],
+      "cautions": [
+        "回収制度は地域により異なる。動物性油脂や異物入りの油などを除外する場合がある。"
+      ],
+      "sources": [
+        {
+          "title": "家庭用廃食用油回収の自治体事例集",
+          "url": "https://www.env.go.jp/recycle/waste/tool_gwd3r/gl-mcs/glmcs0703-ref01.pdf",
+          "publisher": "環境省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "省エネ・ごみ",
+        "使用済み食用油の地域回収を調べる"
+      ]
+    },
+    {
+      "id": "environment-16",
+      "category": "environment",
+      "title": "エコの表示は根拠と認証の範囲を確かめる",
+      "summary": "環境に優しいという言葉だけでなく、何を評価した表示かを見る。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "曖昧な宣伝に流されず環境面の情報を判断できる。",
+      "steps": [
+        "表示されたラベルの名前を調べる",
+        "認証主体と対象となる基準を読む",
+        "比較対象や算定条件の説明を確認する"
+      ],
+      "cautions": [
+        "データベース掲載自体が環境省による品質保証ではない。"
+      ],
+      "sources": [
+        {
+          "title": "環境表示チェックツール",
+          "url": "https://www.env.go.jp/policy/hozen/green/ecolabel/checklist.html",
+          "publisher": "環境省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "省エネ・ごみ",
+        "エコの表示は根拠と認証の範囲を確かめる"
+      ]
+    },
+    {
+      "id": "documents-01",
+      "category": "documents",
+      "title": "カード本体と電子証明書の有効期限を別に確認する",
+      "summary": "マイナンバーカードの券面と、オンライン利用に必要な電子証明書は更新を区別する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "申告や証明書取得の途中で使えなくなることを避けやすくなる。",
+      "steps": [
+        "カードと更新案内の期限を確認する",
+        "住む自治体の予約・持ち物を調べる",
+        "必要な更新を行い利用状況を確認する"
+      ],
+      "cautions": [
+        "年齢や発行条件で有効期限が異なる。オンライン手続き直前まで放置しない。"
+      ],
+      "sources": [
+        {
+          "title": "マイナンバーカードと電子証明書の有効期限・更新",
+          "url": "https://www.digital.go.jp/policies/mynumber/expiration-date",
+          "publisher": "デジタル庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "行政・本人確認",
+        "カード本体と電子証明書の有効期限を別に確認する"
+      ]
+    },
+    {
+      "id": "documents-02",
+      "category": "documents",
+      "title": "マイナンバーカードを失くしたら利用停止を先に行う",
+      "summary": "再発行の前に、カード機能の一時停止と紛失の届出を進める。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "5分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "紛失後の対応を順序立てて進められる。",
+      "steps": [
+        "公式の紛失窓口へ連絡し一時停止する",
+        "警察へ紛失・盗難を届ける",
+        "自治体へ再交付や発見時の手続きを確認する"
+      ],
+      "cautions": [
+        "スマートフォンに搭載した機能の停止も必要な場合がある。発行日数を一律に見込まない。"
+      ],
+      "sources": [
+        {
+          "title": "マイナンバーカードの安全性",
+          "url": "https://www.digital.go.jp/policies/mynumber/safety",
+          "publisher": "デジタル庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "行政・本人確認",
+        "マイナンバーカードを失くしたら利用停止を先に行う"
+      ]
+    },
+    {
+      "id": "documents-03",
+      "category": "documents",
+      "title": "暗証番号を忘れたら種類を確認して再設定する",
+      "summary": "数字だけの番号と署名用のパスワードで、使える初期化方法が異なる。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "ロック後の復旧方法を迷わず選びやすくなる。",
+      "steps": [
+        "どの暗証番号が不明かを確認する",
+        "公的個人認証サービスで再設定条件を読む",
+        "利用可能なコンビニ手続きか自治体窓口を選ぶ"
+      ],
+      "cautions": [
+        "両方が不明な場合など、コンビニで完結しないことがある。思いつく番号を繰り返し入力しない。"
+      ],
+      "sources": [
+        {
+          "title": "パスワードの失念",
+          "url": "https://www.jpki.go.jp/procedure/password.html",
+          "publisher": "地方公共団体情報システム機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "行政・本人確認",
+        "暗証番号を忘れたら種類を確認して再設定する"
+      ]
+    },
+    {
+      "id": "documents-04",
+      "category": "documents",
+      "title": "証明書はコンビニ交付の対象か先に調べる",
+      "summary": "役所に行く前に、必要な証明書を取得できる自治体と時間を確認する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "費用あり",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "窓口に行く時間を減らせる場合がある。",
+      "steps": [
+        "必要な証明書名を提出先に確認する",
+        "コンビニ交付の対象と利用時間を調べる",
+        "有効なカード等で取得し記載内容を確認する"
+      ],
+      "cautions": [
+        "対応証明書や時間は自治体で異なる。本籍地が別の場合は利用登録が必要なことがある。"
+      ],
+      "sources": [
+        {
+          "title": "コンビニ交付とは",
+          "url": "https://swww.lg-waps.go.jp/01-00.html",
+          "publisher": "地方公共団体情報システム機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "行政・本人確認",
+        "証明書はコンビニ交付の対象か先に調べる"
+      ]
+    },
+    {
+      "id": "documents-05",
+      "category": "documents",
+      "title": "戸籍を集めるときは広域交付の対象を確認する",
+      "summary": "本籍地が遠い場合、近くの市区町村で請求できる証明書か調べる。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "費用あり",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "本籍地ごとに請求する負担を減らせる場合がある。",
+      "steps": [
+        "必要な戸籍と本人との関係を整理する",
+        "窓口へ広域交付の対象か問い合わせる",
+        "顔写真付きの本人確認書類を持って請求する"
+      ],
+      "cautions": [
+        "広域交付は代理人や郵送で請求できず、兄弟姉妹の戸籍など対象外もある。"
+      ],
+      "sources": [
+        {
+          "title": "戸籍証明書等の広域交付",
+          "url": "https://www.moj.go.jp/content/001409033.pdf",
+          "publisher": "法務省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "行政・本人確認",
+        "戸籍を集めるときは広域交付の対象を確認する"
+      ]
+    },
+    {
+      "id": "documents-06",
+      "category": "documents",
+      "title": "パスポートは申請から受取りまでの時間を確保する",
+      "summary": "期限や氏名変更の有無を確認し、オンライン申請の対象か調べる。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "費用あり",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "予定に間に合わない申請や記載情報の不一致を避けやすくなる。",
+      "steps": [
+        "現在の旅券と戸籍上の情報を確認する",
+        "外務省と受取窓口の最新案内を読む",
+        "申請後のお知らせを確認して本人が受け取る"
+      ],
+      "cautions": [
+        "オンラインでも受取りは別途必要。出発直前に発給できるとは限らない。"
+      ],
+      "sources": [
+        {
+          "title": "国内からオンライン申請する",
+          "url": "https://www.mofa.go.jp/mofaj/toko/passport/page22_004036.html",
+          "publisher": "外務省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "行政・本人確認",
+        "パスポートは申請から受取りまでの時間を確保する"
+      ]
+    },
+    {
+      "id": "documents-07",
+      "category": "documents",
+      "title": "住民票は提出先が必要とする項目だけ選ぶ",
+      "summary": "本籍、続柄、個人番号などの要否を確かめてから請求する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "費用あり",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "取り直しや不要な個人情報の提出を減らせる。",
+      "steps": [
+        "提出先に必要な記載と対象者を尋ねる",
+        "自治体の請求書で該当項目を選ぶ",
+        "交付された内容を提出前に確認する"
+      ],
+      "cautions": [
+        "マイナンバー付きの住民票を受け取れない提出先もある。例示と実際の要件は照合する。"
+      ],
+      "sources": [
+        {
+          "title": "住民票の写し・住民票記載事項証明書の請求",
+          "url": "https://www.city.higashihiroshima.lg.jp/kurashi/todokede/3/7459.html",
+          "publisher": "東広島市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "行政・本人確認",
+        "住民票は提出先が必要とする項目だけ選ぶ"
+      ]
+    },
+    {
+      "id": "documents-08",
+      "category": "documents",
+      "title": "代理で手続きを頼むときは委任内容を具体的に書く",
+      "summary": "誰に、何の手続きを、どこまで頼むかを本人の意思で明確にする。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "窓口で代理権を確認できず出直すことを減らせる。",
+      "steps": [
+        "提出先の委任状様式を確認する",
+        "証明書の種類や部数などを具体的に記入する",
+        "代理人の本人確認書類など必要物を確認する"
+      ],
+      "cautions": [
+        "署名や押印、代筆の扱いは手続きごとに異なる。本人でなければできない手続きもある。"
+      ],
+      "sources": [
+        {
+          "title": "委任状とは",
+          "url": "https://www.city.hashimoto.lg.jp/guide/somubu/shimin/other/1510811470466.html",
+          "publisher": "橋本市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "行政・本人確認",
+        "代理で手続きを頼むときは委任内容を具体的に書く"
+      ]
+    },
+    {
+      "id": "documents-09",
+      "category": "documents",
+      "title": "実印や印鑑登録証を紛失したら自治体へ連絡する",
+      "summary": "見つかるのを待たず、登録廃止や証明書交付の一時停止を相談する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "失くした登録証が使われる懸念に早く対処できる。",
+      "steps": [
+        "登録先の自治体の案内を確認する",
+        "紛失状況を伝え必要な対応を聞く",
+        "指定された書類で廃止や再登録を行う"
+      ],
+      "cautions": [
+        "一時停止の方法や窓口は自治体で異なる。停止だけで廃止手続きが完了するとは限らない。"
+      ],
+      "sources": [
+        {
+          "title": "印鑑登録証等を紛失した際の手続き",
+          "url": "https://www.city.saitama.lg.jp/faq/001/001/002/p110017.html",
+          "publisher": "さいたま市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "行政・本人確認",
+        "実印や印鑑登録証を紛失したら自治体へ連絡する"
+      ]
+    },
+    {
+      "id": "documents-10",
+      "category": "documents",
+      "title": "過去の住所を証明するときは戸籍の附票を確認する",
+      "summary": "現在の住民票だけではつながらない住所履歴を、本籍地へ相談する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "費用あり",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "車や不動産の手続きで住所履歴を集めやすくなる。",
+      "steps": [
+        "どの期間の住所のつながりが必要か整理する",
+        "本籍地に戸籍の附票の記録範囲を尋ねる",
+        "提出先が求める証明書を請求する"
+      ],
+      "cautions": [
+        "婚姻・転籍・改製などで記録が分かれる。古い記録が必ず残っているとは限らない。"
+      ],
+      "sources": [
+        {
+          "title": "戸籍の附票の写し",
+          "url": "https://www.city.kobe.lg.jp/a53715/kurashi/registration/shomeisho/13_huhyo.html",
+          "publisher": "神戸市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "行政・本人確認",
+        "過去の住所を証明するときは戸籍の附票を確認する"
+      ]
+    },
+    {
+      "id": "documents-11",
+      "category": "documents",
+      "title": "戸籍のフリガナが違うときは記載の経緯を確認する",
+      "summary": "制度開始時の届出の有無によって、変更の手続きが異なる。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "他の行政手続きで読みが食い違う問題を相談できる。",
+      "steps": [
+        "戸籍の記載と普段使用する読みを照合する",
+        "本籍地に記載の経緯を確認する",
+        "変更に必要な届出や許可を相談する"
+      ],
+      "cautions": [
+        "当初の届出期間は終了している。市区町村長による記載か本人の届出かなどで扱いが変わる。"
+      ],
+      "sources": [
+        {
+          "title": "戸籍のフリガナ・よくあるご質問",
+          "url": "https://www.moj.go.jp/MINJI/furigana/faq.html",
+          "publisher": "法務省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "行政・本人確認",
+        "戸籍のフリガナが違うときは記載の経緯を確認する"
+      ]
+    },
+    {
+      "id": "documents-12",
+      "category": "documents",
+      "title": "本人確認だけならカード裏面の提出目的を確認する",
+      "summary": "マイナンバーカードの写しを求められたら、個人番号まで必要かを確かめる。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "本人確認に不要な個人番号の提供を避けやすくなる。",
+      "steps": [
+        "求められている手続きと提出面を読む",
+        "裏面を求める場合は利用目的を確認する",
+        "必要な範囲だけ指定の安全な方法で提出する"
+      ],
+      "cautions": [
+        "税や社会保障など法令に基づく番号確認が必要な場面もある。"
+      ],
+      "sources": [
+        {
+          "title": "本人確認におけるマイナンバーカードのコピー",
+          "url": "https://www.ppc.go.jp/all_faq_index/faq5-q6-13/",
+          "publisher": "個人情報保護委員会"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "行政・本人確認",
+        "本人確認だけならカード裏面の提出目的を確認する"
+      ]
+    },
+    {
+      "id": "documents-13",
+      "category": "documents",
+      "title": "戸籍などの本人通知制度があるか調べる",
+      "summary": "第三者等への証明書交付を知らせる制度を、住む自治体や本籍地に確認する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "第三者への証明書交付を把握できる場合がある。",
+      "steps": [
+        "自治体の本人通知制度を検索する",
+        "対象となる請求と登録条件を読む",
+        "希望する場合は事前登録を行う"
+      ],
+      "cautions": [
+        "実施しない自治体もある。交付を拒否したり事前同意を求めたりする制度ではない。"
+      ],
+      "sources": [
+        {
+          "title": "事前登録型本人通知制度",
+          "url": "https://www.city.nishinomiya.lg.jp/kurashi/koseki/kofumadoguchi/honnintsuchi.html",
+          "publisher": "西宮市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "行政・本人確認",
+        "戸籍などの本人通知制度があるか調べる"
+      ]
+    },
+    {
+      "id": "documents-14",
+      "category": "documents",
+      "title": "不動産の証明書は住所と地番を区別して請求する",
+      "summary": "住居表示と登記上の地番・家屋番号が同じとは限らない。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "費用あり",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "別の土地や建物の証明書を取る間違いを減らせる。",
+      "steps": [
+        "課税明細などで地番と家屋番号を確認する",
+        "必要な土地・建物を区別する",
+        "不明なら管轄の登記所へ問い合わせる"
+      ],
+      "cautions": [
+        "地図上の住所だけで登記の対象を特定できない場合がある。"
+      ],
+      "sources": [
+        {
+          "title": "登記事項証明書の地番・家屋番号に関するFAQ",
+          "url": "https://www.touki-kyoutaku-online.moj.go.jp/faq/faq_090.html",
+          "publisher": "法務省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "行政・本人確認",
+        "不動産の証明書は住所と地番を区別して請求する"
+      ]
+    },
+    {
+      "id": "documents-15",
+      "category": "documents",
+      "title": "資格申請の『身分証明書』は正式な書類名を確認する",
+      "summary": "免許証の写しではなく、本籍地の証明書を求める手続きがある。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "費用あり",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "同じ呼び方の書類を取り違えることを防げる。",
+      "steps": [
+        "提出要領で証明する事項を読む",
+        "本籍地の身分証明書の案内を確認する",
+        "必要な証明内容と発行日条件で請求する"
+      ],
+      "cautions": [
+        "法務局の『登記されていないことの証明書』などとは別の書類。提出先に確認する。"
+      ],
+      "sources": [
+        {
+          "title": "身分証明書を窓口で請求する",
+          "url": "https://www.city.yokohama.lg.jp/kurashi/koseki-zei-hoken/todokede/koseki-juminhyo/shoumei/mibun/mado.html",
+          "publisher": "横浜市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "行政・本人確認",
+        "資格申請の『身分証明書』は正式な書類名を確認する"
+      ]
+    },
+    {
+      "id": "documents-16",
+      "category": "documents",
+      "title": "オンライン申請は受付番号と補正連絡まで確認する",
+      "summary": "送信後も申請先の受付状況や追加提出の案内を確認する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "提出したつもりのまま手続きが止まることを減らせる。",
+      "steps": [
+        "完了画面と受付番号を保存する",
+        "申請状況を公式サービスで確認する",
+        "補正や追加提出の連絡に対応する"
+      ],
+      "cautions": [
+        "参照先はマイナポータルの電子申請の例。送信完了と審査終了は同じではない。"
+      ],
+      "sources": [
+        {
+          "title": "電子申請の受付完了を確認する",
+          "url": "https://app.e-oss.myna.go.jp/Application/resources/manual/application/07.html",
+          "publisher": "デジタル庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "行政・本人確認",
+        "オンライン申請は受付番号と補正連絡まで確認する"
+      ]
+    },
+    {
+      "id": "community-01",
+      "category": "community",
+      "title": "入手しづらい本を国立国会図書館の送信サービスで探す",
+      "summary": "絶版などで入手が難しい資料は、個人向け送信の対象になっていれば自分の端末で閲覧できる。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "購入できない資料にアクセスする選択肢が増える。",
+      "steps": [
+        "読みたい資料を国立国会図書館サーチで探す",
+        "利用登録と本人確認の条件を読む",
+        "個人送信の対象と利用上の制限を確認して閲覧する"
+      ],
+      "cautions": [
+        "国内居住者などの利用条件があり、デジタル資料の全点が対象ではない。画像の再配布は利用条件を確認する。"
+      ],
+      "sources": [
+        {
+          "title": "個人向けデジタル化資料送信サービス",
+          "url": "https://www.ndl.go.jp/use/digital_transmission_individuals",
+          "publisher": "国立国会図書館"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "地域・つながり",
+        "入手しづらい本を国立国会図書館の送信サービスで探す"
+      ]
+    },
+    {
+      "id": "community-02",
+      "category": "community",
+      "title": "集まりの会場は地域の貸室も候補に入れる",
+      "summary": "会議や趣味の集まりは、地区センターなどの定員・設備・利用料金を確認する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "会場の選択肢と必要な設備を比較できる。",
+      "steps": [
+        "自治体サイトで地域施設を探す",
+        "利用目的と人数に合う部屋を選ぶ",
+        "予約方法と使用条件を確認して申し込む"
+      ],
+      "cautions": [
+        "札幌市の施設案内は一例。営利利用、居住要件、料金、予約方法は施設ごとに異なる。"
+      ],
+      "sources": [
+        {
+          "title": "区民センター・地区センター紹介",
+          "url": "https://www.city.sapporo.jp/minami/shinko/center/index.html",
+          "publisher": "札幌市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "地域・つながり",
+        "集まりの会場は地域の貸室も候補に入れる"
+      ]
+    },
+    {
+      "id": "community-03",
+      "category": "community",
+      "title": "地域スポーツクラブで続けられる種目を見つける",
+      "summary": "年齢や経験に応じて参加できる総合型地域スポーツクラブの活動を調べる。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "身近な場所で運動と交流を続けるきっかけになる。",
+      "steps": [
+        "自治体や都道府県のクラブ一覧を見る",
+        "種目・活動場所・対象年齢を確認する",
+        "体験参加と会費について問い合わせる"
+      ],
+      "cautions": [
+        "地域にクラブがない場合や参加枠がない場合もある。身体の状態に合う活動を選ぶ。"
+      ],
+      "sources": [
+        {
+          "title": "総合型地域スポーツクラブ",
+          "url": "https://www.mext.go.jp/sports/b_menu/sports/mcatetop05/list/1371972.htm",
+          "publisher": "スポーツ庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "地域・つながり",
+        "地域スポーツクラブで続けられる種目を見つける"
+      ]
+    },
+    {
+      "id": "community-04",
+      "category": "community",
+      "title": "自治会への参加は会費と役割を知って決める",
+      "summary": "地域活動に関わるときは、活動内容・会計・当番の仕組みを先に確認する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "生活に合う形で地域との接点をつくれる。",
+      "steps": [
+        "地域の自治会・町内会の案内を読む",
+        "会費の使途と役員・当番の負担を聞く",
+        "参加できる範囲や配慮事項を相談する"
+      ],
+      "cautions": [
+        "自治会・町内会は自主的な住民組織。活動内容や運営は団体ごとに異なる。"
+      ],
+      "sources": [
+        {
+          "title": "自治会町内会の運営",
+          "url": "https://www.city.yokohama.lg.jp/kurashi/kyodo-manabi/shiminkyodo/jichikai/jitikaiunnei.html",
+          "publisher": "横浜市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "地域・つながり",
+        "自治会への参加は会費と役割を知って決める"
+      ]
+    },
+    {
+      "id": "community-05",
+      "category": "community",
+      "title": "生活の困りごとは民生委員・児童委員にも相談する",
+      "summary": "福祉や子育ての相談先が分からないときは、地域の委員につないでもらう方法がある。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "必要な窓口につながるための身近な相談先を増やせる。",
+      "steps": [
+        "自治体の福祉窓口で担当委員への連絡方法を聞く",
+        "困っていることと希望する支援を整理する",
+        "紹介された相談機関への次の連絡を決める"
+      ],
+      "cautions": [
+        "委員が給付や支援の可否を決めるわけではない。緊急の危険には緊急窓口を使う。"
+      ],
+      "sources": [
+        {
+          "title": "民生委員・児童委員について",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/hukushi_kaigo/seikatsuhogo/minseiiin/index.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "地域・つながり",
+        "生活の困りごとは民生委員・児童委員にも相談する"
+      ]
+    },
+    {
+      "id": "community-06",
+      "category": "community",
+      "title": "ボランティアは活動時間と役割から選ぶ",
+      "summary": "関心だけで決めず、移動時間・持ち物・任される仕事まで確かめて参加する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "無理のない範囲で継続できる活動を見つけやすい。",
+      "steps": [
+        "自治体の地域活動情報や支援センターを探す",
+        "募集内容と参加条件を読む",
+        "初回の担当者・集合場所・保険の扱いを確認する"
+      ],
+      "cautions": [
+        "横浜市の募集サイトは一例。募集終了や定員、対象地域などを主催者に確認する。"
+      ],
+      "sources": [
+        {
+          "title": "横浜地域活動・ボランティア情報サイト",
+          "url": "https://yokomusubi.city.yokohama.lg.jp/",
+          "publisher": "横浜市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "地域・つながり",
+        "ボランティアは活動時間と役割から選ぶ"
+      ]
+    },
+    {
+      "id": "community-07",
+      "category": "community",
+      "title": "災害ボランティアは現地の募集を確認してから向かう",
+      "summary": "被災地の受入状況と登録方法に合わせ、宿泊や移動なども自分で準備する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "費用あり",
+      "time": "継続",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "現地の負担を増やさず必要とされる活動に参加しやすい。",
+      "steps": [
+        "現地の災害ボランティアセンターの最新情報を見る",
+        "募集地域・人数・事前登録と保険の条件を確認する",
+        "食事・装備・移動・宿泊を確保して参加する"
+      ],
+      "cautions": [
+        "内閣府の能登半島地震の案内は準備の参考。過去の募集を現在の受入情報として使わない。"
+      ],
+      "sources": [
+        {
+          "title": "ボランティア・被災地への支援をお考えの方へ",
+          "url": "https://www.bousai.go.jp/updates/r60101notojishin/volunteer.html",
+          "publisher": "内閣府"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "地域・つながり",
+        "災害ボランティアは現地の募集を確認してから向かう"
+      ]
+    },
+    {
+      "id": "community-08",
+      "category": "community",
+      "title": "地域の防災訓練で自分の役割を確かめる",
+      "summary": "避難や初期消火などを地域の人と練習し、実際の設備と連絡方法を知る。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "継続",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "地域の設備や協力先を平時に知ることができる。",
+      "steps": [
+        "自治体や自主防災組織の訓練予定を探す",
+        "自分が参加できる訓練を申し込む",
+        "当日の気づきを家族の備えに反映する"
+      ],
+      "cautions": [
+        "訓練内容や参加条件は地域で異なる。器具は担当者の説明を受けて扱う。"
+      ],
+      "sources": [
+        {
+          "title": "自主防災組織の手引",
+          "url": "https://www.fdma.go.jp/bousaikeikaku/items/0105dab156135146a3df02174d1bbee7752f29e8.pdf",
+          "publisher": "消防庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "地域・つながり",
+        "地域の防災訓練で自分の役割を確かめる"
+      ]
+    },
+    {
+      "id": "community-09",
+      "category": "community",
+      "title": "道路の穴や落下物は安全な場所から知らせる",
+      "summary": "通行に危険を及ぼす道路の異状は、道路緊急ダイヤルなどの受付に場所を伝える。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "5分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "道路管理者が危険箇所を把握する助けになる。",
+      "steps": [
+        "危険な場所に近づかず安全を確保する",
+        "道路名・進行方向・目印を確認する",
+        "道路緊急ダイヤル #9910 などへ異状を伝える"
+      ],
+      "cautions": [
+        "事故や救急の通報先とは異なる。私道や道路以外の相談は対象外になることがある。"
+      ],
+      "sources": [
+        {
+          "title": "道路緊急ダイヤル #9910",
+          "url": "https://www.mlit.go.jp/road/dia/index.html",
+          "publisher": "国土交通省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "地域・つながり",
+        "道路の穴や落下物は安全な場所から知らせる"
+      ]
+    },
+    {
+      "id": "community-10",
+      "category": "community",
+      "title": "公園の壊れた遊具は使わず管理者へ連絡する",
+      "summary": "破損した遊具や設備を見つけたら、公園名と場所を特定して管理者に知らせる。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "5分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "利用者の事故を防ぐための修理につながる。",
+      "steps": [
+        "使用を避け周囲の人にも危険を伝える",
+        "公園名と遊具の位置を安全な場所から記録する",
+        "自治体の公園管理窓口へ連絡する"
+      ],
+      "cautions": [
+        "横浜市の窓口案内は一例。公園ごとに管理者が異なり、自分で修理してよいわけではない。"
+      ],
+      "sources": [
+        {
+          "title": "公園の遊具が壊れているので修理して欲しい",
+          "url": "https://www.city.yokohama.lg.jp/faq/kukyoku/kankyo/ryokuchi-iji/20211018164551029.html",
+          "publisher": "横浜市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "地域・つながり",
+        "公園の壊れた遊具は使わず管理者へ連絡する"
+      ]
+    },
+    {
+      "id": "community-11",
+      "category": "community",
+      "title": "制度案への意見はパブリックコメントで具体的に伝える",
+      "summary": "募集されている案を読み、影響や改善点を理由とともに提出する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "制度が決まる前に生活上の影響を伝えられる。",
+      "steps": [
+        "e-Govで関心のある案件と募集期間を探す",
+        "案文・関連資料・提出要領を読む",
+        "該当箇所と理由を書き受付期間内に提出する"
+      ],
+      "cautions": [
+        "意見の数で賛否を決める制度ではない。個別案件への回答や意見の採用は保証されない。"
+      ],
+      "sources": [
+        {
+          "title": "パブリック・コメント制度について",
+          "url": "https://public-comment.e-gov.go.jp/contents/about-public-comment/",
+          "publisher": "デジタル庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "地域・つながり",
+        "制度案への意見はパブリックコメントで具体的に伝える"
+      ]
+    },
+    {
+      "id": "community-12",
+      "category": "community",
+      "title": "行政手続への疑問は行政相談で整理する",
+      "summary": "国の行政に関する困りごとや要望を、行政相談の窓口に伝える方法がある。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "どこに伝えるべきか分からない行政上の問題を整理できる。",
+      "steps": [
+        "関係する機関名・日時・経緯をメモする",
+        "行政相談の対象か案内を確認する",
+        "希望する説明や改善点を具体的に相談する"
+      ],
+      "cautions": [
+        "相談自体は無料でも通話料などが必要な場合がある。民間同士の紛争や法的判断など対象外の相談もある。"
+      ],
+      "sources": [
+        {
+          "title": "国の行政に関する苦情、意見・要望は行政相談",
+          "url": "https://www.gov-online.go.jp/article/201310/entry-8552.html",
+          "publisher": "内閣府政府広報室"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "地域・つながり",
+        "行政手続への疑問は行政相談で整理する"
+      ]
+    },
+    {
+      "id": "community-13",
+      "category": "community",
+      "title": "地域の計画は議会の会議録から経緯をたどる",
+      "summary": "施設整備や予算の議論を調べるときは、自治体議会の会議録や議案を確認する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "計画の目的や検討経緯を一次資料で確認できる。",
+      "steps": [
+        "自治体議会の会議録検索を開く",
+        "施設名や地域名で議論を探す",
+        "議案や担当部署の最新資料と照合する"
+      ],
+      "cautions": [
+        "横浜市の公開方法は一例。会議録の公開に時間がかかり、速報は後で修正される場合がある。"
+      ],
+      "sources": [
+        {
+          "title": "会議録",
+          "url": "https://www.city.yokohama.lg.jp/shikai/kiroku/kaigiroku.html",
+          "publisher": "横浜市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "地域・つながり",
+        "地域の計画は議会の会議録から経緯をたどる"
+      ]
+    },
+    {
+      "id": "community-14",
+      "category": "community",
+      "title": "NPOの活動実績を見てから支援先を決める",
+      "summary": "寄付や参加の前に、法人の基本情報と公開されている事業報告を読む。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "支援先の目的と実績を自分で確かめられる。",
+      "steps": [
+        "内閣府NPO法人ポータルで法人名を検索する",
+        "所在地・活動分野・公開書類を確認する",
+        "直近の活動や使途を団体自身の案内でも確かめる"
+      ],
+      "cautions": [
+        "掲載は国による信用保証ではない。反映の遅れや未掲載書類もあり、NPO以外の団体は検索対象が異なる。"
+      ],
+      "sources": [
+        {
+          "title": "NPO法人ポータルサイト",
+          "url": "https://www.npo-homepage.go.jp/npoportal/",
+          "publisher": "内閣府"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "地域・つながり",
+        "NPOの活動実績を見てから支援先を決める"
+      ]
+    },
+    {
+      "id": "community-15",
+      "category": "community",
+      "title": "手話や要約筆記を地域の講座で学ぶ",
+      "summary": "障害のある人とのやり取りに関心があるなら、自治体の入門講座を探す。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "身近なコミュニケーションの選択肢を増やせる。",
+      "steps": [
+        "自治体の障害福祉ページで講座を調べる",
+        "手話・要約筆記など学びたい方法と対象者を確認する",
+        "日程・教材費・修了後の活動を聞いて申し込む"
+      ],
+      "cautions": [
+        "札幌市の案内は一例。入門講座の修了だけで専門的な通訳ができるとは限らない。"
+      ],
+      "sources": [
+        {
+          "title": "障がいのある方のコミュニケーション手段を学ぶ",
+          "url": "https://www.city.sapporo.jp/shogaifukushi/communication/study.html",
+          "publisher": "札幌市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "地域・つながり",
+        "手話や要約筆記を地域の講座で学ぶ"
+      ]
+    },
+    {
+      "id": "community-16",
+      "category": "community",
+      "title": "食生活の地域活動は養成講座から参加を考える",
+      "summary": "食生活等改善推進員などの活動に関心があれば、地域の養成講座と活動内容を確認する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "学んだことを地域の健康づくりに生かす場が見つかる。",
+      "steps": [
+        "自治体の健康づくり窓口で募集を探す",
+        "講座の日程・対象・活動内容を読む",
+        "受講後に参加できる頻度を相談する"
+      ],
+      "cautions": [
+        "横浜市の制度は一例。募集時期や登録条件は自治体で異なり、専門資格の代わりにはならない。"
+      ],
+      "sources": [
+        {
+          "title": "食生活等改善推進員",
+          "url": "https://www.city.yokohama.lg.jp/kenko-iryo-fukushi/kenko-iryo/kenkozukuri/eiyo/kaizen/14583.html",
+          "publisher": "横浜市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "地域・つながり",
+        "食生活の地域活動は養成講座から参加を考える"
+      ]
+    },
+    {
+      "id": "bereavement-01",
+      "category": "bereavement",
+      "title": "死亡届は提出できる人と窓口を確認する",
+      "summary": "医師が作成する死亡診断書などを受け取り、届出人と提出先を確かめて手続きを進める。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "最初に必要な届出の準備を進められる。",
+      "steps": [
+        "死亡診断書または死体検案書を受け取る",
+        "市区町村に届出人・提出先・期限を確認する",
+        "必要事項を記入して提出し後続手続きの案内を受け取る"
+      ],
+      "cautions": [
+        "国内で死亡したことを知った場合の届出期限は原則その日から7日以内。国外での死亡などは取扱いが異なる。"
+      ],
+      "sources": [
+        {
+          "title": "死亡届",
+          "url": "https://www.moj.go.jp/ONLINE/FAMILYREGISTER/5-4.html",
+          "publisher": "法務省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "身近な人が亡くなったら",
+        "死亡届は提出できる人と窓口を確認する"
+      ]
+    },
+    {
+      "id": "bereavement-02",
+      "category": "bereavement",
+      "title": "火葬場の手配と火葬許可の申請をつなげる",
+      "summary": "死亡届の提出とあわせて、火葬に必要な許可証の受取り方を確認する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "火葬場の予約と行政の許可の行き違いを防げる。",
+      "steps": [
+        "利用する火葬場と日程の手配方法を確認する",
+        "市区町村へ火葬許可の必要事項を聞く",
+        "許可証を受け取り火葬場への提出方法を確かめる"
+      ],
+      "cautions": [
+        "船橋市の案内は一例。利用予約、受付時間、施設の料金や利用条件は地域で異なる。"
+      ],
+      "sources": [
+        {
+          "title": "目的から探す【おくやみ】",
+          "url": "https://www.city.funabashi.lg.jp/other/0001/frequent_okuyami.html",
+          "publisher": "船橋市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "身近な人が亡くなったら",
+        "火葬場の手配と火葬許可の申請をつなげる"
+      ]
+    },
+    {
+      "id": "bereavement-03",
+      "category": "bereavement",
+      "title": "おくやみ窓口で必要な手続きを絞り込む",
+      "summary": "自治体のおくやみ案内を使い、亡くなった人の加入制度や生活状況に応じた手続きを確認する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "複数の窓口を回る前に必要な書類と順番を整理できる。",
+      "steps": [
+        "居住していた自治体のおくやみ案内を探す",
+        "保険・年金・各種手帳などの状況を整理する",
+        "窓口の予約と持ち物を確認して相談する"
+      ],
+      "cautions": [
+        "船橋市の窓口は一例。設置の有無や対象者が異なり、全ての手続きが一か所で完了するとは限らない。"
+      ],
+      "sources": [
+        {
+          "title": "おくやみコーナー窓口のご案内",
+          "url": "https://www.city.funabashi.lg.jp/kurashi/koseki/001/p083468.html",
+          "publisher": "船橋市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "身近な人が亡くなったら",
+        "おくやみ窓口で必要な手続きを絞り込む"
+      ]
+    },
+    {
+      "id": "bereavement-04",
+      "category": "bereavement",
+      "title": "年金の死亡連絡と未支給分の請求を分けて確認する",
+      "summary": "年金を受けていた人が亡くなったら、未支給年金を請求できる人がいるか年金事務所に確認する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "未支給分の確認漏れや振込金の誤使用を防げる。",
+      "steps": [
+        "受給していた年金と基礎年金番号が分かる資料を用意する",
+        "死亡の届出が必要かと未支給年金の対象者を聞く",
+        "必要書類を提出し死亡後の振込の扱いも確認する"
+      ],
+      "cautions": [
+        "死亡の届出が省略できる場合でも未支給年金の請求は別途必要。生計関係などの要件があり、全相続人が対象とは限らない。"
+      ],
+      "sources": [
+        {
+          "title": "年金を受けている方が亡くなったとき",
+          "url": "https://www.nenkin.go.jp/service/jukyu/tetsuduki/kyotsu/jukyu/20140731-01.html",
+          "publisher": "日本年金機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "身近な人が亡くなったら",
+        "年金の死亡連絡と未支給分の請求を分けて確認する"
+      ]
+    },
+    {
+      "id": "bereavement-05",
+      "category": "bereavement",
+      "title": "葬儀後は加入していた保険の埋葬料を確認する",
+      "summary": "協会けんぽなどの加入先に、埋葬料・埋葬費や家族埋葬料の申請先を問い合わせる。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "対象となる給付の申請漏れを減らせる。",
+      "steps": [
+        "亡くなった人の医療保険の加入先を確認する",
+        "申請できる人と必要な証明書類を調べる",
+        "領収書などをそろえて期限内に申請する"
+      ],
+      "cautions": [
+        "協会けんぽの案内。国保などでは制度・名称が異なる。業務上の死亡や他制度との調整があるため条件を確認する。"
+      ],
+      "sources": [
+        {
+          "title": "健康保険埋葬料（費）支給申請書",
+          "url": "https://www.kyoukaikenpo.or.jp/application_form/benefit/012",
+          "publisher": "全国健康保険協会"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "身近な人が亡くなったら",
+        "葬儀後は加入していた保険の埋葬料を確認する"
+      ]
+    },
+    {
+      "id": "bereavement-06",
+      "category": "bereavement",
+      "title": "扶養していた人が亡くなったら自分の医療保険を確認する",
+      "summary": "健康保険の被扶養者だった家族は、亡くなった人の手続きと同時に自分の加入先を確かめる。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "家族自身の受診に必要な資格確認を進められる。",
+      "steps": [
+        "勤務先や保険者へ扶養資格の扱いを問い合わせる",
+        "資格喪失を証明する書類を確認する",
+        "自治体などに新しい加入先と必要な届出を相談する"
+      ],
+      "cautions": [
+        "新宿区の案内は一例。年齢や本人の就労状況などで加入先が変わる。国保への加入を一律に決めつけない。"
+      ],
+      "sources": [
+        {
+          "title": "亡くなられた方に扶養されていた方（ご家族）の国民健康保険の加入手続き",
+          "url": "https://www.city.shinjuku.lg.jp/content/000398612.pdf",
+          "publisher": "新宿区"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "身近な人が亡くなったら",
+        "扶養していた人が亡くなったら自分の医療保険を確認する"
+      ]
+    },
+    {
+      "id": "bereavement-07",
+      "category": "bereavement",
+      "title": "世帯主が亡くなったときは残る世帯の届出を確認する",
+      "summary": "残る家族の人数や構成によって、世帯主変更の届出が必要か市区町村に確認する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "住民登録や関連通知の宛名を整えられる。",
+      "steps": [
+        "残る世帯員と新しい世帯主になる人を整理する",
+        "住民登録窓口に届出の要否と期限を確認する",
+        "必要な本人確認書類などを用意して手続きする"
+      ],
+      "cautions": [
+        "届出が不要となる世帯もある。船橋市の案内を参考に、居住地の自治体に確認する。"
+      ],
+      "sources": [
+        {
+          "title": "転入・転出・転居・世帯変更の届出",
+          "url": "https://www.city.funabashi.lg.jp/kurashi/koseki/002/p009791.html",
+          "publisher": "船橋市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "身近な人が亡くなったら",
+        "世帯主が亡くなったときは残る世帯の届出を確認する"
+      ]
+    },
+    {
+      "id": "bereavement-08",
+      "category": "bereavement",
+      "title": "自宅で遺言書を見つけたら検認の要否を調べる",
+      "summary": "保管されていた遺言書の種類を確認し、必要な場合は家庭裁判所の検認を申し立てる。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "費用あり",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "遺言書を適切な手順で扱える。",
+      "steps": [
+        "封印のある遺言書はそのまま保管する",
+        "公正証書や法務局保管など遺言の種類を確かめる",
+        "家庭裁判所の案内で検認の要否と書類を確認する"
+      ],
+      "cautions": [
+        "公正証書遺言や法務局保管制度の対象遺言書は検認不要。検認は遺言の有効・無効を判断する手続きではない。"
+      ],
+      "sources": [
+        {
+          "title": "遺言書の検認",
+          "url": "https://www.courts.go.jp/saiban/syurui/syurui_kazi/kazi_06_17/index.html",
+          "publisher": "裁判所"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "身近な人が亡くなったら",
+        "自宅で遺言書を見つけたら検認の要否を調べる"
+      ]
+    },
+    {
+      "id": "bereavement-09",
+      "category": "bereavement",
+      "title": "法務局に遺言書が預けられていないか照会する",
+      "summary": "亡くなった人が保管制度を使っていたか不明なら、関係相続人等として証明書を請求できるか確認する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "費用あり",
+      "time": "30分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "保管された遺言書を見落とさずに調べられる。",
+      "steps": [
+        "保管証などの手掛かりを探す",
+        "遺言書保管事実証明書の請求資格と書類を確認する",
+        "保管が確認できたら遺言書情報証明書などで内容を確認する"
+      ],
+      "cautions": [
+        "法務局の保管制度に預けられた遺言書が対象。相続人以外の請求人には証明される範囲の違いがある。"
+      ],
+      "sources": [
+        {
+          "title": "証明書について｜自筆証書遺言書保管制度",
+          "url": "https://www.moj.go.jp/MINJI/05.html",
+          "publisher": "法務省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "身近な人が亡くなったら",
+        "法務局に遺言書が預けられていないか照会する"
+      ]
+    },
+    {
+      "id": "bereavement-10",
+      "category": "bereavement",
+      "title": "相続の証明書が何度も必要なら法定相続情報を使う",
+      "summary": "複数の相続手続きに向けて、戸籍から作る一覧図の認証を受ける制度を確認する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "継続",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "相続関係を証明する書類の繰返し提出を軽減できる。",
+      "steps": [
+        "出生から死亡までの戸籍など必要書類を集める",
+        "公式の様式例で法定相続情報一覧図を作る",
+        "管轄の登記所へ申し出て各提出先の利用条件を確認する"
+      ],
+      "cautions": [
+        "戸籍を提出できないなど利用できない場合がある。一覧図で遺産の分け方が決まるわけではなく、追加書類を求められることもある。"
+      ],
+      "sources": [
+        {
+          "title": "法定相続情報証明制度の具体的な手続について",
+          "url": "https://houmukyoku.moj.go.jp/homu/page7_000014",
+          "publisher": "法務局"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "身近な人が亡くなったら",
+        "相続の証明書が何度も必要なら法定相続情報を使う"
+      ]
+    },
+    {
+      "id": "bereavement-11",
+      "category": "bereavement",
+      "title": "預金の相続は取引銀行から必要書類の案内を受ける",
+      "summary": "故人の口座がある銀行に相続を連絡し、遺言や遺産分割の状況に応じた手続きを確認する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "継続",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "書類の不足や金融機関との行き違いを減らせる。",
+      "steps": [
+        "銀行名と口座の手掛かりを整理する",
+        "銀行の相続受付へ連絡する",
+        "指定された書類を準備し提出・受取り方法を確認する"
+      ],
+      "cautions": [
+        "三菱UFJ銀行の流れは一例。銀行や相続の状況で書類が異なり、預金を自由に払い出せるとは限らない。"
+      ],
+      "sources": [
+        {
+          "title": "相続のお手続きのご案内",
+          "url": "https://www.bk.mufg.jp/tsukau/tetsuduki/sozoku/point.html",
+          "publisher": "三菱UFJ銀行"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "身近な人が亡くなったら",
+        "預金の相続は取引銀行から必要書類の案内を受ける"
+      ]
+    },
+    {
+      "id": "bereavement-12",
+      "category": "bereavement",
+      "title": "保険契約が見つからないときは生命保険契約照会を調べる",
+      "summary": "保険証券や通知物を探しても加入先が分からない場合は、生命保険協会の照会制度を確認する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "費用あり",
+      "time": "30分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "加入先不明による保険金請求の見落としを減らせる。",
+      "steps": [
+        "保険証券・郵便物・保険料の引落記録を探す",
+        "照会者の資格・利用料・対象契約を確認する",
+        "回答で契約が見つかったら保険会社へ別途連絡する"
+      ],
+      "cautions": [
+        "協会の会員会社の対象契約に限られ、解約済みなど対象外がある。照会は保険金請求の代行ではない。"
+      ],
+      "sources": [
+        {
+          "title": "生命保険契約照会制度のご案内",
+          "url": "https://www.seiho.or.jp/contact/inquiry/",
+          "publisher": "生命保険協会"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "身近な人が亡くなったら",
+        "保険契約が見つからないときは生命保険契約照会を調べる"
+      ]
+    },
+    {
+      "id": "bereavement-13",
+      "category": "bereavement",
+      "title": "亡くなった人の所得税は準確定申告の要否を確認する",
+      "summary": "事業や給与などの所得資料を集め、相続税とは別に所得税の申告が必要か確認する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "継続",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "相続税だけに気を取られて所得税の手続きを漏らすのを防げる。",
+      "steps": [
+        "当年と未申告の前年分の所得資料を集める",
+        "税務署や税理士に準確定申告の要否と期限を聞く",
+        "対象なら相続人等で申告内容を調整して提出する"
+      ],
+      "cautions": [
+        "申告が必要な場合の期限は原則、相続開始を知った日の翌日から4か月以内。所得や控除の扱いを個別に確認する。"
+      ],
+      "sources": [
+        {
+          "title": "納税者が死亡したときの確定申告（準確定申告）",
+          "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2022.htm",
+          "publisher": "国税庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "身近な人が亡くなったら",
+        "亡くなった人の所得税は準確定申告の要否を確認する"
+      ]
+    },
+    {
+      "id": "bereavement-14",
+      "category": "bereavement",
+      "title": "遺産の分け方で話合いが進まなければ調停を調べる",
+      "summary": "相続人間で合意できない場合は、家庭裁判所の遺産分割調停の案内を確認する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "費用あり",
+      "time": "継続",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "合意が難しい場面で制度上の解決手段を検討できる。",
+      "steps": [
+        "相続人と遺産の資料を整理する",
+        "家庭裁判所の申立先・費用・必要書類を調べる",
+        "法律相談も利用して申立てや話合いの進め方を検討する"
+      ],
+      "cautions": [
+        "相続人全員を適切に手続きに関与させる必要がある。不成立の場合は審判に移るなど、通常の相談とは異なる。"
+      ],
+      "sources": [
+        {
+          "title": "遺産分割調停",
+          "url": "https://www.courts.go.jp/saiban/syurui/syurui_kazi/kazi_07_12/index.html",
+          "publisher": "裁判所"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "身近な人が亡くなったら",
+        "遺産の分け方で話合いが進まなければ調停を調べる"
+      ]
+    },
+    {
+      "id": "bereavement-15",
+      "category": "bereavement",
+      "title": "遺品整理は残す物と処分する物を契約前に指定する",
+      "summary": "遺品整理業者には作業範囲と費用を確認し、大切な品の扱いを明示して依頼する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "費用あり",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "大切な品の誤処分や予定外の請求を減らせる。",
+      "steps": [
+        "残す品や相続に関係する書類を分ける",
+        "複数の見積りで追加料金と取消条件を比べる",
+        "処分しない物と作業内容を文書で共有する"
+      ],
+      "cautions": [
+        "相続財産の処分には権限や相続放棄への影響などの問題があり得る。不明な物は処分を急がず確認する。"
+      ],
+      "sources": [
+        {
+          "title": "遺品整理サービスでの契約トラブル",
+          "url": "https://www.kokusen.go.jp/news/data/n-20180719_1.html",
+          "publisher": "国民生活センター"
+        },
+        {
+          "title": "相続の放棄の申述",
+          "url": "https://www.courts.go.jp/saiban/syurui/syurui_kazi/kazi_06_13/index.html",
+          "publisher": "裁判所"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "身近な人が亡くなったら",
+        "遺品整理は残す物と処分する物を契約前に指定する"
+      ]
+    },
+    {
+      "id": "bereavement-16",
+      "category": "bereavement",
+      "title": "悲しみを一人で抱えきれないときは相談先を探す",
+      "summary": "身近な人を亡くした後のつらさについて、話せる範囲から相談できる場を探す。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "30分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "気持ちや生活上の困りごとを相談できる相手につながる。",
+      "steps": [
+        "自治体のこころの相談や遺族支援の案内を見る",
+        "個別相談・家族向け・わかちあいなど対象を確かめる",
+        "話せる方法と時間を選んで連絡する"
+      ],
+      "cautions": [
+        "悲しみの現れ方や経過は人によって異なる。地域や死別の事情で利用できる支援が違い、参加や開示を無理に求めない。"
+      ],
+      "sources": [
+        {
+          "title": "グリーフケア",
+          "url": "https://www.city.kasugai.lg.jp/kenko/iryo/kokoronokenko/1030244.html",
+          "publisher": "春日井市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "身近な人が亡くなったら",
+        "悲しみを一人で抱えきれないときは相談先を探す"
+      ]
     }
   ],
   "journeys": [
@@ -1882,6 +9002,92 @@
         "創業計画で顧客・費用・資金を具体化する。",
         "業種に必要な許可等を確認し、記帳を始める。",
         "取引条件を記録し、必要な電子申請の準備をする。"
+      ]
+    },
+    {
+      "id": "life-school-transition",
+      "title": "進学費用と学ぶ環境を整える",
+      "description": "家庭の負担と本人の希望を整理し、学校段階に合う支援へつなぐ。",
+      "articleIds": [
+        "education-01",
+        "education-02",
+        "education-03",
+        "education-04",
+        "education-05",
+        "education-07",
+        "education-15"
+      ],
+      "steps": [
+        "進学先の入学費用と通学・教材などの費用を分けて確認する。",
+        "学校段階に合う給付や授業料支援の申請先と期限を調べる。",
+        "家計が急変した場合は通常募集とは別の相談をする。",
+        "本人が必要とする配慮を学校の相談窓口と話し合う。"
+      ]
+    },
+    {
+      "id": "life-pet-start",
+      "title": "ペットを迎える前後にすること",
+      "description": "迎える判断から登録、日常の管理、災害への準備までをつなぐ。",
+      "articleIds": [
+        "pets-01",
+        "pets-02",
+        "pets-03",
+        "pets-04",
+        "pets-07",
+        "pets-11",
+        "pets-06",
+        "pets-14"
+      ],
+      "steps": [
+        "生涯の費用と世話をする体制を考え、飼育できる住環境を確かめる。",
+        "譲渡などの選択肢を調べ、必要な登録と情報変更を確認する。",
+        "かかりつけの動物病院、健康記録、備蓄を整える。",
+        "避難先の条件と、飼い続けることが難しい場合の相談先を調べる。"
+      ]
+    },
+    {
+      "id": "life-home-maintenance",
+      "title": "住まいを長く使う準備をする",
+      "description": "記録を残し、安全点検と修繕の優先順位を決める。",
+      "articleIds": [
+        "homecare-01",
+        "homecare-07",
+        "homecare-08",
+        "homecare-09",
+        "homecare-12",
+        "homecare-04",
+        "homecare-02",
+        "environment-06"
+      ],
+      "steps": [
+        "設備の取扱説明書と工事履歴をまとめる。",
+        "火災警報器、換気、水回りなど手が届く範囲を確認する。",
+        "耐震性や専門的な点検が必要な箇所を相談する。",
+        "工事の内容と見積りを比較し、契約前に補助制度の条件を確認する。"
+      ]
+    },
+    {
+      "id": "life-bereavement",
+      "title": "身近な人が亡くなった",
+      "description": "直後の届出を優先し、給付と相続を確認しながら自分の休息も確保する。",
+      "articleIds": [
+        "bereavement-01",
+        "bereavement-02",
+        "bereavement-03",
+        "bereavement-06",
+        "bereavement-04",
+        "bereavement-05",
+        "bereavement-08",
+        "bereavement-09",
+        "endoflife-04",
+        "bereavement-13",
+        "bereavement-16"
+      ],
+      "steps": [
+        "死亡届と火葬許可について市区町村や関係者へ確認する。",
+        "おくやみ案内を使い、家族自身の保険や年金などを整理する。",
+        "遺言、借金を含む財産、申告の要否と期限を早めに確認する。",
+        "つらさを抱えきれないときは遺族支援や相談先につながる。"
       ]
     }
   ]

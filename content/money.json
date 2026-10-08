@@ -39,6 +39,46 @@
       "id": "digital",
       "title": "デジタル安全",
       "description": "アカウント・端末・大切なデータを守る基本を実行する。"
+    },
+    {
+      "id": "debt",
+      "title": "借金・返済",
+      "description": "借入条件を把握し、返済が難しいときの手続きと相談につなぐ。"
+    },
+    {
+      "id": "banking",
+      "title": "銀行・決済",
+      "description": "口座と決済サービスの費用・設定・トラブル対応を確認する。"
+    },
+    {
+      "id": "insurance",
+      "title": "保険の見直し",
+      "description": "必要な保障、継続費用、請求と変更の手続きを点検する。"
+    },
+    {
+      "id": "benefits",
+      "title": "給付・助成の探し方",
+      "description": "家計や生活状況に合う制度を探し、対象と申請時期を確認する。"
+    },
+    {
+      "id": "sidework",
+      "title": "副業・在宅ワーク",
+      "description": "個人で受ける仕事の契約、税務、健康と継続の備え。"
+    },
+    {
+      "id": "harassment",
+      "title": "職場の困りごと",
+      "description": "ハラスメント、待遇、配慮の相談先と解決への進め方。"
+    },
+    {
+      "id": "retirement",
+      "title": "退職・再就職",
+      "description": "会社を離れるときの書類と年金資産、次の仕事への支援。"
+    },
+    {
+      "id": "fraud",
+      "title": "詐欺への備え",
+      "description": "よくある勧誘の手口を知り、送金前と被害直後に動く。"
     }
   ],
   "articles": [
@@ -687,11 +727,11 @@
           "title": "傷病手当金",
           "url": "https://www.kyoukaikenpo.or.jp/benefit/injury_and_sickness_allowance/",
           "publisher": "全国健康保険協会"
-      },
-      {
-        "title": "診断書・各種証明書について（傷病手当金医師意見書の費用例）",
-        "url": "https://kurihama.hosp.go.jp/hospital/outpatient/certificate.html",
-        "publisher": "国立病院機構 久里浜医療センター"
+        },
+        {
+          "title": "診断書・各種証明書について（傷病手当金医師意見書の費用例）",
+          "url": "https://kurihama.hosp.go.jp/hospital/outpatient/certificate.html",
+          "publisher": "国立病院機構 久里浜医療センター"
         }
       ],
       "checked": "2026-10-09",
@@ -1764,11 +1804,11 @@
           "title": "日常における情報セキュリティ対策",
           "url": "https://www.ipa.go.jp/security/anshin/measures/everyday.html",
           "publisher": "情報処理推進機構 IPA"
-      },
-      {
-        "title": "ランサムウェアの脅威と対策（バックアップにおける留意事項）",
-        "url": "https://www.ipa.go.jp/security/anshin/measures/ug65p9000000njuc-att/000057314.pdf",
-        "publisher": "情報処理推進機構 IPA"
+        },
+        {
+          "title": "ランサムウェアの脅威と対策（バックアップにおける留意事項）",
+          "url": "https://www.ipa.go.jp/security/anshin/measures/ug65p9000000njuc-att/000057314.pdf",
+          "publisher": "情報処理推進機構 IPA"
         }
       ],
       "checked": "2026-10-09",
@@ -1812,6 +1852,7135 @@
         "紛失",
         "スマホ",
         "端末"
+      ]
+    },
+    {
+      "id": "money-07",
+      "category": "money",
+      "title": "投資先を一つに集中させない",
+      "summary": "資産・地域・購入時期の偏りを確認してから配分を考えます。",
+      "audience": [
+        "投資を検討する人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "似た値動きの商品への集中に気づける。",
+      "steps": [
+        "保有商品の投資対象を調べる",
+        "重なる地域や業種を書き出す",
+        "生活資金を確保したうえで配分を検討する"
+      ],
+      "cautions": [
+        "分散しても損失は避けられず、商品数だけでは分散度を判断できません。"
+      ],
+      "sources": [
+        {
+          "title": "資産形成の基本",
+          "url": "https://www.fsa.go.jp/policy/nisa2/invest/index.html",
+          "publisher": "金融庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "分散",
+        "資産形成"
+      ]
+    },
+    {
+      "id": "money-08",
+      "category": "money",
+      "title": "購入時だけでなく保有中の手数料も確認する",
+      "summary": "投資商品は購入・保有・売却の各段階に費用がかかる場合があります。",
+      "audience": [
+        "投資を検討する人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "見えにくい継続費用を購入前に把握できる。",
+      "steps": [
+        "費用の記載を探す",
+        "同じ種類の商品を同じ保有期間で比較する",
+        "不明な費用を販売会社に確認する"
+      ],
+      "cautions": [
+        "手数料が低くても、運用成果や元本の安全は保証されません。"
+      ],
+      "sources": [
+        {
+          "title": "シリーズ教材 お金のキホン",
+          "url": "https://www.j-flec.go.jp/materials/series-okane-kihon/",
+          "publisher": "金融経済教育推進機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "手数料",
+        "投資信託"
+      ]
+    },
+    {
+      "id": "money-09",
+      "category": "money",
+      "title": "投資信託は目論見書を読んでから買う",
+      "summary": "ランキングだけで選ばず、運用方針・リスク・換金条件を確かめます。",
+      "audience": [
+        "投資を検討する人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "自分の目的に合わない商品を選ぶリスクを減らせる。",
+      "steps": [
+        "交付目論見書を開く",
+        "投資対象と損失要因を確認する",
+        "理解できない点は購入前に質問する"
+      ],
+      "cautions": [
+        "過去の運用実績は将来の成果を保証しません。"
+      ],
+      "sources": [
+        {
+          "title": "投資をされる方へ",
+          "url": "https://www.fsa.go.jp/sesc/support/advice.html",
+          "publisher": "証券取引等監視委員会"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "目論見書",
+        "投資信託"
+      ]
+    },
+    {
+      "id": "money-10",
+      "category": "money",
+      "title": "債券は満期まで持つ場合と途中売却を分けて考える",
+      "summary": "債券も発行体の信用や市場金利の変化で損失が生じ得ます。",
+      "audience": [
+        "投資を検討する人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "満期前に必要となるお金を無理に回さずに済む。",
+      "steps": [
+        "満期と利払い条件を確認する",
+        "途中売却の価格変動を調べる",
+        "必要な時期に使える資金か確かめる"
+      ],
+      "cautions": [
+        "元本償還は発行体の信用状態などに左右されます。商品ごとの条件を確認してください。"
+      ],
+      "sources": [
+        {
+          "title": "シリーズ教材 お金のキホン",
+          "url": "https://www.j-flec.go.jp/materials/series-okane-kihon/",
+          "publisher": "金融経済教育推進機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "債券",
+        "満期"
+      ]
+    },
+    {
+      "id": "money-11",
+      "category": "money",
+      "title": "外貨建て商品は円での受取額を考える",
+      "summary": "外貨の利率だけでなく、為替変動と交換時の費用を確認します。",
+      "audience": [
+        "外貨建て商品を検討する人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "利率だけを見た判断を避けられる。",
+      "steps": [
+        "受取通貨を確かめる",
+        "円高・円安の両方で受取額を試算する",
+        "為替手数料と解約条件を読む"
+      ],
+      "cautions": [
+        "外貨で元本が確保される商品でも、円に換えると損失が出る場合があります。"
+      ],
+      "sources": [
+        {
+          "title": "シリーズ教材 お金のキホン",
+          "url": "https://www.j-flec.go.jp/materials/series-okane-kihon/",
+          "publisher": "金融経済教育推進機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "外貨",
+        "為替"
+      ]
+    },
+    {
+      "id": "money-12",
+      "category": "money",
+      "title": "iDeCoは引き出せる時期を確認して検討する",
+      "summary": "老後資金の制度として、資金の拘束と費用も含めて判断します。",
+      "audience": [
+        "老後資金を準備する人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "途中で必要になるお金を拠出する失敗を防げる。",
+      "steps": [
+        "加入資格と拠出可能額を確認する",
+        "生活資金と分けて掛金を検討する",
+        "口座管理や商品の費用を比較する"
+      ],
+      "cautions": [
+        "原則として60歳まで引き出せません。受給開始時期や税の効果は加入期間・所得などで異なります。"
+      ],
+      "sources": [
+        {
+          "title": "iDeCoの特徴",
+          "url": "https://www.ideco-koushiki.jp/guide/",
+          "publisher": "国民年金基金連合会"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "iDeCo",
+        "確定拠出年金"
+      ]
+    },
+    {
+      "id": "money-13",
+      "category": "money",
+      "title": "子どもと買い物の予算を決める",
+      "summary": "おこづかいの教材を使い、限られたお金で選ぶ練習をします。",
+      "audience": [
+        "子育て中の人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "買う前に考える習慣を家庭でつくれる。",
+      "steps": [
+        "使える予算を親子で決める",
+        "必要な物と欲しい物を分ける",
+        "買った後に残額と選び方を振り返る"
+      ],
+      "cautions": [
+        "金額や任せる範囲は年齢や家庭状況に合わせます。"
+      ],
+      "sources": [
+        {
+          "title": "金融を学べる教材",
+          "url": "https://www.j-flec.go.jp/materials/",
+          "publisher": "金融経済教育推進機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "おこづかい",
+        "金融教育"
+      ]
+    },
+    {
+      "id": "money-14",
+      "category": "money",
+      "title": "大きなライフイベントは年単位の家計表に入れる",
+      "summary": "毎月の黒字だけでは見えない、進学や住み替えなどの支出を整理します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "支出が重なる年に備えられる。",
+      "steps": [
+        "予定と希望を年ごとに並べる",
+        "費用の見込みと準備済み資金を書く",
+        "時期や金額を変えた案も考える"
+      ],
+      "cautions": [
+        "教材の平均額が自分の必要額とは限りません。予定は定期的に更新します。"
+      ],
+      "sources": [
+        {
+          "title": "シリーズ教材 お金のキホン",
+          "url": "https://www.j-flec.go.jp/materials/series-okane-kihon/",
+          "publisher": "金融経済教育推進機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "ライフプラン",
+        "教育費"
+      ]
+    },
+    {
+      "id": "money-15",
+      "category": "money",
+      "title": "物価が変わったら将来の生活費も見直す",
+      "summary": "現在の支出額をそのまま長期計画に使わず、値上がりの影響を考えます。",
+      "audience": [
+        "家計を計画する人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "長期の資金計画に幅を持たせられる。",
+      "steps": [
+        "よく買う物の支出変化を確認する",
+        "将来の生活費を複数の前提で見積もる",
+        "積立額や予定を無理のない範囲で調整する"
+      ],
+      "cautions": [
+        "物価や運用成果の予測を確定値として扱わないでください。"
+      ],
+      "sources": [
+        {
+          "title": "シリーズ教材 お金のキホン",
+          "url": "https://www.j-flec.go.jp/materials/series-okane-kihon/",
+          "publisher": "金融経済教育推進機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "物価",
+        "インフレ"
+      ]
+    },
+    {
+      "id": "money-16",
+      "category": "money",
+      "title": "資産と借入れを同じ表に並べる",
+      "summary": "預金残高だけでなく、負債を含めた家計の全体像を把握します。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "貯蓄額だけでは分からない家計の状態に気づける。",
+      "steps": [
+        "預金・運用資産の残高を集める",
+        "ローン残高を別欄に記入する",
+        "更新日を付けて安全な場所に保管する"
+      ],
+      "cautions": [
+        "暗証番号や認証コードは一覧に書かず、共有範囲を限定します。"
+      ],
+      "sources": [
+        {
+          "title": "人生100年時代 始めよう！お金の準備",
+          "url": "https://www.j-flec.go.jp/materials/money-for-life/",
+          "publisher": "金融経済教育推進機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "資産一覧",
+        "負債"
+      ]
+    },
+    {
+      "id": "tax-07",
+      "category": "tax",
+      "title": "住宅ローン控除は初年度の申告を確認する",
+      "summary": "勤務先の年末調整だけで済むと思い込まず、最初の手続きを調べます。",
+      "audience": [
+        "住宅を取得した人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "控除を受けるための準備漏れを減らせる。",
+      "steps": [
+        "入居年と住宅の区分を確認する",
+        "該当年の要件と必要書類を国税庁で調べる",
+        "申告書を作成し提出方法を確認する"
+      ],
+      "cautions": [
+        "適用条件は入居年・住宅性能・所得などで異なります。"
+      ],
+      "sources": [
+        {
+          "title": "住宅ローン控除を受ける方へ",
+          "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/juutaku.htm",
+          "publisher": "国税庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住宅ローン控除",
+        "確定申告"
+      ]
+    },
+    {
+      "id": "tax-08",
+      "category": "tax",
+      "title": "災害による損失は税の相談材料を残す",
+      "summary": "安全確保を優先し、落ち着いてから損失や復旧費用を整理します。",
+      "audience": [
+        "災害や盗難の被害を受けた人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "災害後に利用できる税の措置を確認しやすくなる。",
+      "steps": [
+        "被害状況と資産の情報を保存する",
+        "復旧費用と受取保険金をまとめる",
+        "雑損控除などの対象を税務署に確認する"
+      ],
+      "cautions": [
+        "詐欺や恐喝による損失は雑損控除の対象外です。事業用資産なども扱いが異なります。"
+      ],
+      "sources": [
+        {
+          "title": "災害や盗難などで資産に損害を受けたとき",
+          "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1110.htm",
+          "publisher": "国税庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "雑損控除",
+        "災害"
+      ]
+    },
+    {
+      "id": "tax-09",
+      "category": "tax",
+      "title": "扶養控除はその年の所得と家族の状況を確認する",
+      "summary": "以前と同じ扶養申告を続けず、年齢・所得・生計の状況を確認します。",
+      "audience": [
+        "親族を扶養する人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "年末調整や申告の誤りを減らせる。",
+      "steps": [
+        "家族の年間所得見込みを集める",
+        "その年に適用される要件と照合する",
+        "変更があれば勤務先や税務署に確認する"
+      ],
+      "cautions": [
+        "税の扶養と健康保険の扶養は別制度です。適用年による改正にも注意します。"
+      ],
+      "sources": [
+        {
+          "title": "扶養控除",
+          "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1180.htm",
+          "publisher": "国税庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "扶養控除",
+        "年末調整"
+      ]
+    },
+    {
+      "id": "tax-10",
+      "category": "tax",
+      "title": "配偶者の働き方が変わったら控除を確認する",
+      "summary": "収入だけで決めつけず、本人と配偶者の所得をもとに判定します。",
+      "audience": [
+        "配偶者がいる人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "働き方の変更を税の手続きに反映できる。",
+      "steps": [
+        "双方の所得見込みを整理する",
+        "配偶者控除の要件を確認する",
+        "対象外なら配偶者特別控除も調べる"
+      ],
+      "cautions": [
+        "社会保険の加入条件や勤務先の家族手当とは別に判定します。"
+      ],
+      "sources": [
+        {
+          "title": "配偶者控除",
+          "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1191.htm",
+          "publisher": "国税庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "配偶者控除",
+        "所得"
+      ]
+    },
+    {
+      "id": "tax-11",
+      "category": "tax",
+      "title": "障害者控除は対象と確認書類を調べる",
+      "summary": "本人や家族が対象になるか、税法上の要件で確認します。",
+      "audience": [
+        "障害がある人・家族"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "該当する控除を申告しやすくなる。",
+      "steps": [
+        "対象となり得る本人・家族の状況を整理する",
+        "手帳や自治体の認定に関する条件を読む",
+        "年末調整または確定申告の手続きを確認する"
+      ],
+      "cautions": [
+        "要介護認定だけで自動的に対象になるとは限りません。所得など家族の条件も確認します。"
+      ],
+      "sources": [
+        {
+          "title": "障害者控除",
+          "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1160.htm",
+          "publisher": "国税庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "障害者控除",
+        "認定"
+      ]
+    },
+    {
+      "id": "tax-12",
+      "category": "tax",
+      "title": "ひとり親控除の条件を確認する",
+      "summary": "子どもを養育していても、税の判定には所得や生計などの条件があります。",
+      "audience": [
+        "ひとり親家庭の人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "自分に適用される税の支援を把握できる。",
+      "steps": [
+        "対象年の婚姻・生計の状況を確認する",
+        "本人と子の所得要件を読む",
+        "勤務先または税務署で手続きを確認する"
+      ],
+      "cautions": [
+        "事実婚に当たる事情などで対象外になる場合があります。"
+      ],
+      "sources": [
+        {
+          "title": "ひとり親控除",
+          "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1171.htm",
+          "publisher": "国税庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "ひとり親控除",
+        "所得税"
+      ]
+    },
+    {
+      "id": "tax-13",
+      "category": "tax",
+      "title": "生命保険料控除の証明書をまとめる",
+      "summary": "契約名ではなく、保険会社が発行する控除証明書で区分を確認します。",
+      "audience": [
+        "対象の保険料を払う人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "証明書の見落としによる申告漏れを減らせる。",
+      "steps": [
+        "紙・電子の控除証明書を集める",
+        "新旧契約や保険の区分を確認する",
+        "年末調整または確定申告に反映する"
+      ],
+      "cautions": [
+        "支払った保険料が全額戻る制度ではありません。契約時期や種類で計算が異なります。"
+      ],
+      "sources": [
+        {
+          "title": "生命保険料控除",
+          "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1140.htm",
+          "publisher": "国税庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "生命保険料控除",
+        "証明書"
+      ]
+    },
+    {
+      "id": "tax-14",
+      "category": "tax",
+      "title": "所得が減ったら予定納税の減額を確認する",
+      "summary": "予定納税の通知が届いても、今年の見込みによって減額申請を検討できます。",
+      "audience": [
+        "予定納税の通知が届いた人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "現在の所得見込みに応じた納税を相談できる。",
+      "steps": [
+        "予定納税の通知内容を読む",
+        "今年の所得と控除の見込みを整理する",
+        "減額申請の条件と期限を税務署で確認する"
+      ],
+      "cautions": [
+        "自己判断で納付を止めず、所定の申請が必要です。"
+      ],
+      "sources": [
+        {
+          "title": "予定納税",
+          "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2040.htm",
+          "publisher": "国税庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "予定納税",
+        "減額申請"
+      ]
+    },
+    {
+      "id": "tax-15",
+      "category": "tax",
+      "title": "納税が難しい見込みは早めに税務署へ相談する",
+      "summary": "放置せず、収支を伝えて猶予などの対象になるか確認します。",
+      "audience": [
+        "納税が難しい人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "納付方法を相談する時間を確保できる。",
+      "steps": [
+        "税目・納期限・金額を整理する",
+        "収入減や病気などの事情をまとめる",
+        "所轄税務署の徴収担当へ連絡する"
+      ],
+      "cautions": [
+        "猶予には要件と審査があります。地方税は自治体の窓口に相談します。"
+      ],
+      "sources": [
+        {
+          "title": "納期限までに納付することが困難な方へ",
+          "url": "https://www.nta.go.jp/taxes/nozei/nofu_konnan.htm",
+          "publisher": "国税庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "納税猶予",
+        "税務署"
+      ]
+    },
+    {
+      "id": "tax-16",
+      "category": "tax",
+      "title": "申告の誤りは訂正方法を確認する",
+      "summary": "税額を多く申告した場合と少なく申告した場合では手続きが異なります。",
+      "audience": [
+        "確定申告をした人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "間違いを適切な方法で直せる。",
+      "steps": [
+        "提出済みの申告内容と資料を照合する",
+        "誤りによる税額の増減を確認する",
+        "修正申告や更正の請求の方法を調べる"
+      ],
+      "cautions": [
+        "手続きごとに期限があります。不明な場合は税務署へ相談します。"
+      ],
+      "sources": [
+        {
+          "title": "確定申告を間違えたとき",
+          "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2026.htm",
+          "publisher": "国税庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "修正申告",
+        "更正の請求"
+      ]
+    },
+    {
+      "id": "pension-07",
+      "category": "pension",
+      "title": "退職後の年金の種別変更を確認する",
+      "summary": "次の勤務先まで間が空く場合は、自分で手続きが必要かを確認します。",
+      "audience": [
+        "退職・転職する人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "年金の加入手続きの空白を防げる。",
+      "steps": [
+        "退職日と次の就職予定を整理する",
+        "配偶者の扶養を含め加入先を確認する",
+        "必要な種別変更を市区町村などで行う"
+      ],
+      "cautions": [
+        "年齢や再就職先、扶養の条件によって手続きが異なります。"
+      ],
+      "sources": [
+        {
+          "title": "就職・転職・退職",
+          "url": "https://www.nenkin.go.jp/service/scenebetsu/shushoku.html",
+          "publisher": "日本年金機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "国民年金",
+        "種別変更"
+      ]
+    },
+    {
+      "id": "pension-08",
+      "category": "pension",
+      "title": "短時間勤務でも社会保険の加入対象を確認する",
+      "summary": "パートという呼び名だけでは加入対象か判断できません。",
+      "audience": [
+        "パート・アルバイトの人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "手取りと保障の変化を事前に把握できる。",
+      "steps": [
+        "契約上の労働時間と賃金を確認する",
+        "最新の適用要件を確認する",
+        "勤務先に加入時期と控除額を聞く"
+      ],
+      "cautions": [
+        "事業所や雇用条件、施行時期によって対象が変わります。"
+      ],
+      "sources": [
+        {
+          "title": "社会保険適用拡大とは？",
+          "url": "https://www.mhlw.go.jp/tekiyoukakudai/seido/",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "社会保険",
+        "適用拡大"
+      ]
+    },
+    {
+      "id": "pension-09",
+      "category": "pension",
+      "title": "国民年金の産前産後免除を確認する",
+      "summary": "第1号被保険者は、通常の免除とは別に出産前後の免除制度を確認します。",
+      "audience": [
+        "出産予定・出産した第1号被保険者"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "対象期間の保険料負担を制度に沿って軽減できる。",
+      "steps": [
+        "加入区分と出産予定日を確認する",
+        "必要書類と届出先を調べる",
+        "市区町村または電子申請で届け出る"
+      ],
+      "cautions": [
+        "任意加入期間は対象外です。多胎妊娠などで対象期間が異なります。"
+      ],
+      "sources": [
+        {
+          "title": "国民年金保険料の産前産後期間の免除制度",
+          "url": "https://www.nenkin.go.jp/service/kokunen/menjo/20180810.html",
+          "publisher": "日本年金機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "産前産後",
+        "国民年金"
+      ]
+    },
+    {
+      "id": "pension-10",
+      "category": "pension",
+      "title": "育児休業中の保険料免除を勤務先に確認する",
+      "summary": "厚生年金などの免除は、事業主からの届出と休業の条件を確認します。",
+      "audience": [
+        "育児休業を取る会社員など"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "休業中の家計と手続きの見通しを立てやすくなる。",
+      "steps": [
+        "育休の開始・終了予定日を整理する",
+        "勤務先に免除の対象期間を確認する",
+        "給与・賞与明細で反映を確認する"
+      ],
+      "cautions": [
+        "月額保険料と賞与の免除要件は同じではありません。国民年金第1号の育児免除は別制度です。"
+      ],
+      "sources": [
+        {
+          "title": "育児休業中の厚生年金保険の保険料はどうなるのですか",
+          "url": "https://www.nenkin.go.jp/section/faq/kounen/hokenryo/20140912.html",
+          "publisher": "日本年金機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "育休",
+        "保険料免除"
+      ]
+    },
+    {
+      "id": "pension-11",
+      "category": "pension",
+      "title": "障害年金の相談に初診の情報を残す",
+      "summary": "病気やけがで生活・仕事に制限があるとき、障害年金の要件を確認します。",
+      "audience": [
+        "病気・けがで生活に制限がある人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "相談時に必要な事実を伝えやすくなる。",
+      "steps": [
+        "最初に受診した医療機関と時期を整理する",
+        "加入記録と保険料の状況を確認する",
+        "年金事務所に必要書類を相談する"
+      ],
+      "cautions": [
+        "障害者手帳の等級と年金の認定は別です。初診日や保険料などの要件があります。"
+      ],
+      "sources": [
+        {
+          "title": "障害年金",
+          "url": "https://www.nenkin.go.jp/service/jukyu/seido/shougainenkin/jukyu-yoken/20150401-01.html",
+          "publisher": "日本年金機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "障害年金",
+        "初診日"
+      ]
+    },
+    {
+      "id": "pension-12",
+      "category": "pension",
+      "title": "家族が亡くなったら遺族年金を確認する",
+      "summary": "亡くなった方の加入歴と遺族の状況から、対象となる給付を調べます。",
+      "audience": [
+        "家族を亡くした人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "受けられる可能性がある年金の請求漏れを減らせる。",
+      "steps": [
+        "年金加入歴と家族関係を整理する",
+        "遺族年金の種類を確認する",
+        "年金事務所で請求書類と期限を相談する"
+      ],
+      "cautions": [
+        "受給できる遺族の範囲や年齢、生計維持などの条件があります。"
+      ],
+      "sources": [
+        {
+          "title": "年金を受給している方・年金を請求する方",
+          "url": "https://www.nenkin.go.jp/service/riyoushabetsu/jukyu/",
+          "publisher": "日本年金機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "遺族年金",
+        "請求"
+      ]
+    },
+    {
+      "id": "pension-13",
+      "category": "pension",
+      "title": "年金は受取り開始に必要な請求手続きを確認する",
+      "summary": "受給年齢になれば自動で振り込まれると思い込まず、届いた案内を確認します。",
+      "audience": [
+        "年金の受給時期が近い人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "必要な請求の遅れを防げる。",
+      "steps": [
+        "年金請求の案内を開封する",
+        "記録と必要書類を照合する",
+        "希望する受給方法を確認して請求する"
+      ],
+      "cautions": [
+        "年金の種類や個人の受給権によって手続きが異なります。"
+      ],
+      "sources": [
+        {
+          "title": "年金を受給している方・年金を請求する方",
+          "url": "https://www.nenkin.go.jp/service/riyoushabetsu/jukyu/",
+          "publisher": "日本年金機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "老齢年金",
+        "請求書"
+      ]
+    },
+    {
+      "id": "pension-14",
+      "category": "pension",
+      "title": "働き方を変える前に年金見込額を試算する",
+      "summary": "ねんきんネットで就業条件を変えた試算をし、将来の収入を比較します。",
+      "audience": [
+        "働き方を見直す人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "働き方の変更が将来の収入に与える影響を考えられる。",
+      "steps": [
+        "年金記録に誤りがないか確認する",
+        "働く期間などの条件を入力する",
+        "複数の試算結果を家計計画に残す"
+      ],
+      "cautions": [
+        "見込額は確定した支給額ではなく、制度や加入実績で変わります。"
+      ],
+      "sources": [
+        {
+          "title": "ねんきんネットの概要",
+          "url": "https://www.nenkin.go.jp/denshibenri_kojin/n_net/introduction/summary.html",
+          "publisher": "日本年金機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "ねんきんネット",
+        "年金試算"
+      ]
+    },
+    {
+      "id": "pension-15",
+      "category": "pension",
+      "title": "繰下げ受給は生活費や他制度も含めて比較する",
+      "summary": "増額率だけで決めず、受給までの資金と他の給付への影響を確認します。",
+      "audience": [
+        "老齢年金の開始時期を検討する人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "受取り時期を生活全体から判断できる。",
+      "steps": [
+        "開始時期別の見込額を確認する",
+        "待機中の生活費を試算する",
+        "他の年金や税・保険料への影響を相談する"
+      ],
+      "cautions": [
+        "遺族年金などの受給権により繰下げできない場合があります。全員に有利とは限りません。"
+      ],
+      "sources": [
+        {
+          "title": "年金の繰下げ受給",
+          "url": "https://www.nenkin.go.jp/service/jukyu/seido/roureinenkin/kuriage-kurisage/20140421-02.html",
+          "publisher": "日本年金機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "繰下げ",
+        "老後資金"
+      ]
+    },
+    {
+      "id": "pension-16",
+      "category": "pension",
+      "title": "海外へ転出するときは年金の加入を確認する",
+      "summary": "海外赴任や移住の前に、加入区分と必要な手続きを確認します。",
+      "audience": [
+        "海外へ転出する人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "海外滞在による加入記録の見落としを減らせる。",
+      "steps": [
+        "勤務先の加入継続の扱いを聞く",
+        "任意加入や社会保障協定の対象を調べる",
+        "出国前に年金窓口で手続きを確認する"
+      ],
+      "cautions": [
+        "国籍・年齢・赴任形態・渡航先によって扱いが異なります。"
+      ],
+      "sources": [
+        {
+          "title": "海外への転出・海外からの転入",
+          "url": "https://www.nenkin.go.jp/service/scenebetsu/kaigai.html",
+          "publisher": "日本年金機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "海外転出",
+        "任意加入"
+      ]
+    },
+    {
+      "id": "work-07",
+      "category": "work",
+      "title": "固定残業代の時間と超過分を確認する",
+      "summary": "給与総額だけでなく、基本給と固定残業代の内訳を読みます。",
+      "audience": [
+        "就職・転職する人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "給与の条件を入社前に比較しやすくなる。",
+      "steps": [
+        "求人票と条件通知書を保存する",
+        "対象時間数と金額を確認する",
+        "超過分の支払方法を勤務先に聞く"
+      ],
+      "cautions": [
+        "固定残業代があっても、無制限に残業させられるという意味ではありません。"
+      ],
+      "sources": [
+        {
+          "title": "働くみなさんが守るべきルール",
+          "url": "https://www.mhlw.go.jp/content/001707662.pdf",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "固定残業代",
+        "求人票"
+      ]
+    },
+    {
+      "id": "work-08",
+      "category": "work",
+      "title": "就業規則をいつでも確認できる場所を知る",
+      "summary": "休職・服務・退職などの社内ルールを、必要になってから探さずに済むようにします。",
+      "audience": [
+        "雇用されて働く人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "休暇や手続きの社内ルールにアクセスできる。",
+      "steps": [
+        "社内で閲覧できる場所を聞く",
+        "自分に適用される規則を確認する",
+        "不明な条項を担当者に質問する"
+      ],
+      "cautions": [
+        "就業規則だけで法令上の権利がなくなるわけではありません。"
+      ],
+      "sources": [
+        {
+          "title": "労働基準法",
+          "url": "https://www.mhlw.go.jp/web/t_doc?dataId=73022000&dataType=0",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "就業規則",
+        "周知"
+      ]
+    },
+    {
+      "id": "work-09",
+      "category": "work",
+      "title": "休憩中に仕事から離れられているか確認する",
+      "summary": "電話番や来客対応を続けている時間が休憩扱いになっていないか確認します。",
+      "audience": [
+        "雇用されて働く人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "記録上だけの休憩を見つけられる。",
+      "steps": [
+        "実際に自由に使えた時間を記録する",
+        "勤務表の休憩時間と照合する",
+        "改善しなければ労働相談窓口に相談する"
+      ],
+      "cautions": [
+        "職種や制度上の例外もあるため、個別の事情を伝えて確認します。"
+      ],
+      "sources": [
+        {
+          "title": "労働時間・休日",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/roudouzikan/index.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "休憩",
+        "労働時間"
+      ]
+    },
+    {
+      "id": "work-10",
+      "category": "work",
+      "title": "有期契約は更新上限と無期転換を確認する",
+      "summary": "更新のたびに期間と条件を確認し、無期転換の申込機会を把握します。",
+      "audience": [
+        "有期契約で働く人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "更新や雇用形態について準備して話せる。",
+      "steps": [
+        "過去の契約書を時系列に並べる",
+        "更新上限と無期転換の案内を読む",
+        "不明点を勤務先または労働局に確認する"
+      ],
+      "cautions": [
+        "無期転換は自動的な正社員化ではありません。通算期間などに要件・例外があります。"
+      ],
+      "sources": [
+        {
+          "title": "労働契約",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/keiyaku/index.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "無期転換",
+        "契約更新"
+      ]
+    },
+    {
+      "id": "work-11",
+      "category": "work",
+      "title": "育児と仕事を両立する制度を勤務先に確認する",
+      "summary": "育児休業だけでなく、子の看護等休暇や働く時間の制度も調べます。",
+      "audience": [
+        "子育て中の労働者"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "育児の状況に合う働き方を相談できる。",
+      "steps": [
+        "子の年齢と必要な配慮を整理する",
+        "会社の制度と法定制度を確認する",
+        "希望の時期を伝え申出方法を聞く"
+      ],
+      "cautions": [
+        "制度ごとに対象者・子の年齢・申出期限などが異なります。"
+      ],
+      "sources": [
+        {
+          "title": "育児・介護休業法のあらまし",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/000103504.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "育児",
+        "両立支援"
+      ]
+    },
+    {
+      "id": "work-12",
+      "category": "work",
+      "title": "介護の通院付き添いは、介護休暇の取得単位を確認する",
+      "summary": "短い時間の付き添いや手続きに使える休暇を、介護休業とは別に確認する。",
+      "audience": [
+        "家族の介護をする労働者"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "家族の介護と勤務時間を細かく調整しやすくする。",
+      "steps": [
+        "必要な付き添いや手続きの日時を整理する。",
+        "会社に介護休暇の対象家族・取得単位・申出方法を確認する。",
+        "休暇中の賃金の扱いを確認して予定を調整する。"
+      ],
+      "cautions": [
+        "対象家族や状態などに要件がある。時間単位の取得に例外があり、有給か無給かは会社の定めによる。"
+      ],
+      "sources": [
+        {
+          "title": "介護休暇",
+          "url": "https://www.mhlw.go.jp/seisakunitsuite/bunya/koyou_roudou/koyoukintou/ryouritsu/kaigo/shorttime-leave/",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "介護休暇",
+        "通院付き添い",
+        "時間単位"
+      ]
+    },
+    {
+      "id": "work-13",
+      "category": "work",
+      "title": "仕事中のけがは労災の窓口に確認する",
+      "summary": "必要な受診を優先し、仕事や通勤との関係を医療機関と相談先に伝えます。",
+      "audience": [
+        "仕事・通勤でけがをした人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "適切な保険給付の確認につなげられる。",
+      "steps": [
+        "医療機関に発生状況を伝える",
+        "日時・場所・目撃者を記録する",
+        "勤務先と労働基準監督署に請求方法を確認する"
+      ],
+      "cautions": [
+        "労災認定は個別に判断されます。会社の説明だけで対象外と決めつけないでください。"
+      ],
+      "sources": [
+        {
+          "title": "労働災害が発生したとき",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/zigyonushi/rousai/index.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "労災",
+        "業務災害"
+      ]
+    },
+    {
+      "id": "work-14",
+      "category": "work",
+      "title": "テレワークの費用負担と勤務ルールを決める",
+      "summary": "自宅で働く前に、通信費や機器、勤務時間の扱いを確認します。",
+      "audience": [
+        "テレワークをする人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "在宅勤務開始後の費用や時間の行き違いを減らせる。",
+      "steps": [
+        "必要な機器と通信環境を整理する",
+        "費用負担・勤怠記録・連絡方法を確認する",
+        "合意したルールを保存する"
+      ],
+      "cautions": [
+        "在宅勤務でも労働関係法令が適用されます。契約や勤務形態による違いがあります。"
+      ],
+      "sources": [
+        {
+          "title": "テレワーク導入時の労働契約・就業規則",
+          "url": "https://telework.mhlw.go.jp/info/qa/002/",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "在宅勤務",
+        "通信費"
+      ]
+    },
+    {
+      "id": "work-15",
+      "category": "work",
+      "title": "雇用の副業は勤務時間を共有する",
+      "summary": "複数の勤務先で働くときは、実際の労働時間と健康状態を把握します。",
+      "audience": [
+        "複数の勤務先で働く人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "働き過ぎや勤務時間の申告漏れを防ぎやすくなる。",
+      "steps": [
+        "本業と副業の勤務予定をまとめる",
+        "申告が必要な内容を各勤務先に確認する",
+        "過重になったら仕事量を調整する"
+      ],
+      "cautions": [
+        "労働時間の通算の扱いは、雇用か業務委託かなどによって異なります。"
+      ],
+      "sources": [
+        {
+          "title": "副業・兼業",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000192188.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "副業",
+        "労働時間"
+      ]
+    },
+    {
+      "id": "work-16",
+      "category": "work",
+      "title": "応募前に公的サイトで職場情報を比較する",
+      "summary": "しょくばらぼで働き方や採用情報を調べ、面接の質問につなげます。",
+      "audience": [
+        "就職・転職する人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "求人票だけでは分からない点を質問できる。",
+      "steps": [
+        "候補企業を検索する",
+        "残業や休暇など重視する項目を比べる",
+        "未掲載・不明な点を面接で確認する"
+      ],
+      "cautions": [
+        "掲載情報の対象期間や対象者を確認します。空欄だけで職場の良し悪しは判断できません。"
+      ],
+      "sources": [
+        {
+          "title": "職場情報総合サイト しょくばらぼ",
+          "url": "https://shokuba.mhlw.go.jp/",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "しょくばらぼ",
+        "企業研究"
+      ]
+    },
+    {
+      "id": "unemployment-07",
+      "category": "unemployment",
+      "title": "再就職が決まったら手当と申告方法を確認する",
+      "summary": "働き始める前に、ハローワークへ就職日と雇用条件を伝えます。",
+      "audience": [
+        "雇用保険受給中に就職する人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "再就職に伴う手続きの漏れを減らせる。",
+      "steps": [
+        "採用通知と労働条件をそろえる",
+        "就職の申告日を確認する",
+        "再就職手当の対象と申請書類を聞く"
+      ],
+      "cautions": [
+        "支給残日数や就職経路などの要件があります。手当を理由に必要な就職を遅らせないでください。"
+      ],
+      "sources": [
+        {
+          "title": "基本手当・再就職手当のQ&A",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000139508.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "再就職手当",
+        "就職申告"
+      ]
+    },
+    {
+      "id": "unemployment-08",
+      "category": "unemployment",
+      "title": "離職後に起業するなら受給期間の特例を調べる",
+      "summary": "事業を始める場合は、通常の失業認定と別の手続きが必要か確認します。",
+      "audience": [
+        "離職後に起業する人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "起業後の雇用保険の扱いを誤解せずに準備できる。",
+      "steps": [
+        "事業開始や準備に専念する時期を整理する",
+        "管轄ハローワークへ計画を伝える",
+        "特例の条件・期限・必要書類を確認する"
+      ],
+      "cautions": [
+        "事業中に基本手当を受け続けられる制度ではありません。"
+      ],
+      "sources": [
+        {
+          "title": "離職後に事業を開始等した場合の雇用保険受給期間の特例",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/newpage_26400.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "起業",
+        "受給期間"
+      ]
+    },
+    {
+      "id": "unemployment-09",
+      "category": "unemployment",
+      "title": "失業認定では短時間の仕事も申告する",
+      "summary": "アルバイトや内職などをした日は、収入の有無も含めて記録します。",
+      "audience": [
+        "雇用保険を受給する人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "申告漏れによる不利益を避けやすくなる。",
+      "steps": [
+        "働いた日・時間・収入を記録する",
+        "失業認定申告書の記載方法を確認する",
+        "判断に迷う作業はハローワークに伝える"
+      ],
+      "cautions": [
+        "自己判断で申告不要としないでください。支給への影響は働き方により異なります。"
+      ],
+      "sources": [
+        {
+          "title": "基本手当・再就職手当のQ&A",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000139508.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "失業認定",
+        "アルバイト"
+      ]
+    },
+    {
+      "id": "unemployment-10",
+      "category": "unemployment",
+      "title": "職業訓練受講給付金は家計と出席の要件を確認する",
+      "summary": "受講料だけでなく、訓練中の生活費の支援を確認します。",
+      "audience": [
+        "職業訓練を検討する人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "訓練期間の生活費を計画しやすくなる。",
+      "steps": [
+        "本人・世帯の収入と資産を整理する",
+        "ハローワークに給付の対象を相談する",
+        "出席・来所・申告の条件を確認する"
+      ],
+      "cautions": [
+        "訓練を受けられることと給付金が支給されることは別です。教材費などが必要な場合があります。"
+      ],
+      "sources": [
+        {
+          "title": "求職者支援制度のご案内",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyushokusha_shien/index.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "職業訓練受講給付金",
+        "生活費"
+      ]
+    },
+    {
+      "id": "unemployment-11",
+      "category": "unemployment",
+      "title": "住まいを失ったときは一時的な居所も相談する",
+      "summary": "住所や所持金がない状況も、そのまま支援窓口へ伝えます。",
+      "audience": [
+        "住む場所を失った人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "生活を立て直すための当面の居所を相談できる。",
+      "steps": [
+        "現在いる地域の自立相談支援機関を調べる",
+        "今夜の居所と食事に困っているか伝える",
+        "居住支援や福祉事務所へのつなぎを相談する"
+      ],
+      "cautions": [
+        "実施内容と利用要件は地域・状況で異なります。差し迫った危険は緊急窓口へ連絡します。"
+      ],
+      "sources": [
+        {
+          "title": "生活困窮者自立支援制度",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000059425.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "居住支援",
+        "住居喪失"
+      ]
+    },
+    {
+      "id": "unemployment-12",
+      "category": "unemployment",
+      "title": "滞納が重なったら家計改善支援を利用する",
+      "summary": "督促を一人で抱えず、支払先と収支を支援員と整理します。",
+      "audience": [
+        "支払いが重なって困っている人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "複数の支払いに対する行動順を整理できる。",
+      "steps": [
+        "請求書や督促状を捨てずに集める",
+        "自立相談支援機関に家計の困りごとを伝える",
+        "優先する対応と関係窓口を一緒に決める"
+      ],
+      "cautions": [
+        "支援を受ければ債務が自動的になくなるわけではありません。"
+      ],
+      "sources": [
+        {
+          "title": "生活困窮者自立支援制度",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000059425.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "家計改善支援",
+        "滞納"
+      ]
+    },
+    {
+      "id": "unemployment-13",
+      "category": "unemployment",
+      "title": "働くことへの不安はサポステに相談する",
+      "summary": "すぐに応募するのが難しいとき、就労に向けた準備の支援を探します。",
+      "audience": [
+        "働くことに悩みを抱える人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "応募前の不安から段階的に相談できる。",
+      "steps": [
+        "地域若者サポートステーションを調べる",
+        "現在の生活と働くことへの不安を伝える",
+        "相談・体験など自分に合う進め方を決める"
+      ],
+      "cautions": [
+        "対象年齢や利用条件、プログラムは窓口で確認します。就職を保証する制度ではありません。"
+      ],
+      "sources": [
+        {
+          "title": "よくあるご質問・仕事をお探しの方",
+          "url": "https://www.hellowork.mhlw.go.jp/help/question02.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "サポステ",
+        "就労準備"
+      ]
+    },
+    {
+      "id": "unemployment-14",
+      "category": "unemployment",
+      "title": "求職者マイページで求人と応募状況を整理する",
+      "summary": "気になる求人を保存し、窓口での相談にも使います。",
+      "audience": [
+        "仕事を探している人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "同じ求人を探し直す手間を減らせる。",
+      "steps": [
+        "ハローワークの公式サイトで登録方法を確認する",
+        "条件とお気に入り求人を保存する",
+        "応募状況と相談したい点を整理する"
+      ],
+      "cautions": [
+        "オンライン自主応募とハローワークの紹介は扱いが異なります。手当の条件にも注意します。"
+      ],
+      "sources": [
+        {
+          "title": "仕事をお探しの方へのサービスのご案内",
+          "url": "https://www.hellowork.mhlw.go.jp/member/mem_top.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "求職者マイページ",
+        "求人検索"
+      ]
+    },
+    {
+      "id": "unemployment-15",
+      "category": "unemployment",
+      "title": "失業中の住民税は自治体に納付相談をする",
+      "summary": "収入が減っても通知を放置せず、納付方法や減免の有無を確認します。",
+      "audience": [
+        "住民税の納付が難しい人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "住民税の納付に困った時の相談先が分かる。",
+      "steps": [
+        "納税通知と現在の収支を用意する",
+        "通知に記載された自治体の担当へ連絡する",
+        "猶予や減免の要件・申請期限を確認する"
+      ],
+      "cautions": [
+        "減免の基準は自治体によって異なり、失業だけで自動的に免除されません。出典は横浜市の例です。"
+      ],
+      "sources": [
+        {
+          "title": "納税にお困りの場合は",
+          "url": "https://www.city.yokohama.lg.jp/kurashi/koseki-zei-hoken/zeikin/nouzei-soudan/nouzei-okomari/konnnann.html",
+          "publisher": "横浜市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住民税",
+        "納税相談"
+      ]
+    },
+    {
+      "id": "unemployment-16",
+      "category": "unemployment",
+      "title": "生活保護受給中は収入と生活の変化を届ける",
+      "summary": "給与や年金などの変化を、自己判断で除外せず担当者に伝えます。",
+      "audience": [
+        "生活保護を受給する人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "過不足や申告漏れを防ぎやすくなる。",
+      "steps": [
+        "収入が分かる明細を残す",
+        "福祉事務所の案内に沿って申告する",
+        "就労や世帯の変化も担当者に相談する"
+      ],
+      "cautions": [
+        "収入の扱いや控除は個別に判断されます。受給額を自分だけで計算して申告を省かないでください。"
+      ],
+      "sources": [
+        {
+          "title": "生活保護制度",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/hukushi_kaigo/seikatsuhogo/seikatuhogo/index.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "収入申告",
+        "福祉事務所"
+      ]
+    },
+    {
+      "id": "learning-07",
+      "category": "learning",
+      "title": "大学の公開講座で学びたい分野を試す",
+      "summary": "長期講座を契約する前に、大学等の公開講座で内容との相性を確かめます。",
+      "audience": [
+        "学び直したい人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "大きな費用をかける前に学習分野を試せる。",
+      "steps": [
+        "文部科学省の学び直し情報から講座を探す",
+        "主催者の公式案内で対象と費用を確認する",
+        "受講後に続けたい課題を一つ決める"
+      ],
+      "cautions": [
+        "公開講座の受講が学位や資格取得に直結するとは限りません。"
+      ],
+      "sources": [
+        {
+          "title": "資格取得やスキルアップ・学び直しに関するプログラム・施策等",
+          "url": "https://www.mext.go.jp/a_menu/ikusei/manabinaoshi/1384494.htm",
+          "publisher": "文部科学省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "公開講座",
+        "リカレント教育"
+      ]
+    },
+    {
+      "id": "learning-08",
+      "category": "learning",
+      "title": "放送大学で一科目から学ぶ方法を調べる",
+      "summary": "学位取得だけでなく、興味のある科目を履修する選択肢もあります。",
+      "audience": [
+        "大学で学び直したい人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "仕事や生活に合わせた学び方を選べる。",
+      "steps": [
+        "科目のシラバスを読む",
+        "学生の区分と入学条件を確認する",
+        "授業料・試験・申込日程を確認する"
+      ],
+      "cautions": [
+        "科目や学生区分によって条件が異なり、学費がかかります。"
+      ],
+      "sources": [
+        {
+          "title": "放送大学なら、1科目から大学生に。",
+          "url": "https://www.ouj.ac.jp/lp/senior/",
+          "publisher": "放送大学"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "放送大学",
+        "科目履修"
+      ]
+    },
+    {
+      "id": "learning-09",
+      "category": "learning",
+      "title": "調べものが行き詰まったら図書館に相談する",
+      "summary": "資料の探し方を図書館のレファレンスで相談します。",
+      "audience": [
+        "学習・調査をする人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "検索だけでは見つからない資料にたどり着きやすくなる。",
+      "steps": [
+        "知りたいことと調べた資料をまとめる",
+        "近くの図書館で相談方法を確認する",
+        "紹介された資料を自分で読み確かめる"
+      ],
+      "cautions": [
+        "宿題の代行や法律・医療の個別判断をしてもらうサービスではありません。対応範囲は館によります。"
+      ],
+      "sources": [
+        {
+          "title": "調べる・相談する（レファレンス）",
+          "url": "https://www.ndl.go.jp/help/reference",
+          "publisher": "国立国会図書館"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "図書館",
+        "レファレンス"
+      ]
+    },
+    {
+      "id": "learning-10",
+      "category": "learning",
+      "title": "職業能力評価基準で学ぶ課題を絞る",
+      "summary": "漠然と資格を集めず、目指す仕事に必要な能力を確認します。",
+      "audience": [
+        "キャリアを見直す人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "学習と実際の仕事を結びつけやすくなる。",
+      "steps": [
+        "該当する業種・職種の基準を探す",
+        "できる項目と経験のない項目を分ける",
+        "不足する能力に合う学習を一つ選ぶ"
+      ],
+      "cautions": [
+        "全職種を網羅するものではなく、企業ごとの仕事にも差があります。"
+      ],
+      "sources": [
+        {
+          "title": "職業能力評価基準",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/jinzaikaihatsu/ability_skill/syokunou/index.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "職業能力評価基準",
+        "スキル"
+      ]
+    },
+    {
+      "id": "learning-11",
+      "category": "learning",
+      "title": "子育て中は託児付きの職業訓練も探す",
+      "summary": "通学を諦める前に、地域の訓練と託児条件を確認します。",
+      "audience": [
+        "子育て中の求職者"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "訓練に通える条件を具体的に検討できる。",
+      "steps": [
+        "ハローワークに託児の必要性を伝える",
+        "対象年齢・時間・場所を確認する",
+        "訓練と託児の申込みをそれぞれ確認する"
+      ],
+      "cautions": [
+        "託児付きコースは地域や募集時期で異なります。出典は大阪の案内で、全国共通の定員ではありません。"
+      ],
+      "sources": [
+        {
+          "title": "託児サービス付き職業訓練のご案内",
+          "url": "https://jsite.mhlw.go.jp/osaka-hellowork/kyushokusha/hello-training/seido/takuji.html",
+          "publisher": "大阪労働局・ハローワーク"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "託児",
+        "職業訓練"
+      ]
+    },
+    {
+      "id": "learning-12",
+      "category": "learning",
+      "title": "障害に配慮した職業訓練を相談する",
+      "summary": "必要な配慮を伝え、一般の訓練以外の選択肢も確認します。",
+      "audience": [
+        "障害がある求職者"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "受講を続けられる環境を探しやすくなる。",
+      "steps": [
+        "学びたい仕事と困る場面を整理する",
+        "ハローワークに訓練を相談する",
+        "設備・支援内容・通所条件を確認する"
+      ],
+      "cautions": [
+        "訓練の対象や選考、提供される配慮はコースごとに異なります。"
+      ],
+      "sources": [
+        {
+          "title": "ハロートレーニング（障害者訓練）",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/jinzaikaihatsu/shougaisha.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "障害者訓練",
+        "合理的配慮"
+      ]
+    },
+    {
+      "id": "learning-13",
+      "category": "learning",
+      "title": "就職先の地域に奨学金返還支援がないか調べる",
+      "summary": "勤務地や居住地の条件に合う自治体の支援を確認します。",
+      "audience": [
+        "奨学金を返還する人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "就職前の登録が必要な制度を見落としにくくなる。",
+      "steps": [
+        "JASSOの地方公共団体の一覧を開く",
+        "希望地域の最新募集要項を読む",
+        "就職・転居前に登録の必要性を確認する"
+      ],
+      "cautions": [
+        "対象奨学金や職種、継続居住などの条件があります。掲載だけで利用できるとは限りません。"
+      ],
+      "sources": [
+        {
+          "title": "地方公共団体の返還支援制度",
+          "url": "https://www.jasso.go.jp/shogakukin/chihoshien/sosei/seido/index.html",
+          "publisher": "日本学生支援機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "奨学金返還支援",
+        "地方就職"
+      ]
+    },
+    {
+      "id": "learning-14",
+      "category": "learning",
+      "title": "資格の講座を買う前に仕事との関係を調べる",
+      "summary": "その資格が必須なのか、役立つ目安なのかを分けて考えます。",
+      "audience": [
+        "資格取得を検討する人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "目的に合わない受講への支出を減らせる。",
+      "steps": [
+        "job tagで仕事内容と入職経路を読む",
+        "試験実施機関の公式要件を確認する",
+        "希望求人で求められる資格を照合する"
+      ],
+      "cautions": [
+        "資格取得だけで就職や収入が保証されるわけではありません。"
+      ],
+      "sources": [
+        {
+          "title": "job tagの使い方",
+          "url": "https://shigoto.mhlw.go.jp/user/howto",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "資格",
+        "入職経路"
+      ]
+    },
+    {
+      "id": "learning-15",
+      "category": "learning",
+      "title": "学習成果を公開するときは引用の条件を確認する",
+      "summary": "出典を書くだけで転載できると思わず、公開する範囲を考えます。",
+      "audience": [
+        "学習成果を発信する人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "学習記録を公開する際の権利トラブルを減らせる。",
+      "steps": [
+        "自分の文章と他人の表現を区別する",
+        "引用の必要性と分量を確認する",
+        "引用箇所と出所を分かる形で示す"
+      ],
+      "cautions": [
+        "出所明示だけで適法になるわけではありません。画像・教材の再配布にも注意します。"
+      ],
+      "sources": [
+        {
+          "title": "著作権テキスト・令和8年度版",
+          "url": "https://www.bunka.go.jp/seisaku/chosakuken/seidokaisetsu/pdf/94383901_01.pdf",
+          "publisher": "文化庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "著作権",
+        "引用"
+      ]
+    },
+    {
+      "id": "learning-16",
+      "category": "learning",
+      "title": "専門職大学は実務経験や編入の扱いを確認する",
+      "summary": "社会人の経験を学びにつなぐ仕組みを、大学ごとの募集要項で調べます。",
+      "audience": [
+        "社会人の進学を考える人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "経験を生かせる進学経路を調べられる。",
+      "steps": [
+        "学びたい専門分野の大学を探す",
+        "社会人選抜や編入の実施を確認する",
+        "実務経験・既修得単位の扱いを入試窓口に聞く"
+      ],
+      "cautions": [
+        "受入れや単位認定は大学ごとに異なり、自動的に修業期間が短くなるわけではありません。"
+      ],
+      "sources": [
+        {
+          "title": "専門職大学・専門職短期大学",
+          "url": "https://www.mext.go.jp/a_menu/koutou/senmon/index.htm",
+          "publisher": "文部科学省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "専門職大学",
+        "編入"
+      ]
+    },
+    {
+      "id": "consumer-07",
+      "category": "consumer",
+      "title": "通販の返品条件は支払う前に読む",
+      "summary": "通信販売には一般的なクーリング・オフ制度がないため、返品特約を確認します。",
+      "audience": [
+        "通販を利用する人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "届いてからの返品条件の食い違いを減らせる。",
+      "steps": [
+        "返品できる場合と期限を読む",
+        "送料の負担と連絡先を保存する",
+        "不良品と自己都合の返品を区別して問い合わせる"
+      ],
+      "cautions": [
+        "特約がない場合の制度もあります。商品や契約の状況により扱いが異なります。"
+      ],
+      "sources": [
+        {
+          "title": "クーリング・オフ",
+          "url": "https://www.kokusen.go.jp/soudan_now/data/coolingoff.html",
+          "publisher": "国民生活センター"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "通信販売",
+        "返品"
+      ]
+    },
+    {
+      "id": "consumer-08",
+      "category": "consumer",
+      "title": "訪問買い取りでは売る予定のない物を見せない",
+      "summary": "不用品の査定から、貴金属の買い取りに話が変わる場合があります。",
+      "audience": [
+        "訪問買い取りを利用する人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "意図しない品物の売却を防ぎやすくなる。",
+      "steps": [
+        "買い取ってほしい物を先に限定する",
+        "不要な勧誘を断る",
+        "売却するなら品名と金額の書面を受け取る"
+      ],
+      "cautions": [
+        "訪問購入の規制には対象外の物品や取引があります。困ったら早急に消費生活センターへ相談します。"
+      ],
+      "sources": [
+        {
+          "title": "訪問購入のトラブルを防ぐには",
+          "url": "https://www.kokusen.go.jp/t_box/data/t_box-faq_qa2017_26.html",
+          "publisher": "国民生活センター"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "訪問購入",
+        "貴金属"
+      ]
+    },
+    {
+      "id": "consumer-09",
+      "category": "consumer",
+      "title": "注文していない荷物は契約の有無を確認する",
+      "summary": "家族の注文や贈り物、誤配と、代金目的の送り付けを区別します。",
+      "audience": [
+        "身に覚えのない荷物が届いた人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "不要な代金の支払いと誤処分を避けやすくなる。",
+      "steps": [
+        "宛名と家族の注文履歴を確認する",
+        "不明な請求にはすぐ支払わない",
+        "送り付けか判断できなければ188へ相談する"
+      ],
+      "cautions": [
+        "金銭目的で一方的に送られた商品は直ちに処分できる場合がありますが、誤配や贈り物は別です。"
+      ],
+      "sources": [
+        {
+          "title": "身に覚えのない自分宛ての商品が届いたあなた",
+          "url": "https://www.caa.go.jp/policies/policy/consumer_transaction/amendment/2021/notice/index.html",
+          "publisher": "消費者庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "送り付け",
+        "荷物"
+      ]
+    },
+    {
+      "id": "consumer-10",
+      "category": "consumer",
+      "title": "不要な訪問販売は契約しない意思を伝える",
+      "summary": "あいまいに先延ばしせず、勧誘が不要であることを短く伝えます。",
+      "audience": [
+        "訪問販売を受ける人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "不要な勧誘を断った事実を残せる。",
+      "steps": [
+        "相手の会社名と目的を確認する",
+        "必要なければ契約しないと伝える",
+        "繰り返す勧誘は日時を記録して相談する"
+      ],
+      "cautions": [
+        "身の危険を感じたら応対せず、安全確保と警察への連絡を優先します。"
+      ],
+      "sources": [
+        {
+          "title": "訪問販売",
+          "url": "https://www.no-trouble.caa.go.jp/what/doortodoorsales/index.html",
+          "publisher": "消費者庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "訪問販売",
+        "再勧誘"
+      ]
+    },
+    {
+      "id": "consumer-11",
+      "category": "consumer",
+      "title": "エステや語学教室は中途解約の条件を確認する",
+      "summary": "長期サービスをやめたいとき、残りの契約と清算内容を確認します。",
+      "audience": [
+        "長期サービスを契約した人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "未利用分の清算について具体的に確認できる。",
+      "steps": [
+        "契約期間・支払額・利用済み回数を整理する",
+        "特定継続的役務の対象か確認する",
+        "解約と返金の計算根拠を書面で求める"
+      ],
+      "cautions": [
+        "対象となるサービス・金額・期間の要件があります。すべての習い事に同じ規則が適用されるわけではありません。"
+      ],
+      "sources": [
+        {
+          "title": "特定継続的役務提供",
+          "url": "https://www.no-trouble.caa.go.jp/what/continuousservices/",
+          "publisher": "消費者庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "中途解約",
+        "エステ"
+      ]
+    },
+    {
+      "id": "consumer-12",
+      "category": "consumer",
+      "title": "フリマの受取評価は中身を確認してから行う",
+      "summary": "受取評価を急かされても、届いた商品を先に確かめます。",
+      "audience": [
+        "フリマサービスを使う人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "取引完了後に問題が分かるリスクを減らせる。",
+      "steps": [
+        "開封時に商品と状態を確認する",
+        "説明と異なる点を記録する",
+        "問題があれば評価前に相手と運営へ連絡する"
+      ],
+      "cautions": [
+        "個人間取引では対応範囲が異なります。運営の補償期限や手順も確認します。"
+      ],
+      "sources": [
+        {
+          "title": "デジタル・プラットフォーム利用時の心構え",
+          "url": "https://www.caa.go.jp/notice/assets/future_caa_cms201_211001_02.pdf",
+          "publisher": "消費者庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "フリマ",
+        "受取評価"
+      ]
+    },
+    {
+      "id": "consumer-13",
+      "category": "consumer",
+      "title": "手持ちの製品をリコール情報で確認する",
+      "summary": "型番を使い、メーカーが回収や修理を案内していないか調べます。",
+      "audience": [
+        "製品を所有・中古購入する人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "回収対象品を使い続けるリスクを減らせる。",
+      "steps": [
+        "製品名・型番・製造番号を確認する",
+        "消費者庁のリコール情報を検索する",
+        "対象ならメーカーの対応方法に従う"
+      ],
+      "cautions": [
+        "対象外の型番もあります。危険や異常がある製品は検索結果を待たず使用を中止します。"
+      ],
+      "sources": [
+        {
+          "title": "リコール情報サイト・検索方法",
+          "url": "https://www.recall.caa.go.jp/search.html",
+          "publisher": "消費者庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "リコール",
+        "型番"
+      ]
+    },
+    {
+      "id": "consumer-14",
+      "category": "consumer",
+      "title": "通信契約が説明と違ったら早めに解除制度を確認する",
+      "summary": "電波や契約内容に問題があるときは、契約書面を持って相談します。",
+      "audience": [
+        "通信契約をした人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "期限の短い対応を見落としにくくなる。",
+      "steps": [
+        "受領日と利用開始日を記録する",
+        "初期契約解除・確認措置の記載を読む",
+        "事業者へ連絡し消費生活センターにも相談する"
+      ],
+      "cautions": [
+        "端末代や利用済み料金までなくなるとは限りません。利用できる期間と対象に条件があります。"
+      ],
+      "sources": [
+        {
+          "title": "回線契約とスマホをセットで購入したが、電波が不安定",
+          "url": "https://www.faq.kokusen.go.jp/faq/show/1248?site_domain=default",
+          "publisher": "国民生活センター"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "初期契約解除",
+        "確認措置"
+      ]
+    },
+    {
+      "id": "consumer-15",
+      "category": "consumer",
+      "title": "18歳になる前に契約の責任を家族で確認する",
+      "summary": "成年後は未成年者取消権による保護が使えなくなるため、契約前の確認習慣をつくります。",
+      "audience": [
+        "成年前後の人・保護者"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "進学・就職前に契約上の責任を共有できる。",
+      "steps": [
+        "ローンやサービスの契約例を読む",
+        "総額・解約・支払条件を確認する練習をする",
+        "困ったときの188を登録する"
+      ],
+      "cautions": [
+        "18歳未満でもすべての契約を取り消せるわけではありません。個別の契約は相談窓口へ確認します。"
+      ],
+      "sources": [
+        {
+          "title": "18歳から大人・特設ページ",
+          "url": "https://www.caa.go.jp/policies/policy/consumer_education/consumer_education/lower_the_age_of_adulthood/introduction/",
+          "publisher": "消費者庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "成年年齢",
+        "未成年者取消"
+      ]
+    },
+    {
+      "id": "consumer-16",
+      "category": "consumer",
+      "title": "交渉が進まない消費者トラブルはADRも確認する",
+      "summary": "事業者とのやり取りを整理し、第三者が関わる解決手段を相談します。",
+      "audience": [
+        "契約トラブルが解決しない人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "話合い以外の解決手段を検討できる。",
+      "steps": [
+        "契約書と交渉履歴をまとめる",
+        "消費生活センターで解決経過を伝える",
+        "対象となるADRの手続きと条件を確認する"
+      ],
+      "cautions": [
+        "国民生活センターのADRは重要消費者紛争が対象で、全件を受け付けるものではありません。"
+      ],
+      "sources": [
+        {
+          "title": "ADR・裁判外紛争解決手続の紹介",
+          "url": "https://www.kokusen.go.jp/adr/index.html",
+          "publisher": "国民生活センター"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "ADR",
+        "紛争解決"
+      ]
+    },
+    {
+      "id": "digital-07",
+      "category": "digital",
+      "title": "アプリを入れる前に権限と配布元を確かめる",
+      "summary": "機能に必要のない連絡先や位置情報まで許可していないか確認します。",
+      "audience": [
+        "スマートフォンを使う人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "不要な情報へのアクセスを減らせる。",
+      "steps": [
+        "公式の配布元を確認する",
+        "要求する権限と利用目的を読む",
+        "不自然な要求があれば導入をやめる"
+      ],
+      "cautions": [
+        "公式ストアにあることだけで安全が保証されるわけではありません。"
+      ],
+      "sources": [
+        {
+          "title": "日常における情報セキュリティ対策",
+          "url": "https://www.ipa.go.jp/security/anshin/measures/everyday.html",
+          "publisher": "情報処理推進機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "アプリ",
+        "権限"
+      ]
+    },
+    {
+      "id": "digital-08",
+      "category": "digital",
+      "title": "持ち主不明のUSBメモリを挿さない",
+      "summary": "拾った媒体を確認するために自分のパソコンへつなぐことは避けます。",
+      "audience": [
+        "パソコンを使う人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "外部媒体を通じた感染の入口を減らせる。",
+      "steps": [
+        "持ち主不明の媒体を使わない",
+        "職場の媒体は管理者の手順に従う",
+        "必要な受渡しは許可された方法を使う"
+      ],
+      "cautions": [
+        "業務用の端末には組織のルールが優先されます。"
+      ],
+      "sources": [
+        {
+          "title": "日常における情報セキュリティ対策",
+          "url": "https://www.ipa.go.jp/security/anshin/measures/everyday.html",
+          "publisher": "情報処理推進機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "USB",
+        "外部記憶媒体"
+      ]
+    },
+    {
+      "id": "digital-09",
+      "category": "digital",
+      "title": "家庭のルーターの管理設定を確認する",
+      "summary": "スマートフォンだけでなく、家のネットワーク機器も管理します。",
+      "audience": [
+        "自宅でネット回線を使う人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "家庭内の通信を支える機器の弱点を減らせる。",
+      "steps": [
+        "型番からメーカーの案内を開く",
+        "管理用パスワードと更新状況を確認する",
+        "不要な外部接続機能を見直す"
+      ],
+      "cautions": [
+        "設定名や操作方法は機器によって異なります。接続に必要な情報を確保してから変更します。"
+      ],
+      "sources": [
+        {
+          "title": "ネット接続製品の安全な選定・利用ガイド",
+          "url": "https://www.ipa.go.jp/security/guide/vuln/forconsumer.html",
+          "publisher": "情報処理推進機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "ルーター",
+        "IoT"
+      ]
+    },
+    {
+      "id": "digital-10",
+      "category": "digital",
+      "title": "端末を買うときはサポート終了時期も確認する",
+      "summary": "本体価格に加え、安全に更新して使える期間を比較します。",
+      "audience": [
+        "端末を購入・継続利用する人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "安く買った端末を早期に替える負担を避けやすくなる。",
+      "steps": [
+        "OSと機器のサポート情報を読む",
+        "使うアプリが対応しているか確認する",
+        "買替えや移行に必要な費用を見込む"
+      ],
+      "cautions": [
+        "サポート終了後も起動できることと、安全に使えることは別です。延長対応は条件があります。"
+      ],
+      "sources": [
+        {
+          "title": "Windows 10のサポート終了に伴う注意喚起",
+          "url": "https://www.ipa.go.jp/security/security-alert/2024/win10_eos.html",
+          "publisher": "情報処理推進機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "サポート終了",
+        "買替え"
+      ]
+    },
+    {
+      "id": "digital-11",
+      "category": "digital",
+      "title": "ネット接続製品を手放す前に設定とデータを消す",
+      "summary": "カメラや家電にも接続情報やアカウントが残る場合があります。",
+      "audience": [
+        "ネット接続製品を手放す人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "売却・廃棄後に設定情報が残るリスクを減らせる。",
+      "steps": [
+        "必要な情報を保存する",
+        "メーカーの手順で登録解除と初期化を行う",
+        "消去できたことを確認して渡す"
+      ],
+      "cautions": [
+        "製品によって消去方法が異なります。電池を含む機器を自己流で破壊しないでください。"
+      ],
+      "sources": [
+        {
+          "title": "ネット接続製品の安全な選定・利用ガイド",
+          "url": "https://www.ipa.go.jp/security/guide/vuln/forconsumer.html",
+          "publisher": "情報処理推進機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "初期化",
+        "廃棄"
+      ]
+    },
+    {
+      "id": "digital-12",
+      "category": "digital",
+      "title": "ブラウザの偽警告は表示された番号に電話しない",
+      "summary": "大きな警告音が鳴っても、画面が求める送金や遠隔操作に従わないようにします。",
+      "audience": [
+        "パソコンを使う人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "偽サポートへの接続を防ぎやすくなる。",
+      "steps": [
+        "警告の電話番号を使わない",
+        "ブラウザを閉じる手順を確認する",
+        "消せなければ信頼できる窓口に相談する"
+      ],
+      "cautions": [
+        "本物のセキュリティ通知との区別が難しい場合は、公式サポートを自分で調べます。"
+      ],
+      "sources": [
+        {
+          "title": "サポート詐欺レポート",
+          "url": "https://www.ipa.go.jp/security/anshin/measures/supportscam_report.html",
+          "publisher": "情報処理推進機構"
+        },
+        {
+          "title": "日常における情報セキュリティ対策",
+          "url": "https://www.ipa.go.jp/security/anshin/measures/everyday.html",
+          "publisher": "情報処理推進機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "偽警告",
+        "サポート詐欺"
+      ]
+    },
+    {
+      "id": "digital-13",
+      "category": "digital",
+      "title": "共有リンクは必要な人だけに見える設定にする",
+      "summary": "資料や写真を共有するとき、リンクを知る全員が見られる設定に注意します。",
+      "audience": [
+        "クラウドを利用する人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "意図しない公開範囲の広がりを防ぎやすくなる。",
+      "steps": [
+        "共有する内容を確認する",
+        "相手と権限を必要な範囲に限定する",
+        "用が済んだ共有を解除する"
+      ],
+      "cautions": [
+        "受信した相手が複製する可能性は残ります。機密情報は組織の規則に従います。"
+      ],
+      "sources": [
+        {
+          "title": "公開先に立たず",
+          "url": "https://www.ipa.go.jp/security/otasuketai-pr/list/ko.html",
+          "publisher": "情報処理推進機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "共有リンク",
+        "公開範囲"
+      ]
+    },
+    {
+      "id": "digital-14",
+      "category": "digital",
+      "title": "親しい相手でも私的な画像の送信を急がない",
+      "summary": "SNSで画像や動画を求められたら、保存・転送される可能性を考えます。",
+      "audience": [
+        "SNSを使う人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "画像を利用した脅迫への入口を減らせる。",
+      "steps": [
+        "相手からの要求をいったん止める",
+        "見られて困る画像を送らない",
+        "脅されたらやり取りを保存して警察等へ相談する"
+      ],
+      "cautions": [
+        "すでに送ってしまっても自分を責めずに相談してください。相手の要求に応じ続ける必要はありません。"
+      ],
+      "sources": [
+        {
+          "title": "日常における情報セキュリティ対策",
+          "url": "https://www.ipa.go.jp/security/anshin/measures/everyday.html",
+          "publisher": "情報処理推進機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "プライバシー",
+        "性的脅迫"
+      ]
+    },
+    {
+      "id": "digital-15",
+      "category": "digital",
+      "title": "身に覚えのないログインは公式窓口から対処する",
+      "summary": "通知内のリンクに頼らず、公式アプリで履歴と登録情報を確かめます。",
+      "audience": [
+        "オンラインサービスを使う人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "アカウント被害を早く把握して対応できる。",
+      "steps": [
+        "公式サービスからログイン履歴を見る",
+        "不正利用ならパスワードと認証設定を見直す",
+        "復旧窓口へ連絡し被害を記録する"
+      ],
+      "cautions": [
+        "ログインできない場合は公式の回復手順を使います。回復代行を名乗る知らない相手に認証情報を渡さないでください。"
+      ],
+      "sources": [
+        {
+          "title": "インターネットサービスへの不正ログインによる被害が増加中",
+          "url": "https://www.ipa.go.jp/security/anshin/attention/2025/mgdayori20250828.html",
+          "publisher": "情報処理推進機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "不正ログイン",
+        "復旧"
+      ]
+    },
+    {
+      "id": "digital-16",
+      "category": "digital",
+      "title": "感染が疑われる端末はネットワークから切り離して相談する",
+      "summary": "不審な動作が続くとき、ほかの端末へ影響を広げないようにします。",
+      "audience": [
+        "端末の異常に気づいた人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "原因が分からない間の被害拡大を抑えやすくなる。",
+      "steps": [
+        "可能なら通信を切り離す",
+        "警告や直前の操作を記録する",
+        "職場の管理者または公式相談先へ連絡する"
+      ],
+      "cautions": [
+        "偽の警告画面だけで感染と断定しないでください。業務端末は組織の手順を優先します。"
+      ],
+      "sources": [
+        {
+          "title": "ネットワークを切って縁を保つ",
+          "url": "https://www.ipa.go.jp/security/otasuketai-pr/list/ne.html",
+          "publisher": "情報処理推進機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "マルウェア",
+        "初動"
+      ]
+    },
+    {
+      "id": "debt-01",
+      "category": "debt",
+      "title": "返済相談には借入先の一覧を持っていく",
+      "summary": "金額が全部分からなくても、手元にある資料から整理します。",
+      "audience": [
+        "借入れがある人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 1,
+      "benefit": "相談先に家計全体の債務を伝えやすくなる。",
+      "steps": [
+        "借入先と連絡先を書き出す",
+        "残高・返済額・保証人の有無を記入する",
+        "契約書や督促状と一緒に相談へ持参する"
+      ],
+      "cautions": [
+        "資料がそろうまで相談を待つ必要はありません。"
+      ],
+      "sources": [
+        {
+          "title": "多重債務問題Q&A",
+          "url": "https://www.houterasu.or.jp/uploaded/attachment/7496.pdf",
+          "publisher": "日本司法支援センター"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "返済相談",
+        "債務一覧"
+      ]
+    },
+    {
+      "id": "debt-02",
+      "category": "debt",
+      "title": "借換えは金利だけでなく総返済額を比べる",
+      "summary": "返済期間が延びると、月々の負担と総額の動きが異なる場合があります。",
+      "audience": [
+        "借換えを検討する人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 1,
+      "benefit": "月額の小ささだけで契約することを避けられる。",
+      "steps": [
+        "現在の残高と残りの返済予定を確認する",
+        "新旧の利息・手数料を含む総額を比較する",
+        "保証や担保など変更される条件を読む"
+      ],
+      "cautions": [
+        "借換えの承認や負担減は保証されません。返済困難時は新たな借入れの前に専門窓口へ相談します。"
+      ],
+      "sources": [
+        {
+          "title": "シリーズ教材 お金のキホン",
+          "url": "https://www.j-flec.go.jp/materials/series-okane-kihon/",
+          "publisher": "金融経済教育推進機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "借換え",
+        "返済総額"
+      ]
+    },
+    {
+      "id": "debt-03",
+      "category": "debt",
+      "title": "リボ払いは残高と元本の減り方を確認する",
+      "summary": "毎月同じ請求額でも、支払いが終わる時期は残高によって変わります。",
+      "audience": [
+        "リボ払いを利用する人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 1,
+      "benefit": "支払いが続く理由を把握できる。",
+      "steps": [
+        "明細で残高と手数料を見る",
+        "新たな利用を含めた完済見込みを聞く",
+        "無理のない返済額の変更を相談する"
+      ],
+      "cautions": [
+        "繰上返済の方法や手数料は会社で異なります。生活費を使い切る返済は避けて相談します。"
+      ],
+      "sources": [
+        {
+          "title": "自動リボ払いを解除したはずなのに、リボ払いが終わらない？",
+          "url": "https://www.kokusen.go.jp/t_box/data/t_box-faq_qa2017_24.html",
+          "publisher": "国民生活センター"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "リボ払い",
+        "元本"
+      ]
+    },
+    {
+      "id": "debt-04",
+      "category": "debt",
+      "title": "奨学金は減額返還の対象を確認する",
+      "summary": "毎月の額を減らせば返還を続けられる場合は制度を確認します。",
+      "audience": [
+        "JASSO奨学金を返還する人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 1,
+      "benefit": "返還を継続できる方法を検討できる。",
+      "steps": [
+        "現在の収入と返還額を整理する",
+        "JASSOの対象要件を読む",
+        "必要書類と申請時期を確認して申し込む"
+      ],
+      "cautions": [
+        "返還総額の免除ではなく、返還期間を延ばす制度です。審査があります。"
+      ],
+      "sources": [
+        {
+          "title": "月々の返還額を少なくする・減額返還制度",
+          "url": "https://www.jasso.go.jp/shogakukin/henkan_konnan/gengaku/index.html",
+          "publisher": "日本学生支援機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "減額返還",
+        "奨学金"
+      ]
+    },
+    {
+      "id": "debt-05",
+      "category": "debt",
+      "title": "奨学金を返せない期間は返還期限猶予を相談する",
+      "summary": "失業や傷病などで難しい場合は、支払いを放置せず願出を確認します。",
+      "audience": [
+        "奨学金返還が困難な人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 1,
+      "benefit": "延滞する前に制度上の対応を検討できる。",
+      "steps": [
+        "返還困難になった事情を整理する",
+        "該当する猶予事由と書類を確認する",
+        "JASSOへ申請し結果を確認する"
+      ],
+      "cautions": [
+        "猶予は返還義務をなくす制度ではありません。事由や期間などに条件があります。"
+      ],
+      "sources": [
+        {
+          "title": "返還を待ってもらう・返還期限猶予",
+          "url": "https://www.jasso.go.jp/shogakukin/henkan_konnan/yuyo/index.html",
+          "publisher": "日本学生支援機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "返還期限猶予",
+        "失業"
+      ]
+    },
+    {
+      "id": "debt-06",
+      "category": "debt",
+      "title": "住宅ローンの返済が苦しくなったら取扱金融機関へ連絡する",
+      "summary": "延滞が重なる前に、返済方法の変更を相談します。",
+      "audience": [
+        "住宅ローンを返済する人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 1,
+      "benefit": "住まいのローンについて早い段階で選択肢を確認できる。",
+      "steps": [
+        "収入の変化と今後の見込みをまとめる",
+        "返済予定表を用意する",
+        "金融機関に変更案と総額への影響を確認する"
+      ],
+      "cautions": [
+        "返済条件の変更には審査があります。住宅金融支援機構の相談は対象融資によります。"
+      ],
+      "sources": [
+        {
+          "title": "ご返済などに関する相談窓口",
+          "url": "https://www.jhf.go.jp/faq/contact/index.html",
+          "publisher": "住宅金融支援機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住宅ローン",
+        "条件変更"
+      ]
+    },
+    {
+      "id": "debt-07",
+      "category": "debt",
+      "title": "弁護士費用が心配なら法テラスの法律扶助を確認する",
+      "summary": "収入・資産などの条件に合えば、無料相談や費用立替を利用できる場合があります。",
+      "audience": [
+        "法律相談の費用が不安な人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 1,
+      "benefit": "費用の不安だけで法律相談を諦めずに済む。",
+      "steps": [
+        "世帯の収入と資産を確認する",
+        "法テラスへ相談予約と対象条件を聞く",
+        "依頼が必要なら立替の審査と返済を確認する"
+      ],
+      "cautions": [
+        "立替は原則として返済が必要です。無料相談にも利用条件があります。"
+      ],
+      "sources": [
+        {
+          "title": "無料法律相談・弁護士等費用の立替",
+          "url": "https://www.houterasu.or.jp/site/soudan-tatekae/index-2.html",
+          "publisher": "日本司法支援センター"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "法テラス",
+        "民事法律扶助"
+      ]
+    },
+    {
+      "id": "debt-08",
+      "category": "debt",
+      "title": "債務整理は方法ごとの生活への影響を比較する",
+      "summary": "広告の「減額見込み」だけで決めず、専門家に条件と影響を聞きます。",
+      "audience": [
+        "返済を立て直したい人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 1,
+      "benefit": "手続きの結果を理解したうえで判断しやすくなる。",
+      "steps": [
+        "債務と資産・収入を伝える",
+        "任意整理や裁判所の手続きの違いを聞く",
+        "費用・保証人・住まいへの影響を書面で確認する"
+      ],
+      "cautions": [
+        "利用できる方法は個別事情で異なり、税金など整理できない債務もあります。"
+      ],
+      "sources": [
+        {
+          "title": "債務・貸付のQ&A",
+          "url": "https://www.houterasu.or.jp/site/yasasiinihongo/saimu-kashitsuke.html",
+          "publisher": "日本司法支援センター"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "債務整理",
+        "自己破産"
+      ]
+    },
+    {
+      "id": "debt-09",
+      "category": "debt",
+      "title": "裁判所からの支払督促は期限を確認して対応する",
+      "summary": "心当たりがない請求でも、本物の裁判書類を放置しないようにします。",
+      "audience": [
+        "支払督促を受け取った人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 1,
+      "benefit": "期限を逃したまま手続きが進むリスクを減らせる。",
+      "steps": [
+        "封筒と受取日を残す",
+        "裁判所の公式連絡先で書類を確認する",
+        "異議などの対応を弁護士等に早急に相談する"
+      ],
+      "cautions": [
+        "一般の請求書と裁判所の支払督促は別です。画面の所要時間にかかわらず速やかに確認してください。"
+      ],
+      "sources": [
+        {
+          "title": "支払督促",
+          "url": "https://www.courts.go.jp/saiban/syurui/syurui_minzi/minzi_25_22/index.html",
+          "publisher": "裁判所"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "支払督促",
+        "裁判所"
+      ]
+    },
+    {
+      "id": "debt-10",
+      "category": "debt",
+      "title": "貸金業者は登録情報と連絡先を照合する",
+      "summary": "登録番号の記載だけを信用せず、金融庁の検索で確認します。",
+      "audience": [
+        "借入先を確認する人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 1,
+      "benefit": "無登録業者や名義の悪用に気づきやすくなる。",
+      "steps": [
+        "正式な名称・住所・電話番号を控える",
+        "登録情報検索サービスで照合する",
+        "一致しない点は財務局等へ確認する"
+      ],
+      "cautions": [
+        "実在業者の名義を使うなりすましもあります。登録は契約の安全や適性の保証ではありません。"
+      ],
+      "sources": [
+        {
+          "title": "登録貸金業者情報検索サービス",
+          "url": "https://www.fsa.go.jp/ordinary/kensaku/index.html",
+          "publisher": "金融庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "登録貸金業者",
+        "照合"
+      ]
+    },
+    {
+      "id": "debt-11",
+      "category": "debt",
+      "title": "保証人になる前に負担する範囲を読む",
+      "summary": "頼まれた相手との関係だけで決めず、自分が支払う場合を考えます。",
+      "audience": [
+        "保証を頼まれた人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 1,
+      "benefit": "署名後に想定外の返済責任を負うリスクを減らせる。",
+      "steps": [
+        "保証する契約と金額を確認する",
+        "連帯保証などの責任を専門家に聞く",
+        "返済を負担できないなら署名前に断る"
+      ],
+      "cautions": [
+        "保証の種類や契約により責任が異なります。名義だけという説明を信用しないでください。"
+      ],
+      "sources": [
+        {
+          "title": "債務・貸付のQ&A",
+          "url": "https://www.houterasu.or.jp/site/yasasiinihongo/saimu-kashitsuke.html",
+          "publisher": "日本司法支援センター"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "保証人",
+        "連帯保証"
+      ]
+    },
+    {
+      "id": "debt-12",
+      "category": "debt",
+      "title": "借入れを自分で止めにくいときは貸付自粛制度を調べる",
+      "summary": "相談支援とあわせて、信用情報に自粛の申告をする制度を確認します。",
+      "audience": [
+        "借入れを抑えたい人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 1,
+      "benefit": "借入れを増やさないための仕組みを検討できる。",
+      "steps": [
+        "日本貸金業協会等の窓口を確認する",
+        "申告者・登録期間・撤回の扱いを読む",
+        "生活や依存の相談先も確保する"
+      ],
+      "cautions": [
+        "貸付を完全に防ぐ保証はありません。家族による申告にも条件があります。"
+      ],
+      "sources": [
+        {
+          "title": "貸付自粛制度について",
+          "url": "https://www.fsa.go.jp/policy/kashikin/kasitsukejisyuku.html",
+          "publisher": "金融庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "貸付自粛",
+        "多重債務"
+      ]
+    },
+    {
+      "id": "debt-13",
+      "category": "debt",
+      "title": "自分の信用情報は本人開示で確認する",
+      "summary": "審査が通らない理由を推測して有料業者に頼む前に、公式の開示方法を確認します。",
+      "audience": [
+        "信用情報を確認したい人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 1,
+      "benefit": "登録内容を自分の資料で確認できる。",
+      "steps": [
+        "契約先が利用する信用情報機関を調べる",
+        "本人開示の手順と費用を確認する",
+        "誤記が疑われる場合は調査を申し出る"
+      ],
+      "cautions": [
+        "開示しても審査理由の全てが分かるわけではなく、正しい情報を任意に消せる制度ではありません。"
+      ],
+      "sources": [
+        {
+          "title": "クレジットやローンの審査と信用情報",
+          "url": "https://www.j-credit.or.jp/customer/qa/qa_17.html",
+          "publisher": "日本クレジット協会"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "信用情報",
+        "本人開示"
+      ]
+    },
+    {
+      "id": "debt-14",
+      "category": "debt",
+      "title": "相続する借金が心配なら財産を動かす前に相談する",
+      "summary": "プラスの財産と債務の両方を調べ、相続の選択肢を確認します。",
+      "audience": [
+        "相続債務が心配な人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 1,
+      "benefit": "相続の対応を時間内に検討しやすくなる。",
+      "steps": [
+        "届いた請求と財産資料を保存する",
+        "家庭裁判所の相続放棄案内を読む",
+        "期限と財産の取扱いを専門家に相談する"
+      ],
+      "cautions": [
+        "相続放棄には期限や要件があります。預金の処分などが判断に影響する場合があります。"
+      ],
+      "sources": [
+        {
+          "title": "相続の放棄の申述",
+          "url": "https://www.courts.go.jp/saiban/syurui/syurui_kazi/kazi_06_13/index.html",
+          "publisher": "裁判所"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "相続放棄",
+        "借金"
+      ]
+    },
+    {
+      "id": "debt-15",
+      "category": "debt",
+      "title": "古い借金の請求は時効を自己判断しない",
+      "summary": "年数だけで支払義務の有無を決めず、過去の返済や裁判を含めて確認します。",
+      "audience": [
+        "古い債務の請求を受けた人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 1,
+      "benefit": "古い請求への対応を誤りにくくなる。",
+      "steps": [
+        "請求書と過去の契約を保存する",
+        "返済や連絡の経過を整理する",
+        "返済の約束や署名の前に専門家へ相談する"
+      ],
+      "cautions": [
+        "時効は自動的に適用されるとは限らず、完成猶予・更新など個別の確認が必要です。"
+      ],
+      "sources": [
+        {
+          "title": "債務・貸付のQ&A",
+          "url": "https://www.houterasu.or.jp/site/yasasiinihongo/saimu-kashitsuke.html",
+          "publisher": "日本司法支援センター"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "消滅時効",
+        "請求"
+      ]
+    },
+    {
+      "id": "debt-16",
+      "category": "debt",
+      "title": "生活福祉資金の特例貸付は返済の相談窓口を確認する",
+      "summary": "返済通知が届いて困ったら、借りた制度の窓口へ事情を伝えます。",
+      "audience": [
+        "特例貸付を利用した人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 1,
+      "benefit": "公的貸付の返済を適切な窓口で相談できる。",
+      "steps": [
+        "貸付名と返済通知を確認する",
+        "案内にある社会福祉協議会へ連絡する",
+        "免除・猶予などの対象と必要書類を確認する"
+      ],
+      "cautions": [
+        "コロナ特例貸付の新規申込みとは別の手続きです。免除などは自動ではありません。"
+      ],
+      "sources": [
+        {
+          "title": "生活福祉資金の特例貸付・返済に関する相談窓口",
+          "url": "https://corona-support.mhlw.go.jp/seikatsufukushi/samout/counter.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "生活福祉資金",
+        "償還"
+      ]
+    },
+    {
+      "id": "banking-01",
+      "category": "banking",
+      "title": "口座は自分が使うATMと振込の費用で比べる",
+      "summary": "優遇条件を含め、実際の使い方で費用を確認します。",
+      "audience": [
+        "銀行口座を選ぶ人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "生活に合った口座の費用を見積もれる。",
+      "steps": [
+        "月に使うATMと振込回数を書き出す",
+        "銀行の公式手数料表を読む",
+        "無料条件と満たさない場合の費用を比べる"
+      ],
+      "cautions": [
+        "手数料や優遇は改定されます。使わない商品を優遇目的だけで契約しないようにします。"
+      ],
+      "sources": [
+        {
+          "title": "シリーズ教材 お金のキホン",
+          "url": "https://www.j-flec.go.jp/materials/series-okane-kihon/",
+          "publisher": "金融経済教育推進機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "ATM",
+        "振込手数料"
+      ]
+    },
+    {
+      "id": "banking-02",
+      "category": "banking",
+      "title": "預金保険の対象か商品ごとに確認する",
+      "summary": "銀行で買った商品が全て同じように保護されるわけではありません。",
+      "audience": [
+        "預金を持つ人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "預け先の破綻時に保護される範囲を把握できる。",
+      "steps": [
+        "預金の商品名と通貨を確認する",
+        "預金保険の対象・上限を読む",
+        "同じ金融機関の預金をまとめて確認する"
+      ],
+      "cautions": [
+        "外貨預金など対象外の商品があります。金融機関や店舗の種類にも例外があります。"
+      ],
+      "sources": [
+        {
+          "title": "預金保険制度",
+          "url": "https://www.fsa.go.jp/policy/payoff/index.html",
+          "publisher": "金融庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "預金保険",
+        "ペイオフ"
+      ]
+    },
+    {
+      "id": "banking-03",
+      "category": "banking",
+      "title": "大きな決済資金は決済用預金の条件を調べる",
+      "summary": "無利息などの要件を満たす預金の保護と利用条件を確認します。",
+      "audience": [
+        "大きな決済資金を置く人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "決済待ちの資金の置き方を検討できる。",
+      "steps": [
+        "支払予定の資金額と時期を整理する",
+        "銀行に決済用預金の商品を確認する",
+        "利息・手数料・切替方法を比較する"
+      ],
+      "cautions": [
+        "名称だけでは判断できません。預金保険の全額保護は所定の条件を満たすものに限られます。"
+      ],
+      "sources": [
+        {
+          "title": "預金保険制度",
+          "url": "https://www.fsa.go.jp/policy/payoff/index.html",
+          "publisher": "金融庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "決済用預金",
+        "資金管理"
+      ]
+    },
+    {
+      "id": "banking-04",
+      "category": "banking",
+      "title": "通帳やキャッシュカードを失くしたら銀行に連絡する",
+      "summary": "探す作業と並行して、公式の紛失窓口で利用停止を確認します。",
+      "audience": [
+        "通帳・カードを紛失した人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "不正な出金を防ぐ対応につなげられる。",
+      "steps": [
+        "銀行の公式紛失連絡先を調べる",
+        "紛失した物と口座を伝える",
+        "再発行・警察への届出・出金履歴を確認する"
+      ],
+      "cautions": [
+        "画面の所要時間を待たずに速やかに連絡します。補償や再発行には条件・費用があります。"
+      ],
+      "sources": [
+        {
+          "title": "銀行カード等の紛失・盗難",
+          "url": "https://www.zenginkyo.or.jp/abstract/loss/",
+          "publisher": "全国銀行協会"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "通帳紛失",
+        "利用停止"
+      ]
+    },
+    {
+      "id": "banking-05",
+      "category": "banking",
+      "title": "振込先を間違えたら振込元の銀行へ連絡する",
+      "summary": "相手へ直接取り立てる前に、正式な組戻し等の手続きを確認します。",
+      "audience": [
+        "誤振込をした人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "誤振込への対応を正しい窓口で始められる。",
+      "steps": [
+        "振込日時・金額・振込先を確認する",
+        "利用した銀行へすぐ連絡する",
+        "組戻しの条件・手数料・結果を確認する"
+      ],
+      "cautions": [
+        "組戻しが成立するとは限りません。出典は三井住友銀行の例で、手続きは銀行ごとに異なります。"
+      ],
+      "sources": [
+        {
+          "title": "振込の組戻し・変更手続",
+          "url": "https://www.smbc.co.jp/direct/sousa/help_furikomi/36.html",
+          "publisher": "三井住友銀行"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "組戻し",
+        "誤振込"
+      ]
+    },
+    {
+      "id": "banking-06",
+      "category": "banking",
+      "title": "引越し後は銀行の登録住所を変更する",
+      "summary": "重要な通知を受け取れるよう、銀行ごとの登録を更新します。",
+      "audience": [
+        "引越しをした人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "口座に関する通知の見落としを減らせる。",
+      "steps": [
+        "利用中の銀行を一覧にする",
+        "公式の変更手続きと本人確認書類を調べる",
+        "変更完了と連絡先を確認する"
+      ],
+      "cautions": [
+        "郵便の転送だけで銀行の住所登録が変わるわけではありません。"
+      ],
+      "sources": [
+        {
+          "title": "引越しをしたら必ず銀行へ",
+          "url": "https://www.zenginkyo.or.jp/article/tag-f/7486/",
+          "publisher": "全国銀行協会"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住所変更",
+        "銀行"
+      ]
+    },
+    {
+      "id": "banking-07",
+      "category": "banking",
+      "title": "使っていない口座の残高と払戻方法を確認する",
+      "summary": "古い通帳を見つけたら、休眠預金でも取引銀行に問い合わせます。",
+      "audience": [
+        "古い口座がある人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "置き忘れた預金を確認できる。",
+      "steps": [
+        "通帳・証書や銀行名を探す",
+        "承継先を含め取引銀行を確認する",
+        "本人確認と払戻しの必要書類を聞く"
+      ],
+      "cautions": [
+        "口座の状況によって手続きが異なります。休眠預金になっても請求できる場合があります。"
+      ],
+      "sources": [
+        {
+          "title": "休眠預金ってご存知ですか？",
+          "url": "https://www.zenginkyo.or.jp/article/tag-b/10117/",
+          "publisher": "全国銀行協会"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "休眠預金",
+        "通帳"
+      ]
+    },
+    {
+      "id": "banking-08",
+      "category": "banking",
+      "title": "ATMの利用限度額を普段の必要額に合わせる",
+      "summary": "不必要に高い限度額のままにせず、大きな支払いは別途準備します。",
+      "audience": [
+        "キャッシュカードを使う人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "不正利用時の影響を抑える設定を検討できる。",
+      "steps": [
+        "現在の引出し・振込限度額を確認する",
+        "普段必要な額に見直す",
+        "変更に必要な日数と手続きを把握する"
+      ],
+      "cautions": [
+        "引出しと振込で上限が合算されるなど銀行ごとの違いがあります。出典はりそな銀行の例です。"
+      ],
+      "sources": [
+        {
+          "title": "キャッシュカードのATMご利用限度額",
+          "url": "https://www.resonabank.co.jp/security/service/atm.html",
+          "publisher": "りそな銀行"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "利用限度額",
+        "ATM"
+      ]
+    },
+    {
+      "id": "banking-09",
+      "category": "banking",
+      "title": "カード明細は店名と利用日を照合する",
+      "summary": "見覚えのない表示は、家族の利用や正式な請求名も確認します。",
+      "audience": [
+        "クレジットカードを使う人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "小さな不審請求にも気づきやすくなる。",
+      "steps": [
+        "領収書や購入履歴と明細を比べる",
+        "不明な請求を公式窓口へ問い合わせる",
+        "不正利用が疑われる場合は停止等を相談する"
+      ],
+      "cautions": [
+        "通知や調査には期限・条件があるため、発見したら早めに連絡します。"
+      ],
+      "sources": [
+        {
+          "title": "クレジットに関するよく寄せられる相談Q&A",
+          "url": "https://www.j-credit.or.jp/customer/qa/",
+          "publisher": "日本クレジット協会"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "利用明細",
+        "不正利用"
+      ]
+    },
+    {
+      "id": "banking-10",
+      "category": "banking",
+      "title": "クレジットカードの紛失窓口を別に控える",
+      "summary": "カードそのものを失くしても、すぐ停止を依頼できるようにします。",
+      "audience": [
+        "クレジットカードを使う人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "カード紛失時に連絡先探しで迷わずに済む。",
+      "steps": [
+        "発行会社の公式紛失窓口を保存する",
+        "紛失時は利用停止と警察への届出を行う",
+        "再発行後は継続支払いの登録を確認する"
+      ],
+      "cautions": [
+        "補償には条件があり、紛失の放置は避けます。所要時間表示より迅速な連絡を優先します。"
+      ],
+      "sources": [
+        {
+          "title": "クレジットに関するよく寄せられる相談Q&A",
+          "url": "https://www.j-credit.or.jp/customer/qa/",
+          "publisher": "日本クレジット協会"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "カード紛失",
+        "再発行"
+      ]
+    },
+    {
+      "id": "banking-11",
+      "category": "banking",
+      "title": "カード申込み時に自動リボの設定を確認する",
+      "summary": "店で一回払いと言っても、カードの設定によって支払方法が変わることがあります。",
+      "audience": [
+        "カードを申し込む・使う人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "意図しない継続手数料を防ぎやすくなる。",
+      "steps": [
+        "申込画面の支払設定を読む",
+        "会員画面で自動リボの有無を確認する",
+        "不要なら変更し反映後の明細を確認する"
+      ],
+      "cautions": [
+        "設定解除だけで既存のリボ残高が一括清算されるとは限りません。"
+      ],
+      "sources": [
+        {
+          "title": "自動リボ払いを解除したはずなのに、リボ払いが終わらない？",
+          "url": "https://www.kokusen.go.jp/t_box/data/t_box-faq_qa2017_24.html",
+          "publisher": "国民生活センター"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "自動リボ",
+        "支払設定"
+      ]
+    },
+    {
+      "id": "banking-12",
+      "category": "banking",
+      "title": "プリペイド残高は有効期限とともに管理する",
+      "summary": "使い切れない額をまとめてチャージする前に、失効条件を確認します。",
+      "audience": [
+        "電子マネー・商品券を使う人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "使わないまま残高が失効するリスクを減らせる。",
+      "steps": [
+        "券面と公式サイトで有効期限を読む",
+        "手持ちの残高を確認する",
+        "必要な分だけ購入・チャージする"
+      ],
+      "cautions": [
+        "払戻しできない場合があり、有効期限の定めはサービスごとに異なります。"
+      ],
+      "sources": [
+        {
+          "title": "電子マネーの有効期限",
+          "url": "https://www.kokusen.go.jp/t_box/data/t_box-faq_qa2019_21.html",
+          "publisher": "国民生活センター"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "プリペイド",
+        "有効期限"
+      ]
+    },
+    {
+      "id": "banking-13",
+      "category": "banking",
+      "title": "電子マネーが終了するときは払戻しの案内を読む",
+      "summary": "利用終了の告知が出たら、申出期間と方法を確認します。",
+      "audience": [
+        "終了予定の決済サービスを使う人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "終了するサービスの残高を放置せずに済む。",
+      "steps": [
+        "発行者の公式終了案内を保存する",
+        "払戻し対象と受付期間を確認する",
+        "残高を確認して期限内に申出をする"
+      ],
+      "cautions": [
+        "資金決済法に基づく払戻しの対象外となる商品などもあります。"
+      ],
+      "sources": [
+        {
+          "title": "商品券・プリペイドカードの払戻し",
+          "url": "https://www.fsa.go.jp/policy/prepaid/index.html",
+          "publisher": "金融庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "払戻し",
+        "サービス終了"
+      ]
+    },
+    {
+      "id": "banking-14",
+      "category": "banking",
+      "title": "デビット決済の取消しは返金反映まで確認する",
+      "summary": "店でキャンセルしても、口座の残高への反映に時間がかかる場合があります。",
+      "audience": [
+        "デビットカードを使う人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "取消し後の残高を把握して二重に使うことを避けられる。",
+      "steps": [
+        "取消しの記録を保存する",
+        "店と発行元の案内で返金状況を確認する",
+        "反映が遅い場合は取引情報を添えて問い合わせる"
+      ],
+      "cautions": [
+        "処理期間は加盟店や発行元で異なります。出典は三井住友銀行のサービス例です。"
+      ],
+      "sources": [
+        {
+          "title": "Oliveフレキシブルペイ利用ガイド",
+          "url": "https://www.smbc.co.jp/kojin/olive-account/regulation/pdf/flexible-pay-manual_251020.pdf?version=250919",
+          "publisher": "三井住友銀行"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "デビット",
+        "返金"
+      ]
+    },
+    {
+      "id": "banking-15",
+      "category": "banking",
+      "title": "本人が銀行へ行けなくなる場合の手続きを相談する",
+      "summary": "病気や判断能力の低下に備え、本人の意思を尊重した方法を確認します。",
+      "audience": [
+        "家族の銀行手続きを支える人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "急な入院などで支払いが止まる前に準備できる。",
+      "steps": [
+        "本人と必要な支払いを整理する",
+        "取引銀行に代理手続きの制度を聞く",
+        "必要に応じて成年後見等の相談先につなぐ"
+      ],
+      "cautions": [
+        "家族だから自由に出金できるわけではありません。本人の状況と銀行の確認が必要です。"
+      ],
+      "sources": [
+        {
+          "title": "不測の事態における預金の払出しに関する考え方",
+          "url": "https://www.zenginkyo.or.jp/news/2022/n051602/",
+          "publisher": "全国銀行協会"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "代理手続き",
+        "預金払出し"
+      ]
+    },
+    {
+      "id": "banking-16",
+      "category": "banking",
+      "title": "災害で通帳を失ったら銀行の特別対応を確認する",
+      "summary": "証書がなくても相談できる場合があるため、取引銀行へ被災状況を伝えます。",
+      "audience": [
+        "災害で銀行取引に困る人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "被災後に必要な生活資金を相談しやすくなる。",
+      "steps": [
+        "自分と家族の安全を確保する",
+        "銀行の公式被災者向け案内を確認する",
+        "本人確認の方法と払戻し等を相談する"
+      ],
+      "cautions": [
+        "対象災害や金融機関の対応で条件が異なり、無条件の払戻しを保証するものではありません。"
+      ],
+      "sources": [
+        {
+          "title": "災害等における被災者等支援・金融上の措置要請",
+          "url": "https://www.fsa.go.jp/ordinary/hisaisyashien_kinyusochi.html",
+          "publisher": "金融庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "被災",
+        "金融支援"
+      ]
+    },
+    {
+      "id": "insurance-01",
+      "category": "insurance",
+      "title": "民間保険を選ぶ前に公的保障を確認する",
+      "summary": "病気・死亡・休業などに備える公的制度を知り、不足する範囲を考えます。",
+      "audience": [
+        "民間保険を検討する人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "必要な保障額を家計に沿って考えられる。",
+      "steps": [
+        "加入する健康保険と年金を確認する",
+        "勤務先の給付や貯蓄も整理する",
+        "不足する支出に対応する保障を比較する"
+      ],
+      "cautions": [
+        "公的給付は加入状況や所得、個別事情で異なります。"
+      ],
+      "sources": [
+        {
+          "title": "公的保険ポータル",
+          "url": "https://www.fsa.go.jp/ordinary/insurance-portal.html",
+          "publisher": "金融庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "公的保障",
+        "必要保障"
+      ]
+    },
+    {
+      "id": "insurance-02",
+      "category": "insurance",
+      "title": "複数の契約で同じ補償が重なっていないか確認する",
+      "summary": "火災・自動車・傷害保険などに付いた特約を並べて確認します。",
+      "audience": [
+        "複数の保険に加入する人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "不要な重複と必要な保障を区別できる。",
+      "steps": [
+        "保険証券と特約一覧を集める",
+        "同じ事故や家族を対象とする補償を探す",
+        "重複時の支払いと削除の影響を保険会社に聞く"
+      ],
+      "cautions": [
+        "生命保険の定額給付など、重複してもそれぞれ支払われるものがあります。一律に削除しません。"
+      ],
+      "sources": [
+        {
+          "title": "傷害保険 契約概要・注意喚起情報ガイドライン",
+          "url": "https://www.sonpo.or.jp/about/guideline/keiyaku_guideline/ctuevu0000005hpl-att/shogai2024.pdf",
+          "publisher": "日本損害保険協会"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "重複補償",
+        "特約"
+      ]
+    },
+    {
+      "id": "insurance-03",
+      "category": "insurance",
+      "title": "更新型の保険は次回の保険料も確認する",
+      "summary": "今の月額だけでなく、更新後も支払い続けられるかを考えます。",
+      "audience": [
+        "更新型保険に加入する人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "将来の保険料増加を家計に織り込める。",
+      "steps": [
+        "更新時期と継続できる年齢を確認する",
+        "次回の保険料と保障内容を聞く",
+        "変更希望があれば申出期限前に相談する"
+      ],
+      "cautions": [
+        "保険料や更新条件は契約により異なります。更新できない条件がある場合もあります。"
+      ],
+      "sources": [
+        {
+          "title": "更新について",
+          "url": "https://www.jili.or.jp/knows_learns/basic/change/20.html",
+          "publisher": "生命保険文化センター"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "保険更新",
+        "保険料"
+      ]
+    },
+    {
+      "id": "insurance-04",
+      "category": "insurance",
+      "title": "保険の告知は質問に正確に答える",
+      "summary": "病歴などを代理店の口頭説明だけで省かず、所定の方法で回答します。",
+      "audience": [
+        "保険を申し込む人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "給付時に告知を巡る問題が生じるリスクを減らせる。",
+      "steps": [
+        "告知の質問を自分で読む",
+        "記録を確認して事実を回答する",
+        "判断に迷う項目は保険会社へ確認する"
+      ],
+      "cautions": [
+        "告知先や訂正方法は保険会社の手順に従います。募集人に話すだけでは告知にならない場合があります。"
+      ],
+      "sources": [
+        {
+          "title": "保険商品に関する相談事例とアドバイス",
+          "url": "https://www.fsa.go.jp/receipt/soudansitu/advice02.html",
+          "publisher": "金融庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "告知",
+        "病歴"
+      ]
+    },
+    {
+      "id": "insurance-05",
+      "category": "insurance",
+      "title": "保険の乗換えは新契約の保障開始を確認して進める",
+      "summary": "古い保険を先に解約して保障が途切れないようにします。",
+      "audience": [
+        "保険の乗換えを検討する人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "保険見直しによる保障の空白を防ぎやすくなる。",
+      "steps": [
+        "新旧の保障と解約返戻金を比べる",
+        "新契約の承諾・開始日・対象外期間を確認する",
+        "旧契約をどうするか改めて判断する"
+      ],
+      "cautions": [
+        "健康状態によって新たに加入できない場合があります。古い契約は同条件で戻せるとは限りません。"
+      ],
+      "sources": [
+        {
+          "title": "生命保険の見直し方法と留意点",
+          "url": "https://jili.or.jp/tebiki/chapter3.html",
+          "publisher": "生命保険文化センター"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "保険乗換え",
+        "保障開始"
+      ]
+    },
+    {
+      "id": "insurance-06",
+      "category": "insurance",
+      "title": "入院や手術の後は加入保険の請求対象を確認する",
+      "summary": "一つの給付だけでなく、契約している保障全体を確認します。",
+      "audience": [
+        "治療を受けた保険加入者"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "請求できる給付の見落としを減らせる。",
+      "steps": [
+        "加入先と契約番号を集める",
+        "治療の時期と内容を保険会社に伝える",
+        "必要な診断書・請求書・期限を確認する"
+      ],
+      "cautions": [
+        "支払い対象は約款によります。診断書を有料で取得する前に必要性を確認します。"
+      ],
+      "sources": [
+        {
+          "title": "保険金・給付金の請求から受取りまでの手引",
+          "url": "https://jili.or.jp/seikyutebiki/index.html",
+          "publisher": "生命保険文化センター"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "給付金請求",
+        "診断書"
+      ]
+    },
+    {
+      "id": "insurance-07",
+      "category": "insurance",
+      "title": "結婚・離婚・死別後は保険金受取人を確認する",
+      "summary": "家族関係が変わっても、契約上の受取人が自動で変わるとは限りません。",
+      "audience": [
+        "家族関係が変わった人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "現在の意向と契約の登録を合わせられる。",
+      "steps": [
+        "保険証券の受取人を確認する",
+        "変更の要否を契約者と被保険者で確認する",
+        "保険会社の手続きで届け出る"
+      ],
+      "cautions": [
+        "被保険者の同意などが必要です。税の扱いも関係者の組合せで異なります。"
+      ],
+      "sources": [
+        {
+          "title": "諸変更と届出",
+          "url": "https://www.jili.or.jp/knows_learns/basic/continuance/95.html",
+          "publisher": "生命保険文化センター"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "受取人",
+        "名義変更"
+      ]
+    },
+    {
+      "id": "insurance-08",
+      "category": "insurance",
+      "title": "指定代理請求人を決めて本人にも伝える",
+      "summary": "本人が請求できない状態に備え、契約で使える代理請求を確認します。",
+      "audience": [
+        "生命保険に加入する人・家族"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "意思表示が難しいときの給付請求に備えられる。",
+      "steps": [
+        "契約に指定代理請求制度があるか調べる",
+        "本人の同意を得て代理人を登録する",
+        "代理人に契約の存在と連絡先を伝える"
+      ],
+      "cautions": [
+        "利用できる事情や給付、代理人の範囲は保険会社ごとに異なります。"
+      ],
+      "sources": [
+        {
+          "title": "指定代理請求制度って、どんな制度なの？",
+          "url": "https://www.jili.or.jp/knows_learns/q_a/life_insurance/169.html",
+          "publisher": "生命保険文化センター"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "指定代理請求",
+        "家族"
+      ]
+    },
+    {
+      "id": "insurance-09",
+      "category": "insurance",
+      "title": "地震の損害は火災保険の補償と分けて確認する",
+      "summary": "火災という名前だけで、地震を原因とする損害も対象だと思い込まないようにします。",
+      "audience": [
+        "住まいの保険に加入する人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "原因による補償の違いを把握できる。",
+      "steps": [
+        "火災保険と地震保険の契約を確認する",
+        "建物・家財それぞれの対象を読む",
+        "不足や不明点を保険会社に問い合わせる"
+      ],
+      "cautions": [
+        "地震・噴火・津波の扱いは通常の火災等と異なります。再建費用全額の補償を保証するものではありません。"
+      ],
+      "sources": [
+        {
+          "title": "風水雪災等による損害を補償する損害保険",
+          "url": "https://www.sonpo.or.jp/insurance/shizen/index.html",
+          "publisher": "日本損害保険協会"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "地震保険",
+        "火災保険"
+      ]
+    },
+    {
+      "id": "insurance-10",
+      "category": "insurance",
+      "title": "水災補償は自宅の立地と支払条件で確認する",
+      "summary": "洪水などの危険と保険の対象を照らし合わせます。",
+      "audience": [
+        "住まいの保険を見直す人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "保険を減らす前に住まいの条件を検討できる。",
+      "steps": [
+        "自治体のハザードマップを確認する",
+        "契約の水災補償と免責を読む",
+        "建物・家財と支払い基準を保険会社に聞く"
+      ],
+      "cautions": [
+        "水災補償の有無と条件は商品で異なります。地図の想定外の災害もあり得ます。"
+      ],
+      "sources": [
+        {
+          "title": "風水雪災等による損害を補償する損害保険",
+          "url": "https://www.sonpo.or.jp/insurance/shizen/index.html",
+          "publisher": "日本損害保険協会"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "水災",
+        "補償範囲"
+      ]
+    },
+    {
+      "id": "insurance-11",
+      "category": "insurance",
+      "title": "車を貸す前に運転者の補償範囲を確認する",
+      "summary": "家族や友人が運転する予定が変わったら、年齢条件や限定を確認します。",
+      "audience": [
+        "車を所有する人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "貸した車の事故が補償対象外になるリスクを減らせる。",
+      "steps": [
+        "誰が運転するか整理する",
+        "契約の運転者範囲と年齢条件を読む",
+        "運転前に必要な変更を保険会社へ相談する"
+      ],
+      "cautions": [
+        "同居・別居などで条件が異なる場合があります。特約名だけで判断しません。"
+      ],
+      "sources": [
+        {
+          "title": "自動車保険",
+          "url": "https://www.sonpo.or.jp/insurance/car/index.html",
+          "publisher": "日本損害保険協会"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "運転者限定",
+        "自動車保険"
+      ]
+    },
+    {
+      "id": "insurance-12",
+      "category": "insurance",
+      "title": "個人賠償責任保険は家族と事故の範囲を確認する",
+      "summary": "日常の賠償に備える特約が、誰のどの事故を対象にするか確認します。",
+      "audience": [
+        "家族の日常事故に備える人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "自転車や日常の事故への備えを確認できる。",
+      "steps": [
+        "加入済みの火災・自動車保険等を調べる",
+        "家族の対象範囲と国内外の条件を読む",
+        "仕事中など対象外の事故を確認する"
+      ],
+      "cautions": [
+        "法律上の賠償責任がない場合や免責事由では支払われない場合があります。"
+      ],
+      "sources": [
+        {
+          "title": "個人賠償責任保険",
+          "url": "https://www.sonpo.or.jp/insurance/compensation/index.html",
+          "publisher": "日本損害保険協会"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "個人賠償責任",
+        "家族"
+      ]
+    },
+    {
+      "id": "insurance-13",
+      "category": "insurance",
+      "title": "保険料が重いときは減額や払済への変更も相談する",
+      "summary": "解約だけで決めず、保障を一部残す方法があるか確認します。",
+      "audience": [
+        "保険料の負担が重い人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "家計負担と保障の両方を見ながら変更できる。",
+      "steps": [
+        "必要な保障と負担できる保険料を整理する",
+        "減額・特約解約・払済などの可否を聞く",
+        "失う保障と返戻金を比較して判断する"
+      ],
+      "cautions": [
+        "利用できない商品があり、変更後は元の保障に戻せない場合があります。"
+      ],
+      "sources": [
+        {
+          "title": "生命保険の見直し方法と留意点",
+          "url": "https://jili.or.jp/tebiki/chapter3.html",
+          "publisher": "生命保険文化センター"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "払済保険",
+        "減額"
+      ]
+    },
+    {
+      "id": "insurance-14",
+      "category": "insurance",
+      "title": "保険契約を取り消したいときは期限と方法をすぐ確認する",
+      "summary": "保険のクーリング・オフには適用条件があるため、契約書類を確認します。",
+      "audience": [
+        "保険契約の撤回を考える人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "短い申出期間の見落としを減らせる。",
+      "steps": [
+        "申込み日と書類受領日を確認する",
+        "注意喚起情報の撤回方法を読む",
+        "保険会社へ所定の方法で通知し記録を残す"
+      ],
+      "cautions": [
+        "すべての保険契約が対象ではありません。一般の通販のルールとは異なります。"
+      ],
+      "sources": [
+        {
+          "title": "保険商品に関する相談事例とアドバイス",
+          "url": "https://www.fsa.go.jp/receipt/soudansitu/advice02.html",
+          "publisher": "金融庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "保険契約",
+        "クーリングオフ"
+      ]
+    },
+    {
+      "id": "insurance-15",
+      "category": "insurance",
+      "title": "家族の生命保険が分からないときは契約照会を調べる",
+      "summary": "死亡や認知判断能力の低下などで、契約の存在を調べる制度があります。",
+      "audience": [
+        "家族の契約を調べる人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "家族が把握できていない保険を探す手掛かりになる。",
+      "steps": [
+        "手元の保険証券や引落しを確認する",
+        "生命保険協会の照会対象と費用を読む",
+        "結果で契約が見つかったら各社へ請求を確認する"
+      ],
+      "cautions": [
+        "照会できる人や事情、対象会社・契約には制限があります。照会だけで給付請求は完了しません。"
+      ],
+      "sources": [
+        {
+          "title": "生命保険契約照会制度のご案内",
+          "url": "https://www.seiho.or.jp/contact/inquiry/",
+          "publisher": "生命保険協会"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "生命保険契約照会",
+        "相続"
+      ]
+    },
+    {
+      "id": "insurance-16",
+      "category": "insurance",
+      "title": "保険会社との話合いが進まないときは金融ADRを確認する",
+      "summary": "回答と争点を整理し、契約先に対応する相談機関へ相談します。",
+      "audience": [
+        "保険トラブルで困る人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "第三者を交えた解決手段を検討できる。",
+      "steps": [
+        "保険会社の回答を保存する",
+        "金融庁の一覧から対応機関を探す",
+        "苦情処理や紛争解決の条件を確認する"
+      ],
+      "cautions": [
+        "ADRが必ず希望どおりの解決をするわけではありません。機関ごとに対象と手続きが異なります。"
+      ],
+      "sources": [
+        {
+          "title": "金融機関とのトラブルに関する相談・苦情窓口",
+          "url": "https://www.fsa.go.jp/policy/adr/adr_madoguchi.html",
+          "publisher": "金融庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "金融ADR",
+        "保険相談"
+      ]
+    },
+    {
+      "id": "benefits-01",
+      "category": "benefits",
+      "title": "自治体の手続きを地域と生活場面から検索する",
+      "summary": "制度名を知らなくても、ぴったりサービスで居住地から探せます。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "自分の地域で使う申請窓口を見つけやすくなる。",
+      "steps": [
+        "自治体を選択する",
+        "子育て・介護などの分野を検索する",
+        "担当窓口と申請方法を確認する"
+      ],
+      "cautions": [
+        "掲載や電子申請の対応は自治体・手続きで異なります。全制度を網羅するものではありません。"
+      ],
+      "sources": [
+        {
+          "title": "ぴったりサービスについて",
+          "url": "https://app.oss.myna.go.jp/Application/resources/about/index.html",
+          "publisher": "デジタル庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "ぴったりサービス",
+        "自治体"
+      ]
+    },
+    {
+      "id": "benefits-02",
+      "category": "benefits",
+      "title": "支援制度は検索結果ではなく当年度の募集要項を読む",
+      "summary": "前年の記事だけで判断せず、現在の対象と受付状況を確認します。",
+      "audience": [
+        "支援制度を探す人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "古い条件で準備する手戻りを減らせる。",
+      "steps": [
+        "制度を実施する自治体・機関のページを開く",
+        "年度・受付期間・対象者を確認する",
+        "不明点と更新予定を担当窓口に聞く"
+      ],
+      "cautions": [
+        "年度途中の終了や改正もあり、同じ名称でも条件が変わる場合があります。"
+      ],
+      "sources": [
+        {
+          "title": "ぴったりサービスについて",
+          "url": "https://app.oss.myna.go.jp/Application/resources/about/index.html",
+          "publisher": "デジタル庁"
+        },
+        {
+          "title": "家計急変採用・給付奨学金の申込み方法",
+          "url": "https://www.jasso.go.jp/shogakukin/moshikomi/rinji/kakei_kyuhen/moushikomi.html",
+          "publisher": "日本学生支援機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "募集要項",
+        "申請期限"
+      ]
+    },
+    {
+      "id": "benefits-03",
+      "category": "benefits",
+      "title": "支援金は返還が必要かを最初に確かめる",
+      "summary": "給付・減免・貸付を区別して、受け取った後の負担まで考えます。",
+      "audience": [
+        "資金支援を探す人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "借入れを給付金と誤解せずに選べる。",
+      "steps": [
+        "制度名と実施主体を確認する",
+        "返還義務・免除条件・自己負担を読む",
+        "不明なら申請前に担当者へ確認する"
+      ],
+      "cautions": [
+        "同じ緊急支援でも給付と貸与が併存する場合があります。給付にも取消しや返還条件があります。"
+      ],
+      "sources": [
+        {
+          "title": "被災・家計急変時の申込み手続き",
+          "url": "https://www.jasso.go.jp/shogakukin/moshikomi/rinji/",
+          "publisher": "日本学生支援機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "給付",
+        "貸付"
+      ]
+    },
+    {
+      "id": "benefits-04",
+      "category": "benefits",
+      "title": "教育費を借りる前に、公的な教育ローンも比較する",
+      "summary": "給付型の支援を先に確認し、なお不足する場合に返済負担を含めて検討する。",
+      "audience": [
+        "進学する人の保護者"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "教育費の不足額と返済計画を一緒に検討できる。",
+      "steps": [
+        "必要な教育費から給付や自己資金を差し引く。",
+        "国の教育ローンの対象・金利・保証料等と他の選択肢を比較する。",
+        "返済総額と月々の負担を確認し、申込先に相談する。"
+      ],
+      "cautions": [
+        "給付ではなく返済が必要な融資で、所得等の要件と審査がある。金利等は最新の案内を確認する。沖縄県では申込窓口が異なる。"
+      ],
+      "sources": [
+        {
+          "title": "教育一般貸付（国の教育ローン）",
+          "url": "https://www.jfc.go.jp/n/finance/search/ippan.html",
+          "publisher": "日本政策金融公庫"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "教育ローン",
+        "進学費用",
+        "返済"
+      ]
+    },
+    {
+      "id": "benefits-05",
+      "category": "benefits",
+      "title": "ひとり親家庭の必要資金は、福祉資金の貸付けを相談する",
+      "summary": "就職や転居などの資金が必要になったら、自治体のひとり親支援窓口に相談する。",
+      "audience": [
+        "ひとり親家庭など"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "目的に合う公的貸付けの対象と返済条件を調べられる。",
+      "steps": [
+        "必要な費用の使途・金額・時期を整理する。",
+        "自治体で母子父子寡婦福祉資金の対象となるか確認する。",
+        "申請前の相談、審査、返済や保証に関する条件を聞く。"
+      ],
+      "cautions": [
+        "給付ではなく貸付け。対象者・資金の種類ごとに条件が異なり、申請すれば必ず借りられるわけではない。"
+      ],
+      "sources": [
+        {
+          "title": "母子父子寡婦福祉資金貸付金",
+          "url": "https://www.cfa.go.jp/assets/contents/node/basic_page/field_ref_resources/0a870592-1814-4b21-bf56-16f06080c594/0f69b7f8/20260424_policies_hitori-oya_112.pdf",
+          "publisher": "こども家庭庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "ひとり親",
+        "福祉資金",
+        "貸付"
+      ]
+    },
+    {
+      "id": "benefits-06",
+      "category": "benefits",
+      "title": "遠方の面接や就職の引越しは、予約前に費用支援を確認する",
+      "summary": "ハローワークの紹介で遠方へ行く場合、広域求職活動費や移転費の対象か確認する。",
+      "audience": [
+        "雇用保険を受給して仕事を探す人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "就職活動や移転の費用について使える支援を確認できる。",
+      "steps": [
+        "面接先・就職先と移動や転居の予定を整理する。",
+        "予約・出発前にハローワークへ対象要件と手続きを相談する。",
+        "必要な証明や領収書を保存し、案内された方法で申請する。"
+      ],
+      "cautions": [
+        "雇用保険受給資格や紹介方法、距離等の要件がある。自己応募を含めたすべての移動費が対象となる制度ではない。"
+      ],
+      "sources": [
+        {
+          "title": "移転費、広域求職活動費等について",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000130693.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "広域求職活動費",
+        "移転費",
+        "就職活動"
+      ]
+    },
+    {
+      "id": "benefits-07",
+      "category": "benefits",
+      "title": "ひとり親の資格取得は修業中の生活支援を相談する",
+      "summary": "受講費用だけでなく、養成機関に通う期間の給付を確認します。",
+      "audience": [
+        "ひとり親で資格取得を目指す人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "資格取得中の生活の見通しを立てやすくなる。",
+      "steps": [
+        "取得したい資格と修業期間を整理する",
+        "自治体のひとり親支援窓口へ相談する",
+        "高等職業訓練促進給付金の対象と申請時期を確認する"
+      ],
+      "cautions": [
+        "所得・資格・修業期間などに条件があります。申し込む前に個別の対象を確認します。"
+      ],
+      "sources": [
+        {
+          "title": "高等職業訓練促進給付金のご案内",
+          "url": "https://www.cfa.go.jp/policies/hitori-oya/syokugyou-kunren",
+          "publisher": "こども家庭庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "高等職業訓練促進給付金",
+        "資格"
+      ]
+    },
+    {
+      "id": "benefits-08",
+      "category": "benefits",
+      "title": "指定難病の診断を受けたら、医療費助成の対象を相談する",
+      "summary": "病名だけで自己判断せず、指定医や自治体の窓口で要件と申請方法を確認する。",
+      "audience": [
+        "指定難病のある人・家族"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "継続する治療費に関する助成の対象と必要書類を確認できる。",
+      "steps": [
+        "診断名と治療を受けている医療機関を確認する。",
+        "都道府県・指定都市の窓口で対象や申請書類を調べる。",
+        "指定医の書類などを準備し、申請時期と更新の扱いを確認する。"
+      ],
+      "cautions": [
+        "対象疾病や重症度等の認定要件がある。指定難病の診断だけで自動的に助成されるわけではない。"
+      ],
+      "sources": [
+        {
+          "title": "指定難病・医療費助成の相談",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000084783.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "指定難病",
+        "医療費助成",
+        "申請"
+      ]
+    },
+    {
+      "id": "benefits-09",
+      "category": "benefits",
+      "title": "年金を受けるひとり親も、児童扶養手当の対象を確認する",
+      "summary": "公的年金を受けていることだけで、児童扶養手当を一律に諦めない。",
+      "audience": [
+        "公的年金を受けるひとり親家庭など"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "年金との調整を踏まえ、申請できる手当の有無を確認できる。",
+      "steps": [
+        "受けている年金の種類・額と子に関する加算を確認する。",
+        "自治体の児童扶養手当窓口で併給調整と所得等の要件を相談する。",
+        "必要な申請や届出と、年金額が変わった際の連絡方法を確認する。"
+      ],
+      "cautions": [
+        "年金の種類等で調整方法が異なり、両方が満額支給される制度ではない。遡って年金が支給された場合などは手当の返還が必要になることがある。"
+      ],
+      "sources": [
+        {
+          "title": "児童扶養手当について",
+          "url": "https://www.cfa.go.jp/policies/hitori-oya/fuyou-teate/",
+          "publisher": "こども家庭庁"
+        },
+        {
+          "title": "児童扶養手当と公的年金等を受給する場合の手続き",
+          "url": "https://www.cfa.go.jp/assets/contents/node/basic_page/field_ref_resources/71de338f-5ed2-4c95-9848-3fd387d0b4d7/a266fd63/20230401_policies_hitori-oya_fuyou-teate_05.pdf",
+          "publisher": "こども家庭庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "児童扶養手当",
+        "公的年金",
+        "併給調整"
+      ]
+    },
+    {
+      "id": "benefits-10",
+      "category": "benefits",
+      "title": "常時特別な介護が必要なら特別障害者手当を確認する",
+      "summary": "在宅で重い障害のある人の生活負担に対する制度を相談します。",
+      "audience": [
+        "重い障害がある人・家族"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "見落とされやすい手当の対象を確認できる。",
+      "steps": [
+        "介護が必要な状況を整理する",
+        "市区町村の障害福祉窓口へ相談する",
+        "年齢・所得・入所入院などの条件を確認する"
+      ],
+      "cautions": [
+        "手帳の等級だけで自動認定されません。施設入所や一定の入院などにより対象外になる場合があります。"
+      ],
+      "sources": [
+        {
+          "title": "特別障害者手当について",
+          "url": "https://www.mhlw.go.jp/bunya/shougaihoken/jidou/tokubetsu.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "特別障害者手当",
+        "在宅"
+      ]
+    },
+    {
+      "id": "benefits-11",
+      "category": "benefits",
+      "title": "年金生活者支援給付金の案内を開封して確認する",
+      "summary": "年金収入などが一定の基準に合う人は、追加の給付を受けられる場合があります。",
+      "audience": [
+        "基礎年金を受給する人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "対象となる給付の請求漏れを減らせる。",
+      "steps": [
+        "日本年金機構から届いた書類を読む",
+        "請求の必要性と所得等の要件を確認する",
+        "案内に沿って提出し結果を確認する"
+      ],
+      "cautions": [
+        "年金の種類や世帯・所得などに条件があります。案内が届かない場合も年金事務所へ確認できます。"
+      ],
+      "sources": [
+        {
+          "title": "年金生活者支援給付金",
+          "url": "https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/shienkyufukin/20190805.html",
+          "publisher": "日本年金機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "年金生活者支援給付金",
+        "請求"
+      ]
+    },
+    {
+      "id": "benefits-12",
+      "category": "benefits",
+      "title": "第1号被保険者は育児中の国民年金免除を確認する",
+      "summary": "2026年10月に始まった育児免除について、自分の対象期間を確認します。",
+      "audience": [
+        "乳児を育てる第1号被保険者"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "新しい育児支援の届出漏れを防ぎやすくなる。",
+      "steps": [
+        "親の加入区分と子の年齢・同居状況を確認する",
+        "日本年金機構の案内で届出の要否を読む",
+        "必要なら自治体または電子申請で届け出る"
+      ],
+      "cautions": [
+        "1歳未満の子を養育する第1号被保険者などが対象です。第2号・第3号や任意加入とは扱いが異なります。"
+      ],
+      "sources": [
+        {
+          "title": "国民年金保険料の育児免除制度",
+          "url": "https://www.nenkin.go.jp/service/kokunen/menjo/ikujimenjo.html",
+          "publisher": "日本年金機構"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "育児免除",
+        "国民年金"
+      ]
+    },
+    {
+      "id": "benefits-13",
+      "category": "benefits",
+      "title": "出産で仕事を休むときは出産手当金を確認する",
+      "summary": "出産育児一時金とは別に、休業中の所得を支える給付を確認します。",
+      "audience": [
+        "出産で休業する被保険者"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "産前産後の家計に必要な給付を確認できる。",
+      "steps": [
+        "加入する健康保険と休業予定を確認する",
+        "勤務先と保険者に申請手順を聞く",
+        "賃金や出産に関する証明をそろえる"
+      ],
+      "cautions": [
+        "原則として被保険者本人が対象で、扶養家族の出産とは異なります。給与がある場合は調整があります。"
+      ],
+      "sources": [
+        {
+          "title": "出産手当金",
+          "url": "https://www.kyoukaikenpo.or.jp/benefit/childbirth/001/index.html",
+          "publisher": "全国健康保険協会"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "出産手当金",
+        "産休"
+      ]
+    },
+    {
+      "id": "benefits-14",
+      "category": "benefits",
+      "title": "介護休業を取るときは雇用保険の給付を確認する",
+      "summary": "会社の休業申出と給付申請を分けて確認します。",
+      "audience": [
+        "介護休業を取る人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "介護休業中の収入見込みを立てやすくなる。",
+      "steps": [
+        "対象家族と休業予定を整理する",
+        "勤務先とハローワークに受給条件を聞く",
+        "申請者・必要書類・期限を確認する"
+      ],
+      "cautions": [
+        "雇用保険の加入歴や休業中の賃金などに要件があります。介護休暇とは別の制度です。"
+      ],
+      "sources": [
+        {
+          "title": "介護休業給付のQ&A",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000158665.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "介護休業給付",
+        "雇用保険"
+      ]
+    },
+    {
+      "id": "benefits-15",
+      "category": "benefits",
+      "title": "家賃を下げる転居には費用支援がないか相談する",
+      "summary": "収入減で現在の家賃が重い場合は、契約前に転居費用の支援を確認します。",
+      "audience": [
+        "収入減で転居を考える人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "家計改善につながる住み替えを相談できる。",
+      "steps": [
+        "現在と転居後の家計を試算する",
+        "自立相談支援機関に転居の必要性を相談する",
+        "対象費用と事前手続きを確認する"
+      ],
+      "cautions": [
+        "住居確保給付金の転居費用支援には収入・資産などの要件があります。自由な引越しの費用補助ではありません。"
+      ],
+      "sources": [
+        {
+          "title": "令和7年4月の制度変更・住居確保給付金の拡充",
+          "url": "https://www.mhlw.go.jp/stf/newpage_51380.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "転居費用",
+        "住居確保給付金"
+      ]
+    },
+    {
+      "id": "benefits-16",
+      "category": "benefits",
+      "title": "住宅が被災したら生活再建支援の対象を確認する",
+      "summary": "住宅の被害区分と再建方法に応じた制度を自治体に確認します。",
+      "audience": [
+        "住宅の被害を受けた人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "住まいの再建に使える公的支援を探せる。",
+      "steps": [
+        "安全確保後に被害の記録を残す",
+        "自治体に罹災証明と支援制度を相談する",
+        "対象災害・世帯・申請期限を確認する"
+      ],
+      "cautions": [
+        "被災者生活再建支援法には対象災害と被害程度などの要件があります。自治体独自支援も別に確認します。"
+      ],
+      "sources": [
+        {
+          "title": "被災者生活再建支援法",
+          "url": "https://www.bousai.go.jp/taisaku/seikatsusaiken/shiensya.html",
+          "publisher": "内閣府"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "生活再建",
+        "被災者支援"
+      ]
+    },
+    {
+      "id": "sidework-01",
+      "category": "sidework",
+      "title": "契約名が「業務委託」でも、働き方の実態を確認する",
+      "summary": "仕事の指示や時間の拘束などに疑問があれば、労働者に当たるか相談する。",
+      "audience": [
+        "副業・フリーランスの人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 1,
+      "benefit": "契約の呼び名だけで必要な保護を諦めずに済む。",
+      "steps": [
+        "契約書と実際の指示・勤務時間を並べる。",
+        "仕事を断れるか、作業方法を誰が決めるかを書き出す。",
+        "労働基準監督署などに実態を説明して相談する。"
+      ],
+      "cautions": [
+        "労働者性は事情を総合して判断される。自己判断で契約上の義務を無視しない。"
+      ],
+      "sources": [
+        {
+          "title": "フリーランスとして業務を行う方等へ",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyoukintou/zaitaku/index_00002.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "労働者性",
+        "雇用契約"
+      ]
+    },
+    {
+      "id": "sidework-02",
+      "category": "sidework",
+      "title": "仕事を受ける前に、取引条件を文章で受け取る",
+      "summary": "仕事内容、報酬、支払日などをメールや書面で確認してから着手する。",
+      "audience": [
+        "副業・フリーランスの人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 1,
+      "benefit": "言った・言わないによる報酬や作業範囲の食い違いを減らす。",
+      "steps": [
+        "発注者の正式名称と連絡先を確認する。",
+        "仕事内容・報酬・支払日・納品先を文章で照合する。",
+        "不足部分を質問し、回答と合意内容を保存する。"
+      ],
+      "cautions": [
+        "フリーランス法の義務は発注者・受注者の区分などで異なる。必要事項は取引に応じて確認する。"
+      ],
+      "sources": [
+        {
+          "title": "フリーランス法 特設サイト",
+          "url": "https://www.jftc.go.jp/freelancelaw_2026/index.html",
+          "publisher": "公正取引委員会"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "取引条件",
+        "契約書"
+      ]
+    },
+    {
+      "id": "sidework-03",
+      "category": "sidework",
+      "title": "納品日だけでなく、検収の基準と期限を決める",
+      "summary": "成果物の合格条件と確認の流れを、発注段階で共有する。",
+      "audience": [
+        "副業・フリーランスの人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "納品後に作業完了の判断が長引くのを防ぐ。",
+      "steps": [
+        "納品形式・品質・点数を具体的に確認する。",
+        "誰がいつまでに検査するかを文章にする。",
+        "納品日時と相手の受領・確認連絡を保存する。"
+      ],
+      "cautions": [
+        "すべての仕事で検収が必要なわけではない。取引内容に合う確認方法を選ぶ。"
+      ],
+      "sources": [
+        {
+          "title": "自営型テレワークの契約条件",
+          "url": "https://homeworkers.mhlw.go.jp/guideline/gl03.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "納品",
+        "検収"
+      ]
+    },
+    {
+      "id": "sidework-04",
+      "category": "sidework",
+      "title": "請求日とは別に、報酬の支払期日を確認する",
+      "summary": "「検収後に相談」など曖昧な条件のまま受注しない。",
+      "audience": [
+        "副業・フリーランスの人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "入金予定を立てやすくし、支払い遅延を早く把握できる。",
+      "steps": [
+        "契約に支払日または確定できる支払い条件があるか読む。",
+        "請求書の提出方法と必要事項を確認する。",
+        "期日に入金がなければ契約と納品記録を添えて問い合わせる。"
+      ],
+      "cautions": [
+        "法定の支払期日などは取引の適用条件がある。再委託の例外もあるため一律に判断しない。"
+      ],
+      "sources": [
+        {
+          "title": "フリーランス法 特設サイト",
+          "url": "https://www.jftc.go.jp/freelancelaw_2026/index.html",
+          "publisher": "公正取引委員会"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "支払期日",
+        "請求書"
+      ]
+    },
+    {
+      "id": "sidework-05",
+      "category": "sidework",
+      "title": "追加修正は、作業前に範囲と報酬を再確認する",
+      "summary": "当初の仕様を超える変更は、納期への影響も含めて合意する。",
+      "audience": [
+        "副業・フリーランスの人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "無制限の修正で予定や収支が崩れるのを防ぐ。",
+      "steps": [
+        "当初の仕様と追加依頼の違いを記録する。",
+        "必要な追加時間・報酬・納期変更を伝える。",
+        "合意内容を保存してから追加作業を進める。"
+      ],
+      "cautions": [
+        "不具合の修正と追加発注の区別は契約や事情による。追加分が必ず有料になるとは限らない。"
+      ],
+      "sources": [
+        {
+          "title": "成果物・納期・検査の条件",
+          "url": "https://homeworkers.mhlw.go.jp/guideline/about02.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "追加修正",
+        "仕様変更"
+      ]
+    },
+    {
+      "id": "sidework-06",
+      "category": "sidework",
+      "title": "制作物の著作権と利用範囲を契約で確認する",
+      "summary": "納品代金だけでなく、どこまで使える契約なのかをすり合わせる。",
+      "audience": [
+        "副業・フリーランスの人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "作品の再利用や実績公開をめぐる争いを減らす。",
+      "steps": [
+        "著作権の譲渡か利用許諾かを確認する。",
+        "利用媒体・期間・改変・再利用・実績公開の条件を読む。",
+        "分からない条項は署名前に発注者や専門家へ確認する。"
+      ],
+      "cautions": [
+        "著作権が生じるか、誰に帰属するかは制作内容や契約による。作品公開には守秘義務や第三者の権利も関わる。"
+      ],
+      "sources": [
+        {
+          "title": "著作権テキスト・令和8年度版",
+          "url": "https://www.bunka.go.jp/seisaku/chosakuken/seidokaisetsu/pdf/94383901_01.pdf",
+          "publisher": "文化庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "著作権",
+        "利用許諾"
+      ]
+    },
+    {
+      "id": "sidework-07",
+      "category": "sidework",
+      "title": "報酬未払いは、取引資料をそろえて専門窓口に相談する",
+      "summary": "フリーランス・トラブル110番で、発注者との契約上の困りごとを相談できる。",
+      "audience": [
+        "副業・フリーランスの人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 1,
+      "benefit": "督促や解決手段を、自分だけで判断せず整理できる。",
+      "steps": [
+        "契約・納品・請求・入金状況を時系列にまとめる。",
+        "未払い額と相手への連絡履歴を用意する。",
+        "窓口で相談対象か確認し、取り得る手段を聞く。"
+      ],
+      "cautions": [
+        "対象は主にフリーランスと発注者間のトラブル。相談だけで代理交渉を引き受けてもらえるわけではない。"
+      ],
+      "sources": [
+        {
+          "title": "フリーランス・トラブル110番",
+          "url": "https://freelance110.mhlw.go.jp/",
+          "publisher": "厚生労働省・第二東京弁護士会"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "報酬未払い",
+        "法律相談"
+      ]
+    },
+    {
+      "id": "sidework-08",
+      "category": "sidework",
+      "title": "仲介サイトは、手数料とトラブル対応を読んで選ぶ",
+      "summary": "報酬額から差し引かれる費用や、当事者が誰なのかを登録前に確認する。",
+      "audience": [
+        "副業・フリーランスの人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "受取額と問題発生時の連絡先を見失いにくくする。",
+      "steps": [
+        "サイトが発注者なのか仲介者なのか確認する。",
+        "成約・出金・キャンセルなどの費用を一覧にする。",
+        "未払い・成果物の争い・退会時の規約を保存する。"
+      ],
+      "cautions": [
+        "規約や料金はサービスごとに違う。仲介者が報酬の支払いを保証するとは限らない。"
+      ],
+      "sources": [
+        {
+          "title": "仲介手数料等の明示",
+          "url": "https://homeworkers.mhlw.go.jp/guideline/about03.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "仲介手数料",
+        "利用規約"
+      ]
+    },
+    {
+      "id": "sidework-09",
+      "category": "sidework",
+      "title": "一方的な値下げや無償作業の要求は、合意の経緯を残す",
+      "summary": "条件を決めた後の減額などに困ったら、取引の経緯を整理して相談する。",
+      "audience": [
+        "副業・フリーランスの人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 1,
+      "benefit": "取引上の問題を具体的な資料で説明できる。",
+      "steps": [
+        "当初の見積り・合意と変更要求を保存する。",
+        "自分の責任とされる理由を文章で確認する。",
+        "公正取引委員会の案内や相談窓口で適用関係を確認する。"
+      ],
+      "cautions": [
+        "禁止行為の適用は委託期間や当事者の要件などによる。値下げの依頼がすべて違法とは限らない。"
+      ],
+      "sources": [
+        {
+          "title": "フリーランス法 特設サイト",
+          "url": "https://www.jftc.go.jp/freelancelaw_2026/index.html",
+          "publisher": "公正取引委員会"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "報酬減額",
+        "不当要求"
+      ]
+    },
+    {
+      "id": "sidework-10",
+      "category": "sidework",
+      "title": "インボイス登録は、消費税の申告負担まで確認する",
+      "summary": "取引先の要望だけで決めず、登録後の納税・事務への影響を確かめる。",
+      "audience": [
+        "副業・フリーランスの人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "登録後に初めて申告義務や費用を知る事態を避ける。",
+      "steps": [
+        "取引先が登録を求める理由と取引条件を聞く。",
+        "国税庁の案内で登録の効果と申告手続きを確認する。",
+        "不明点を税務署や税理士へ相談して判断する。"
+      ],
+      "cautions": [
+        "売上が少なくても登録により消費税の申告・納税が必要になる場合がある。経過措置や特例は適用条件と対象期間を確認する。"
+      ],
+      "sources": [
+        {
+          "title": "インボイス制度の概要",
+          "url": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/invoice_about.htm",
+          "publisher": "国税庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "インボイス",
+        "消費税"
+      ]
+    },
+    {
+      "id": "sidework-11",
+      "category": "sidework",
+      "title": "メールで受け取った請求書は、電子データの保存方法を整える",
+      "summary": "電子取引の書類は、税務上求められる保存方法を確認する。",
+      "audience": [
+        "副業・フリーランスの人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "申告や税務確認の際に必要な取引情報を探しやすくする。",
+      "steps": [
+        "メール・サイト・アプリで受け取る取引データを洗い出す。",
+        "国税庁の最新案内で自分に必要な保存要件を確認する。",
+        "日付・相手先・金額から探せる形で保存し、バックアップする。"
+      ],
+      "cautions": [
+        "対象者や猶予措置などで扱いが異なる。紙に印刷するだけで足りると決めつけない。"
+      ],
+      "sources": [
+        {
+          "title": "電子帳簿等保存制度特設サイト・電子取引関係",
+          "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/tokusetsu/01.htm",
+          "publisher": "国税庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "電子取引",
+        "帳簿保存"
+      ]
+    },
+    {
+      "id": "sidework-12",
+      "category": "sidework",
+      "title": "自宅の通信費などは、仕事で使う部分を記録する",
+      "summary": "生活と仕事に共通する支出を、根拠なく全額経費にしない。",
+      "audience": [
+        "副業・フリーランスの人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "経費の説明を資料に基づいて行いやすくする。",
+      "steps": [
+        "家賃・通信費など私用と共通する支出を分ける。",
+        "業務で必要だった範囲を説明できる記録を残す。",
+        "必要経費の範囲が不明なら税務署や税理士に確認する。"
+      ],
+      "cautions": [
+        "家事関連費の扱いは取引記録などによる区分が前提。任意の割合なら認められるわけではない。"
+      ],
+      "sources": [
+        {
+          "title": "必要経費の知識",
+          "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+          "publisher": "国税庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "必要経費",
+        "家事関連費"
+      ]
+    },
+    {
+      "id": "sidework-13",
+      "category": "sidework",
+      "title": "一人で働く場合も、労災保険の特別加入を調べる",
+      "summary": "フリーランス向けの特別加入について、対象業務と負担を確認する。",
+      "audience": [
+        "副業・フリーランスの人"
+      ],
+      "cost": "費用あり",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "仕事中の事故への備えを公的制度も含めて検討できる。",
+      "steps": [
+        "自分の業務が加入対象か厚生労働省の案内で調べる。",
+        "承認された特別加入団体に手続き・保険料等を確認する。",
+        "補償の範囲と開始日を理解して加入を判断する。"
+      ],
+      "cautions": [
+        "自動加入ではなく、所定の手続きと費用が必要。すべてのけがや病気が補償対象ではない。"
+      ],
+      "sources": [
+        {
+          "title": "フリーランスの労災保険特別加入",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/rousai/kanyu_r3.4.1_00010.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "労災保険",
+        "特別加入"
+      ]
+    },
+    {
+      "id": "sidework-14",
+      "category": "sidework",
+      "title": "在宅の受注量は、休憩を含めた作業時間から決める",
+      "summary": "納期までにできる量を見積もり、無理がある依頼は着手前に調整する。",
+      "audience": [
+        "副業・フリーランスの人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 2,
+      "benefit": "徹夜や過密な受注を繰り返すのを防ぐ。",
+      "steps": [
+        "制作だけでなく連絡・修正・事務の時間も見積もる。",
+        "休憩と生活上の予定を確保して受注可能量を出す。",
+        "実績との差を振り返り、次の納期や受注量を調整する。"
+      ],
+      "cautions": [
+        "自営型テレワークのガイドラインを参考にした管理方法。体調不良が続く場合は受注調整と併せて医療機関等に相談する。"
+      ],
+      "sources": [
+        {
+          "title": "納期と作業時間への配慮",
+          "url": "https://homeworkers.mhlw.go.jp/guideline/gl04.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "受注量",
+        "作業時間"
+      ]
+    },
+    {
+      "id": "sidework-15",
+      "category": "sidework",
+      "title": "妊娠・出産・育児・介護と受注の両立を相談する",
+      "summary": "必要な配慮を具体化し、発注者に早めに申し出る。",
+      "audience": [
+        "副業・フリーランスの人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "仕事を続けるための納期や連絡方法を調整しやすくする。",
+      "steps": [
+        "難しい作業時間や出張など、困る点を整理する。",
+        "納期変更やオンライン対応など希望を具体的に伝える。",
+        "回答と調整内容を記録し、問題があれば相談窓口を使う。"
+      ],
+      "cautions": [
+        "法律上の配慮義務などは委託期間等の要件がある。雇用される人の育児・介護休業と同じ制度ではない。"
+      ],
+      "sources": [
+        {
+          "title": "フリーランスの就業環境の整備",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/bunya/freelance_00006.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "育児",
+        "介護",
+        "両立"
+      ]
+    },
+    {
+      "id": "sidework-16",
+      "category": "sidework",
+      "title": "継続契約の終了は、予告と理由の扱いを確認する",
+      "summary": "急な解除や更新しない通知を受けたら、契約と法の対象を確認する。",
+      "audience": [
+        "副業・フリーランスの人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "次の仕事探しと、契約上の対応を分けて進められる。",
+      "steps": [
+        "終了日・通知日・契約期間を記録する。",
+        "解除条項と終了理由について文章で確認する。",
+        "不明な点をフリーランスの相談窓口へ持ち込む。"
+      ],
+      "cautions": [
+        "予告や理由開示のルールには継続期間などの要件と例外がある。すべての契約で更新が保障されるわけではない。"
+      ],
+      "sources": [
+        {
+          "title": "フリーランスの就業環境の整備",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/bunya/freelance_00006.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "契約解除",
+        "更新"
+      ]
+    },
+    {
+      "id": "harassment-01",
+      "category": "harassment",
+      "title": "暴力や脅しがある職場では、安全な場所へ離れる",
+      "summary": "身の危険があるときは、相談用の記録作りより安全確保を優先する。",
+      "audience": [
+        "働く人",
+        "仕事を探している人"
+      ],
+      "cost": "無料",
+      "time": "5分",
+      "evidence": "公的推奨",
+      "priority": 1,
+      "benefit": "切迫した危険の中で一人で対応し続けるのを避ける。",
+      "steps": [
+        "危険な相手とのやり取りを中断し、安全な場所へ移る。",
+        "緊急の危険があれば110番、けがや急病で救急が必要なら119番へ連絡する。",
+        "安全が確保できてから会社の相談窓口や労働局へ相談する。"
+      ],
+      "cautions": [
+        "表示の所要時間は整理の目安であり、緊急時に待つ時間ではない。被害を自分で収めようとして相手に会い直さない。"
+      ],
+      "sources": [
+        {
+          "title": "ハラスメントに関するQ&A",
+          "url": "https://www.no-harassment.mhlw.go.jp/qa/",
+          "publisher": "厚生労働省"
+        },
+        {
+          "title": "ご意見、各種相談・情報提供等",
+          "url": "https://www.npa.go.jp/goiken_index.html",
+          "publisher": "警察庁"
+        },
+        {
+          "title": "119番緊急通報",
+          "url": "https://www.fdma.go.jp/mission/enrichment/kyukyumusen_kinkyutuhou/119.html",
+          "publisher": "総務省消防庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "暴力",
+        "脅迫",
+        "安全確保"
+      ]
+    },
+    {
+      "id": "harassment-02",
+      "category": "harassment",
+      "title": "ハラスメント相談では、共有範囲と今後の対応を確認する",
+      "summary": "会社に話す前後で、誰に伝わるか、どんな対応を望むかをすり合わせる。",
+      "audience": [
+        "働く人",
+        "仕事を探している人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 2,
+      "benefit": "相談後の流れが分からないまま不安を抱えるのを減らす。",
+      "steps": [
+        "相談先に守秘の扱いと調査の進め方を聞く。",
+        "接触を避けたいなど、当面必要な配慮を伝える。",
+        "次回の連絡方法と担当者を確認して記録する。"
+      ],
+      "cautions": [
+        "事実確認には関係者への聞き取りが必要な場合がある。完全な匿名のまま解決できるとは限らない。"
+      ],
+      "sources": [
+        {
+          "title": "ハラスメントに関するQ&A",
+          "url": "https://www.no-harassment.mhlw.go.jp/qa/",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "相談窓口",
+        "プライバシー"
+      ]
+    },
+    {
+      "id": "harassment-03",
+      "category": "harassment",
+      "title": "性的な言動で困ったら、性別を問わず相談する",
+      "summary": "セクシュアルハラスメントは、被害者と行為者の性別だけで判断されない。",
+      "audience": [
+        "働く人",
+        "仕事を探している人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 1,
+      "benefit": "「自分は相談対象ではない」と思い込まずに支援につながる。",
+      "steps": [
+        "困った言動と仕事への影響を書き出す。",
+        "職場の相談窓口または労働局に相談する。",
+        "本人への直接抗議が不安なら、安全な対応方法を相談する。"
+      ],
+      "cautions": [
+        "該当性は状況に応じて判断される。相談のために一人で相手へ抗議する必要はない。"
+      ],
+      "sources": [
+        {
+          "title": "職場のハラスメントに関する相談窓口",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000137888.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "セクハラ",
+        "性的言動"
+      ]
+    },
+    {
+      "id": "harassment-04",
+      "category": "harassment",
+      "title": "妊娠・出産を理由とする不利益は、理由を確認して相談する",
+      "summary": "解雇や降格などを告げられたら、時期と説明を記録する。",
+      "audience": [
+        "働く人",
+        "仕事を探している人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 1,
+      "benefit": "制度利用を諦める前に、雇用上の問題を確認できる。",
+      "steps": [
+        "妊娠等を伝えた日と会社の対応を時系列にする。",
+        "人事措置の内容と理由を文章で確認する。",
+        "労働局の雇用環境・均等部（室）に相談する。"
+      ],
+      "cautions": [
+        "妊娠等と人事措置との関係や例外は個別判断となる。体調や安全に問題があれば医療機関にも相談する。"
+      ],
+      "sources": [
+        {
+          "title": "職場のハラスメントに関する相談窓口",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000137888.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "妊娠",
+        "出産",
+        "不利益取扱い"
+      ]
+    },
+    {
+      "id": "harassment-05",
+      "category": "harassment",
+      "title": "介護休業などの申出後に不利益を受けたら相談する",
+      "summary": "休業を申請したことなどを理由とする不利益取扱いに悩んだら、労働局へ。",
+      "audience": [
+        "働く人",
+        "仕事を探している人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 1,
+      "benefit": "仕事と介護を両立する制度を使う際の問題を整理できる。",
+      "steps": [
+        "申出と会社からの返答を保存する。",
+        "評価・配置・雇用条件の変化と説明を記録する。",
+        "労働局に制度利用と措置の関係を相談する。"
+      ],
+      "cautions": [
+        "制度の利用要件と不利益取扱いの判断は別に確認が必要。すべての配置変更が直ちに違法とは限らない。"
+      ],
+      "sources": [
+        {
+          "title": "職場のハラスメントに関する相談窓口",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000137888.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "介護休業",
+        "不利益取扱い"
+      ]
+    },
+    {
+      "id": "harassment-06",
+      "category": "harassment",
+      "title": "就職活動中のセクハラは、採用担当者以外にも相談する",
+      "summary": "面接やOB・OG訪問などで困った場合、企業の相談窓口や学校等へつなぐ。",
+      "audience": [
+        "働く人",
+        "仕事を探している人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 1,
+      "benefit": "内定への不安から一人で抱え込むのを防ぐ。",
+      "steps": [
+        "日時・相手・やり取り・選考との関係を保存する。",
+        "企業の相談窓口や大学のキャリア窓口を確認する。",
+        "相談先が分からなければ労働局に案内を求める。"
+      ],
+      "cautions": [
+        "求職者等へのセクハラ対策には法改正があるため最新の適用を確認する。被害を証明するために危険な面会を続けない。"
+      ],
+      "sources": [
+        {
+          "title": "あかるい職場応援団",
+          "url": "https://www.no-harassment.mhlw.go.jp/",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "就活セクハラ",
+        "面接"
+      ]
+    },
+    {
+      "id": "harassment-07",
+      "category": "harassment",
+      "title": "顧客の暴言や無理な要求は、組織の対応に切り替える",
+      "summary": "接客する人が一人で抱えず、上司や担当部署と対応方針を共有する。",
+      "audience": [
+        "働く人",
+        "仕事を探している人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "顧客対応による心身の負担や危険の拡大を抑える。",
+      "steps": [
+        "要求内容と困っている言動を分けて記録する。",
+        "交代・複数人対応・連絡経路の変更を上司に相談する。",
+        "社内のカスタマーハラスメント方針と緊急時の連絡先を確認する。"
+      ],
+      "cautions": [
+        "通常の苦情がすべてカスハラになるわけではない。暴力など差し迫る危険は安全確保と警察への連絡を優先する。"
+      ],
+      "sources": [
+        {
+          "title": "あかるい職場応援団",
+          "url": "https://www.no-harassment.mhlw.go.jp/",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "カスハラ",
+        "顧客対応"
+      ]
+    },
+    {
+      "id": "harassment-08",
+      "category": "harassment",
+      "title": "性的指向や性自認の情報は、本人の同意なく広めない",
+      "summary": "職場の相談で知った情報も、必要な共有範囲を本人と確認する。",
+      "audience": [
+        "働く人",
+        "仕事を探している人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 1,
+      "benefit": "本人が望まない情報の暴露や二次被害を防ぐ。",
+      "steps": [
+        "誰に何を伝えてよいか本人の希望を確認する。",
+        "業務上の配慮の相談では必要な情報だけを扱う。",
+        "勝手に広められた場合は相談窓口に対応を求める。"
+      ],
+      "cautions": [
+        "本人への確認を口実に、開示を強要しない。相談対応に必要な範囲や法令上の対応は専門窓口と確認する。"
+      ],
+      "sources": [
+        {
+          "title": "ハラスメント防止の基礎知識",
+          "url": "https://www.no-harassment.mhlw.go.jp/assets/pdf/jinji_1_kiso.pdf",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "性的指向",
+        "性自認",
+        "アウティング"
+      ]
+    },
+    {
+      "id": "harassment-09",
+      "category": "harassment",
+      "title": "障害に関する働きづらさは、具体的な配慮を相談する",
+      "summary": "困る作業と改善案を整理し、会社と話し合う。",
+      "audience": [
+        "働く人",
+        "仕事を探している人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "抽象的な要望だけでなく、実行可能な調整を考えやすくする。",
+      "steps": [
+        "どの場面で支障があるかを書き出す。",
+        "指示の伝え方や作業環境など希望する調整を伝える。",
+        "対応が難しい場合は理由と代替案を話し合い、必要なら相談窓口を使う。"
+      ],
+      "cautions": [
+        "合理的配慮は本人の意向と事業主の負担などを踏まえて検討される。希望する対応が必ずそのまま実現するとは限らない。"
+      ],
+      "sources": [
+        {
+          "title": "障害者差別禁止・合理的配慮の提供義務",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000141747.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "合理的配慮",
+        "障害者雇用"
+      ]
+    },
+    {
+      "id": "harassment-10",
+      "category": "harassment",
+      "title": "パート・有期雇用の待遇差は、説明を求める",
+      "summary": "賃金や手当の違いについて、比較対象と理由を確認する。",
+      "audience": [
+        "働く人",
+        "仕事を探している人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "待遇への疑問を具体的な論点として相談できる。",
+      "steps": [
+        "気になる手当や福利厚生の差を書き出す。",
+        "業務内容や責任の違いを整理して会社に説明を求める。",
+        "説明に疑問が残れば労働局などへ相談する。"
+      ],
+      "cautions": [
+        "待遇差がすべて違法とは限らない。職務内容、配置変更の範囲などを踏まえて判断される。"
+      ],
+      "sources": [
+        {
+          "title": "パートタイム・有期雇用労働法 Q&A",
+          "url": "https://part-tanjikan.mhlw.go.jp/faq/",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "同一労働同一賃金",
+        "待遇説明"
+      ]
+    },
+    {
+      "id": "harassment-11",
+      "category": "harassment",
+      "title": "派遣の悩みは、派遣元と派遣先の相談担当を確認する",
+      "summary": "雇用条件と現場の問題で連絡先が分かれていることを踏まえて相談する。",
+      "audience": [
+        "働く人",
+        "仕事を探している人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "担当者間でたらい回しになった経緯を整理しやすくする。",
+      "steps": [
+        "就業条件明示書などで両方の苦情申出先を確認する。",
+        "契約上の条件と現場で起きたことを分けて伝える。",
+        "解決しない場合は相談履歴を添えて労働局に相談する。"
+      ],
+      "cautions": [
+        "雇用主は通常派遣元だが、問題により派遣先にも義務がある。契約形態が派遣かどうかも確認する。"
+      ],
+      "sources": [
+        {
+          "title": "派遣労働者の同一労働同一賃金",
+          "url": "https://www.mhlw.go.jp/content/001701328.pdf",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "派遣",
+        "苦情申出"
+      ]
+    },
+    {
+      "id": "harassment-12",
+      "category": "harassment",
+      "title": "相談後の嫌がらせや不利益も、別に記録して相談する",
+      "summary": "最初の問題だけでなく、相談した後の対応も残す。",
+      "audience": [
+        "働く人",
+        "仕事を探している人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 1,
+      "benefit": "相談を理由とした新たな問題を見落としにくくする。",
+      "steps": [
+        "相談日とその後の言動・勤務上の変更を記録する。",
+        "会社の窓口へ相談後の状況を追加で伝える。",
+        "社内で相談しづらければ労働局へ経緯を説明する。"
+      ],
+      "cautions": [
+        "相談や調査への協力を理由とした不利益取扱いは禁止される。個々の措置との関係は事実確認が必要。"
+      ],
+      "sources": [
+        {
+          "title": "ハラスメント防止の基礎知識",
+          "url": "https://www.no-harassment.mhlw.go.jp/assets/pdf/jinji_1_kiso.pdf",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "報復",
+        "不利益取扱い"
+      ]
+    },
+    {
+      "id": "harassment-13",
+      "category": "harassment",
+      "title": "話合いが進まない労働問題は、労働局の解決支援を調べる",
+      "summary": "総合労働相談から、助言・指導やあっせんにつながる場合がある。",
+      "audience": [
+        "働く人",
+        "仕事を探している人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "裁判以外の解決方法を比較できる。",
+      "steps": [
+        "争点と希望する解決を簡潔にまとめる。",
+        "総合労働相談コーナーで対象となる制度を確認する。",
+        "手続きの特徴と限界を聞いて利用を判断する。"
+      ],
+      "cautions": [
+        "制度により対象が異なり、相手の参加や合意が得られないこともある。解決や希望額の支払いは保証されない。"
+      ],
+      "sources": [
+        {
+          "title": "個別労働紛争解決制度",
+          "url": "https://www.mhlw.go.jp/general/seido/chihou/kaiketu/index.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "労働局",
+        "あっせん"
+      ]
+    },
+    {
+      "id": "harassment-14",
+      "category": "harassment",
+      "title": "労働審判を考えるなら、申立て前に資料と争点を整える",
+      "summary": "給与や解雇などの紛争について、裁判所の手続案内を確認する。",
+      "audience": [
+        "働く人",
+        "仕事を探している人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "手続きに必要な準備と費用を把握して判断できる。",
+      "steps": [
+        "契約書・給与明細・経緯が分かる資料を整理する。",
+        "裁判所の案内で対象と手続きの流れを読む。",
+        "弁護士等への相談で主張・証拠・費用を確認する。"
+      ],
+      "cautions": [
+        "申立てには費用がかかる。法的判断や証拠整理が必要で、すべての紛争に最適とは限らない。"
+      ],
+      "sources": [
+        {
+          "title": "労働審判手続",
+          "url": "https://www.courts.go.jp/saiban/syurui/syurui_minzi/minzi_25_21/index.html",
+          "publisher": "裁判所"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "労働審判",
+        "裁判"
+      ]
+    },
+    {
+      "id": "harassment-15",
+      "category": "harassment",
+      "title": "労働組合への相談と、労働委員会の役割を知る",
+      "summary": "個人の相談だけで進まない場合、組合を通じた対応も検討する。",
+      "audience": [
+        "働く人",
+        "仕事を探している人"
+      ],
+      "cost": "条件による",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "交渉や不当労働行為に関する支援経路を知る。",
+      "steps": [
+        "職場や地域で相談できる労働組合を調べる。",
+        "加入条件・組合費・支援内容を確認する。",
+        "組合活動を理由とする不利益などは労働委員会の案内を確認する。"
+      ],
+      "cautions": [
+        "組合ごとに対応範囲は異なる。労働委員会への救済申立てには対象や期限などの条件がある。"
+      ],
+      "sources": [
+        {
+          "title": "労働組合について",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudouseisaku/roudoukumiai/index.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "労働組合",
+        "労働委員会"
+      ]
+    },
+    {
+      "id": "harassment-16",
+      "category": "harassment",
+      "title": "職場の法令違反を通報する前に、保護の条件と通報先を確認する",
+      "summary": "公益通報の制度について、消費者庁の相談窓口で確認できる。",
+      "audience": [
+        "職場の法令違反が疑われる事実を知った人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 1,
+      "benefit": "通報先と保護要件を理解したうえで対応を検討できる。",
+      "steps": [
+        "知っている事実と推測を分けて整理する。",
+        "公益通報者保護制度相談ダイヤルで保護要件や想定される通報先を確認する。",
+        "相談内容を踏まえて適切な窓口と手続きを選ぶ。"
+      ],
+      "cautions": [
+        "この相談ダイヤル自体は個別の通報を受け付けない。すべての職場の不満や情報公開が公益通報として保護されるわけではない。"
+      ],
+      "sources": [
+        {
+          "title": "公益通報者保護制度相談ダイヤル",
+          "url": "https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/contact",
+          "publisher": "消費者庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "公益通報",
+        "内部通報"
+      ]
+    },
+    {
+      "id": "retirement-01",
+      "category": "retirement",
+      "title": "退職前に、有給休暇と引継ぎの日程を整理する",
+      "summary": "最終出勤日と退職日を混同せず、残日数を確認して申請する。",
+      "audience": [
+        "退職・転職を考える人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "休暇と事務手続きを見通して退職準備を進められる。",
+      "steps": [
+        "有給休暇の残日数と退職予定日を確認する。",
+        "取得希望日と引継ぎの予定を分けて会社に伝える。",
+        "申請・回答を保存し、取得をめぐる疑問は労働相談へ確認する。"
+      ],
+      "cautions": [
+        "退職後に有給休暇を使うことはできない。休暇の買い取りが当然に受けられるとは限らない。"
+      ],
+      "sources": [
+        {
+          "title": "年次有給休暇・働くときの基礎知識",
+          "url": "https://www.check-roudou.mhlw.go.jp/study/roudousya_yukyu.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "有給休暇",
+        "引継ぎ"
+      ]
+    },
+    {
+      "id": "retirement-02",
+      "category": "retirement",
+      "title": "再就職先に前職の源泉徴収票を渡す",
+      "summary": "年の途中で転職したら、前職の給与を含む年末調整が必要か確認する。",
+      "audience": [
+        "退職・転職を考える人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "給与の税計算に必要な書類の不足を防ぐ。",
+      "steps": [
+        "前職から給与所得の源泉徴収票を受け取る。",
+        "再就職先の給与担当へ提出時期を確認する。",
+        "間に合わない場合や対象外の場合は確定申告の要否を確認する。"
+      ],
+      "cautions": [
+        "同時に複数の勤務先がある場合などは扱いが異なる。前職の給与額が確認できなければ通算した年末調整ができない。"
+      ],
+      "sources": [
+        {
+          "title": "中途就職者の年末調整",
+          "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2674.htm",
+          "publisher": "国税庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "源泉徴収票",
+        "年末調整"
+      ]
+    },
+    {
+      "id": "retirement-03",
+      "category": "retirement",
+      "title": "退職金の書類は、過去の受取りも含めて確認する",
+      "summary": "「退職所得の受給に関する申告書」を提出する前に、他の退職手当等を確認する。",
+      "audience": [
+        "退職・転職を考える人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "退職金の税額計算で必要な情報を漏らしにくくする。",
+      "steps": [
+        "会社から申告書と提出案内を受け取る。",
+        "過去の退職手当や確定拠出年金の一時金などの資料を確認する。",
+        "複数の受取りがある場合や不明な欄は給与担当・税務署へ相談する。"
+      ],
+      "cautions": [
+        "勤続年数や受取時期などで計算が異なる。医療費控除等で確定申告する場合は退職所得も含めて確認する。"
+      ],
+      "sources": [
+        {
+          "title": "退職金を受け取ったとき（退職所得）",
+          "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1420.htm",
+          "publisher": "国税庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "退職所得",
+        "退職金"
+      ]
+    },
+    {
+      "id": "retirement-04",
+      "category": "retirement",
+      "title": "企業型DCを離れるときは、年金資産の移換先を決める",
+      "summary": "退職後の案内を放置せず、移換の手続きを確認する。",
+      "audience": [
+        "退職・転職を考える人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 1,
+      "benefit": "自動移換に伴う不利益や手続きの遅れを避ける。",
+      "steps": [
+        "会社・運営管理機関から資格喪失と移換の案内を受け取る。",
+        "転職先の制度やiDeCo等の移換先と条件を確認する。",
+        "案内の期限内に手続きを進め、完了通知を保存する。"
+      ],
+      "cautions": [
+        "移換先の選択肢は加入資格や制度による。自動移換されると運用できないなどの影響がある。"
+      ],
+      "sources": [
+        {
+          "title": "退職・転職したときの年金資産の移換",
+          "url": "https://www.ideco-koushiki.jp/retirement/",
+          "publisher": "国民年金基金連合会"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "企業型DC",
+        "移換",
+        "iDeCo"
+      ]
+    },
+    {
+      "id": "retirement-05",
+      "category": "retirement",
+      "title": "退職証明書は、必要な事項を指定して請求する",
+      "summary": "転職先等で必要とされたら、何を証明する書類か確認する。",
+      "audience": [
+        "退職・転職を考える人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "不要な個人情報まで提出するのを避けやすくする。",
+      "steps": [
+        "提出先が求める事項と書式を確認する。",
+        "使用期間や業務内容など必要な事項を会社に伝える。",
+        "受け取った証明書の内容を確かめて提出する。"
+      ],
+      "cautions": [
+        "離職票や源泉徴収票とは別の書類。退職理由に争いがある場合は記載の扱いを相談する。"
+      ],
+      "sources": [
+        {
+          "title": "退職時の証明書",
+          "url": "https://www.check-roudou.mhlw.go.jp/qa/roudousya/kaiko/q9.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "退職証明書",
+        "雇用証明"
+      ]
+    },
+    {
+      "id": "retirement-06",
+      "category": "retirement",
+      "title": "退職後の住民税は、給与天引きの終了後も確認する",
+      "summary": "納付書払いへの切替えや一括徴収の予定を確かめる。",
+      "audience": [
+        "退職・転職を考える人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "給与がなくなった後の税負担を予算に入れられる。",
+      "steps": [
+        "給与担当へ残額の徴収方法を確認する。",
+        "自治体から届く通知と納付書を保管する。",
+        "転職先での天引き再開や納付相談が必要なら担当窓口へ連絡する。"
+      ],
+      "cautions": [
+        "徴収方法は退職時期や事情で異なる。参照先は横浜市の例で、手続きは課税する自治体に確認する。"
+      ],
+      "sources": [
+        {
+          "title": "退職後の個人住民税の支払い",
+          "url": "https://www.city.yokohama.lg.jp/faq/kukyoku/somu/hojin-kazei/20230227132728016.html",
+          "publisher": "横浜市"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "住民税",
+        "特別徴収"
+      ]
+    },
+    {
+      "id": "retirement-07",
+      "category": "retirement",
+      "title": "会社が倒産して賃金が未払いなら、立替払制度を調べる",
+      "summary": "給与や退職手当が支払われない場合、所定の制度の対象か確認する。",
+      "audience": [
+        "退職・転職を考える人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 1,
+      "benefit": "倒産時に使える公的な支払い制度を見逃しにくくする。",
+      "steps": [
+        "雇用・退職・賃金未払いが分かる資料を確保する。",
+        "労働基準監督署などへ制度の対象となるか相談する。",
+        "証明・認定と請求の期限、必要書類を確認する。"
+      ],
+      "cautions": [
+        "倒産や退職時期などの要件があり、未払賃金の全額が支払われる制度ではない。賞与等は対象外となる。"
+      ],
+      "sources": [
+        {
+          "title": "未払賃金立替払制度の概要と実績",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/faq/faq_miharaichingin.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "倒産",
+        "未払賃金立替払"
+      ]
+    },
+    {
+      "id": "retirement-08",
+      "category": "retirement",
+      "title": "退職を勧められても、その場で合意書に署名しない",
+      "summary": "退職勧奨と解雇を区別し、条件を持ち帰って確認する。",
+      "audience": [
+        "退職・転職を考える人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "編集提案",
+      "priority": 1,
+      "benefit": "意思が固まらないまま退職の合意をするのを防ぐ。",
+      "steps": [
+        "会社の説明が退職勧奨か解雇通知か確認する。",
+        "提案条件と回答期限を文章で受け取る。",
+        "希望を整理し、疑問があれば労働相談や専門家に相談する。"
+      ],
+      "cautions": [
+        "退職勧奨に応じるかは本人が判断する。すでに合意した場合の効力や撤回可否は個別の事情による。"
+      ],
+      "sources": [
+        {
+          "title": "労働契約の終了に関するルール",
+          "url": "https://www.mhlw.go.jp/seisakunitsuite/bunya/koyou_roudou/roudouseisaku/chushoukigyou/keiyakushuryo_rule.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "退職勧奨",
+        "合意書"
+      ]
+    },
+    {
+      "id": "retirement-09",
+      "category": "retirement",
+      "title": "定年後の雇用条件は、継続雇用制度と合わせて確認する",
+      "summary": "定年前と同じ賃金・仕事内容だと思い込まず、制度の説明を受ける。",
+      "audience": [
+        "退職・転職を考える人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "収入と働き方の変化を前もって検討できる。",
+      "steps": [
+        "就業規則で定年と継続雇用の制度を確認する。",
+        "賃金・勤務時間・職務・契約期間の提示を受ける。",
+        "他の選択肢と比べ、疑問点を会社や相談窓口に確認する。"
+      ],
+      "cautions": [
+        "雇用確保措置と就業確保の努力義務は異なる。希望する職務や条件がすべて保障されるわけではない。"
+      ],
+      "sources": [
+        {
+          "title": "高年齢者雇用安定法の改正",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/jigyounushi/page09_00001.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "定年",
+        "継続雇用"
+      ]
+    },
+    {
+      "id": "retirement-10",
+      "category": "retirement",
+      "title": "子育てと再就職の両立は、マザーズハローワークで相談する",
+      "summary": "保育や働ける時間を含めて、仕事探しを相談できる。",
+      "audience": [
+        "退職・転職を考える人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "家庭の状況に合う就職活動の進め方を考えられる。",
+      "steps": [
+        "送迎・通勤・勤務時間の条件を整理する。",
+        "近くのマザーズハローワークやコーナーの利用方法を調べる。",
+        "子ども連れやオンライン相談の可否を確認して相談する。"
+      ],
+      "cautions": [
+        "女性に限らず子育て中の人向け。設備・オンライン対応や予約方法は窓口により異なる。"
+      ],
+      "sources": [
+        {
+          "title": "マザーズハローワーク事業",
+          "url": "https://www.mhlw.go.jp/stf/newpage_21046.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "マザーズハローワーク",
+        "子育て"
+      ]
+    },
+    {
+      "id": "retirement-11",
+      "category": "retirement",
+      "title": "若い世代の正社員就職は、わかものハローワークを使う",
+      "summary": "担当者による相談や応募の支援を、無料で利用できる。",
+      "audience": [
+        "退職・転職を考える人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "一人で求人検索を繰り返す以外の支援を得られる。",
+      "steps": [
+        "希望する仕事とこれまでの就業経験を整理する。",
+        "わかものハローワーク等の対象と所在地を確認する。",
+        "担当者と応募計画を作り、面接後の振り返りも相談する。"
+      ],
+      "cautions": [
+        "主におおむね35歳未満の正社員就職を目指す人が対象。対象外でも通常のハローワークに相談できる。"
+      ],
+      "sources": [
+        {
+          "title": "わかものハローワーク",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000181329.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "わかものハローワーク",
+        "正社員"
+      ]
+    },
+    {
+      "id": "retirement-12",
+      "category": "retirement",
+      "title": "60歳からの仕事探しは、生涯現役支援窓口を確認する",
+      "summary": "働きたい日数や経験を踏まえた専門相談につながる。",
+      "audience": [
+        "退職・転職を考える人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "年齢と生活に合う働き方を具体的に検討できる。",
+      "steps": [
+        "希望の収入・勤務日数・体力面の条件を整理する。",
+        "ハローワークで生涯現役支援窓口の有無を調べる。",
+        "経験を説明し、求人や応募方法を相談する。"
+      ],
+      "cautions": [
+        "主に60歳以上の人に向けた窓口。設置状況や提供内容は地域により異なり、就職が保証されるものではない。"
+      ],
+      "sources": [
+        {
+          "title": "ハローワークの専門窓口",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/hellowork.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "生涯現役支援",
+        "60歳"
+      ]
+    },
+    {
+      "id": "retirement-13",
+      "category": "retirement",
+      "title": "障害のある人の就職は、専門窓口に配慮も相談する",
+      "summary": "求人だけでなく、得意な仕事や必要な支援も一緒に整理する。",
+      "audience": [
+        "退職・転職を考える人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "応募・職場定着に必要な調整を相談しやすくする。",
+      "steps": [
+        "働くうえで得意なことと支障がある場面をまとめる。",
+        "ハローワークの障害者専門窓口へ利用方法を聞く。",
+        "応募先への説明や関係支援機関との連携を相談する。"
+      ],
+      "cautions": [
+        "利用する制度や求人によって手帳等の要件が異なる。障害の詳細を応募先にどう伝えるかも個別に相談する。"
+      ],
+      "sources": [
+        {
+          "title": "障害者に関する窓口",
+          "url": "https://www.mhlw.go.jp/stf/senmon_19585.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "障害者専門窓口",
+        "職場定着"
+      ]
+    },
+    {
+      "id": "retirement-14",
+      "category": "retirement",
+      "title": "60歳以降に賃金が下がったら、雇用継続給付を確認する",
+      "summary": "働き続ける場合の雇用保険の給付について、会社やハローワークで確認する。",
+      "audience": [
+        "60歳以降も働く人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "賃金が下がった後の収入計画に、対象となる給付を含められる。",
+      "steps": [
+        "60歳前後の賃金と雇用保険の加入履歴を確認する。",
+        "会社またはハローワークに高年齢雇用継続給付の要件を相談する。",
+        "申請方法と、年金を受ける場合の調整の有無を確認する。"
+      ],
+      "cautions": [
+        "年齢・加入期間・賃金低下等の要件がある。受給資格を満たした時期で支給率が異なり、老齢厚生年金の一部が停止される場合もある。"
+      ],
+      "sources": [
+        {
+          "title": "高年齢雇用継続給付 Q&A",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000158464.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "高年齢雇用継続給付",
+        "賃金低下"
+      ]
+    },
+    {
+      "id": "retirement-15",
+      "category": "retirement",
+      "title": "中高年の再就職は、ミドルシニア専門窓口を探す",
+      "summary": "職歴やブランクを踏まえた担当者の支援を利用する。",
+      "audience": [
+        "退職・転職を考える人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "希望条件とこれまでの経験を結びつけて仕事を探せる。",
+      "steps": [
+        "経験・資格・働ける時間を整理する。",
+        "ハローワークのミドルシニア窓口の対象を確認する。",
+        "応募書類や面接、職場定着に必要な支援を相談する。"
+      ],
+      "cautions": [
+        "主に35歳以上60歳未満の人を対象とする支援。個別サービスの条件は窓口で確認する。"
+      ],
+      "sources": [
+        {
+          "title": "ミドルシニア専門窓口",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000181329_00002.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "ミドルシニア",
+        "再就職"
+      ]
+    },
+    {
+      "id": "retirement-16",
+      "category": "retirement",
+      "title": "再就職したら、雇用保険の加入手続きを確認する",
+      "summary": "加入対象なのに手続きがされているか不安な場合、本人から確認できる。",
+      "audience": [
+        "退職・転職を考える人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的制度",
+      "priority": 2,
+      "benefit": "離職時などに加入記録の不足へ初めて気づくのを防ぐ。",
+      "steps": [
+        "労働条件と会社から渡された雇用保険の書類を確認する。",
+        "不明な場合は給与担当へ加入状況を質問する。",
+        "解決しない場合はハローワークに本人確認の方法を問い合わせる。"
+      ],
+      "cautions": [
+        "加入要件に該当するかは労働時間や雇用見込み等による。過去の未加入への対応も個別確認が必要。"
+      ],
+      "sources": [
+        {
+          "title": "雇用保険の加入手続きはきちんとなされていますか",
+          "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000147331.html",
+          "publisher": "厚生労働省"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "雇用保険",
+        "加入記録"
+      ]
+    },
+    {
+      "id": "fraud-01",
+      "category": "fraud",
+      "title": "警察を名乗るSNS・ビデオ通話は、一度切って確認する",
+      "summary": "警察手帳の画像や表示された電話番号だけで信用しない。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "5分",
+      "evidence": "公的推奨",
+      "priority": 1,
+      "benefit": "捜査を口実にした送金や個人情報の要求を避ける。",
+      "steps": [
+        "送金・口座情報・認証情報の要求には応じず通話を切る。",
+        "相手が示した番号を使わず、警察の公式窓口を自分で調べる。",
+        "相手の名乗りや連絡履歴を保存して相談する。"
+      ],
+      "cautions": [
+        "警察はSNSのビデオ通話で警察手帳や逮捕状を見せることはない。現に危険が迫る場合は緊急通報を優先する。"
+      ],
+      "sources": [
+        {
+          "title": "警察官がSNS・ビデオ通話で連絡することはありません",
+          "url": "https://www.npa.go.jp/bureau/safetylife/sos47/new-topics/241218/06.html",
+          "publisher": "警察庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "ニセ警察",
+        "ビデオ通話"
+      ]
+    },
+    {
+      "id": "fraud-02",
+      "category": "fraud",
+      "title": "還付金の電話でATMへ行くよう言われたら操作しない",
+      "summary": "医療費や保険料の払い戻しを装い、送金させる手口に注意する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "5分",
+      "evidence": "公的推奨",
+      "priority": 1,
+      "benefit": "返金のつもりで振り込む被害を防ぐ。",
+      "steps": [
+        "ATMやネットバンキングの操作指示に従わない。",
+        "電話を切り、自治体や年金事務所などの公式窓口へ確認する。",
+        "既に振り込んだ場合はすぐ銀行と警察へ連絡する。"
+      ],
+      "cautions": [
+        "正規の還付手続きでも確認書類等が届く場合はある。電話の相手の案内ではなく公式窓口で確認する。"
+      ],
+      "sources": [
+        {
+          "title": "還付金詐欺",
+          "url": "https://www.npa.go.jp/bureau/safetylife/sos47/case/refund/",
+          "publisher": "警察庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "還付金詐欺",
+        "ATM"
+      ]
+    },
+    {
+      "id": "fraud-03",
+      "category": "fraud",
+      "title": "家族から急な送金を頼まれたら、前から知っている番号へ電話する",
+      "summary": "「電話番号が変わった」という説明だけで連絡先を上書きしない。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "5分",
+      "evidence": "公的推奨",
+      "priority": 1,
+      "benefit": "声や事情を似せたなりすましを見抜く機会を作る。",
+      "steps": [
+        "その場で送金や現金の受渡しを約束しない。",
+        "以前から使っている家族の番号へかけ直す。",
+        "連絡がつかないときは別の家族や警察へ相談する。"
+      ],
+      "cautions": [
+        "合言葉も相手に知られる可能性がある。声が似ていることだけで本人だと判断しない。"
+      ],
+      "sources": [
+        {
+          "title": "家族でできる詐欺への対策",
+          "url": "https://www.npa.go.jp/bureau/safetylife/sos47/manga/family/",
+          "publisher": "警察庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "オレオレ詐欺",
+        "家族"
+      ]
+    },
+    {
+      "id": "fraud-04",
+      "category": "fraud",
+      "title": "SNSの投資グループでは、利益画面を送金の根拠にしない",
+      "summary": "著名人や参加者の成功談を使って、偽の投資先へ誘導する手口がある。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 1,
+      "benefit": "架空の運用成績を信じて追加入金するのを防ぐ。",
+      "steps": [
+        "SNSから案内された投資先への送金を止める。",
+        "運営会社や登録状況を公式情報から確認する。",
+        "出金のために税金等を追加請求されたら警察や相談窓口へ連絡する。"
+      ],
+      "cautions": [
+        "画面上で利益が表示されても、実際の資産が存在する証明にはならない。少額の出金ができても安全とは限らない。"
+      ],
+      "sources": [
+        {
+          "title": "SNS型投資詐欺",
+          "url": "https://www.npa.go.jp/bureau/safetylife/sos47/case/sns-romance/investment/",
+          "publisher": "警察庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "SNS投資詐欺",
+        "偽広告"
+      ]
+    },
+    {
+      "id": "fraud-05",
+      "category": "fraud",
+      "title": "ネットで知り合った相手のお金の頼み事は、関係と切り分ける",
+      "summary": "好意や将来の約束を理由に、投資や送金を急がせる手口に備える。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 1,
+      "benefit": "感情につけ込む送金要求や資金移動への巻き込みを防ぐ。",
+      "steps": [
+        "投資・旅費・立替えなどの送金を一旦止める。",
+        "受け取ったお金を別の口座へ送る依頼にも応じない。",
+        "やり取りを保存し、信頼できる人や警察に相談する。"
+      ],
+      "cautions": [
+        "写真やビデオ通話だけでは本人確認にならない。被害後に回収を請け負う人物から追加送金を求められる場合も注意する。"
+      ],
+      "sources": [
+        {
+          "title": "SNS型ロマンス詐欺",
+          "url": "https://www.npa.go.jp/bureau/safetylife/sos47/case/sns-romance/romance/",
+          "publisher": "警察庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "ロマンス詐欺",
+        "資金移動"
+      ]
+    },
+    {
+      "id": "fraud-06",
+      "category": "fraud",
+      "title": "「先に買えば高く買い取る」という投資話に乗らない",
+      "summary": "複数の業者が役割を分けて、未公開株などの購入を誘う手口がある。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 1,
+      "benefit": "買取りの約束を信じて資金を出すのを防ぐ。",
+      "steps": [
+        "購入と買取りを勧める相手の連絡内容を保存する。",
+        "送金を保留し、金融庁の注意喚起を確認する。",
+        "相談窓口へ相手の名称や勧誘の流れを説明する。"
+      ],
+      "cautions": [
+        "複数の相手から同じ話が来ても裏付けにはならない。公的機関が取引の利益を保証することはない。"
+      ],
+      "sources": [
+        {
+          "title": "投資に関する詐欺的な勧誘等にご注意ください",
+          "url": "https://www.fsa.go.jp/ordinary/chuui/attention.html",
+          "publisher": "金融庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "未公開株",
+        "劇場型勧誘"
+      ]
+    },
+    {
+      "id": "fraud-07",
+      "category": "fraud",
+      "title": "暗号資産の取引先は、金融庁の登録情報を照合する",
+      "summary": "勧誘画面にある登録番号を、そのまま信用しない。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 1,
+      "benefit": "無登録業者や登録業者のなりすましを見つける手掛かりを得る。",
+      "steps": [
+        "金融庁の公式サイトから登録一覧を開く。",
+        "商号・所在地・連絡先と利用先の情報を照合する。",
+        "取引内容とリスクの説明を読み、理解できなければ利用を見送る。"
+      ],
+      "cautions": [
+        "登録は元本や暗号資産の価値、安全性を保証しない。海外での登録が日本での登録の代わりになるわけではない。"
+      ],
+      "sources": [
+        {
+          "title": "暗号資産の利用者のみなさまへ",
+          "url": "https://www.fsa.go.jp/policy/virtual_currency/index.html",
+          "publisher": "金融庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "暗号資産",
+        "登録業者"
+      ]
+    },
+    {
+      "id": "fraud-08",
+      "category": "fraud",
+      "title": "SNSの「個人融資」に、身分証や個人情報を送らない",
+      "summary": "個人を装った貸し手が、違法な貸付けや個人情報の悪用をする危険がある。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 1,
+      "benefit": "資金不足から新たな被害に巻き込まれるのを避ける。",
+      "steps": [
+        "SNSの融資募集に申込みや情報送信をしない。",
+        "資金不足は公的相談窓口や正規の金融機関へ相談する。",
+        "既に脅されている場合は記録を残して警察へ相談する。"
+      ],
+      "cautions": [
+        "家族や知人間のすべての貸借を指す注意喚起ではない。融資を装う相手との個別判断は相談窓口へ。"
+      ],
+      "sources": [
+        {
+          "title": "SNS等を利用した個人間融資にご注意ください",
+          "url": "https://www.fsa.go.jp/ordinary/chuui/kinyu_chuui.html",
+          "publisher": "金融庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "個人間融資",
+        "ヤミ金融"
+      ]
+    },
+    {
+      "id": "fraud-09",
+      "category": "fraud",
+      "title": "給料の買取りをうたう現金化は、返済条件を疑う",
+      "summary": "給与ファクタリングを使った高額負担の取引に注意する。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 1,
+      "benefit": "給料日前の不足を、さらに大きな支払いで埋める事態を避ける。",
+      "steps": [
+        "受取額と後で支払う金額・期日を整理する。",
+        "申込みを止め、金融庁の注意喚起を確認する。",
+        "生活費や返済の相談窓口へ状況を伝える。"
+      ],
+      "cautions": [
+        "給与債権の買取りをうたって本人から資金を回収する取引への注意喚起。勤務先の正規の給与前払い制度と同一視しない。"
+      ],
+      "sources": [
+        {
+          "title": "給与の買取りをうたった違法なヤミ金融にご注意ください",
+          "url": "https://www.fsa.go.jp/ordinary/chuui/kinyu_chuui2.html",
+          "publisher": "金融庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "給与ファクタリング",
+        "現金化"
+      ]
+    },
+    {
+      "id": "fraud-10",
+      "category": "fraud",
+      "title": "品物を送らず違約金を払う「先払い買取」は利用前に相談する",
+      "summary": "商品買取りの形を使った現金化でも、後の負担を見落とさない。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 1,
+      "benefit": "高い違約金や個人情報の悪用による被害を避ける。",
+      "steps": [
+        "買取代金とキャンセル時の支払額を比べる。",
+        "身分証や勤務先情報を渡す前に申込みを止める。",
+        "困っている場合は消費生活センターや金融の相談窓口へつなぐ。"
+      ],
+      "cautions": [
+        "通常の商品買取りとは区別して考える。取引の法的な評価は仕組みや実態による。"
+      ],
+      "sources": [
+        {
+          "title": "先払い買取現金化に要注意",
+          "url": "https://www.fsa.go.jp/ordinary/chuui/cashing_chuui2.html",
+          "publisher": "金融庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "先払い買取",
+        "違約金"
+      ]
+    },
+    {
+      "id": "fraud-11",
+      "category": "fraud",
+      "title": "高額・即日報酬の求人でも、仕事内容が不明なら応募しない",
+      "summary": "荷物や現金の受取り、口座操作などを犯罪の役割として募集する手口がある。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "5分",
+      "evidence": "公的推奨",
+      "priority": 1,
+      "benefit": "仕事探しから犯罪へ巻き込まれる危険を避ける。",
+      "steps": [
+        "募集者の身元と具体的な業務を確認する。",
+        "秘匿性の高いアプリへの誘導や身分証の要求があれば立ち止まる。",
+        "応募後に脅されても指示に従い続けず、警察へ相談する。"
+      ],
+      "cautions": [
+        "応募した人や家族への脅しで犯罪を続けさせる例がある。危険が迫る場合は通常の相談を待たず110番へ。"
+      ],
+      "sources": [
+        {
+          "title": "犯罪実行者募集情報（闇バイト）",
+          "url": "https://www.npa.go.jp/bureau/safetylife/yamibaito/hanzaishaboshu.html",
+          "publisher": "警察庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "闇バイト",
+        "犯罪実行者募集"
+      ]
+    },
+    {
+      "id": "fraud-12",
+      "category": "fraud",
+      "title": "口座・キャッシュカード・ネット銀行のIDを他人に渡さない",
+      "summary": "「使っていない口座を買う」「報酬の受取りに貸して」といった依頼を断る。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "5分",
+      "evidence": "公的推奨",
+      "priority": 1,
+      "benefit": "自分名義の口座が犯罪に使われるのを防ぐ。",
+      "steps": [
+        "売買・貸与・代わりの開設を依頼されても応じない。",
+        "口座情報やカードを渡した場合はすぐ銀行へ連絡する。",
+        "依頼者とのやり取りを保存し、警察に相談する。"
+      ],
+      "cautions": [
+        "正当な代理手続きは金融機関の所定の方法で行う。他人に自由に使わせるための譲渡や貸与とは異なる。"
+      ],
+      "sources": [
+        {
+          "title": "通帳・キャッシュカードの譲渡は犯罪です",
+          "url": "https://www.npa.go.jp/bureau/safetylife/sos47/new-topics/250110/04.html",
+          "publisher": "警察庁"
+        },
+        {
+          "title": "犯罪実行者募集情報（闇バイト）",
+          "url": "https://www.npa.go.jp/bureau/safetylife/yamibaito/hanzaishaboshu.html",
+          "publisher": "警察庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "口座売買",
+        "キャッシュカード"
+      ]
+    },
+    {
+      "id": "fraud-13",
+      "category": "fraud",
+      "title": "副業の説明中に、遠隔操作で借金するよう言われたら止める",
+      "summary": "「すぐ稼げるから返せる」という言葉で、消費者金融へ誘導される被害がある。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "5分",
+      "evidence": "公的推奨",
+      "priority": 1,
+      "benefit": "高額な副業契約と借金を同時に抱えるのを避ける。",
+      "steps": [
+        "画面共有や遠隔操作、借入申込みの操作を中断する。",
+        "借入れや契約をした場合は書類と連絡履歴を保存する。",
+        "消費生活センターに相談し、決済・金融機関にも事情を伝える。"
+      ],
+      "cautions": [
+        "契約を取り消せるかは勧誘方法などによる。相談しても借入れが自動で無効になるわけではない。"
+      ],
+      "sources": [
+        {
+          "title": "副業を始めるための借金に注意",
+          "url": "https://www.kokusen.go.jp/news/data/n-20230607_1.html",
+          "publisher": "国民生活センター"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "副業詐欺",
+        "遠隔操作"
+      ]
+    },
+    {
+      "id": "fraud-14",
+      "category": "fraud",
+      "title": "コード決済の「返金」で、送金操作をしない",
+      "summary": "電話や画面共有で操作を指示し、返金のつもりで送金させる手口がある。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "5分",
+      "evidence": "公的推奨",
+      "priority": 1,
+      "benefit": "払い戻しを口実にした二重の被害を防ぐ。",
+      "steps": [
+        "受取りではなく送金する画面になっていないか確認する。",
+        "相手の指示を止め、決済サービスの公式窓口へ確認する。",
+        "送金した場合はサービス側と消費生活センター・警察へ相談する。"
+      ],
+      "cautions": [
+        "正規の返金方法はサービスや購入先による。返金を受けるために別の相手へ送金する指示を信用しない。"
+      ],
+      "sources": [
+        {
+          "title": "コード決済で返金すると言われたら詐欺を疑って",
+          "url": "https://www.kokusen.go.jp/news/data/n-20240731_2.html",
+          "publisher": "国民生活センター"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "コード決済",
+        "返金詐欺"
+      ]
+    },
+    {
+      "id": "fraud-15",
+      "category": "fraud",
+      "title": "初めての通販サイトは、価格より先に販売者を確認する",
+      "summary": "極端な値引きだけで急がず、連絡先・支払方法・表示を確かめる。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "15分",
+      "evidence": "公的推奨",
+      "priority": 1,
+      "benefit": "商品が届かない偽サイトへの入金を避ける。",
+      "steps": [
+        "販売者名・住所・連絡先を確認する。",
+        "支払先の名義や不自然な日本語、急な決済方法の変更を点検する。",
+        "不審な点があれば注文を止め、既に払った場合は支払先へ連絡する。"
+      ],
+      "cautions": [
+        "鍵マークや見慣れたブランド画像だけでは安全性を確認できない。チェック項目に当てはまらなくても安全とは限らない。"
+      ],
+      "sources": [
+        {
+          "title": "インターネット通販での偽サイト等に関する相談",
+          "url": "https://www.kokusen.go.jp/soudan_now/data/online-shopping-scams.html",
+          "publisher": "国民生活センター"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "偽通販",
+        "ネットショッピング"
+      ]
+    },
+    {
+      "id": "fraud-16",
+      "category": "fraud",
+      "title": "詐欺で振り込んだら、すぐ銀行と警察へ連絡する",
+      "summary": "被害に気づいた時点で連絡し、救済手続きの案内を受ける。",
+      "audience": [
+        "すべての人"
+      ],
+      "cost": "無料",
+      "time": "5分",
+      "evidence": "公的推奨",
+      "priority": 1,
+      "benefit": "口座に残る資金から被害回復を受けられる可能性につなぐ。",
+      "steps": [
+        "被害に気づいたら、資料がそろうのを待たず振込先の金融機関へすぐ連絡する。",
+        "警察にも被害を届け出て、今後の対応を相談する。",
+        "振込先・日時・金額と勧誘のやり取りが分かる資料を保存する。",
+        "被害回復分配金の申請方法と期限を確認し、必要書類を提出する。"
+      ],
+      "cautions": [
+        "口座残高や他の被害者の状況などで支払額は変わり、返金は保証されない。表示の所要時間は連絡を待つ時間ではない。"
+      ],
+      "sources": [
+        {
+          "title": "振り込め詐欺等の被害にあわれた方へ",
+          "url": "https://www.fsa.go.jp/policy/kyuusai/furikome/index.html",
+          "publisher": "金融庁"
+        }
+      ],
+      "checked": "2026-10-09",
+      "tags": [
+        "振込詐欺",
+        "被害回復"
       ]
     }
   ],
@@ -1890,6 +9059,83 @@
         "端末の更新とデータのバックアップを確認する。",
         "通知は公式アプリから確認し、注文条件は保存する。",
         "問題が起きたときの公式窓口と消費生活相談の連絡先を把握する。"
+      ]
+    },
+    {
+      "id": "freelance-start",
+      "title": "副業を受ける前に条件を整えたい",
+      "description": "契約と受取額、税務の準備をしてから仕事を始める。",
+      "articleIds": [
+        "sidework-01",
+        "sidework-02",
+        "sidework-03",
+        "sidework-08",
+        "sidework-10",
+        "sidework-11",
+        "fraud-13"
+      ],
+      "steps": [
+        "雇用か業務委託か、実際の働き方と契約条件を確認する。",
+        "作業範囲・検収・報酬・手数料を文章にする。",
+        "インボイス登録の要否と取引データの保存を確認する。",
+        "高額な先払い費用や借入れを求める勧誘では、作業開始より相談を優先する。"
+      ]
+    },
+    {
+      "id": "debt-first-steps",
+      "title": "返済の見通しが立たなくなった",
+      "description": "借り増しの前に、契約と家計を整理して相談につなげる。",
+      "articleIds": [
+        "debt-01",
+        "debt-02",
+        "debt-03",
+        "debt-04",
+        "debt-05",
+        "debt-07",
+        "fraud-08"
+      ],
+      "steps": [
+        "借入先・残高・返済日が分かる資料を確保する。",
+        "生活費を含めた収支を整理し、公的な相談窓口へ連絡する。",
+        "奨学金など制度ごとの負担軽減も対象を確認する。",
+        "督促や裁判所からの書類を放置せず、借り増しや個人融資へ進む前に相談する。"
+      ]
+    },
+    {
+      "id": "work-problem-route",
+      "title": "職場の問題を誰に相談するか決めたい",
+      "description": "安全と健康を先に確保し、社内相談と外部の解決支援を選ぶ。",
+      "articleIds": [
+        "harassment-01",
+        "work-06",
+        "harassment-02",
+        "harassment-12",
+        "harassment-13",
+        "harassment-14"
+      ],
+      "steps": [
+        "差し迫る危険や強い体調不良には、記録作りより安全確保と受診等を優先する。",
+        "出来事と希望する配慮を整理し、相談先と共有範囲を確認する。",
+        "相談後の不利益も記録し、労働局など外部窓口へ相談する。",
+        "話合いで進まない場合は、あっせんや労働審判等の条件と費用を確認する。"
+      ]
+    },
+    {
+      "id": "family-financial-preparation",
+      "title": "家族のお金の手続きを備えておきたい",
+      "description": "本人の意思を大切にしながら、資産・保険・銀行の連絡先を整理する。",
+      "articleIds": [
+        "money-16",
+        "insurance-07",
+        "insurance-08",
+        "insurance-15",
+        "banking-15"
+      ],
+      "steps": [
+        "資産や契約の所在と連絡先を、共有してよい範囲で整理する。",
+        "保険の連絡先・受取人・代理請求の扱いを確認する。",
+        "銀行に所定の代理手続きと必要書類を相談する。",
+        "暗証番号や認証コードの共有で代用せず、保管場所と見直し時期を決める。"
       ]
     }
   ]

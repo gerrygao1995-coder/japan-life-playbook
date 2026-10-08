@@ -3,11 +3,18 @@ import assert from 'node:assert/strict';
 import vm from 'node:vm';
 const data=JSON.parse(fs.readFileSync('dist/guide-data.json','utf8'));
 const ids=new Set(),categories=new Set(data.categories.map(c=>c.id));
-assert.equal(categories.size,24,'Expected 24 categories');assert.equal(data.articles.length,144,'Expected 144 researched articles');
+assert(data.categories.every(c=>/^[a-z]+$/.test(c.id)),'Invalid category slug');
+assert(data.articles.every(a=>/^[a-z]+-\d{2}$/.test(a.id)),'Invalid article slug');
+const titles=new Set(data.articles.map(a=>a.title));assert.equal(titles.size,data.articles.length,'Duplicate article titles');
+assert.equal(categories.size,data.categories.length,'Duplicate categories');assert(categories.size>=24);assert(data.articles.length>=144);
 for(const a of data.articles){assert(!ids.has(a.id),`Duplicate ${a.id}`);ids.add(a.id);assert(categories.has(a.category),`Missing category ${a.id}`);for(const k of ['id','title','summary','benefit','checked'])assert(typeof a[k]==='string'&&a[k].trim(),`${a.id}: ${k}`);assert(a.steps.length>=3,`${a.id}: insufficient steps`);assert(a.cautions.length>=1,`${a.id}: missing cautions`);assert(a.sources.length>=1,`${a.id}: missing source`);assert(a.audience.length&&a.tags.length,`${a.id}: missing audience/tags`);assert(['無料','費用あり','条件による'].includes(a.cost),`${a.id}: invalid cost`);assert(['5分','15分','30分','継続'].includes(a.time),`${a.id}: invalid time`);assert(['公的制度','公的推奨','編集提案'].includes(a.evidence),`${a.id}: invalid evidence`);assert([1,2,3].includes(a.priority),`${a.id}: invalid priority`);assert(/^\d{4}-\d{2}-\d{2}$/.test(a.checked),`${a.id}: invalid date`);for(const s of a.sources){assert.equal(new URL(s.url).protocol,'https:',`${a.id}: non-HTTPS source`);assert(s.publisher&&s.title,`${a.id}: incomplete source`);}}
-for(const c of categories)assert.equal(data.articles.filter(a=>a.category===c).length,6,c);
-assert.equal(data.journeys.length,12);const journeyIds=new Set();for(const j of data.journeys){assert(!journeyIds.has(j.id),`Duplicate journey ${j.id}`);journeyIds.add(j.id);assert(j.title&&j.description&&j.steps.length&&j.articleIds.length,`Incomplete journey ${j.id}`);for(const id of j.articleIds)assert(ids.has(id),`Broken journey link ${id}`);}
-new vm.Script(fs.readFileSync('app.js','utf8'));
+for(const c of categories)assert(data.articles.filter(a=>a.category===c).length>=6,c);
+assert(data.journeys.length>=12);const journeyIds=new Set();for(const j of data.journeys){assert(!journeyIds.has(j.id),`Duplicate journey ${j.id}`);journeyIds.add(j.id);assert(j.title&&j.description&&j.steps.length&&j.articleIds.length,`Incomplete journey ${j.id}`);for(const id of j.articleIds)assert(ids.has(id),`Broken journey link ${id}`);}
+new vm.Script(fs.readFileSync('app.js','utf8')+'\n'+fs.readFileSync('enhancements.js','utf8'));
 const html=fs.readFileSync('dist/index.html','utf8');assert(html.includes('<html lang="ja">'));assert(!html.includes('/* DATA */'));assert(!html.includes('/* APP */'));assert(!html.includes('/* STYLE */'));assert.equal(html,fs.readFileSync('dist/kurashi-offline.html','utf8'));assert(!/<script[^>]+src=/.test(html),'Offline app must have no external scripts');
-const app=fs.readFileSync('app.js','utf8'),idRefs=[...app.matchAll(/\$\('#([\w-]+)'\)/g)].map(m=>m[1]);const dynamic=new Set(['detail-bookmark','detail-done','article-note']);for(const id of idRefs)assert(html.includes(`id="${id}"`)||dynamic.has(id),`Missing DOM target ${id}`);
+const app=fs.readFileSync('app.js','utf8')+fs.readFileSync('enhancements.js','utf8'),idRefs=[...app.matchAll(/\$\('#([\w-]+)'\)/g)].map(m=>m[1]);const dynamic=new Set(['detail-bookmark','detail-done','article-note','starter-form','starter-results']);for(const id of idRefs)assert(html.includes(`id="${id}"`)||dynamic.has(id),`Missing DOM target ${id}`);
 console.log(`PASS: ${data.articles.length} articles, ${categories.size} chapters, ${data.journeys.length} journeys; schemas, source URLs, navigation targets, JavaScript syntax, offline parity.`);
+for(const a of data.articles){const page=fs.readFileSync(`dist/guide/${a.id}.html`,'utf8');assert(page.includes('<html lang="ja">'));assert(page.includes(`${data.siteUrl}guide/${a.id}.html`));assert(page.includes(`../#guide/${a.id}`));}
+assert(fs.statSync('dist/kurashi.epub').size>1000);assert(fs.existsSync('book/README.md'));
+assert.equal(fs.readdirSync('book').filter(f=>/^\d{2}-/.test(f)).length,categories.size,'Stale generated chapters');
+console.log('PASS: independent article pages, canonical URLs, interactive deep links, EPUB output, chapter index.');
